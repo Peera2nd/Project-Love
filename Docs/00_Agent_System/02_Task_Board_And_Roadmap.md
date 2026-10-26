@@ -2,6 +2,14 @@
 
 Update at closeout. `[x]` complete, `[/]` in progress, `[ ]` pending, `[?]` owner decision.
 
+## Current sandbox delivery — Session 069: repository and isolated authoring UX
+
+- [x] **T1.19:** initialized and pushed the supplied [GitHub repository](https://github.com/Peera2nd/Project-Love). `main` baseline `5ae974a`; caches/backups/generated sandbox/raw machine logs excluded, original assets/metas retained. [Work log](WorkLogs/Session_069_Repository_And_Story_Workspace_Sandbox.md).
+- [/] **T1.15 / Stage A:** implemented an [isolated Story Workspace trial](../../Sandbox/StoryWorkspace/README.md) on `sandbox/story-workspace`: whole-event manuscript, exact Thai/English search, all-branch speakers, callers/destinations/path gates, context probes, saved text overlays with Undo and detached same-game-view preview. Six unique scoped cases pass across 5/5 + 2/2 runs; actual opening inspection caught/fixed auto-scroll and labeling issues. [Evidence/limits](WorkLogs/Session_069_Verification/README.md).
+- [?] **Owner UX trial pending; production gate remains closed.** Separate Unity project, one-way dependencies and no production apply button. Compilation/agent inspection is not owner acceptance. Record actual find/read/edit/context/Save/preview outcomes before integration or migration. AGENTS 11 / Master / plan preserve this standing requirement.
+- [ ] **T0.32:** separately fix the existing `DesignerDashboard.OpenTranslation` menu attributes/handler signature (ERR-106); copied baseline warning observed, production untouched this session.
+- T1.17/backend/storage/FX and large-corpus UX validation remain future work. No gameplay, narrative, localization adoption scope or save changes; existing catalog English gaps remain.
+
 ## Latest owner requirements — Session 068: designer context and discovery
 
 - [x] **T1.18 (requirements recorded):** owner explicitly frames SO scale as designer UX, not game speed. [Plan section 4.1](../04_Technical_And_Tools/15_Scalable_Story_Authoring_And_Presentation_Plan.md#41-required-context-navigation--session-068) now requires all upstream callers, per-choice destinations/joins/endings, readable path/inherited conditions, all-branch speakers and structured character/situation discovery with real detached selection probes. [Log](WorkLogs/Session_068_Designer_Context_Navigation_Requirements.md).

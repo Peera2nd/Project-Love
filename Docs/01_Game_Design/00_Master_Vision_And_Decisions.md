@@ -2,6 +2,10 @@
 
 Canonical approval record. Implementation status belongs in the [Task Board](../00_Agent_System/02_Task_Board_And_Roadmap.md). A completed document is not implemented or approved content.
 
+## Session 069 owner authorization — repository and isolated authoring trial
+
+Owner supplies the new [Project-Love repository](https://github.com/Peera2nd/Project-Love) and authorizes setup. Preserve the existing game baseline on `main`; develop the new Story Workspace in an isolated sandbox first, assess its real appearance/use and clarity, then adopt only after owner acceptance. Isolation and one-way dependencies are required to avoid tightly coupled experimental code. This authorizes the sandbox implementation, not a production migration, backend purchase or broad narrative rewrite. [Sandbox workflow](../../Sandbox/StoryWorkspace/README.md).
+
 ## Session 068 owner clarification — context navigation and discoverability
 
 Owner clarifies that the concern about many SOs is designer authoring/search/overview UX, not game speed. Selecting a passage should reveal all upstream sources, every choice's destination/continuation, relevant conditions and all speaking characters; the designer must find a character's situation-specific dialogue without hunting assets. These are required outcomes for the [planned Story Workspace](../04_Technical_And_Tools/15_Scalable_Story_Authoring_And_Presentation_Plan.md), section 4.1/Stage A. Static possible paths and detached context-tested availability must be distinguished. This clarifies authoring requirements, not a runtime/backend selection or implementation-start instruction.

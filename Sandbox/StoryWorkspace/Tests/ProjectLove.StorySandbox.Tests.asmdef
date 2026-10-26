@@ -1,0 +1,6 @@
+{
+  "name": "ProjectLove.StorySandbox.Tests",
+  "references": ["ProjectLove.Runtime", "ProjectLove.Editor", "ProjectLove.StorySandbox"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "ProjectLove.StorySandbox",
+  "references": ["ProjectLove.Runtime", "ProjectLove.Editor"],
+  "includePlatforms": ["Editor"]
+}
