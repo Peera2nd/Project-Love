@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641f167f8a7f48d09256348d0c022645, type: 3}
+  m_Name: studio_event_art_check
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.EventDataSO
+  id: studio_event_art_check
+  displayName: "\u0E04\u0E38\u0E22\u0E41\u0E19\u0E27\u0E17\u0E32\u0E07\u0E20\u0E32\u0E1E"
+  startDay: 2
+  endDay: 5
+  preferredDay: 2
+  triggerPhase: 0
+  priority: 30
+  repeatDaily: 0
+  anyPhase: 1
+  elapsedPhases: 0
+  staminaCost: 0
+  conditions: []
+  entryNode: {fileID: 11400000, guid: e18e7f1fc148c6742ba5a088e9532e6f, type: 2}
+  delivery: 2
+  character: {fileID: 11400000, guid: b25bb883c2b856841955abfa79b36ca0, type: 2}
+  room: {fileID: 11400000, guid: 61547a3b3e8f41a4191ef14c484e9476, type: 2}
+  exclusiveGroup: 

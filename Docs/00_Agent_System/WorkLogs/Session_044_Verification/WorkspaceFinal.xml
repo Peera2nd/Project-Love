@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="12" result="Passed" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-25 11:33:31Z" end-time="2026-10-25 11:33:36Z" duration="4.8608191">
+  <test-suite type="TestSuite" id="1000" name="Project Love" fullname="Project Love" runstate="Runnable" testcasecount="189" result="Passed" start-time="2026-10-25 11:33:31Z" end-time="2026-10-25 11:33:36Z" duration="4.860819" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1215" name="ProjectLove.Tests.Editor.dll" fullname="D:/Work/Unity/Project_Game/Visual Novel/.verify/Library/ScriptAssemblies/ProjectLove.Tests.Editor.dll" runstate="Runnable" testcasecount="189" result="Passed" start-time="2026-10-25 11:33:31Z" end-time="2026-10-25 11:33:36Z" duration="4.854147" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="58504" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1216" name="ProjectLove" fullname="ProjectLove" runstate="Runnable" testcasecount="189" result="Passed" start-time="2026-10-25 11:33:31Z" end-time="2026-10-25 11:33:36Z" duration="4.853167" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1217" name="Tests" fullname="ProjectLove.Tests" runstate="Runnable" testcasecount="189" result="Passed" start-time="2026-10-25 11:33:31Z" end-time="2026-10-25 11:33:36Z" duration="4.852436" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="ArtistAuthoringTests" fullname="ProjectLove.Tests.ArtistAuthoringTests" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-25 11:33:31Z" end-time="2026-10-25 11:33:36Z" duration="4.843409" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1004" name="AddingAndReorderingLinesKeepsExistingIdsAndSupportsUndo" fullname="ProjectLove.Tests.ArtistAuthoringTests.AddingAndReorderingLinesKeepsExistingIdsAndSupportsUndo" methodname="AddingAndReorderingLinesKeepsExistingIdsAndSupportsUndo" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" seed="310982761" result="Passed" start-time="2026-10-25 11:33:31Z" end-time="2026-10-25 11:33:31Z" duration="0.340467" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="DraftCannotEnterCampaignUntilPlayableThenRegistersWithUndo" fullname="ProjectLove.Tests.ArtistAuthoringTests.DraftCannotEnterCampaignUntilPlayableThenRegistersWithUndo" methodname="DraftCannotEnterCampaignUntilPlayableThenRegistersWithUndo" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" seed="970989595" result="Passed" start-time="2026-10-25 11:33:31Z" end-time="2026-10-25 11:33:31Z" duration="0.308107" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1012" name="PreviewRendersSamePrefabWithNoSourceOrActualSessionMutation" fullname="ProjectLove.Tests.ArtistAuthoringTests.PreviewRendersSamePrefabWithNoSourceOrActualSessionMutation" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-25 11:33:31Z" end-time="2026-10-25 11:33:33Z" duration="1.379575" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1008" name="PreviewRendersSamePrefabWithNoSourceOrActualSessionMutation(Room)" fullname="ProjectLove.Tests.ArtistAuthoringTests.PreviewRendersSamePrefabWithNoSourceOrActualSessionMutation(Room)" methodname="PreviewRendersSamePrefabWithNoSourceOrActualSessionMutation" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" seed="1786368465" result="Passed" start-time="2026-10-25 11:33:31Z" end-time="2026-10-25 11:33:32Z" duration="0.638926" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1009" name="PreviewRendersSamePrefabWithNoSourceOrActualSessionMutation(Conversation)" fullname="ProjectLove.Tests.ArtistAuthoringTests.PreviewRendersSamePrefabWithNoSourceOrActualSessionMutation(Conversation)" methodname="PreviewRendersSamePrefabWithNoSourceOrActualSessionMutation" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" seed="1212047847" result="Passed" start-time="2026-10-25 11:33:32Z" end-time="2026-10-25 11:33:32Z" duration="0.237665" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1010" name="PreviewRendersSamePrefabWithNoSourceOrActualSessionMutation(WeeklyFocus)" fullname="ProjectLove.Tests.ArtistAuthoringTests.PreviewRendersSamePrefabWithNoSourceOrActualSessionMutation(WeeklyFocus)" methodname="PreviewRendersSamePrefabWithNoSourceOrActualSessionMutation" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" seed="191095126" result="Passed" start-time="2026-10-25 11:33:32Z" end-time="2026-10-25 11:33:32Z" duration="0.200521" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1011" name="PreviewRendersSamePrefabWithNoSourceOrActualSessionMutation(MorningRecap)" fullname="ProjectLove.Tests.ArtistAuthoringTests.PreviewRendersSamePrefabWithNoSourceOrActualSessionMutation(MorningRecap)" methodname="PreviewRendersSamePrefabWithNoSourceOrActualSessionMutation" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" seed="1527646621" result="Passed" start-time="2026-10-25 11:33:32Z" end-time="2026-10-25 11:33:33Z" duration="0.295614" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1006" name="RoomPlacementEditsPersistPerPhaseAndUndoWithoutMutatingOtherRooms" fullname="ProjectLove.Tests.ArtistAuthoringTests.RoomPlacementEditsPersistPerPhaseAndUndoWithoutMutatingOtherRooms" methodname="RoomPlacementEditsPersistPerPhaseAndUndoWithoutMutatingOtherRooms" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" seed="50909768" result="Passed" start-time="2026-10-25 11:33:33Z" end-time="2026-10-25 11:33:33Z" duration="0.191387" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="SavedArtistLayoutSurvivesBuilderReopenAndUsesNestedScreenPrefabs" fullname="ProjectLove.Tests.ArtistAuthoringTests.SavedArtistLayoutSurvivesBuilderReopenAndUsesNestedScreenPrefabs" methodname="SavedArtistLayoutSurvivesBuilderReopenAndUsesNestedScreenPrefabs" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" seed="995998114" result="Passed" start-time="2026-10-25 11:33:33Z" end-time="2026-10-25 11:33:34Z" duration="0.836335" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Romance prototype ready: Assets/_Project/Scenes/Gameplay/StudioRomancePrototype.unity
+Releasing render texture that is set to be RenderTexture.active!
+Artist workspace already authored; preserved existing layout.
+]]></output>
+            </test-case>
+            <test-case id="1002" name="SearchFindsThaiBodyAndFiltersActualCharacterAndActivityWithoutLegacyNodes" fullname="ProjectLove.Tests.ArtistAuthoringTests.SearchFindsThaiBodyAndFiltersActualCharacterAndActivityWithoutLegacyNodes" methodname="SearchFindsThaiBodyAndFiltersActualCharacterAndActivityWithoutLegacyNodes" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" seed="1637533909" result="Passed" start-time="2026-10-25 11:33:34Z" end-time="2026-10-25 11:33:34Z" duration="0.112670" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="SelectedEventPreviewKeepsDateAndForcedPriorityChecksAndDoesNotMutateSource" fullname="ProjectLove.Tests.ArtistAuthoringTests.SelectedEventPreviewKeepsDateAndForcedPriorityChecksAndDoesNotMutateSource" methodname="SelectedEventPreviewKeepsDateAndForcedPriorityChecksAndDoesNotMutateSource" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" seed="1354968297" result="Passed" start-time="2026-10-25 11:33:34Z" end-time="2026-10-25 11:33:34Z" duration="0.154792" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="TextEditSaveReloadAndRuntimeUseTheSameNodeWithoutChangingStableIds" fullname="ProjectLove.Tests.ArtistAuthoringTests.TextEditSaveReloadAndRuntimeUseTheSameNodeWithoutChangingStableIds" methodname="TextEditSaveReloadAndRuntimeUseTheSameNodeWithoutChangingStableIds" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" seed="289284163" result="Passed" start-time="2026-10-25 11:33:34Z" end-time="2026-10-25 11:33:34Z" duration="0.236954" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1013" name="WorkspaceWindowOpensAndRepaintsWithoutEditorErrors" fullname="ProjectLove.Tests.ArtistAuthoringTests.WorkspaceWindowOpensAndRepaintsWithoutEditorErrors" methodname="WorkspaceWindowOpensAndRepaintsWithoutEditorErrors" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" seed="1743706330" result="Passed" start-time="2026-10-25 11:33:34Z" end-time="2026-10-25 11:33:36Z" duration="1.268008" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/UsEr/AppData/LocalLow/DefaultCompany/Project Love\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

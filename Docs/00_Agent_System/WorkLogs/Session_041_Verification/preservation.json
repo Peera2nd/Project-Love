@@ -1,0 +1,31 @@
+{
+  "backupFiles": 1142,
+  "unchangedExisting": 1121,
+  "intentionalChanges": [
+    "Docs\\00_Agent_System\\01_Project_Context_And_Architecture.md",
+    "Docs\\00_Agent_System\\02_Task_Board_And_Roadmap.md",
+    "Docs\\00_Agent_System\\04_Mistakes_And_Prevention_Registry.md",
+    "Docs\\01_Game_Design\\00_Master_Vision_And_Decisions.md",
+    "Docs\\01_Game_Design\\08_Romance_First_Casual_Loop_Proposal.md",
+    "Docs\\02_Narrative_And_World\\Characters\\02_Character_Profile_Plaifah_Artist.md",
+    "Docs\\02_Narrative_And_World\\Characters\\03_Character_Profile_Grace_Programmer.md",
+    "Docs\\02_Narrative_And_World\\Characters\\04_Character_Profile_Ploy_Designer.md",
+    "Docs\\04_Technical_And_Tools\\00_Designer_Tools_And_Data_Architecture.md",
+    "Docs\\04_Technical_And_Tools\\08_Planning_Prototype_Guide.md",
+    "Docs\\04_Technical_And_Tools\\09_Timeline_And_Conversation_UI_Guide.md",
+    "Project Love\\Assets\\_Project\\Scripts\\Core\\CharacterInteractions.cs",
+    "Project Love\\Assets\\_Project\\Scripts\\Core\\GameSession.cs",
+    "Project Love\\Assets\\_Project\\Scripts\\Core\\RuntimeGameState.cs",
+    "Project Love\\Assets\\_Project\\Scripts\\Core\\SaveStore.cs",
+    "Project Love\\Assets\\_Project\\Scripts\\Data\\GameConfigSO.cs",
+    "Project Love\\Assets\\_Project\\Scripts\\Editor\\Dashboard\\DesignerDashboard.cs",
+    "Project Love\\Assets\\_Project\\Scripts\\Simulation\\FoundationSystems.cs",
+    "Project Love\\Assets\\_Project\\Scripts\\UI\\IsometricRoomView.cs",
+    "Project Love\\Assets\\_Project\\Scripts\\VN\\DialogueRunner.cs",
+    "Project Love\\ProjectSettings\\EditorBuildSettings.asset"
+  ],
+  "existingMetasPreserved": 470,
+  "existingPngsPreserved": 122,
+  "ownerUiPngsPreserved": 48,
+  "testedDeliveredFiles": 315
+}

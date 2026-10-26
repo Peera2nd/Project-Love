@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-25 14:41:47Z" end-time="2026-10-25 14:41:48Z" duration="0.8725311">
+  <test-suite type="TestSuite" id="1000" name="Project Love" fullname="Project Love" runstate="Runnable" testcasecount="201" result="Passed" start-time="2026-10-25 14:41:47Z" end-time="2026-10-25 14:41:48Z" duration="0.872531" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1229" name="ProjectLove.Tests.Editor.dll" fullname="D:/Work/Unity/Project_Game/Visual Novel/.verify/Library/ScriptAssemblies/ProjectLove.Tests.Editor.dll" runstate="Runnable" testcasecount="201" result="Passed" start-time="2026-10-25 14:41:47Z" end-time="2026-10-25 14:41:48Z" duration="0.864742" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="68388" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1230" name="ProjectLove" fullname="ProjectLove" runstate="Runnable" testcasecount="201" result="Passed" start-time="2026-10-25 14:41:47Z" end-time="2026-10-25 14:41:48Z" duration="0.863738" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1231" name="Tests" fullname="ProjectLove.Tests" runstate="Runnable" testcasecount="201" result="Passed" start-time="2026-10-25 14:41:47Z" end-time="2026-10-25 14:41:48Z" duration="0.862933" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1090" name="OpeningStoryTests" fullname="ProjectLove.Tests.OpeningStoryTests" classname="ProjectLove.Tests.OpeningStoryTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-25 14:41:47Z" end-time="2026-10-25 14:41:48Z" duration="0.855012" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1100" name="AuthoredGraphIsDiscoverableAndOpeningChoicesRender" fullname="ProjectLove.Tests.OpeningStoryTests.AuthoredGraphIsDiscoverableAndOpeningChoicesRender" methodname="AuthoredGraphIsDiscoverableAndOpeningChoicesRender" classname="ProjectLove.Tests.OpeningStoryTests" runstate="Runnable" seed="1491098287" result="Passed" start-time="2026-10-25 14:41:47Z" end-time="2026-10-25 14:41:48Z" duration="0.808414" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1099" name="DeclineReturnLateVignetteAndMissedAppointmentHaveRepair" fullname="ProjectLove.Tests.OpeningStoryTests.DeclineReturnLateVignetteAndMissedAppointmentHaveRepair" methodname="DeclineReturnLateVignetteAndMissedAppointmentHaveRepair" classname="ProjectLove.Tests.OpeningStoryTests" runstate="Runnable" seed="443849826" result="Passed" start-time="2026-10-25 14:41:48Z" end-time="2026-10-25 14:41:48Z" duration="0.032458" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/UsEr/AppData/LocalLow/DefaultCompany/Project Love\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

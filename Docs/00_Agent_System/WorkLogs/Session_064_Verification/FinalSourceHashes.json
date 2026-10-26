@@ -1,0 +1,398 @@
+[
+  {
+    "path": "Scripts/Core/CharacterInteractions.cs",
+    "sha256": "8e265d8b0f6e7a9e6e0a9bf3184753b197df9026dfaf7cfdf990d9c94c2cb004"
+  },
+  {
+    "path": "Scripts/Core/EventScheduleState.cs",
+    "sha256": "ef4240e350e7d85ae9af0d34eb7226fd8c6ee5c795a72fded0060a8d5648e670"
+  },
+  {
+    "path": "Scripts/Core/GameSession.cs",
+    "sha256": "476b94dc9aa58e18bb37d36fff27a3688842a92b4955cf311aa20e47710094df"
+  },
+  {
+    "path": "Scripts/Core/LocalizationService.cs",
+    "sha256": "32515cc53a1b6f7613e8bd673a6fa2fbf7430b2f9132d43c1fc208ce9621f33b"
+  },
+  {
+    "path": "Scripts/Core/LocalizedGameplayFingerprint.cs",
+    "sha256": "d8400042441e21f30010ce127c0d65442366864130d825e0cee8882f3442cbec"
+  },
+  {
+    "path": "Scripts/Core/PlanningState.cs",
+    "sha256": "be883d26dfe90328d16152243aefecf8bdedd4d75c348418f58370bbeeb69ae1"
+  },
+  {
+    "path": "Scripts/Core/ProductionState.cs",
+    "sha256": "7642bbe1e600725ecce821a3246ce23736136432a197bb5c2b66c89b04b2d485"
+  },
+  {
+    "path": "Scripts/Core/RomanceState.cs",
+    "sha256": "f10e36b034e87fdd9cd8fef75b5bc709f2a536ce6685de25582f7b5a724f3325"
+  },
+  {
+    "path": "Scripts/Core/RuntimeGameState.cs",
+    "sha256": "e06435f54d2ada1b15326147fde1621a0fd2c264ed1a28e99570b3b56d92dc2d"
+  },
+  {
+    "path": "Scripts/Core/SaveStore.cs",
+    "sha256": "3ad799925d781322f6b7def052443134bc63edc04e62aae597cfba90742daf61"
+  },
+  {
+    "path": "Scripts/Data/ActivityDataSO.cs",
+    "sha256": "73cd617df658516a21ea122ce2ecd782fe38956f9cd64fa0055d5c26c8ec7c92"
+  },
+  {
+    "path": "Scripts/Data/CharacterDataSO.cs",
+    "sha256": "d1d48125eb302be40cf907f2c2dc91a75efdce9301636974c888b085b8512974"
+  },
+  {
+    "path": "Scripts/Data/CharacterInteractionData.cs",
+    "sha256": "e010f5f8a4f5e144f6a92cf9015ede0e8c938b8cf0b8ff245a13a400615b34ad"
+  },
+  {
+    "path": "Scripts/Data/Condition.cs",
+    "sha256": "1e31d13f65925924ac6fe3689785dedcead8b834dcd9933d59dde839838c137c"
+  },
+  {
+    "path": "Scripts/Data/DialogueNodeSO.cs",
+    "sha256": "d3c41e0bace4e0fd4514942c4e7bf6bcc5a53190574f840b4ee39b23ebe5937b"
+  },
+  {
+    "path": "Scripts/Data/EventDataSO.cs",
+    "sha256": "6e5655e70ad8e583a9c91bedb4d88ac03cf40b1fb76575ff435fbca15e45713c"
+  },
+  {
+    "path": "Scripts/Data/GameConfigSO.cs",
+    "sha256": "53315a0b3aeea4a6781bb7056564b6f68687b20f317b536a89c3222e99bedbe3"
+  },
+  {
+    "path": "Scripts/Data/IdentifiedDataSO.cs",
+    "sha256": "5d7d2c310984a386fcbc1bfe5affad285cd0eb239fbc42cb67507b0269007a0a"
+  },
+  {
+    "path": "Scripts/Data/ItemDataSO.cs",
+    "sha256": "f8dfce0777433df2f347be9a64f06b5748441df6911924db1a165ae8fbc67152"
+  },
+  {
+    "path": "Scripts/Data/LocalizationCatalogSO.cs",
+    "sha256": "b6156bff40b03359cff3b8349309457d8be4136d216c470826771ed26bc379e2"
+  },
+  {
+    "path": "Scripts/Data/LocalizationSettingsSO.cs",
+    "sha256": "a65ec5a9786f895ba3001677de030c08e3036c37de2165d140609438ff0c8c1f"
+  },
+  {
+    "path": "Scripts/Data/PlanningConfigSO.cs",
+    "sha256": "d6ffa9e6055c6c3e54d74a59b1f6a2dbde235b5d6232a8e9e17a5a259023f2ca"
+  },
+  {
+    "path": "Scripts/Data/ProductionConfigSO.cs",
+    "sha256": "3295838152fabaa55e85d0b1673493de9b6aef303a82ae48feee5b80cde82ee1"
+  },
+  {
+    "path": "Scripts/Data/RomanceConfigSO.cs",
+    "sha256": "e7fb7c40c731d078144efc4a6631cc795fb2eac69220e006f84e401631d72c80"
+  },
+  {
+    "path": "Scripts/Data/RoomDataSO.cs",
+    "sha256": "b0449b8fe6b5c5c635740245882e28d23bbbfc16d6d98e1a9216f2a85a0cd711"
+  },
+  {
+    "path": "Scripts/Data/RoomPresentationSO.cs",
+    "sha256": "797e47b2a009cd4a8b1848aabc11794fc7b2e01db275c65537e5d8af13d4e96e"
+  },
+  {
+    "path": "Scripts/Data/SandboxPresentationSO.cs",
+    "sha256": "0773047b0e44420a757f5838b3bf258c629f86e0957ae83e777efbb8df36ea69"
+  },
+  {
+    "path": "Scripts/Data/SprintDataSO.cs",
+    "sha256": "73acc2480daa1f3ad2a39e1b002aba1b4936d8ece74df27a1567c85713da0a55"
+  },
+  {
+    "path": "Scripts/Data/WorkStreamSO.cs",
+    "sha256": "0bdf39c8fe767c2d1e20e6ecb62296f6beee131f54571b05306975c8f22549fb"
+  },
+  {
+    "path": "Scripts/Data/WorkTaskSO.cs",
+    "sha256": "b9fdbcf884c8e5922ccc28935a5df7bcdc3321b88058afe0f70177015b95a9ab"
+  },
+  {
+    "path": "Scripts/Editor/ArtistPreviewWindow.cs",
+    "sha256": "76f3ce1bb5bb31acdbe5724a619c0e994408640951db9b271fe3ab3202e646e8"
+  },
+  {
+    "path": "Scripts/Editor/ArtistWorkspaceBuilder.cs",
+    "sha256": "f95f65cd402fd2df06491ec6629a77641806d54a4279a17d13c68064e41e4693"
+  },
+  {
+    "path": "Scripts/Editor/AuthoringCatalog.cs",
+    "sha256": "b7b9543bc40355ecc3b8a42137e420d0254a940e2c84fe6e3683ea8f27a23d89"
+  },
+  {
+    "path": "Scripts/Editor/CharacterInteractionBuilder.cs",
+    "sha256": "6692d8ca61586553f7573290a9ed320e81bf0545b6ecf7072976745534327835"
+  },
+  {
+    "path": "Scripts/Editor/ConversationPoolEditor.cs",
+    "sha256": "4f2e724a9677d34de3c4a0c3b4cac27882fa280837ac1b57ca9b83784e9bd17d"
+  },
+  {
+    "path": "Scripts/Editor/IsometricPrototypeBuilder.cs",
+    "sha256": "592f7a98f8fa86e116d2e5a458e80fe1192bf4fefc78d0b8356fa3486d0a8c31"
+  },
+  {
+    "path": "Scripts/Editor/LocalizationAuthoring.cs",
+    "sha256": "9ee4697890ba65138f03df4fbd87640c9d719d9c9507026f6e9a26dc276776ee"
+  },
+  {
+    "path": "Scripts/Editor/LocalizationWorkspace.cs",
+    "sha256": "469fd71f6d36faded515e7c71e85880554b09636f1d9ea8458d6876d3839d2b8"
+  },
+  {
+    "path": "Scripts/Editor/PlanningPrototypeBuilder.cs",
+    "sha256": "6d2ed8231cff3f365ecb7f51ebf4719485c633432bab30fd46f818d9abacfa3f"
+  },
+  {
+    "path": "Scripts/Editor/RomancePrototypeBuilder.cs",
+    "sha256": "e80be3a36ac60b8a5f410bd14559605cf0927a1ea5207cf3e053a5114837152f"
+  },
+  {
+    "path": "Scripts/Editor/RoomPlacementEditor.cs",
+    "sha256": "76e34c4d4237d2de51f9fce797f185e8995fb62ac30eafc3fdd363b0cf75a9dd"
+  },
+  {
+    "path": "Scripts/Editor/SandboxProjectBuilder.cs",
+    "sha256": "79a9eb97a2554486b0832109158c16f7a3a255f1058b0253a5429f4e3a033d35"
+  },
+  {
+    "path": "Scripts/Editor/StudioEventUpdate.cs",
+    "sha256": "5373f153a0ebc1ed15e3d0401735b9781831ce51010194bf061179d0675a4a09"
+  },
+  {
+    "path": "Scripts/Editor/StudioManagementUpdate.cs",
+    "sha256": "4c0b48ff17664bc9ce764da288bb030d57ee6676d32f677e98a9df031d8fb52c"
+  },
+  {
+    "path": "Scripts/Editor/StudioNightUpdate.cs",
+    "sha256": "e44665713ac327bc0d70a29aec5462bb77fd3b51411144421a61646ab60f3e4a"
+  },
+  {
+    "path": "Scripts/Editor/StudioPrototypeBuilder.cs",
+    "sha256": "e404d4b23fdd68de99e4baea800824ba3bf838447a9281c1bbf8cf8230e49722"
+  },
+  {
+    "path": "Scripts/Editor/StudioUiUpdate.cs",
+    "sha256": "179ca9751f27dafa0db3cc1630979912dec128cbc9aaa10bec3b1afef5bd5076"
+  },
+  {
+    "path": "Scripts/Editor/Dashboard/DesignerDashboard.cs",
+    "sha256": "11718a7124d63f888c577b219cc6d75f9cbd4ebed683a340aec6bafce88fdb71"
+  },
+  {
+    "path": "Scripts/Editor/DialogueEditor/DialogueAuthoringInspector.cs",
+    "sha256": "68d86912cdbcdd6bc92e24fb1f51f365ad97bf27fa1adf86d367307b30edea11"
+  },
+  {
+    "path": "Scripts/Editor/Validators/FoundationValidator.cs",
+    "sha256": "d4f13b84b2cd5438ec58552e8373098c671765fd4cf003b686a1a823653dbbdd"
+  },
+  {
+    "path": "Scripts/Simulation/EventScheduler.cs",
+    "sha256": "0b12876cad0ce6053dd5696fb4375bac599fed32492b77d995870dd4b4bb6c31"
+  },
+  {
+    "path": "Scripts/Simulation/FoundationSystems.cs",
+    "sha256": "67941304441ed1860e0b5cce60bd2b16db24cfe8c607534469581798fa18307b"
+  },
+  {
+    "path": "Scripts/Simulation/PlanningSimulation.cs",
+    "sha256": "5ccb46c59afe6bcde1cfaaaa6d7e6dae2df510d79c7d281643003ec5b27482a6"
+  },
+  {
+    "path": "Scripts/Simulation/PlanningTransactions.cs",
+    "sha256": "e312f6e2c0eca56cd6a815d848fca439d75323f8974713e8319e65b134d16d8b"
+  },
+  {
+    "path": "Scripts/Simulation/ProductionSystem.cs",
+    "sha256": "10d959d0e06e26ca9e208cc7ea81182572abf048e6f87fec1deec38f3d625533"
+  },
+  {
+    "path": "Scripts/Simulation/RomanceSystem.cs",
+    "sha256": "d87293b5bb35db388442e5dbeca4bfcbbf9184a0a8bcde0cd12149b817975752"
+  },
+  {
+    "path": "Scripts/Simulation/SharedNightWork.cs",
+    "sha256": "a9706382a3f0aef4e0a7773416b08930e851251bdb70c0a26e36402668f1c214"
+  },
+  {
+    "path": "Scripts/Simulation/StaffAndProducerOrders.cs",
+    "sha256": "bcb51a5d51faeb12ac4a09d1f0dd179ef24c1c6f909c905c4e34dce960805b39"
+  },
+  {
+    "path": "Scripts/UI/AuthoredActionRow.cs",
+    "sha256": "5a6dc7150e41bb15f24aaa0c3b57b4f15421dfe467c7ca099071bf7a7b79c601"
+  },
+  {
+    "path": "Scripts/UI/AuthoredButtonList.cs",
+    "sha256": "f9609760c05244e0024d7faf57c563295dc644c30d1552975f20713cd4e2527b"
+  },
+  {
+    "path": "Scripts/UI/AuthoredMetric.cs",
+    "sha256": "d4661a3e6f0380ebf8118788756551ac090b2f0dc95e51ed0d477f13987ada5e"
+  },
+  {
+    "path": "Scripts/UI/AuthoredRomanceLayout.cs",
+    "sha256": "f5e02ce1a0c516787d471de66d0c715c9409e4ad7eadb51ae457ee2a4f66207f"
+  },
+  {
+    "path": "Scripts/UI/BackArrowGraphic.cs",
+    "sha256": "f4d2deaf1c3ece7b6d8f04e839aaddc8ce444acfb26011df75314d673e9d3823"
+  },
+  {
+    "path": "Scripts/UI/IsometricRoomView.cs",
+    "sha256": "dbf2460a5795e520c9cdf5eaf226212e94f678b07318fb321aaca3f6d0e99948"
+  },
+  {
+    "path": "Scripts/UI/PlanningActionRow.cs",
+    "sha256": "10a4b19a4654b001335b1424bf546c1ce19d043cc2e82c489f1766b43e871667"
+  },
+  {
+    "path": "Scripts/UI/PlanningBoardView.cs",
+    "sha256": "b5984eb200391c1c8318993f2f8db83f6aa01fcb2a1aeb2ee46a7fc5f8a5e9be"
+  },
+  {
+    "path": "Scripts/UI/PlanningCardDrag.cs",
+    "sha256": "ce18cdaa6dd4523cfe2c1e6e255cbe9ea0aef1aed535c0d5163d2b32565cf48e"
+  },
+  {
+    "path": "Scripts/UI/PlanningTimelineView.cs",
+    "sha256": "0944f31cb499b108a187adf1cff4320ee38e3ed7ec3961781bd391765ec4e5ad"
+  },
+  {
+    "path": "Scripts/UI/RomanceRoomView.cs",
+    "sha256": "3d25ea27a58442e899a18329def9643b5ccd5b359bbba8693f739aa0572c632c"
+  },
+  {
+    "path": "Scripts/UI/SandboxView.cs",
+    "sha256": "8d226160ea5453d33521c151a08265b92255316de7a80d7aeeda62f21a7ea7da"
+  },
+  {
+    "path": "Scripts/UI/StudioDependencyView.cs",
+    "sha256": "d35de56b1d36c8fb151034809ff413a8604099b04c824199a92efb78b73c933f"
+  },
+  {
+    "path": "Scripts/UI/StudioPresentationView.cs",
+    "sha256": "fc15a23b83def86b42c547b80cee07fceefc636d992109fdcf05ccd21c7ea6db"
+  },
+  {
+    "path": "Scripts/UI/StudioSprintView.cs",
+    "sha256": "679070555b860d9ae14dfe2b0e68154b49b53c56715eae8036d015a10439fc8a"
+  },
+  {
+    "path": "Scripts/UI/StudioUiHint.cs",
+    "sha256": "dce7ebe3d0852f66b4d24d0647ee4867b3e762dc08d98c909ed77dc0364b69aa"
+  },
+  {
+    "path": "Scripts/UI/StudioUiWidgets.cs",
+    "sha256": "efc5139d8f9faa809ce8697938ccb8e1a0f3fdea2008d141c587943999469492"
+  },
+  {
+    "path": "Scripts/VN/DialogueRunner.cs",
+    "sha256": "32db50f08b484ca9ade5ce60dda628c623c8345ca927993a5d40349b9f5b8381"
+  },
+  {
+    "path": "Tests/Editor/ArtistAuthoringTests.cs",
+    "sha256": "bbfdf8a9bbdbd9d7dba35cef03fd002f1f45edbadabfe4c42768df5a2e489032"
+  },
+  {
+    "path": "Tests/Editor/CharacterInteractionTests.cs",
+    "sha256": "cd6214c4b9c270470dceb42f566d056dbfbfd4481a2ef2f5adcfbd7a728c3cdd"
+  },
+  {
+    "path": "Tests/Editor/EventSchedulingTests.cs",
+    "sha256": "a60acdb57a0b82788b7ec399cf62518a0d5b5e2a8adbeb1507036e834deac69c"
+  },
+  {
+    "path": "Tests/Editor/FoundationTests.cs",
+    "sha256": "bc596f296914a4add990c75ed0511a06f94668f78894deba7ba45b2c58ad7681"
+  },
+  {
+    "path": "Tests/Editor/LocalizationTests.cs",
+    "sha256": "797b92136350576013410e2737c281b9cf2416ac9d20aae7aafaf64413ea1f3b"
+  },
+  {
+    "path": "Tests/Editor/OpeningStoryTests.cs",
+    "sha256": "2dfb2bcccde2f672b399dffcaf93d054732fbe26875c5a1ea70c8e056e158196"
+  },
+  {
+    "path": "Tests/Editor/PlanningTests.cs",
+    "sha256": "d409cda6829cd37ac4cd3f1803d4c5349be01c9cb08d6040bb52bed1162c6801"
+  },
+  {
+    "path": "Tests/Editor/ProductionTests.cs",
+    "sha256": "8188f9ea43a1452343d6ca045d204f2633efce621eaa6437bbd6ede2269a464f"
+  },
+  {
+    "path": "Tests/Editor/RomanceTests.cs",
+    "sha256": "1aa98e99ae6db335fd27f1aa76e39011fedd365ebf46e2d5c07098fb40aeb7dc"
+  },
+  {
+    "path": "Tests/Editor/RoomSystemsTests.cs",
+    "sha256": "1f193dc018f44486198abe68ff486417a503bf0b30518e68be4cc7f307399fa9"
+  },
+  {
+    "path": "Tests/Editor/SharedNightTests.cs",
+    "sha256": "b9ba86fcf6dfe4bb91a788625c03577f487922f94ffaa678d9ffd65a5a68c9f8"
+  },
+  {
+    "path": "Tests/Editor/StaffAndProducerTests.cs",
+    "sha256": "e2b99e1d860703b2ba22b2d1c8342c208723f7d58f699e28bca7626d7fa8e97f"
+  },
+  {
+    "path": "Tests/Editor/StudioUiDependencyTests.cs",
+    "sha256": "867c0f72abd7b0499712e8544e48bfcb035870b1c3080e147d20c2e0c304a87d"
+  },
+  {
+    "path": "Tests/PlayMode/IsometricPlayTests.cs",
+    "sha256": "6bce5c6ab2d79061ddff46fec953b3a476859af65393af719dd57ad4c4ab8197"
+  },
+  {
+    "path": "Tests/PlayMode/PlanningPlayTests.cs",
+    "sha256": "debcb9a773dc907e844e998353e2ee5af3c886bf2b3b8c59d37c539824e56f06"
+  },
+  {
+    "path": "Tests/PlayMode/RomancePlayTests.cs",
+    "sha256": "d12bc1d25af87145f17b93cb6c7a417751963dce21fd030bf398c42c88aaa310"
+  },
+  {
+    "path": "Tests/PlayMode/SandboxPlayTests.cs",
+    "sha256": "1a8cdf5eda6b885bd14848e704bdc6da18a1dab4e8b84b98798d7685e01d3425"
+  },
+  {
+    "path": "Tests/PlayMode/SharedNightPlayTests.cs",
+    "sha256": "56c1905b0308c92cfab3a638dbe3ca3beba3a5da35b0a4cc0a2049129937ab93"
+  },
+  {
+    "path": "Tests/PlayMode/StudioEventPlayTests.cs",
+    "sha256": "18c3efe534831f58e02e97fe86e568e61d3a0208a36b1ad879aae9812c87c7e1"
+  },
+  {
+    "path": "Tests/PlayMode/StudioManagementPlayTests.cs",
+    "sha256": "1d300ef0e6543c7f4d510307aeb385f00629e940c50157ccba0672876326ed80"
+  },
+  {
+    "path": "Tests/PlayMode/StudioPlayTests.cs",
+    "sha256": "e4e44bbf056b5e8ad3a158d815aaa4de8699acf70441825e888fd1d70bccc267"
+  },
+  {
+    "path": "Tests/PlayMode/StudioUiDependencyPlayTests.cs",
+    "sha256": "8fde4e08bf856a70c9ac1c00196bda8c5e803867e23780e56545b15ea1c8ec59"
+  },
+  {
+    "path": "Tests/PlayMode/TimelinePlayTests.cs",
+    "sha256": "c02070fa2da0e025b8a461568bfa4c718d3a336242ad9f9a2eaf7c63b6d4b981"
+  }
+]

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641f167f8a7f48d09256348d0c022645, type: 3}
+  m_Name: ambient_romance_plaifah
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.EventDataSO
+  id: ambient_romance_plaifah
+  displayName: 
+  startDay: 1
+  endDay: 30
+  preferredDay: 1
+  triggerPhase: 0
+  priority: 0
+  repeatDaily: 0
+  minimumRepeatDays: 0
+  repeatGroup: 
+  anyPhase: 1
+  elapsedPhases: 0
+  staminaCost: 0
+  conditions: []
+  entryNode: {fileID: 11400000, guid: 384bc8809a53aa64885be441eb5d200e, type: 2}
+  delivery: 0
+  character: {fileID: 0}
+  room: {fileID: 0}
+  exclusiveGroup: 

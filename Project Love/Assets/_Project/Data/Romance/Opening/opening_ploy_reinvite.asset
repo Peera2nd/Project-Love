@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641f167f8a7f48d09256348d0c022645, type: 3}
+  m_Name: opening_ploy_reinvite
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.EventDataSO
+  id: opening_ploy_reinvite
+  displayName: พลอย · กลับมานัดกัน
+  startDay: 2
+  endDay: 6
+  preferredDay: 2
+  triggerPhase: 0
+  priority: 65
+  repeatDaily: 1
+  minimumRepeatDays: 1
+  repeatGroup: opening_reinvite_ploy
+  anyPhase: 1
+  elapsedPhases: 0
+  staminaCost: 0
+  conditions:
+  - type: 2
+    stat: 0
+    character: {fileID: 0}
+    value: 0
+    flagId: opening_ploy_declined
+    eventId: ''
+    targetId: ''
+  - type: 3
+    stat: 0
+    character: {fileID: 0}
+    value: 0
+    flagId: opening_ploy_invited
+    eventId: ''
+    targetId: ''
+  entryNode: {fileID: 11400000, guid: 4f7ce5be157649beaac464365607c2f7, type: 2}
+  delivery: 2
+  character: {fileID: 11400000, guid: 08140245bb9f0c54b8e6fd5c6e3d6ecf, type: 2}
+  room: {fileID: 11400000, guid: e69f497ffb1f6804e9a9c0406c75dc1d, type: 2}
+  exclusiveGroup: ''

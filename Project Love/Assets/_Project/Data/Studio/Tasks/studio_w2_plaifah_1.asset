@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b191a46ce67c44b9bee317bce1c1676c, type: 3}
+  m_Name: studio_w2_plaifah_1
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.WorkTaskSO
+  id: studio_w2_plaifah_1
+  displayName: "S2 \xB7 \u0E20\u0E32\u0E1E\u0E09\u0E32\u0E01\u0E15\u0E49\u0E19\u0E41\u0E1A\u0E1A"
+  stream: {fileID: 11400000, guid: 1a1940b5da2bd4d4eb2f1ee97a829f61, type: 2}
+  owner: {fileID: 11400000, guid: b25bb883c2b856841955abfa79b36ca0, type: 2}
+  effort: 24
+  mainWeight: 24
+  releaseDay: 8
+  decisionBlocked: 0
+  prerequisites: []
+  sprint: {fileID: 11400000, guid: e38f8ede25925614c9e992a173f0bc7e, type: 2}

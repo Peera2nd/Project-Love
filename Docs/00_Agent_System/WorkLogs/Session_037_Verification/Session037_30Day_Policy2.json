@@ -1,0 +1,1350 @@
+{
+    "day": 30,
+    "phase": 3,
+    "actionPoints": 0,
+    "stamina": 38,
+    "roomId": "studio_workspace",
+    "dailyInteractions": [
+        {
+            "eventId": "studio_grace_volunteer_0_event",
+            "day": 8
+        },
+        {
+            "eventId": "studio_plaifah_volunteer_0_event",
+            "day": 5
+        },
+        {
+            "eventId": "studio_ploy_volunteer_0_event",
+            "day": 5
+        },
+        {
+            "eventId": "studio_grace_volunteer_3_event",
+            "day": 15
+        },
+        {
+            "eventId": "studio_plaifah_volunteer_1_event",
+            "day": 29
+        },
+        {
+            "eventId": "studio_ploy_volunteer_1_event",
+            "day": 29
+        }
+    ],
+    "inventory": [],
+    "collectedPickups": [],
+    "workProgress": [
+        {
+            "streamId": "work_code",
+            "completed": 264
+        },
+        {
+            "streamId": "work_art",
+            "completed": 304
+        },
+        {
+            "streamId": "work_design",
+            "completed": 272
+        },
+        {
+            "streamId": "work_producer",
+            "completed": 0
+        }
+    ],
+    "production": {
+        "catalog": "6D74F5A82989F65B366D15838CF2F3178E1B787B6E741DF77075BC7BF319DADB",
+        "planning": {
+            "seed": "00000000000000000000000000000037",
+            "revision": 0,
+            "tasks": [
+                {
+                    "taskId": "studio_w1_grace_1",
+                    "start": 0,
+                    "due": 26,
+                    "started": 0,
+                    "finished": 8,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w1_grace_2",
+                    "start": 0,
+                    "due": 26,
+                    "started": 28,
+                    "finished": 37,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w1_grace_3",
+                    "start": 0,
+                    "due": 26,
+                    "started": 9,
+                    "finished": 17,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w1_plaifah_1",
+                    "start": 0,
+                    "due": 26,
+                    "started": 0,
+                    "finished": 6,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w1_plaifah_2",
+                    "start": 0,
+                    "due": 26,
+                    "started": 8,
+                    "finished": 14,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w1_plaifah_3",
+                    "start": 0,
+                    "due": 26,
+                    "started": 16,
+                    "finished": 24,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w1_ploy_1",
+                    "start": 0,
+                    "due": 26,
+                    "started": 0,
+                    "finished": 6,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w1_ploy_2",
+                    "start": 0,
+                    "due": 26,
+                    "started": 8,
+                    "finished": 13,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w1_ploy_3",
+                    "start": 0,
+                    "due": 26,
+                    "started": 14,
+                    "finished": 20,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w2_grace_1",
+                    "start": 28,
+                    "due": 54,
+                    "started": 38,
+                    "finished": 48,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w2_grace_2",
+                    "start": 28,
+                    "due": 54,
+                    "started": 49,
+                    "finished": 60,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w2_grace_3",
+                    "start": 28,
+                    "due": 54,
+                    "started": 61,
+                    "finished": 69,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w2_plaifah_1",
+                    "start": 28,
+                    "due": 54,
+                    "started": 28,
+                    "finished": 36,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w2_plaifah_2",
+                    "start": 28,
+                    "due": 54,
+                    "started": 37,
+                    "finished": 44,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w2_plaifah_3",
+                    "start": 28,
+                    "due": 54,
+                    "started": 45,
+                    "finished": 52,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w2_ploy_1",
+                    "start": 28,
+                    "due": 54,
+                    "started": 28,
+                    "finished": 34,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w2_ploy_2",
+                    "start": 28,
+                    "due": 54,
+                    "started": 36,
+                    "finished": 41,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w2_ploy_3",
+                    "start": 28,
+                    "due": 54,
+                    "started": 42,
+                    "finished": 49,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w3_grace_1",
+                    "start": 56,
+                    "due": 82,
+                    "started": 70,
+                    "finished": 82,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w3_grace_2",
+                    "start": 56,
+                    "due": 82,
+                    "started": 84,
+                    "finished": 100,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w3_grace_3",
+                    "start": 56,
+                    "due": 82,
+                    "started": 101,
+                    "finished": 114,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w3_plaifah_1",
+                    "start": 56,
+                    "due": 82,
+                    "started": 56,
+                    "finished": 64,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w3_plaifah_2",
+                    "start": 56,
+                    "due": 82,
+                    "started": 65,
+                    "finished": 72,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w3_plaifah_3",
+                    "start": 56,
+                    "due": 82,
+                    "started": 73,
+                    "finished": 80,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w3_ploy_1",
+                    "start": 56,
+                    "due": 82,
+                    "started": 56,
+                    "finished": 64,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w3_ploy_2",
+                    "start": 56,
+                    "due": 82,
+                    "started": 65,
+                    "finished": 72,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w3_ploy_3",
+                    "start": 56,
+                    "due": 82,
+                    "started": 73,
+                    "finished": 78,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w4_grace_1",
+                    "start": 84,
+                    "due": 110,
+                    "started": 116,
+                    "finished": -1,
+                    "fraction": 0.2212352752685547
+                },
+                {
+                    "taskId": "studio_w4_grace_2",
+                    "start": 84,
+                    "due": 110,
+                    "started": -1,
+                    "finished": -1,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w4_grace_3",
+                    "start": 84,
+                    "due": 110,
+                    "started": -1,
+                    "finished": -1,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w4_plaifah_1",
+                    "start": 84,
+                    "due": 110,
+                    "started": 84,
+                    "finished": 92,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w4_plaifah_2",
+                    "start": 84,
+                    "due": 110,
+                    "started": 93,
+                    "finished": 100,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w4_plaifah_3",
+                    "start": 84,
+                    "due": 110,
+                    "started": 101,
+                    "finished": 109,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w4_ploy_1",
+                    "start": 84,
+                    "due": 110,
+                    "started": 84,
+                    "finished": 92,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w4_ploy_2",
+                    "start": 84,
+                    "due": 110,
+                    "started": 93,
+                    "finished": 98,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w4_ploy_3",
+                    "start": 84,
+                    "due": 110,
+                    "started": 100,
+                    "finished": 105,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w5_grace_1",
+                    "start": 112,
+                    "due": 118,
+                    "started": -1,
+                    "finished": -1,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w5_plaifah_1",
+                    "start": 112,
+                    "due": 118,
+                    "started": 112,
+                    "finished": 116,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_w5_ploy_1",
+                    "start": 112,
+                    "due": 118,
+                    "started": 112,
+                    "finished": 116,
+                    "fraction": 0.0
+                },
+                {
+                    "taskId": "studio_bug",
+                    "start": 0,
+                    "due": 26,
+                    "started": 18,
+                    "finished": 26,
+                    "fraction": 0.0
+                }
+            ],
+            "workers": [
+                {
+                    "characterId": "studio_grace",
+                    "day": 30,
+                    "stress": 95
+                },
+                {
+                    "characterId": "studio_plaifah",
+                    "day": 30,
+                    "stress": 0
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "day": 30,
+                    "stress": 0
+                }
+            ],
+            "shared": [
+                {
+                    "characterId": "studio_plaifah",
+                    "taskId": "studio_w2_plaifah_2",
+                    "cursor": 39,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "studio_w2_ploy_2",
+                    "cursor": 40,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "studio_w2_ploy_2",
+                    "cursor": 41,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "studio_w2_ploy_3",
+                    "cursor": 43,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w2_grace_1",
+                    "cursor": 44,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w2_grace_1",
+                    "cursor": 45,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w2_grace_1",
+                    "cursor": 47,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_plaifah",
+                    "taskId": "studio_w2_plaifah_3",
+                    "cursor": 48,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_plaifah",
+                    "taskId": "studio_w2_plaifah_3",
+                    "cursor": 49,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_plaifah",
+                    "taskId": "studio_w2_plaifah_3",
+                    "cursor": 51,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "",
+                    "cursor": 52,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "",
+                    "cursor": 53,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "",
+                    "cursor": 55,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_plaifah",
+                    "taskId": "studio_w3_plaifah_1",
+                    "cursor": 61,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_plaifah",
+                    "taskId": "studio_w3_plaifah_1",
+                    "cursor": 63,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "studio_w3_ploy_1",
+                    "cursor": 64,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "studio_w3_ploy_2",
+                    "cursor": 65,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "studio_w3_ploy_2",
+                    "cursor": 67,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w2_grace_3",
+                    "cursor": 68,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w2_grace_3",
+                    "cursor": 69,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w3_grace_1",
+                    "cursor": 71,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_plaifah",
+                    "taskId": "studio_w3_plaifah_2",
+                    "cursor": 72,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_plaifah",
+                    "taskId": "studio_w3_plaifah_3",
+                    "cursor": 73,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_plaifah",
+                    "taskId": "studio_w3_plaifah_3",
+                    "cursor": 75,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "studio_w3_ploy_3",
+                    "cursor": 76,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "studio_w3_ploy_3",
+                    "cursor": 77,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "",
+                    "cursor": 79,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w3_grace_1",
+                    "cursor": 80,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w3_grace_1",
+                    "cursor": 81,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w3_grace_2",
+                    "cursor": 83,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "studio_w4_ploy_1",
+                    "cursor": 89,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "studio_w4_ploy_1",
+                    "cursor": 90,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w3_grace_2",
+                    "cursor": 92,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w3_grace_2",
+                    "cursor": 93,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w3_grace_2",
+                    "cursor": 94,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_plaifah",
+                    "taskId": "studio_w4_plaifah_2",
+                    "cursor": 96,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_plaifah",
+                    "taskId": "studio_w4_plaifah_2",
+                    "cursor": 97,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_plaifah",
+                    "taskId": "studio_w4_plaifah_2",
+                    "cursor": 98,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "studio_w4_ploy_3",
+                    "cursor": 100,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "studio_w4_ploy_3",
+                    "cursor": 101,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "studio_w4_ploy_3",
+                    "cursor": 102,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w3_grace_3",
+                    "cursor": 104,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w3_grace_3",
+                    "cursor": 105,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w3_grace_3",
+                    "cursor": 106,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_plaifah",
+                    "taskId": "studio_w4_plaifah_3",
+                    "cursor": 108,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_plaifah",
+                    "taskId": "studio_w4_plaifah_3",
+                    "cursor": 109,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_plaifah",
+                    "taskId": "",
+                    "cursor": 110,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_ploy",
+                    "taskId": "studio_w5_ploy_1",
+                    "cursor": 114,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w4_grace_1",
+                    "cursor": 116,
+                    "affection": 3,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w4_grace_1",
+                    "cursor": 117,
+                    "affection": 0,
+                    "nightWork": false
+                },
+                {
+                    "characterId": "studio_grace",
+                    "taskId": "studio_w4_grace_1",
+                    "cursor": 118,
+                    "affection": 0,
+                    "nightWork": false
+                }
+            ],
+            "nights": []
+        },
+        "resolvedPhases": 120,
+        "coordinationTicks": 0,
+        "tasks": [
+            {
+                "taskId": "studio_w1_grace_1",
+                "ownerId": "studio_grace",
+                "acceptedSprintId": "studio_sprint_1",
+                "effort": 28,
+                "priority": 0,
+                "acceptedDay": 3,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w1_grace_2",
+                "ownerId": "studio_grace",
+                "acceptedSprintId": "studio_sprint_1",
+                "effort": 28,
+                "priority": 1,
+                "acceptedDay": 10,
+                "decisionCleared": true
+            },
+            {
+                "taskId": "studio_w1_grace_3",
+                "ownerId": "studio_grace",
+                "acceptedSprintId": "studio_sprint_1",
+                "effort": 24,
+                "priority": 2,
+                "acceptedDay": 5,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w1_plaifah_1",
+                "ownerId": "studio_plaifah",
+                "acceptedSprintId": "studio_sprint_1",
+                "effort": 24,
+                "priority": 3,
+                "acceptedDay": 2,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w1_plaifah_2",
+                "ownerId": "studio_plaifah",
+                "acceptedSprintId": "studio_sprint_1",
+                "effort": 24,
+                "priority": 4,
+                "acceptedDay": 4,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w1_plaifah_3",
+                "ownerId": "studio_plaifah",
+                "acceptedSprintId": "studio_sprint_1",
+                "effort": 24,
+                "priority": 5,
+                "acceptedDay": 7,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w1_ploy_1",
+                "ownerId": "studio_ploy",
+                "acceptedSprintId": "studio_sprint_1",
+                "effort": 24,
+                "priority": 6,
+                "acceptedDay": 2,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w1_ploy_2",
+                "ownerId": "studio_ploy",
+                "acceptedSprintId": "studio_sprint_1",
+                "effort": 20,
+                "priority": 7,
+                "acceptedDay": 4,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w1_ploy_3",
+                "ownerId": "studio_ploy",
+                "acceptedSprintId": "studio_sprint_1",
+                "effort": 20,
+                "priority": 8,
+                "acceptedDay": 6,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w2_grace_1",
+                "ownerId": "studio_grace",
+                "acceptedSprintId": "studio_sprint_2",
+                "effort": 28,
+                "priority": 9,
+                "acceptedDay": 13,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w2_grace_2",
+                "ownerId": "studio_grace",
+                "acceptedSprintId": "studio_sprint_2",
+                "effort": 28,
+                "priority": 10,
+                "acceptedDay": 16,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w2_grace_3",
+                "ownerId": "studio_grace",
+                "acceptedSprintId": "studio_sprint_2",
+                "effort": 24,
+                "priority": 11,
+                "acceptedDay": 18,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w2_plaifah_1",
+                "ownerId": "studio_plaifah",
+                "acceptedSprintId": "studio_sprint_2",
+                "effort": 24,
+                "priority": 12,
+                "acceptedDay": 10,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w2_plaifah_2",
+                "ownerId": "studio_plaifah",
+                "acceptedSprintId": "studio_sprint_2",
+                "effort": 24,
+                "priority": 13,
+                "acceptedDay": 12,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w2_plaifah_3",
+                "ownerId": "studio_plaifah",
+                "acceptedSprintId": "studio_sprint_2",
+                "effort": 24,
+                "priority": 14,
+                "acceptedDay": 14,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w2_ploy_1",
+                "ownerId": "studio_ploy",
+                "acceptedSprintId": "studio_sprint_2",
+                "effort": 24,
+                "priority": 15,
+                "acceptedDay": 9,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w2_ploy_2",
+                "ownerId": "studio_ploy",
+                "acceptedSprintId": "studio_sprint_2",
+                "effort": 20,
+                "priority": 16,
+                "acceptedDay": 11,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w2_ploy_3",
+                "ownerId": "studio_ploy",
+                "acceptedSprintId": "studio_sprint_2",
+                "effort": 20,
+                "priority": 17,
+                "acceptedDay": 13,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w3_grace_1",
+                "ownerId": "studio_grace",
+                "acceptedSprintId": "studio_sprint_3",
+                "effort": 28,
+                "priority": 18,
+                "acceptedDay": 21,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w3_grace_2",
+                "ownerId": "studio_grace",
+                "acceptedSprintId": "studio_sprint_3",
+                "effort": 28,
+                "priority": 19,
+                "acceptedDay": 26,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w3_grace_3",
+                "ownerId": "studio_grace",
+                "acceptedSprintId": "studio_sprint_3",
+                "effort": 24,
+                "priority": 20,
+                "acceptedDay": 29,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w3_plaifah_1",
+                "ownerId": "studio_plaifah",
+                "acceptedSprintId": "studio_sprint_3",
+                "effort": 24,
+                "priority": 21,
+                "acceptedDay": 17,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w3_plaifah_2",
+                "ownerId": "studio_plaifah",
+                "acceptedSprintId": "studio_sprint_3",
+                "effort": 24,
+                "priority": 22,
+                "acceptedDay": 19,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w3_plaifah_3",
+                "ownerId": "studio_plaifah",
+                "acceptedSprintId": "studio_sprint_3",
+                "effort": 24,
+                "priority": 23,
+                "acceptedDay": 21,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w3_ploy_1",
+                "ownerId": "studio_ploy",
+                "acceptedSprintId": "studio_sprint_3",
+                "effort": 24,
+                "priority": 24,
+                "acceptedDay": 17,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w3_ploy_2",
+                "ownerId": "studio_ploy",
+                "acceptedSprintId": "studio_sprint_3",
+                "effort": 20,
+                "priority": 25,
+                "acceptedDay": 19,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w3_ploy_3",
+                "ownerId": "studio_ploy",
+                "acceptedSprintId": "studio_sprint_3",
+                "effort": 20,
+                "priority": 26,
+                "acceptedDay": 20,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w4_grace_1",
+                "ownerId": "studio_grace",
+                "acceptedSprintId": "",
+                "effort": 6,
+                "priority": 27,
+                "acceptedDay": 0,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w4_grace_2",
+                "ownerId": "studio_grace",
+                "acceptedSprintId": "",
+                "effort": 0,
+                "priority": 28,
+                "acceptedDay": 0,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w4_grace_3",
+                "ownerId": "studio_grace",
+                "acceptedSprintId": "",
+                "effort": 0,
+                "priority": 29,
+                "acceptedDay": 0,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w4_plaifah_1",
+                "ownerId": "studio_plaifah",
+                "acceptedSprintId": "studio_sprint_4",
+                "effort": 24,
+                "priority": 30,
+                "acceptedDay": 24,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w4_plaifah_2",
+                "ownerId": "studio_plaifah",
+                "acceptedSprintId": "studio_sprint_4",
+                "effort": 24,
+                "priority": 31,
+                "acceptedDay": 26,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w4_plaifah_3",
+                "ownerId": "studio_plaifah",
+                "acceptedSprintId": "studio_sprint_4",
+                "effort": 24,
+                "priority": 32,
+                "acceptedDay": 28,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w4_ploy_1",
+                "ownerId": "studio_ploy",
+                "acceptedSprintId": "studio_sprint_4",
+                "effort": 24,
+                "priority": 33,
+                "acceptedDay": 24,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w4_ploy_2",
+                "ownerId": "studio_ploy",
+                "acceptedSprintId": "studio_sprint_4",
+                "effort": 20,
+                "priority": 34,
+                "acceptedDay": 25,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w4_ploy_3",
+                "ownerId": "studio_ploy",
+                "acceptedSprintId": "studio_sprint_4",
+                "effort": 20,
+                "priority": 35,
+                "acceptedDay": 27,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w5_grace_1",
+                "ownerId": "studio_grace",
+                "acceptedSprintId": "",
+                "effort": 0,
+                "priority": 36,
+                "acceptedDay": 0,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w5_plaifah_1",
+                "ownerId": "studio_plaifah",
+                "acceptedSprintId": "studio_sprint_5",
+                "effort": 16,
+                "priority": 37,
+                "acceptedDay": 30,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_w5_ploy_1",
+                "ownerId": "studio_ploy",
+                "acceptedSprintId": "studio_sprint_5",
+                "effort": 16,
+                "priority": 38,
+                "acceptedDay": 30,
+                "decisionCleared": false
+            },
+            {
+                "taskId": "studio_bug",
+                "ownerId": "studio_grace",
+                "acceptedSprintId": "studio_sprint_1",
+                "effort": 24,
+                "priority": 39,
+                "acceptedDay": 7,
+                "decisionCleared": false
+            }
+        ],
+        "reviews": [
+            {
+                "sprintId": "studio_sprint_1",
+                "reviewedDay": 7,
+                "carryoverCount": 1,
+                "quotas": [
+                    {
+                        "streamId": "work_code",
+                        "completed": 76,
+                        "required": 104
+                    },
+                    {
+                        "streamId": "work_art",
+                        "completed": 72,
+                        "required": 72
+                    },
+                    {
+                        "streamId": "work_design",
+                        "completed": 64,
+                        "required": 64
+                    }
+                ]
+            },
+            {
+                "sprintId": "studio_sprint_2",
+                "reviewedDay": 14,
+                "carryoverCount": 2,
+                "quotas": [
+                    {
+                        "streamId": "work_code",
+                        "completed": 28,
+                        "required": 80
+                    },
+                    {
+                        "streamId": "work_art",
+                        "completed": 72,
+                        "required": 72
+                    },
+                    {
+                        "streamId": "work_design",
+                        "completed": 64,
+                        "required": 64
+                    }
+                ]
+            },
+            {
+                "sprintId": "studio_sprint_3",
+                "reviewedDay": 21,
+                "carryoverCount": 2,
+                "quotas": [
+                    {
+                        "streamId": "work_code",
+                        "completed": 28,
+                        "required": 80
+                    },
+                    {
+                        "streamId": "work_art",
+                        "completed": 72,
+                        "required": 72
+                    },
+                    {
+                        "streamId": "work_design",
+                        "completed": 64,
+                        "required": 64
+                    }
+                ]
+            },
+            {
+                "sprintId": "studio_sprint_4",
+                "reviewedDay": 28,
+                "carryoverCount": 4,
+                "quotas": [
+                    {
+                        "streamId": "work_code",
+                        "completed": 0,
+                        "required": 80
+                    },
+                    {
+                        "streamId": "work_art",
+                        "completed": 72,
+                        "required": 72
+                    },
+                    {
+                        "streamId": "work_design",
+                        "completed": 64,
+                        "required": 64
+                    }
+                ]
+            },
+            {
+                "sprintId": "studio_sprint_5",
+                "reviewedDay": 30,
+                "carryoverCount": 4,
+                "quotas": [
+                    {
+                        "streamId": "work_code",
+                        "completed": 0,
+                        "required": 24
+                    },
+                    {
+                        "streamId": "work_art",
+                        "completed": 16,
+                        "required": 16
+                    },
+                    {
+                        "streamId": "work_design",
+                        "completed": 16,
+                        "required": 16
+                    }
+                ]
+            }
+        ],
+        "events": [
+            {
+                "eventId": "studio_bug_demo",
+                "sprintId": "studio_sprint_1",
+                "activatedDay": 2
+            }
+        ],
+        "absences": [],
+        "lastReport": "ใช้ Stamina 20 · เวลาเดิน 1 ช่วง\nเกรซ: ช่วย +0 / ทีม +2 · เครียด 100 → 100\nปลายฟ้า: ช่วย +0 / ทีม +0 · เครียด 0 → 0\nพลอย: ช่วย +0 / ทีม +0 · เครียด 0 → 0",
+        "orders": [],
+        "sharedNights": [],
+        "producerStages": [
+            {
+                "sprintId": "studio_sprint_1",
+                "effort": 40,
+                "completedDay": 9,
+                "completedPhase": 0
+            },
+            {
+                "sprintId": "studio_sprint_2",
+                "effort": 40,
+                "completedDay": 10,
+                "completedPhase": 1
+            },
+            {
+                "sprintId": "studio_sprint_3",
+                "effort": 40,
+                "completedDay": 16,
+                "completedPhase": 0
+            },
+            {
+                "sprintId": "studio_sprint_4",
+                "effort": 40,
+                "completedDay": 23,
+                "completedPhase": 0
+            },
+            {
+                "sprintId": "studio_sprint_5",
+                "effort": 20,
+                "completedDay": 29,
+                "completedPhase": 1
+            }
+        ]
+    },
+    "eventSchedule": {
+        "catalog": "AA6FB3C5A2373042458E0241DC728563B6502AA35A0953D835D48647DBE8DBE8",
+        "deferred": []
+    },
+    "money": 200,
+    "skillPoints": 0,
+    "mainProgress": 88,
+    "dayEnded": true,
+    "dayStartProgress": 85,
+    "characters": [
+        {
+            "characterId": "studio_grace",
+            "affection": 78,
+            "stress": 100,
+            "lastTalkDay": 30
+        },
+        {
+            "characterId": "studio_plaifah",
+            "affection": 79,
+            "stress": 0,
+            "lastTalkDay": 30
+        },
+        {
+            "characterId": "studio_ploy",
+            "affection": 81,
+            "stress": 0,
+            "lastTalkDay": 30
+        }
+    ],
+    "flags": [
+        "studio_event_bug_acknowledged",
+        "studio_event_art_listened"
+    ],
+    "completedEvents": [
+        "studio_event_brief",
+        "studio_event_bug",
+        "studio_event_art_check",
+        "studio_event_bug_followup"
+    ],
+    "readLines": [
+        "studio_grace_talk_line",
+        "studio_plaifah_talk_line",
+        "studio_ploy_talk_line",
+        "evt_studio_brief_line",
+        "evt_studio_bug_line",
+        "evt_studio_bug_result_line",
+        "evt_studio_art_check_line",
+        "evt_studio_art_result_line",
+        "evt_studio_bug_followup_line",
+        "studio_grace_volunteer_0_line",
+        "studio_grace_night_rest_line",
+        "studio_plaifah_volunteer_0_line",
+        "studio_plaifah_night_rest_line",
+        "studio_ploy_volunteer_0_line",
+        "studio_ploy_night_rest_line",
+        "studio_grace_close_line",
+        "studio_plaifah_close_line",
+        "studio_ploy_close_line",
+        "studio_grace_volunteer_3_line",
+        "studio_plaifah_volunteer_1_line",
+        "studio_ploy_volunteer_1_line"
+    ],
+    "chosenOptions": [
+        "evt_bug_accept",
+        "evt_art_listen",
+        "studio_grace_volunteer_0_decline",
+        "studio_plaifah_volunteer_0_decline",
+        "studio_ploy_volunteer_0_decline",
+        "studio_grace_volunteer_3_decline",
+        "studio_plaifah_volunteer_1_decline",
+        "studio_ploy_volunteer_1_decline"
+    ]
+}

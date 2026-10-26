@@ -1,0 +1,266 @@
+{
+  "configId": "studio_planning_v1",
+  "productionId": "studio_planning_production",
+  "presentationId": "studio_planning_presentation",
+  "rulesId": "studio_planning_rules",
+  "randomness": true,
+  "taskSpread": 0.1,
+  "normalStress": 1,
+  "pressureStress": 1,
+  "waitingStress": 1,
+  "idleRecovery": 1,
+  "overnightRecovery": 5,
+  "comfortableLoad": 0.8,
+  "sharedAffection": 3,
+  "forecastSamples": 24,
+  "dragThreshold": 8,
+  "autoScrollSpeed": 650,
+  "bands": [
+    {
+      "minimum": 0,
+      "mean": 1,
+      "dailySpread": 0.05
+    },
+    {
+      "minimum": 40,
+      "mean": 0.9,
+      "dailySpread": 0.1
+    },
+    {
+      "minimum": 70,
+      "mean": 0.75,
+      "dailySpread": 0.15
+    },
+    {
+      "minimum": 90,
+      "mean": 0.55,
+      "dailySpread": 0.2
+    }
+  ],
+  "text": [
+    {
+      "key": "planningTitle",
+      "value": "แผนงาน Sprint"
+    },
+    {
+      "key": "planningQueueHint",
+      "value": "ลากจัดคิว · แตะดูรายละเอียด"
+    },
+    {
+      "key": "planningApply",
+      "value": "ยืนยันแผน"
+    },
+    {
+      "key": "planningRevert",
+      "value": "คืนแผนเดิม"
+    },
+    {
+      "key": "planningReady",
+      "value": "พร้อมทำ"
+    },
+    {
+      "key": "planningBlocked",
+      "value": "รอเงื่อนไข"
+    },
+    {
+      "key": "planningDone",
+      "value": "ส่งแล้ว"
+    },
+    {
+      "key": "planningFuture",
+      "value": "ยังไม่ถึงช่วงงาน"
+    },
+    {
+      "key": "planningSelect",
+      "value": "เลือกการ์ดเพื่อดูแผน"
+    },
+    {
+      "key": "planningDates",
+      "value": "เริ่ม {0} · ส่ง {1}"
+    },
+    {
+      "key": "planningEstimate",
+      "value": "คาดเสร็จ {0}–{1}"
+    },
+    {
+      "key": "planningUnknown",
+      "value": "รอเคลียร์เงื่อนไขก่อนประเมิน"
+    },
+    {
+      "key": "planningDue",
+      "value": "ส่ง {0}"
+    },
+    {
+      "key": "planningDay",
+      "value": "วันที่ {0} {1}"
+    },
+    {
+      "key": "planningShared",
+      "value": "อยู่ด้วยกัน · Stamina −{0} · 1 ช่วง · สัมพันธ์ +{1}"
+    },
+    {
+      "key": "planningProducer",
+      "value": "งาน Producer · Stamina −{0} · เงิน +{1}"
+    },
+    {
+      "key": "planningStaffHelp",
+      "value": "อยู่ช่วยเป็นเพื่อน · ทีมทำงานตามปกติ"
+    },
+    {
+      "key": "planningInvalidDrop",
+      "value": "จัดคิวภายในคนเดียวกัน"
+    },
+    {
+      "key": "planningClarify",
+      "value": "เคลียร์บรีฟ · Stamina −{0} · 1 ช่วง"
+    },
+    {
+      "key": "planningReview",
+      "value": "ตรวจรับงาน"
+    },
+    {
+      "key": "planningEarlier",
+      "value": "ขยับวันส่งเร็วขึ้น"
+    },
+    {
+      "key": "planningLater",
+      "value": "เผื่อวันส่งเพิ่ม"
+    },
+    {
+      "key": "planningFirst",
+      "value": "เลื่อนเป็นงานแรก"
+    },
+    {
+      "key": "planningStale",
+      "value": "แผนเปลี่ยนแล้ว กรุณาเปิดบอร์ดใหม่"
+    },
+    {
+      "key": "planningClean",
+      "value": "แผนปัจจุบัน"
+    },
+    {
+      "key": "planningDirty",
+      "value": "ยังไม่ยืนยัน"
+    },
+    {
+      "key": "planningProducerProgress",
+      "value": "Producer {0}/{1}"
+    },
+    {
+      "key": "planningSharedResult",
+      "value": "ใช้เวลาร่วมกัน · ทีมทำงานตามปกติ"
+    },
+    {
+      "key": "sharedNightChoice",
+      "value": "เงิน -{0} · Stamina -{1} · จบคืนนี้\nทีม +{3} · สนิท +{6} · เครียด {4} → {5}"
+    },
+    {
+      "key": "sharedNightResult",
+      "value": "อยู่ร่วมงานกับ {0} · {1}\nทีม +{3} · Stamina -{4} / เงิน -{5}"
+    },
+    {
+      "key": "volunteerChoice",
+      "value": "เงิน -{0} · เวลาไม่ผ่าน\nงานเมื่อจบคืน +{3} · เครียด {4} → {5}"
+    },
+    {
+      "key": "planningSharedAction",
+      "value": "อยู่ด้วยกัน"
+    },
+    {
+      "key": "planningRestAction",
+      "value": "ให้พักช่วงนี้"
+    },
+    {
+      "key": "planningOtAction",
+      "value": "ขอ OT คืนนี้"
+    },
+    {
+      "key": "planningPlayerRest",
+      "value": "พักหนึ่งช่วง"
+    },
+    {
+      "key": "timelineTitle",
+      "value": "Timeline"
+    },
+    {
+      "key": "timelineQueue",
+      "value": "คิวงาน"
+    },
+    {
+      "key": "timelineEarlier",
+      "value": "เลื่อนแผนเร็วขึ้นหนึ่งช่วง"
+    },
+    {
+      "key": "timelineLater",
+      "value": "เลื่อนแผนช้าลงหนึ่งช่วง"
+    },
+    {
+      "key": "timelineStartEarlier",
+      "value": "เริ่มเร็วขึ้นหนึ่งช่วง"
+    },
+    {
+      "key": "timelineStartLater",
+      "value": "เริ่มช้าลงหนึ่งช่วง"
+    },
+    {
+      "key": "timelineEarlierDue",
+      "value": "ส่งเร็วขึ้นหนึ่งช่วง"
+    },
+    {
+      "key": "timelineLaterDue",
+      "value": "เผื่อเวลาส่งอีกหนึ่งช่วง"
+    },
+    {
+      "key": "timelineInvalid",
+      "value": "ขยับได้เฉพาะแผนอนาคตภายใน 30 วัน"
+    },
+    {
+      "key": "timelineLegend",
+      "value": "ทึบ: แผน · ลาย: คาดการณ์ · เส้นทอง: เส้นตาย Sprint"
+    },
+    {
+      "key": "timelineDay",
+      "value": "{0}"
+    },
+    {
+      "key": "timelineBuffer",
+      "value": "เผื่อ {0} ช่วงงาน"
+    },
+    {
+      "key": "timelineLate",
+      "value": "เกินแผน {0} ช่วงงาน"
+    },
+    {
+      "key": "timelineUnknown",
+      "value": "รอข้อมูลก่อนประเมิน"
+    },
+    {
+      "key": "timelineDates",
+      "value": "{0} – {1}"
+    },
+    {
+      "key": "timelineRisk",
+      "value": "เสี่ยงเลยวันส่ง"
+    },
+    {
+      "key": "timelineDependencies",
+      "value": "งานที่ต้องรอ"
+    },
+    {
+      "key": "timelineNow",
+      "value": "เวลาปัจจุบัน"
+    },
+    {
+      "key": "timelineMilestone",
+      "value": "เส้นตาย {0}"
+    },
+    {
+      "key": "timelineStart",
+      "value": "เริ่ม {0}"
+    },
+    {
+      "key": "timelineDue",
+      "value": "ส่ง {0}"
+    }
+  ]
+}

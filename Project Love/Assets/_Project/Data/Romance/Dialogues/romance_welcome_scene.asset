@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68294642b7394931b38b71feca2638e1, type: 3}
+  m_Name: romance_welcome_scene
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.DialogueNodeSO
+  id: romance_welcome_scene
+  displayName: "\u0E27\u0E31\u0E19\u0E41\u0E23\u0E01 \xB7 \u0E2A\u0E32\u0E23\u0E20\u0E32\u0E1E\u0E23\u0E31\u0E01
+    \u0E2B\u0E23\u0E37\u0E2D\u0E2A\u0E21\u0E31\u0E04\u0E23\u0E07\u0E32\u0E19"
+  lines:
+  - lineId: romance_welcome_scene_line_0
+    speaker: {fileID: 0}
+    expression: 0
+    text: "\u0E27\u0E31\u0E19\u0E41\u0E23\u0E01\u0E17\u0E35\u0E48\u0E2A\u0E15\u0E39\u0E14\u0E34\u0E42\u0E2D
+      \u0E04\u0E38\u0E13\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E17\u0E31\u0E19\u0E27\u0E32\u0E07\u0E01\u0E23\u0E30\u0E40\u0E1B\u0E4B\u0E32
+      \u0E40\u0E2A\u0E35\u0E22\u0E07\u0E2D\u0E48\u0E32\u0E19\u0E1A\u0E17\u0E08\u0E32\u0E01\u0E42\u0E15\u0E4A\u0E30\u0E01\u0E25\u0E32\u0E07\u0E01\u0E47\u0E14\u0E31\u0E07\u0E02\u0E36\u0E49\u0E19"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/romance_welcome_scene/line/romance_welcome_scene_line_0
+  - lineId: romance_welcome_scene_line_1
+    speaker: {fileID: 11400000, guid: b36cc8da13aa4914fae3a8b5aac0bf99, type: 2}
+    expression: 0
+    text: "\u0E1C\u0E21\u0E2D\u0E22\u0E32\u0E01\u0E43\u0E2B\u0E49\u0E04\u0E38\u0E13\u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E31\u0E21\u0E1E\u0E31\u0E19\u0E18\u0E4C\u0E23\u0E30\u0E22\u0E30\u0E22\u0E32\u0E27\u0E01\u0E31\u0E1A\u0E1C\u0E21"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/romance_welcome_scene/line/romance_welcome_scene_line_1
+  - lineId: romance_welcome_scene_line_2
+    speaker: {fileID: 11400000, guid: 08140245bb9f0c54b8e6fd5c6e3d6ecf, type: 2}
+    expression: 1
+    text: "\u0E19\u0E35\u0E48\u0E02\u0E2D\u0E40\u0E1B\u0E47\u0E19\u0E41\u0E1F\u0E19
+      \u0E2B\u0E23\u0E37\u0E2D\u0E23\u0E31\u0E1A\u0E2A\u0E21\u0E31\u0E04\u0E23\u0E1E\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19\u0E04\u0E30?"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/romance_welcome_scene/line/romance_welcome_scene_line_2
+  - lineId: romance_welcome_scene_line_3
+    speaker: {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+    expression: 0
+    text: "...\u0E16\u0E49\u0E32\u0E43\u0E0A\u0E49\u0E1B\u0E23\u0E30\u0E42\u0E22\u0E04\u0E19\u0E35\u0E49
+      \u0E1F\u0E49\u0E32\u0E15\u0E49\u0E2D\u0E07\u0E27\u0E32\u0E14\u0E40\u0E02\u0E32\u0E16\u0E37\u0E2D\u0E41\u0E1F\u0E49\u0E21\u0E14\u0E49\u0E27\u0E22\u0E44\u0E2B\u0E21\u0E04\u0E30"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/romance_welcome_scene/line/romance_welcome_scene_line_3
+  - lineId: romance_welcome_scene_line_4
+    speaker: {fileID: 11400000, guid: b36cc8da13aa4914fae3a8b5aac0bf99, type: 2}
+    expression: 0
+    text: "\u0E1A\u0E2D\u0E01\u0E41\u0E25\u0E49\u0E27\u0E44\u0E07\u0E04\u0E30\u0E27\u0E48\u0E32\u0E1B\u0E23\u0E30\u0E42\u0E22\u0E04\u0E0A\u0E31\u0E48\u0E27\u0E04\u0E23\u0E32\u0E27"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/romance_welcome_scene/line/romance_welcome_scene_line_4
+  - lineId: romance_welcome_scene_line_5
+    speaker: {fileID: 11400000, guid: 08140245bb9f0c54b8e6fd5c6e3d6ecf, type: 2}
+    expression: 0
+    text: "\u0E1E\u0E2D\u0E14\u0E35\u0E40\u0E25\u0E22 Producer \u0E04\u0E19\u0E43\u0E2B\u0E21\u0E48\u0E21\u0E32\u0E16\u0E36\u0E07\u0E41\u0E25\u0E49\u0E27!
+      \u0E0A\u0E48\u0E27\u0E22\u0E1F\u0E31\u0E07\u0E2B\u0E19\u0E48\u0E2D\u0E22\u0E2A\u0E34
+      \u0E17\u0E33\u0E44\u0E21\u0E09\u0E32\u0E01\u0E23\u0E31\u0E01\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32\u0E1F\u0E31\u0E07\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E1B\u0E23\u0E30\u0E0A\u0E38\u0E21\u0E17\u0E38\u0E01\u0E17\u0E35"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/romance_welcome_scene/line/romance_welcome_scene_line_5
+  - lineId: romance_welcome_scene_line_6
+    speaker: {fileID: 11400000, guid: b36cc8da13aa4914fae3a8b5aac0bf99, type: 2}
+    expression: 0
+    text: "\u0E23\u0E30\u0E1A\u0E1A\u0E40\u0E25\u0E48\u0E19\u0E44\u0E14\u0E49\u0E41\u0E25\u0E49\u0E27\u0E04\u0E48\u0E30
+      \u0E41\u0E15\u0E48\u0E40\u0E23\u0E32\u0E22\u0E31\u0E07\u0E40\u0E16\u0E35\u0E22\u0E07\u0E01\u0E31\u0E19\u0E2D\u0E22\u0E39\u0E48\u0E27\u0E48\u0E32\u0E15\u0E23\u0E07\u0E19\u0E35\u0E49\u0E04\u0E27\u0E23\u0E43\u0E2B\u0E49\u0E04\u0E19\u0E40\u0E25\u0E48\u0E19\u0E23\u0E39\u0E49\u0E2A\u0E36\u0E01\u0E2D\u0E30\u0E44\u0E23"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/romance_welcome_scene/line/romance_welcome_scene_line_6
+  - lineId: romance_welcome_scene_line_7
+    speaker: {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+    expression: 0
+    text: "\u0E1F\u0E49\u0E32\u0E02\u0E2D\u0E14\u0E39\u0E08\u0E31\u0E07\u0E2B\u0E27\u0E30\u0E17\u0E35\u0E48\u0E40\u0E02\u0E32\u0E1E\u0E39\u0E14\u0E14\u0E49\u0E27\u0E22\u0E04\u0E48\u0E30
+      \u0E08\u0E30\u0E44\u0E14\u0E49\u0E1B\u0E23\u0E31\u0E1A\u0E2A\u0E35\u0E2B\u0E19\u0E49\u0E32\u0E43\u0E2B\u0E49\u0E40\u0E02\u0E49\u0E32\u0E01\u0E31\u0E19"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/romance_welcome_scene/line/romance_welcome_scene_line_7
+  choices:
+  - choiceId: opening_advice_direct
+    text: "\u0E25\u0E2D\u0E07\u0E1E\u0E39\u0E14\u0E15\u0E23\u0E07\u0E46 \u0E27\u0E48\u0E32\u0E2D\u0E22\u0E32\u0E01\u0E40\u0E08\u0E2D\u0E01\u0E31\u0E19\u0E2D\u0E35\u0E01"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/romance_welcome_scene/choice/opening_advice_direct
+    actionPointCost: 0
+    staminaCost: 0
+    conditions: []
+    effects: []
+    flags:
+    - flagId: opening_advice_direct
+      value: 1
+    activateWorkloads: []
+    workAction: 0
+    workCharacter: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 587ebca2b53d488ca4bb724f22690c3d, type: 2}
+  - choiceId: opening_advice_listen
+    text: "\u0E40\u0E27\u0E49\u0E19\u0E43\u0E2B\u0E49\u0E04\u0E19\u0E1F\u0E31\u0E07\u0E44\u0E14\u0E49\u0E15\u0E2D\u0E1A\u0E1A\u0E49\u0E32\u0E07"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/romance_welcome_scene/choice/opening_advice_listen
+    actionPointCost: 0
+    staminaCost: 0
+    conditions: []
+    effects: []
+    flags:
+    - flagId: opening_advice_listen
+      value: 1
+    activateWorkloads: []
+    workAction: 0
+    workCharacter: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: fb0f03dc19694003b50a3de969814809, type: 2}
+  - choiceId: opening_advice_natural
+    text: "\u0E40\u0E23\u0E34\u0E48\u0E21\u0E08\u0E32\u0E01\u0E0A\u0E27\u0E19\u0E17\u0E33\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E18\u0E23\u0E23\u0E21\u0E14\u0E32\u0E14\u0E49\u0E27\u0E22\u0E01\u0E31\u0E19"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/romance_welcome_scene/choice/opening_advice_natural
+    actionPointCost: 0
+    staminaCost: 0
+    conditions: []
+    effects: []
+    flags:
+    - flagId: opening_advice_natural
+      value: 1
+    activateWorkloads: []
+    workAction: 0
+    workCharacter: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 1b26cc86241d4350a9de28e2c7d68a77, type: 2}
+  nextNode: {fileID: 0}

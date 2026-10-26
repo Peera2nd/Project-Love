@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Passed" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-24 08:25:07Z" end-time="2026-10-24 08:25:11Z" duration="3.5945916">
+  <test-suite type="TestSuite" id="1016" name="Project Love" fullname="Project Love" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-24 08:25:07Z" end-time="2026-10-24 08:25:11Z" duration="3.594592" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1010" name="ProjectLove.Tests.PlayMode.dll" fullname="D:/Work/Unity/Project_Game/Visual Novel/.verify/Library/ScriptAssemblies/ProjectLove.Tests.PlayMode.dll" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-24 08:25:07Z" end-time="2026-10-24 08:25:11Z" duration="3.587132" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="50152" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1011" name="ProjectLove" fullname="ProjectLove" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-24 08:25:07Z" end-time="2026-10-24 08:25:11Z" duration="3.586454" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1012" name="Tests" fullname="ProjectLove.Tests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-24 08:25:07Z" end-time="2026-10-24 08:25:11Z" duration="3.586177" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="IsometricPlayTests" fullname="ProjectLove.Tests.IsometricPlayTests" classname="ProjectLove.Tests.IsometricPlayTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-24 08:25:07Z" end-time="2026-10-24 08:25:09Z" duration="2.223876" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1004" name="CharacterWorkGiftInventoryAndContextSelectionWorkThroughRealClicks" fullname="ProjectLove.Tests.IsometricPlayTests.CharacterWorkGiftInventoryAndContextSelectionWorkThroughRealClicks" methodname="CharacterWorkGiftInventoryAndContextSelectionWorkThroughRealClicks" classname="ProjectLove.Tests.IsometricPlayTests" runstate="Runnable" seed="798467150" result="Passed" start-time="2026-10-24 08:25:07Z" end-time="2026-10-24 08:25:08Z" duration="1.200827" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="RoomConversationPhaseInventoryShopAndPersistenceWorkThroughUi" fullname="ProjectLove.Tests.IsometricPlayTests.RoomConversationPhaseInventoryShopAndPersistenceWorkThroughUi" methodname="RoomConversationPhaseInventoryShopAndPersistenceWorkThroughUi" classname="ProjectLove.Tests.IsometricPlayTests" runstate="Runnable" seed="459665836" result="Passed" start-time="2026-10-24 08:25:08Z" end-time="2026-10-24 08:25:09Z" duration="0.673354" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="ZeroEnergyCanBackOutAndRestWhileRepeatTalkSurvivesSaveAndRefreshesTomorrow" fullname="ProjectLove.Tests.IsometricPlayTests.ZeroEnergyCanBackOutAndRestWhileRepeatTalkSurvivesSaveAndRefreshesTomorrow" methodname="ZeroEnergyCanBackOutAndRestWhileRepeatTalkSurvivesSaveAndRefreshesTomorrow" classname="ProjectLove.Tests.IsometricPlayTests" runstate="Runnable" seed="1074926024" result="Passed" start-time="2026-10-24 08:25:09Z" end-time="2026-10-24 08:25:09Z" duration="0.338230" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1005" name="SandboxPlayTests" fullname="ProjectLove.Tests.SandboxPlayTests" classname="ProjectLove.Tests.SandboxPlayTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-24 08:25:09Z" end-time="2026-10-24 08:25:11Z" duration="1.361213" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1006" name="PlayThroughChoicesActivitiesAndDayEndWithoutMutatingAssets" fullname="ProjectLove.Tests.SandboxPlayTests.PlayThroughChoicesActivitiesAndDayEndWithoutMutatingAssets" methodname="PlayThroughChoicesActivitiesAndDayEndWithoutMutatingAssets" classname="ProjectLove.Tests.SandboxPlayTests" runstate="Runnable" seed="501589104" result="Passed" start-time="2026-10-24 08:25:09Z" end-time="2026-10-24 08:25:10Z" duration="0.297514" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="ThaiFontAndLayoutHaveNoMissingGlyphsOrOverflow" fullname="ProjectLove.Tests.SandboxPlayTests.ThaiFontAndLayoutHaveNoMissingGlyphsOrOverflow" methodname="ThaiFontAndLayoutHaveNoMissingGlyphsOrOverflow" classname="ProjectLove.Tests.SandboxPlayTests" runstate="Runnable" seed="1358240569" result="Passed" start-time="2026-10-24 08:25:10Z" end-time="2026-10-24 08:25:10Z" duration="0.302281" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="ThreeDayPrototypeSupportsCatchupRecoveryPersistenceAndDaySummary" fullname="ProjectLove.Tests.SandboxPlayTests.ThreeDayPrototypeSupportsCatchupRecoveryPersistenceAndDaySummary" methodname="ThreeDayPrototypeSupportsCatchupRecoveryPersistenceAndDaySummary" classname="ProjectLove.Tests.SandboxPlayTests" runstate="Runnable" seed="1061602195" result="Passed" start-time="2026-10-24 08:25:10Z" end-time="2026-10-24 08:25:10Z" duration="0.445471" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="ZeroApOldSceneProvidesClickableDeferralAndNextDayRecovery" fullname="ProjectLove.Tests.SandboxPlayTests.ZeroApOldSceneProvidesClickableDeferralAndNextDayRecovery" methodname="ZeroApOldSceneProvidesClickableDeferralAndNextDayRecovery" classname="ProjectLove.Tests.SandboxPlayTests" runstate="Runnable" seed="794974039" result="Passed" start-time="2026-10-24 08:25:10Z" end-time="2026-10-24 08:25:11Z" duration="0.314290" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/UsEr/AppData/LocalLow/DefaultCompany/Project Love\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

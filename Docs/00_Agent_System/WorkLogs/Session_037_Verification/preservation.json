@@ -1,0 +1,26 @@
+{
+  "protectedUnchanged": 727,
+  "changedExisting": [
+    "Docs/00_Agent_System/01_Project_Context_And_Architecture.md",
+    "Docs/00_Agent_System/02_Task_Board_And_Roadmap.md",
+    "Docs/00_Agent_System/03_Handoff_And_Work_Logs.md",
+    "Docs/00_Agent_System/04_Mistakes_And_Prevention_Registry.md",
+    "Docs/01_Game_Design/00_Master_Vision_And_Decisions.md",
+    "Docs/04_Technical_And_Tools/06_Studio_UX_Redesign_Backlog.md",
+    "Docs/04_Technical_And_Tools/07_Planning_Prototype_Delivery_And_Drag_Contract.md",
+    "Project Love/Assets/_Project/Scripts/Core/ProductionState.cs",
+    "Project Love/Assets/_Project/Scripts/Core/RuntimeGameState.cs",
+    "Project Love/Assets/_Project/Scripts/Core/SaveStore.cs",
+    "Project Love/Assets/_Project/Scripts/Data/ProductionConfigSO.cs",
+    "Project Love/Assets/_Project/Scripts/Data/WorkTaskSO.cs",
+    "Project Love/Assets/_Project/Scripts/Editor/Dashboard/DesignerDashboard.cs",
+    "Project Love/Assets/_Project/Scripts/Simulation/FoundationSystems.cs",
+    "Project Love/Assets/_Project/Scripts/Simulation/ProductionSystem.cs",
+    "Project Love/Assets/_Project/Scripts/Simulation/SharedNightWork.cs",
+    "Project Love/Assets/_Project/Scripts/Simulation/StaffAndProducerOrders.cs",
+    "Project Love/Assets/_Project/Scripts/UI/IsometricRoomView.cs",
+    "Project Love/Assets/_Project/Scripts/UI/StudioSprintView.cs"
+  ],
+  "archiveFiles": 1065,
+  "uiPngUnchanged": 48
+}

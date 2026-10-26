@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="96" result="Passed" total="96" passed="96" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:56Z" duration="1.252877">
+  <test-suite type="TestSuite" id="1000" name="Project Love" fullname="Project Love" runstate="Runnable" testcasecount="96" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:56Z" duration="1.252877" total="96" passed="96" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1109" name="ProjectLove.Tests.Editor.dll" fullname="D:/Work/Unity/Project_Game/Visual Novel/.verify/Library/ScriptAssemblies/ProjectLove.Tests.Editor.dll" runstate="Runnable" testcasecount="96" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:56Z" duration="1.247745" total="96" passed="96" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="69136" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1110" name="ProjectLove" fullname="ProjectLove" runstate="Runnable" testcasecount="96" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:56Z" duration="1.247433" total="96" passed="96" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1111" name="Tests" fullname="ProjectLove.Tests" runstate="Runnable" testcasecount="96" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:56Z" duration="1.247160" total="96" passed="96" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="CharacterInteractionTests" fullname="ProjectLove.Tests.CharacterInteractionTests" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.081389" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1011" name="BackDuringGiftReturnsItemAndStateWithoutReward" fullname="ProjectLove.Tests.CharacterInteractionTests.BackDuringGiftReturnsItemAndStateWithoutReward" methodname="BackDuringGiftReturnsItemAndStateWithoutReward" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="1026396506" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.015813" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="CharacterWorkTargetsItsOwnStreamAndCommitsResourceAndTimeTogether" fullname="ProjectLove.Tests.CharacterInteractionTests.CharacterWorkTargetsItsOwnStreamAndCommitsResourceAndTimeTogether" methodname="CharacterWorkTargetsItsOwnStreamAndCommitsResourceAndTimeTogether" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="147170876" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.003560" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="DeferringTalkRestoresCostHistoryAndRewardGate" fullname="ProjectLove.Tests.CharacterInteractionTests.DeferringTalkRestoresCostHistoryAndRewardGate" methodname="DeferringTalkRestoresCostHistoryAndRewardGate" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="1773066945" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.002514" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="DifferentCharactersHaveIndependentDailyRewardGates" fullname="ProjectLove.Tests.CharacterInteractionTests.DifferentCharactersHaveIndependentDailyRewardGates" methodname="DifferentCharactersHaveIndependentDailyRewardGates" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="874470618" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.001420" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="FirstDailyTalkChargesOnceAndRepeatsFreeAtZeroEnergyWithoutTime" fullname="ProjectLove.Tests.CharacterInteractionTests.FirstDailyTalkChargesOnceAndRepeatsFreeAtZeroEnergyWithoutTime" methodname="FirstDailyTalkChargesOnceAndRepeatsFreeAtZeroEnergyWithoutTime" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="479397071" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.001261" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1010" name="GiftReactionsConsumeOneItemAndCommitOnlyTheirOwnAffection" fullname="ProjectLove.Tests.CharacterInteractionTests.GiftReactionsConsumeOneItemAndCommitOnlyTheirOwnAffection" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.003684" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1007" name="GiftReactionsConsumeOneItemAndCommitOnlyTheirOwnAffection(Liked,5)" fullname="ProjectLove.Tests.CharacterInteractionTests.GiftReactionsConsumeOneItemAndCommitOnlyTheirOwnAffection(Liked,5)" methodname="GiftReactionsConsumeOneItemAndCommitOnlyTheirOwnAffection" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="1044839156" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.001241" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1008" name="GiftReactionsConsumeOneItemAndCommitOnlyTheirOwnAffection(Neutral,1)" fullname="ProjectLove.Tests.CharacterInteractionTests.GiftReactionsConsumeOneItemAndCommitOnlyTheirOwnAffection(Neutral,1)" methodname="GiftReactionsConsumeOneItemAndCommitOnlyTheirOwnAffection" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="1247149518" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000325" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1009" name="GiftReactionsConsumeOneItemAndCommitOnlyTheirOwnAffection(Disliked,-2)" fullname="ProjectLove.Tests.CharacterInteractionTests.GiftReactionsConsumeOneItemAndCommitOnlyTheirOwnAffection(Disliked,-2)" methodname="GiftReactionsConsumeOneItemAndCommitOnlyTheirOwnAffection" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="398434546" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000276" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1016" name="InvalidWorkOutputRejectsWholeTransactionAndKeepsMenu" fullname="ProjectLove.Tests.CharacterInteractionTests.InvalidWorkOutputRejectsWholeTransactionAndKeepsMenu" methodname="InvalidWorkOutputRejectsWholeTransactionAndKeepsMenu" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="1412497402" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000429" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="OpeningGreetingIsFreeAndBlocksWorldActionsAndSaves" fullname="ProjectLove.Tests.CharacterInteractionTests.OpeningGreetingIsFreeAndBlocksWorldActionsAndSaves" methodname="OpeningGreetingIsFreeAndBlocksWorldActionsAndSaves" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="1674955113" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000939" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="RepeatableChoiceCannotFarmLegacyEffectsOrChargeHiddenResources" fullname="ProjectLove.Tests.CharacterInteractionTests.RepeatableChoiceCannotFarmLegacyEffectsOrChargeHiddenResources" methodname="RepeatableChoiceCannotFarmLegacyEffectsOrChargeHiddenResources" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="591154787" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000841" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1017" name="SaveV3PreservesDailyTalkAndWorkWhileInvalidExtendedSnapshotsAreRejected" fullname="ProjectLove.Tests.CharacterInteractionTests.SaveV3PreservesDailyTalkAndWorkWhileInvalidExtendedSnapshotsAreRejected" methodname="SaveV3PreservesDailyTalkAndWorkWhileInvalidExtendedSnapshotsAreRejected" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="1280384931" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.018533" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1012" name="UnavailableAndForeignTargetsAndNonGiftableItemsAreRejected" fullname="ProjectLove.Tests.CharacterInteractionTests.UnavailableAndForeignTargetsAndNonGiftableItemsAreRejected" methodname="UnavailableAndForeignTargetsAndNonGiftableItemsAreRejected" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="549365595" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000658" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1018" name="V2MigrationPreservesAggregateWithoutInventingHistoricWorkAttribution" fullname="ProjectLove.Tests.CharacterInteractionTests.V2MigrationPreservesAggregateWithoutInventingHistoricWorkAttribution" methodname="V2MigrationPreservesAggregateWithoutInventingHistoricWorkAttribution" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="1654702776" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.016658" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1013" name="VariantSelectionRespectsDayPhaseAffectionFlagsAndStoryCompletion" fullname="ProjectLove.Tests.CharacterInteractionTests.VariantSelectionRespectsDayPhaseAffectionFlagsAndStoryCompletion" methodname="VariantSelectionRespectsDayPhaseAffectionFlagsAndStoryCompletion" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="1757562188" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.002190" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="ZeroEnergyFirstTalkIsRejectedButBackAndRestRemainAvailable" fullname="ProjectLove.Tests.CharacterInteractionTests.ZeroEnergyFirstTalkIsRejectedButBackAndRestRemainAvailable" methodname="ZeroEnergyFirstTalkIsRejectedButBackAndRestRemainAvailable" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="806063249" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000648" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1019" name="FoundationTests" fullname="ProjectLove.Tests.FoundationTests" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" testcasecount="27" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.150197" total="27" passed="27" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1028" name="CampaignCannotAdvancePastConfiguredLastDay" fullname="ProjectLove.Tests.FoundationTests.CampaignCannotAdvancePastConfiguredLastDay" methodname="CampaignCannotAdvancePastConfiguredLastDay" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="1382713672" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.001010" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1031" name="ChoicesRespectConditionsAndApplyEffectsExactlyOnce" fullname="ProjectLove.Tests.FoundationTests.ChoicesRespectConditionsAndApplyEffectsExactlyOnce" methodname="ChoicesRespectConditionsAndApplyEffectsExactlyOnce" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="1162302394" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.003626" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1045" name="CorruptOrEmptySaveDoesNotChangeLiveState" fullname="ProjectLove.Tests.FoundationTests.CorruptOrEmptySaveDoesNotChangeLiveState" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.005755" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1042" name="CorruptOrEmptySaveDoesNotChangeLiveState(&quot;&quot;)" fullname="ProjectLove.Tests.FoundationTests.CorruptOrEmptySaveDoesNotChangeLiveState(&quot;&quot;)" methodname="CorruptOrEmptySaveDoesNotChangeLiveState" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="790183370" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.001695" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1043" name="CorruptOrEmptySaveDoesNotChangeLiveState(&quot;{&quot;)" fullname="ProjectLove.Tests.FoundationTests.CorruptOrEmptySaveDoesNotChangeLiveState(&quot;{&quot;)" methodname="CorruptOrEmptySaveDoesNotChangeLiveState" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="603117679" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.001739" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1044" name="CorruptOrEmptySaveDoesNotChangeLiveState(&quot;{}&quot;)" fullname="ProjectLove.Tests.FoundationTests.CorruptOrEmptySaveDoesNotChangeLiveState(&quot;{}&quot;)" methodname="CorruptOrEmptySaveDoesNotChangeLiveState" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="353037471" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.001401" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1027" name="DayEndIsIdempotentAndResetsAPOnlyWhenStartingNextDay" fullname="ProjectLove.Tests.FoundationTests.DayEndIsIdempotentAndResetsAPOnlyWhenStartingNextDay" methodname="DayEndIsIdempotentAndResetsAPOnlyWhenStartingNextDay" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="441891204" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000883" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1035" name="DeferringLaterBlockedChoiceRollsBackEarlierCostsRewardsFlagsAndHistory" fullname="ProjectLove.Tests.FoundationTests.DeferringLaterBlockedChoiceRollsBackEarlierCostsRewardsFlagsAndHistory" methodname="DeferringLaterBlockedChoiceRollsBackEarlierCostsRewardsFlagsAndHistory" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="882325336" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.001169" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1040" name="DiskSaveRejectsBusySessionAndDeferralRestoresSafePoint" fullname="ProjectLove.Tests.FoundationTests.DiskSaveRejectsBusySessionAndDeferralRestoresSafePoint" methodname="DiskSaveRejectsBusySessionAndDeferralRestoresSafePoint" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="661143100" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.009440" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1039" name="DiskSaveRoundTripRestoresCompletedEventsAndPreventsDuplicateReward" fullname="ProjectLove.Tests.FoundationTests.DiskSaveRoundTripRestoresCompletedEventsAndPreventsDuplicateReward" methodname="DiskSaveRoundTripRestoresCompletedEventsAndPreventsDuplicateReward" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="2043746422" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.008666" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1025" name="FailedActivityUsesFailureEffectsAndCanBeRecovered" fullname="ProjectLove.Tests.FoundationTests.FailedActivityUsesFailureEffectsAndCanBeRecovered" methodname="FailedActivityUsesFailureEffectsAndCanBeRecovered" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="1409586604" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000610" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1048" name="GeneratedSandboxUsesApprovedDurationAndPassesDataValidation" fullname="ProjectLove.Tests.FoundationTests.GeneratedSandboxUsesApprovedDurationAndPassesDataValidation" methodname="GeneratedSandboxUsesApprovedDurationAndPassesDataValidation" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="1880280962" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.055031" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1024" name="InvalidEffectTargetRejectsWholeTransaction" fullname="ProjectLove.Tests.FoundationTests.InvalidEffectTargetRejectsWholeTransaction" methodname="InvalidEffectTargetRejectsWholeTransaction" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="1095224805" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000456" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1023" name="InvalidOrUnaffordableCostDoesNotSpendAP" fullname="ProjectLove.Tests.FoundationTests.InvalidOrUnaffordableCostDoesNotSpendAP" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.001353" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1021" name="InvalidOrUnaffordableCostDoesNotSpendAP(-1)" fullname="ProjectLove.Tests.FoundationTests.InvalidOrUnaffordableCostDoesNotSpendAP(-1)" methodname="InvalidOrUnaffordableCostDoesNotSpendAP" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="1535724809" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000344" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1022" name="InvalidOrUnaffordableCostDoesNotSpendAP(3)" fullname="ProjectLove.Tests.FoundationTests.InvalidOrUnaffordableCostDoesNotSpendAP(3)" methodname="InvalidOrUnaffordableCostDoesNotSpendAP" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="1098731049" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000148" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1047" name="InvalidRuntimeSnapshotsAndUnwritableSaveDirectoryAreRejected" fullname="ProjectLove.Tests.FoundationTests.InvalidRuntimeSnapshotsAndUnwritableSaveDirectoryAreRejected" methodname="InvalidRuntimeSnapshotsAndUnwritableSaveDirectoryAreRejected" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="205490780" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.001826" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1046" name="MissingUnsupportedAndOutOfBoundsSavesDoNotMutateState" fullname="ProjectLove.Tests.FoundationTests.MissingUnsupportedAndOutOfBoundsSavesDoNotMutateState" methodname="MissingUnsupportedAndOutOfBoundsSavesDoNotMutateState" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="1717343643" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.021443" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1032" name="PersonalArcFlagsCanGateEventsIndependentlyOfAffection" fullname="ProjectLove.Tests.FoundationTests.PersonalArcFlagsCanGateEventsIndependentlyOfAffection" methodname="PersonalArcFlagsCanGateEventsIndependentlyOfAffection" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="608035373" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000671" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1029" name="PhaseStopsAtNight" fullname="ProjectLove.Tests.FoundationTests.PhaseStopsAtNight" methodname="PhaseStopsAtNight" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="1311346923" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000407" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1030" name="PreferredDateIsNotAHardCutoffButWindowAndPhaseMatter" fullname="ProjectLove.Tests.FoundationTests.PreferredDateIsNotAHardCutoffButWindowAndPhaseMatter" methodname="PreferredDateIsNotAHardCutoffButWindowAndPhaseMatter" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="645180389" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000537" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1033" name="RuntimeStateRoundTripsThroughJson" fullname="ProjectLove.Tests.FoundationTests.RuntimeStateRoundTripsThroughJson" methodname="RuntimeStateRoundTripsThroughJson" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="1563864746" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.001345" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1041" name="SaveReplacementKeepsLastFileAndSlotsIndependent" fullname="ProjectLove.Tests.FoundationTests.SaveReplacementKeepsLastFileAndSlotsIndependent" methodname="SaveReplacementKeepsLastFileAndSlotsIndependent" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="648753848" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.020252" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1038" name="SchedulerKeepsMissedPreferredEventUntilWindowExpires" fullname="ProjectLove.Tests.FoundationTests.SchedulerKeepsMissedPreferredEventUntilWindowExpires" methodname="SchedulerKeepsMissedPreferredEventUntilWindowExpires" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="46719251" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.002456" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1037" name="SchedulerSortsPriorityThenPreferredDayThenStableIdAndRechecksConditions" fullname="ProjectLove.Tests.FoundationTests.SchedulerSortsPriorityThenPreferredDayThenStableIdAndRechecksConditions" methodname="SchedulerSortsPriorityThenPreferredDayThenStableIdAndRechecksConditions" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="1679035833" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.001606" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1020" name="SessionsCopyDefinitionsAndDoNotShareMutableState" fullname="ProjectLove.Tests.FoundationTests.SessionsCopyDefinitionsAndDoNotShareMutableState" methodname="SessionsCopyDefinitionsAndDoNotShareMutableState" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="2055496823" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000863" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1026" name="StatsClampAndDoNotOverflow" fullname="ProjectLove.Tests.FoundationTests.StatsClampAndDoNotOverflow" methodname="StatsClampAndDoNotOverflow" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="1784747555" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.000956" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1036" name="UnmetConditionsAndMalformedTargetsStillAllowDeferral" fullname="ProjectLove.Tests.FoundationTests.UnmetConditionsAndMalformedTargetsStillAllowDeferral" methodname="UnmetConditionsAndMalformedTargetsStillAllowDeferral" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="1892969625" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.001138" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1034" name="ZeroApChoicesCanDeferAndReturnNextDayWithoutCompletingEvent" fullname="ProjectLove.Tests.FoundationTests.ZeroApChoicesCanDeferAndReturnNextDayWithoutCompletingEvent" methodname="ZeroApChoicesCanDeferAndReturnNextDayWithoutCompletingEvent" classname="ProjectLove.Tests.FoundationTests" runstate="Runnable" seed="932540557" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.001673" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1049" name="ProductionTests" fullname="ProjectLove.Tests.ProductionTests" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" testcasecount="27" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:56Z" duration="0.929097" total="27" passed="27" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1064" name="ClarifyRemovesDecisionButDoesNotBypassPrerequisite" fullname="ProjectLove.Tests.ProductionTests.ClarifyRemovesDecisionButDoesNotBypassPrerequisite" methodname="ClarifyRemovesDecisionButDoesNotBypassPrerequisite" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="2079772330" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.007077" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1062" name="CoordinateCannotStackAndNightPreservesItsProductiveCharges" fullname="ProjectLove.Tests.ProductionTests.CoordinateCannotStackAndNightPreservesItsProductiveCharges" methodname="CoordinateCannotStackAndNightPreservesItsProductiveCharges" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="979913718" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.001329" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1078" name="DeliveredThirtyDayCampaignHasNoSoftlockAndCanReachAllBaseScope" fullname="ProjectLove.Tests.ProductionTests.DeliveredThirtyDayCampaignHasNoSoftlockAndCanReachAllBaseScope" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:56Z" duration="0.881499" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1074" name="DeliveredThirtyDayCampaignHasNoSoftlockAndCanReachAllBaseScope(False,False)" fullname="ProjectLove.Tests.ProductionTests.DeliveredThirtyDayCampaignHasNoSoftlockAndCanReachAllBaseScope(False,False)" methodname="DeliveredThirtyDayCampaignHasNoSoftlockAndCanReachAllBaseScope" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1194548796" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:55Z" duration="0.285648" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1075" name="DeliveredThirtyDayCampaignHasNoSoftlockAndCanReachAllBaseScope(True,False)" fullname="ProjectLove.Tests.ProductionTests.DeliveredThirtyDayCampaignHasNoSoftlockAndCanReachAllBaseScope(True,False)" methodname="DeliveredThirtyDayCampaignHasNoSoftlockAndCanReachAllBaseScope" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="720841663" result="Passed" start-time="2026-10-24 13:41:55Z" end-time="2026-10-24 13:41:56Z" duration="0.331447" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1076" name="DeliveredThirtyDayCampaignHasNoSoftlockAndCanReachAllBaseScope(False,True)" fullname="ProjectLove.Tests.ProductionTests.DeliveredThirtyDayCampaignHasNoSoftlockAndCanReachAllBaseScope(False,True)" methodname="DeliveredThirtyDayCampaignHasNoSoftlockAndCanReachAllBaseScope" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="556144734" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.130418" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1077" name="DeliveredThirtyDayCampaignHasNoSoftlockAndCanReachAllBaseScope(True,True)" fullname="ProjectLove.Tests.ProductionTests.DeliveredThirtyDayCampaignHasNoSoftlockAndCanReachAllBaseScope(True,True)" methodname="DeliveredThirtyDayCampaignHasNoSoftlockAndCanReachAllBaseScope" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1711421747" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.133101" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1071" name="DialogueDeferralRestoresEntireProductionSnapshotAndCompletionUsesSameClock" fullname="ProjectLove.Tests.ProductionTests.DialogueDeferralRestoresEntireProductionSnapshotAndCompletionUsesSameClock" methodname="DialogueDeferralRestoresEntireProductionSnapshotAndCompletionUsesSameClock" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1292854095" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.001197" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1068" name="GenericAbsenceStopsOwnHelpAndExpiresWithoutStoryTrigger" fullname="ProjectLove.Tests.ProductionTests.GenericAbsenceStopsOwnHelpAndExpiresWithoutStoryTrigger" methodname="GenericAbsenceStopsOwnHelpAndExpiresWithoutStoryTrigger" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1613038305" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.001048" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1060" name="HelpCapsAtCurrentCardAndNeverSpills" fullname="ProjectLove.Tests.ProductionTests.HelpCapsAtCurrentCardAndNeverSpills" methodname="HelpCapsAtCurrentCardAndNeverSpills" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1471310851" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000569" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1059" name="HelpPreviewMatchesCommitAndDoesNotMutateSource" fullname="ProjectLove.Tests.ProductionTests.HelpPreviewMatchesCommitAndDoesNotMutateSource" methodname="HelpPreviewMatchesCommitAndDoesNotMutateSource" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1241356046" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000760" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1073" name="LegacyCloneAndVersionThreeLoadKeepProductionSchemaAbsent" fullname="ProjectLove.Tests.ProductionTests.LegacyCloneAndVersionThreeLoadKeepProductionSchemaAbsent" methodname="LegacyCloneAndVersionThreeLoadKeepProductionSchemaAbsent" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1989791698" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.007330" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1066" name="MissedReviewKeepsEffortAndLaterAcceptanceDoesNotRewriteOldSprint" fullname="ProjectLove.Tests.ProductionTests.MissedReviewKeepsEffortAndLaterAcceptanceDoesNotRewriteOldSprint" methodname="MissedReviewKeepsEffortAndLaterAcceptanceDoesNotRewriteOldSprint" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="701648827" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.001204" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1061" name="NightHasNoWorkAndEarlyEndResolvesExactlyThreeProductiveTicks" fullname="ProjectLove.Tests.ProductionTests.NightHasNoWorkAndEarlyEndResolvesExactlyThreeProductiveTicks" methodname="NightHasNoWorkAndEarlyEndResolvesExactlyThreeProductiveTicks" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1404584588" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000525" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1069" name="RejectedActionsAreAtomicAndInvalidStateCannotRestore" fullname="ProjectLove.Tests.ProductionTests.RejectedActionsAreAtomicAndInvalidStateCannotRestore" methodname="RejectedActionsAreAtomicAndInvalidStateCannotRestore" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="245959860" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.001132" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1072" name="RejectsCyclesAndSprintGaps" fullname="ProjectLove.Tests.ProductionTests.RejectsCyclesAndSprintGaps" methodname="RejectsCyclesAndSprintGaps" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1316111197" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000948" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1063" name="RestOrderIsFreeAndPausesOnlyTargetWhenTimePasses" fullname="ProjectLove.Tests.ProductionTests.RestOrderIsFreeAndPausesOnlyTargetWhenTimePasses" methodname="RestOrderIsFreeAndPausesOnlyTargetWhenTimePasses" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1633288052" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.001546" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1065" name="ReviewCreditsOnceAndReorderIsFree" fullname="ProjectLove.Tests.ProductionTests.ReviewCreditsOnceAndReorderIsFree" methodname="ReviewCreditsOnceAndReorderIsFree" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="674864867" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000540" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1070" name="SaveV5RoundTripsTasksPlansEventsReviewsAndRejectsChangedCatalogOrLegacy" fullname="ProjectLove.Tests.ProductionTests.SaveV5RoundTripsTasksPlansEventsReviewsAndRejectsChangedCatalogOrLegacy" methodname="SaveV5RoundTripsTasksPlansEventsReviewsAndRejectsChangedCatalogOrLegacy" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1635529096" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.014142" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1058" name="StressRateUsesPreProductionBand" fullname="ProjectLove.Tests.ProductionTests.StressRateUsesPreProductionBand" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.004457" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1050" name="StressRateUsesPreProductionBand(0,4)" fullname="ProjectLove.Tests.ProductionTests.StressRateUsesPreProductionBand(0,4)" methodname="StressRateUsesPreProductionBand" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="654695069" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000567" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1051" name="StressRateUsesPreProductionBand(39,4)" fullname="ProjectLove.Tests.ProductionTests.StressRateUsesPreProductionBand(39,4)" methodname="StressRateUsesPreProductionBand" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1786826783" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000232" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1052" name="StressRateUsesPreProductionBand(40,3)" fullname="ProjectLove.Tests.ProductionTests.StressRateUsesPreProductionBand(40,3)" methodname="StressRateUsesPreProductionBand" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1569994005" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000207" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1053" name="StressRateUsesPreProductionBand(69,3)" fullname="ProjectLove.Tests.ProductionTests.StressRateUsesPreProductionBand(69,3)" methodname="StressRateUsesPreProductionBand" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="913048980" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000211" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1054" name="StressRateUsesPreProductionBand(70,2)" fullname="ProjectLove.Tests.ProductionTests.StressRateUsesPreProductionBand(70,2)" methodname="StressRateUsesPreProductionBand" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1460199739" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000216" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1055" name="StressRateUsesPreProductionBand(89,2)" fullname="ProjectLove.Tests.ProductionTests.StressRateUsesPreProductionBand(89,2)" methodname="StressRateUsesPreProductionBand" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1201116210" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000188" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1056" name="StressRateUsesPreProductionBand(90,1)" fullname="ProjectLove.Tests.ProductionTests.StressRateUsesPreProductionBand(90,1)" methodname="StressRateUsesPreProductionBand" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1888611513" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000199" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1057" name="StressRateUsesPreProductionBand(100,1)" fullname="ProjectLove.Tests.ProductionTests.StressRateUsesPreProductionBand(100,1)" methodname="StressRateUsesPreProductionBand" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="420287268" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000196" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1067" name="WorkloadAddsOnlyCodeQuotaOnceAndDoesNotEraseAcceptedScope" fullname="ProjectLove.Tests.ProductionTests.WorkloadAddsOnlyCodeQuotaOnceAndDoesNotEraseAcceptedScope" methodname="WorkloadAddsOnlyCodeQuotaOnceAndDoesNotEraseAcceptedScope" classname="ProjectLove.Tests.ProductionTests" runstate="Runnable" seed="1492345749" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000520" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1079" name="RoomSystemsTests" fullname="ProjectLove.Tests.RoomSystemsTests" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.052066" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1084" name="DailyConversationRefreshesTomorrowWhileStoryCompletionRemainsOnceOnly" fullname="ProjectLove.Tests.RoomSystemsTests.DailyConversationRefreshesTomorrowWhileStoryCompletionRemainsOnceOnly" methodname="DailyConversationRefreshesTomorrowWhileStoryCompletionRemainsOnceOnly" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" seed="1414437069" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.001304" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1085" name="DeferringRefundsWholeConversationWithoutTimeOrDailyReward" fullname="ProjectLove.Tests.RoomSystemsTests.DeferringRefundsWholeConversationWithoutTimeOrDailyReward" methodname="DeferringRefundsWholeConversationWithoutTimeOrDailyReward" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" seed="949512424" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000440" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1083" name="FinalPhaseEndsDayWithoutSkippingAndRecoveryIsBounded" fullname="ProjectLove.Tests.RoomSystemsTests.FinalPhaseEndsDayWithoutSkippingAndRecoveryIsBounded" methodname="FinalPhaseEndsDayWithoutSkippingAndRecoveryIsBounded" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" seed="1366743835" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000410" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1095" name="GeneratedRoomUsesActualSuppliedSpritesAndApprovedDuration" fullname="ProjectLove.Tests.RoomSystemsTests.GeneratedRoomUsesActualSuppliedSpritesAndApprovedDuration" methodname="GeneratedRoomUsesActualSuppliedSpritesAndApprovedDuration" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" seed="946977284" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.004513" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1090" name="InvalidNewSaveCollectionsAreRejectedWithoutMutation" fullname="ProjectLove.Tests.RoomSystemsTests.InvalidNewSaveCollectionsAreRejectedWithoutMutation" methodname="InvalidNewSaveCollectionsAreRejectedWithoutMutation" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" seed="1675782898" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000747" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1087" name="ItemUseClampsRecoveryAndDoesNotConsumeAtFullEnergy" fullname="ProjectLove.Tests.RoomSystemsTests.ItemUseClampsRecoveryAndDoesNotConsumeAtFullEnergy" methodname="ItemUseClampsRecoveryAndDoesNotConsumeAtFullEnergy" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" seed="196108256" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000642" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1088" name="ModalDialogueRejectsTravelWorkPickupShopAndInventoryUse" fullname="ProjectLove.Tests.RoomSystemsTests.ModalDialogueRejectsTravelWorkPickupShopAndInventoryUse" methodname="ModalDialogueRejectsTravelWorkPickupShopAndInventoryUse" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" seed="1883465719" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000431" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1094" name="NewerSavesCannotChangeResourceModelEvenAtZeroAp" fullname="ProjectLove.Tests.RoomSystemsTests.NewerSavesCannotChangeResourceModelEvenAtZeroAp" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.020199" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1092" name="NewerSavesCannotChangeResourceModelEvenAtZeroAp(2)" fullname="ProjectLove.Tests.RoomSystemsTests.NewerSavesCannotChangeResourceModelEvenAtZeroAp(2)" methodname="NewerSavesCannotChangeResourceModelEvenAtZeroAp" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" seed="465011391" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.012215" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1093" name="NewerSavesCannotChangeResourceModelEvenAtZeroAp(3)" fullname="ProjectLove.Tests.RoomSystemsTests.NewerSavesCannotChangeResourceModelEvenAtZeroAp(3)" methodname="NewerSavesCannotChangeResourceModelEvenAtZeroAp" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" seed="1517996030" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.007600" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1086" name="PickupIsOnceOnlyAndPurchaseRejectsWrongSceneNoMoneyAndFullStack" fullname="ProjectLove.Tests.RoomSystemsTests.PickupIsOnceOnlyAndPurchaseRejectsWrongSceneNoMoneyAndFullStack" methodname="PickupIsOnceOnlyAndPurchaseRejectsWrongSceneNoMoneyAndFullStack" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" seed="351364097" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000821" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1081" name="RejectedCostsTargetsAndDurationLeaveAllStateUnchanged" fullname="ProjectLove.Tests.RoomSystemsTests.RejectedCostsTargetsAndDurationLeaveAllStateUnchanged" methodname="RejectedCostsTargetsAndDurationLeaveAllStateUnchanged" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" seed="1564435304" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000500" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1089" name="SaveRestoresRoomInventoryDailyGateAndPickupAcrossReload" fullname="ProjectLove.Tests.RoomSystemsTests.SaveRestoresRoomInventoryDailyGateAndPickupAcrossReload" methodname="SaveRestoresRoomInventoryDailyGateAndPickupAcrossReload" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" seed="2024091563" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.006779" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1091" name="VersionOneApSaveIsMigratedButNeverReinterpretedAsStamina" fullname="ProjectLove.Tests.RoomSystemsTests.VersionOneApSaveIsMigratedButNeverReinterpretedAsStamina" methodname="VersionOneApSaveIsMigratedButNeverReinterpretedAsStamina" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" seed="154483748" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.012868" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1080" name="WorkCommitsEnergyOutputAndExactlyOnePhase" fullname="ProjectLove.Tests.RoomSystemsTests.WorkCommitsEnergyOutputAndExactlyOnePhase" methodname="WorkCommitsEnergyOutputAndExactlyOnePhase" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" seed="1773523887" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000639" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1082" name="ZeroEnergyRestRecoversAndAdvancesOnePhase" fullname="ProjectLove.Tests.RoomSystemsTests.ZeroEnergyRestRecoversAndAdvancesOnePhase" methodname="ZeroEnergyRestRecoversAndAdvancesOnePhase" classname="ProjectLove.Tests.RoomSystemsTests" runstate="Runnable" seed="717325617" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.000295" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1096" name="StaffAndProducerTests" fullname="ProjectLove.Tests.StaffAndProducerTests" classname="ProjectLove.Tests.StaffAndProducerTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.032045" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1107" name="CalendarDoesNotBypassProducerGateAndLateCreditKeepsDeadlineReportFrozen" fullname="ProjectLove.Tests.StaffAndProducerTests.CalendarDoesNotBypassProducerGateAndLateCreditKeepsDeadlineReportFrozen" methodname="CalendarDoesNotBypassProducerGateAndLateCreditKeepsDeadlineReportFrozen" classname="ProjectLove.Tests.StaffAndProducerTests" runstate="Runnable" seed="778651683" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.002641" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1097" name="OrdersForMultipleWorkersDoNotAdvanceTimeAndRestResumesNextPhase" fullname="ProjectLove.Tests.StaffAndProducerTests.OrdersForMultipleWorkersDoNotAdvanceTimeAndRestResumesNextPhase" methodname="OrdersForMultipleWorkersDoNotAdvanceTimeAndRestResumesNextPhase" classname="ProjectLove.Tests.StaffAndProducerTests" runstate="Runnable" seed="668049725" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.001950" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1104" name="OvertimeDialogueUsesAffectionStressAndIndividualCharacter" fullname="ProjectLove.Tests.StaffAndProducerTests.OvertimeDialogueUsesAffectionStressAndIndividualCharacter" classname="ProjectLove.Tests.StaffAndProducerTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.009594" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1100" name="OvertimeDialogueUsesAffectionStressAndIndividualCharacter(0,30,0)" fullname="ProjectLove.Tests.StaffAndProducerTests.OvertimeDialogueUsesAffectionStressAndIndividualCharacter(0,30,0)" methodname="OvertimeDialogueUsesAffectionStressAndIndividualCharacter" classname="ProjectLove.Tests.StaffAndProducerTests" runstate="Runnable" seed="1528607393" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.002959" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1101" name="OvertimeDialogueUsesAffectionStressAndIndividualCharacter(20,30,1)" fullname="ProjectLove.Tests.StaffAndProducerTests.OvertimeDialogueUsesAffectionStressAndIndividualCharacter(20,30,1)" methodname="OvertimeDialogueUsesAffectionStressAndIndividualCharacter" classname="ProjectLove.Tests.StaffAndProducerTests" runstate="Runnable" seed="2118374179" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.002190" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1102" name="OvertimeDialogueUsesAffectionStressAndIndividualCharacter(0,75,2)" fullname="ProjectLove.Tests.StaffAndProducerTests.OvertimeDialogueUsesAffectionStressAndIndividualCharacter(0,75,2)" methodname="OvertimeDialogueUsesAffectionStressAndIndividualCharacter" classname="ProjectLove.Tests.StaffAndProducerTests" runstate="Runnable" seed="243750188" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.002116" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1103" name="OvertimeDialogueUsesAffectionStressAndIndividualCharacter(20,75,3)" fullname="ProjectLove.Tests.StaffAndProducerTests.OvertimeDialogueUsesAffectionStressAndIndividualCharacter(20,75,3)" methodname="OvertimeDialogueUsesAffectionStressAndIndividualCharacter" classname="ProjectLove.Tests.StaffAndProducerTests" runstate="Runnable" seed="1234366264" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.001883" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1098" name="OvertimePaysOncePerPersonAndProducesOnlyAtNightBoundary" fullname="ProjectLove.Tests.StaffAndProducerTests.OvertimePaysOncePerPersonAndProducesOnlyAtNightBoundary" methodname="OvertimePaysOncePerPersonAndProducesOnlyAtNightBoundary" classname="ProjectLove.Tests.StaffAndProducerTests" runstate="Runnable" seed="1722331304" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.002478" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1105" name="ProducerRewardPreviewMatchesMoneyStageAndSharedCardCaps" fullname="ProjectLove.Tests.StaffAndProducerTests.ProducerRewardPreviewMatchesMoneyStageAndSharedCardCaps" methodname="ProducerRewardPreviewMatchesMoneyStageAndSharedCardCaps" classname="ProjectLove.Tests.StaffAndProducerTests" runstate="Runnable" seed="1605041134" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.001478" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1106" name="ProducerUnlocksNextSprintEarlyAndCreditBelongsToThatSprint" fullname="ProjectLove.Tests.StaffAndProducerTests.ProducerUnlocksNextSprintEarlyAndCreditBelongsToThatSprint" methodname="ProducerUnlocksNextSprintEarlyAndCreditBelongsToThatSprint" classname="ProjectLove.Tests.StaffAndProducerTests" runstate="Runnable" seed="2066284128" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.002020" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1099" name="RejectedOvertimeIsAtomicAndNoOneWorksAtNightByDefault" fullname="ProjectLove.Tests.StaffAndProducerTests.RejectedOvertimeIsAtomicAndNoOneWorksAtNightByDefault" methodname="RejectedOvertimeIsAtomicAndNoOneWorksAtNightByDefault" classname="ProjectLove.Tests.StaffAndProducerTests" runstate="Runnable" seed="1084992269" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.001148" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1108" name="SaveRestoresPaidNightOrdersAndProducerStageWithoutRepeatingRewards" fullname="ProjectLove.Tests.StaffAndProducerTests.SaveRestoresPaidNightOrdersAndProducerStageWithoutRepeatingRewards" methodname="SaveRestoresPaidNightOrdersAndProducerStageWithoutRepeatingRewards" classname="ProjectLove.Tests.StaffAndProducerTests" runstate="Runnable" seed="1411817167" result="Passed" start-time="2026-10-24 13:41:56Z" end-time="2026-10-24 13:41:56Z" duration="0.009589" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/UsEr/AppData/LocalLow/DefaultCompany/Project Love\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

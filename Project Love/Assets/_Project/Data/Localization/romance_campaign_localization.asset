@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a057017eb9f44a4c950f413478c41489, type: 3}
+  m_Name: romance_campaign_localization
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.LocalizationSettingsSO
+  id: romance_campaign_localization
+  catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+  thaiFont: {fileID: 0}
+  englishFont: {fileID: 0}
+  legacyRomanceFingerprint: 8B-7C-3F-23-DA-B3-91-DD-8C-6E-4D-E4-09-76-AA-E9-41-E1-20-B7-A5-FE-81-AA-BE-10-3A-F0-A1-96-66-46
+  migrationGameplayFingerprint: 11-AB-69-B1-36-86-96-6B-51-99-D5-0E-96-85-C5-DC-13-C8-C4-B9-7B-11-84-00-F6-BF-11-A1-1F-05-8D-60

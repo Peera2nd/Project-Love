@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84993bebcb7c44a2bc311960b5d6878e, type: 3}
+  m_Name: room_rest
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.ActivityDataSO
+  id: room_rest
+  displayName: "\u0E1E\u0E31\u0E01\u0E1C\u0E48\u0E2D\u0E19 \xB7 \u0E1F\u0E37\u0E49\u0E19
+    Stamina 30"
+  actionPointCost: 0
+  staminaCost: 0
+  staminaRecovery: 30
+  elapsedPhases: 1
+  conditions: []
+  successEffects:
+  - stat: 4
+    character: {fileID: 11400000, guid: ffc192ed428ec1b4f82eaadc277ae7d1, type: 2}
+    amount: -10
+  failureEffects:
+  - stat: 4
+    character: {fileID: 11400000, guid: ffc192ed428ec1b4f82eaadc277ae7d1, type: 2}
+    amount: -5
+  successFlags: []
+  failureFlags: []

@@ -1,0 +1,466 @@
+[
+  {
+    "file": "Session026_30Day_BugFalse_TalkFalse.json",
+    "mainProgress": 100,
+    "affection": [
+      0,
+      0,
+      0
+    ],
+    "reviews": [
+      {
+        "sprint": "studio_sprint_1",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ],
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_2",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ],
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_3",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ],
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_4",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ],
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_5",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 24,
+            "required": 24
+          },
+          {
+            "streamId": "work_art",
+            "completed": 16,
+            "required": 16
+          },
+          {
+            "streamId": "work_design",
+            "completed": 16,
+            "required": 16
+          }
+        ],
+        "carryover": 0
+      }
+    ]
+  },
+  {
+    "file": "Session026_30Day_BugFalse_TalkTrue.json",
+    "mainProgress": 100,
+    "affection": [
+      60,
+      60,
+      60
+    ],
+    "reviews": [
+      {
+        "sprint": "studio_sprint_1",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ],
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_2",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ],
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_3",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ],
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_4",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ],
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_5",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 24,
+            "required": 24
+          },
+          {
+            "streamId": "work_art",
+            "completed": 16,
+            "required": 16
+          },
+          {
+            "streamId": "work_design",
+            "completed": 16,
+            "required": 16
+          }
+        ],
+        "carryover": 0
+      }
+    ]
+  },
+  {
+    "file": "Session026_30Day_BugTrue_TalkFalse.json",
+    "mainProgress": 100,
+    "affection": [
+      0,
+      0,
+      0
+    ],
+    "reviews": [
+      {
+        "sprint": "studio_sprint_1",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 104,
+            "required": 104
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ],
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_2",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ],
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_3",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ],
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_4",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ],
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_5",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 24,
+            "required": 24
+          },
+          {
+            "streamId": "work_art",
+            "completed": 16,
+            "required": 16
+          },
+          {
+            "streamId": "work_design",
+            "completed": 16,
+            "required": 16
+          }
+        ],
+        "carryover": 0
+      }
+    ]
+  },
+  {
+    "file": "Session026_30Day_BugTrue_TalkTrue.json",
+    "mainProgress": 100,
+    "affection": [
+      60,
+      60,
+      60
+    ],
+    "reviews": [
+      {
+        "sprint": "studio_sprint_1",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 104,
+            "required": 104
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ],
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_2",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ],
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_3",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ],
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_4",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ],
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_5",
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 24,
+            "required": 24
+          },
+          {
+            "streamId": "work_art",
+            "completed": 16,
+            "required": 16
+          },
+          {
+            "streamId": "work_design",
+            "completed": 16,
+            "required": 16
+          }
+        ],
+        "carryover": 0
+      }
+    ]
+  }
+]

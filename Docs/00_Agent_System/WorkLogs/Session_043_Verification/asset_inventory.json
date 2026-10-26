@@ -1,0 +1,44 @@
+{
+  "dashboardAssets": 257,
+  "romanceReachableAssets": 55,
+  "outsideRomance": 202,
+  "allTypes": {
+    "CharacterDataSO": 9,
+    "DialogueNodeSO": 132,
+    "EventDataSO": 34,
+    "ItemDataSO": 3,
+    "GameConfigSO": 6,
+    "RoomPresentationSO": 4,
+    "ProductionConfigSO": 2,
+    "PlanningConfigSO": 1,
+    "RomanceConfigSO": 1,
+    "RoomDataSO": 6,
+    "SandboxPresentationSO": 2,
+    "ActivityDataSO": 8,
+    "SprintDataSO": 5,
+    "WorkTaskSO": 40,
+    "WorkStreamSO": 4
+  },
+  "activeTypes": {
+    "EventDataSO": 6,
+    "RomanceConfigSO": 1,
+    "DialogueNodeSO": 38,
+    "ItemDataSO": 3,
+    "RoomDataSO": 2,
+    "RoomPresentationSO": 1,
+    "CharacterDataSO": 3,
+    "GameConfigSO": 1
+  },
+  "dataFolders": {
+    "Characters": 3,
+    "Dialogues": 18,
+    "Events": 6,
+    "Items": 3,
+    "Planning": 4,
+    "Romance": 52,
+    "Rooms": 2,
+    "Settings": 13,
+    "Studio": 152,
+    "WorkStreams": 4
+  }
+}

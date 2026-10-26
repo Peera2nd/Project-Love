@@ -1,0 +1,12 @@
+# Session 059 — Focused opening-story verification
+
+Nine affected cases are covered, with failed-data/fixture corrections and scoped retries. No full Edit/Play suites or scene/prefab generation.
+
+- [Nine-case run](Session058_Opening.xml): eight passed; catalog-source discovery failed for shared afternoon/evening root nodes. Passing checks cover all three companions, both response memories, all three opening-advice echoes, both appointment phases, once-only rewards, phase consumption, cheerful mood, save/reload, back rollback, late vignette and missed/declined-invitation recovery.
+- [Two affected rechecks](Session058_TwoChecks.xml): both passed after separate appointment roots and repeatable declined re-invitations. These cover catalog/source discovery, an actual nonblack 1280x720 opening-choice render, visible choice-label overflow checks, declining twice on separate days, return/acceptance and Day 8 makeup.
+- [Opening capture](Session058_OpeningChoices.png): inspected visually; the three opening options, Thai dialogue, portrait and persistent roster are readable in this isolated saved-prefab preview. This is not live owner desktop approval or inspection of every authored line.
+- [Delivered/tested byte and reference checks](source_and_content_checks.json): 110 authored/modified assets, plus test source/assembly definition, match the isolated copy and corresponding metas. Project-owned GUIDs resolve; original GUIDs retained. Rate fields, existing cast scenes, art, UI prefabs and gameplay scene were not regenerated or rewritten. 24 new events and 79 new dialogue nodes plus replacement welcome node; separate assets support direct editing/branching/recovery, not 24 mandatory scenes per playthrough.
+
+Before the useful run, one compile failed due to missing direct UI test references and two runs stopped in setup on YAML aliases/blank-string serialization. Fixed the data and assembly references, retaining runtime validation. ERR-084–088 record intake/launch/compile/data/context issues. Evidence filenames retain the initial 058 prefix; final closeout is Session 059 because concurrent narrative research took Session 058.
+
+Checks validate implemented flow and one preview, not fun, final balance, full-campaign story completeness, standalone build or legacy suite compatibility. Runtime C# and mutable save schema are unchanged; updated content fingerprints require a fresh opening trial. No user saves were deleted.

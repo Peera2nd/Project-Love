@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e2dcf16a26f4be2a227bb0d5d95b94e, type: 3}
+  m_Name: StudioPresentation
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.RoomPresentationSO
+  id: studio_presentation
+  font: {fileID: 11400000, guid: 61ed05da2ef6a384fba7a8a34f19d7d0, type: 2}
+  phaseNames:
+  - "\u0E40\u0E0A\u0E49\u0E32"
+  - "\u0E1A\u0E48\u0E32\u0E22"
+  - "\u0E40\u0E22\u0E47\u0E19"
+  - "\u0E01\u0E25\u0E32\u0E07\u0E04\u0E37\u0E19"
+  text:
+  - key: hud
+    value: "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 {0}/{1} \xB7 {2}    \u0E40\u0E07\u0E34\u0E19
+      {3}    Stamina {4}/{5}    \u0E07\u0E32\u0E19 {6}%"
+  - key: dayEnded
+    value: "\u0E2A\u0E34\u0E49\u0E19\u0E27\u0E31\u0E19"
+  - key: summary
+    value: "\u0E08\u0E1A\u0E27\u0E31\u0E19\u0E19\u0E35\u0E49\u0E41\u0E25\u0E49\u0E27
+      \xB7 \u0E2A\u0E16\u0E32\u0E19\u0E30\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E2D\u0E31\u0E15\u0E42\u0E19\u0E21\u0E31\u0E15\u0E34
+      \xB7 \u0E01\u0E14\u0E40\u0E23\u0E34\u0E48\u0E21\u0E27\u0E31\u0E19\u0E43\u0E2B\u0E21\u0E48\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E44\u0E1B\u0E15\u0E48\u0E2D"
+  - key: campaignEnded
+    value: "\u0E04\u0E23\u0E1A\u0E23\u0E30\u0E22\u0E30\u0E23\u0E2D\u0E1A\u0E40\u0E01\u0E21\u0E41\u0E25\u0E49\u0E27
+      \xB7 \u0E1A\u0E17\u0E2A\u0E23\u0E38\u0E1B\u0E40\u0E19\u0E37\u0E49\u0E2D\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E08\u0E23\u0E34\u0E07\u0E22\u0E31\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E07\u0E32\u0E19\u0E16\u0E31\u0E14\u0E44\u0E1B"
+  - key: cost
+    value: "\u0E43\u0E0A\u0E49\u0E40\u0E27\u0E25\u0E32 {0} \u0E0A\u0E48\u0E27\u0E07
+      \xB7 Stamina \u2212{1}"
+  - key: talk
+    value: "\u0E04\u0E38\u0E22\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E31\u0E21\u0E1E\u0E31\u0E19\u0E18\u0E4C"
+  - key: travel
+    value: "\u0E40\u0E14\u0E34\u0E19\u0E17\u0E32\u0E07"
+  - key: travelHint
+    value: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E09\u0E32\u0E01\u0E17\u0E35\u0E48\u0E08\u0E30\u0E44\u0E1B\n\u0E01\u0E32\u0E23\u0E2A\u0E25\u0E31\u0E1A\u0E09\u0E32\u0E01\u0E43\u0E19\u0E15\u0E49\u0E19\u0E41\u0E1A\u0E1A\u0E19\u0E35\u0E49\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E04\u0E34\u0E14\u0E40\u0E27\u0E25\u0E32\u0E40\u0E1E\u0E34\u0E48\u0E21"
+  - key: inventory
+    value: "\u0E01\u0E23\u0E30\u0E40\u0E1B\u0E4B\u0E32"
+  - key: inventoryHint
+    value: "\u0E01\u0E14\u0E43\u0E0A\u0E49\u0E44\u0E2D\u0E40\u0E17\u0E21\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E1F\u0E37\u0E49\u0E19
+      Stamina\n\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E1E\u0E25\u0E31\u0E07\u0E07\u0E32\u0E19\u0E40\u0E15\u0E47\u0E21\u0E08\u0E30\u0E22\u0E31\u0E07\u0E43\u0E0A\u0E49\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49"
+  - key: itemUse
+    value: "{0} \xD7{1} \xB7 \u0E43\u0E0A\u0E49"
+  - key: shop
+    value: "\u0E0B\u0E37\u0E49\u0E2D\u0E2A\u0E34\u0E19\u0E04\u0E49\u0E32"
+  - key: shopHint
+    value: "\u0E01\u0E14\u0E0B\u0E37\u0E49\u0E2D\u0E2A\u0E34\u0E19\u0E04\u0E49\u0E32\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E40\u0E02\u0E49\u0E32\u0E01\u0E23\u0E30\u0E40\u0E1B\u0E4B\u0E32\n\u0E15\u0E49\u0E19\u0E41\u0E1A\u0E1A\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E04\u0E34\u0E14\u0E40\u0E27\u0E25\u0E32\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E15\u0E48\u0E2D\u0E01\u0E32\u0E23\u0E0B\u0E37\u0E49\u0E2D"
+  - key: itemBuy
+    value: "{0} \xB7 \u0E23\u0E32\u0E04\u0E32 {1}"
+  - key: options
+    value: "\u0E40\u0E21\u0E19\u0E39"
+  - key: save
+    value: "\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E40\u0E01\u0E21"
+  - key: load
+    value: "\u0E42\u0E2B\u0E25\u0E14\u0E17\u0E35\u0E48\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01"
+  - key: loadAuto
+    value: "\u0E42\u0E2B\u0E25\u0E14\u0E2D\u0E31\u0E15\u0E42\u0E19\u0E21\u0E31\u0E15\u0E34"
+  - key: restart
+    value: "\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19\u0E43\u0E2B\u0E21\u0E48"
+  - key: saved
+    value: "\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E41\u0E25\u0E49\u0E27"
+  - key: loaded
+    value: "\u0E42\u0E2B\u0E25\u0E14\u0E41\u0E25\u0E49\u0E27"
+  - key: autoSaved
+    value: "\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E2D\u0E31\u0E15\u0E42\u0E19\u0E21\u0E31\u0E15\u0E34\u0E41\u0E25\u0E49\u0E27"
+  - key: saveFailed
+    value: "\u0E22\u0E31\u0E07\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49"
+  - key: loadFailed
+    value: "\u0E42\u0E2B\u0E25\u0E14\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49 \xB7 \u0E44\u0E21\u0E48\u0E21\u0E35\u0E40\u0E0B\u0E1F\u0E2B\u0E23\u0E37\u0E2D\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E44\u0E21\u0E48\u0E15\u0E23\u0E07"
+  - key: continue
+    value: "\u0E15\u0E48\u0E2D / \u0E41\u0E2A\u0E14\u0E07\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14"
+  - key: defer
+    value: "\u0E04\u0E38\u0E22\u0E15\u0E48\u0E2D\u0E20\u0E32\u0E22\u0E2B\u0E25\u0E31\u0E07
+      \xB7 \u0E04\u0E37\u0E19\u0E2A\u0E16\u0E32\u0E19\u0E30"
+  - key: endDay
+    value: "\u0E08\u0E1A\u0E27\u0E31\u0E19\u0E19\u0E35\u0E49"
+  - key: nextDay
+    value: "\u0E40\u0E23\u0E34\u0E48\u0E21\u0E27\u0E31\u0E19\u0E43\u0E2B\u0E21\u0E48"
+  - key: characterStats
+    value: "\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E31\u0E21\u0E1E\u0E31\u0E19\u0E18\u0E4C
+      {0}/100\n\u0E04\u0E27\u0E32\u0E21\u0E40\u0E04\u0E23\u0E35\u0E22\u0E14 {1}/100"
+  - key: dailyTalk
+    value: "\u0E1E\u0E39\u0E14\u0E04\u0E38\u0E22 \xB7 Stamina \u2212{0} \xB7 \u0E2A\u0E31\u0E21\u0E1E\u0E31\u0E19\u0E18\u0E4C
+      +{1}"
+  - key: repeatTalk
+    value: "\u0E1E\u0E39\u0E14\u0E04\u0E38\u0E22\u0E0B\u0E49\u0E33 \xB7 \u0E1F\u0E23\u0E35
+      \xB7 \u0E44\u0E21\u0E48\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E41\u0E15\u0E49\u0E21"
+  - key: workTogether
+    value: "\u0E17\u0E33\u0E07\u0E32\u0E19\u0E14\u0E49\u0E27\u0E22\u0E01\u0E31\u0E19"
+  - key: unavailableWork
+    value: "\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E21\u0E35\u0E07\u0E32\u0E19\u0E17\u0E35\u0E48\u0E1C\u0E39\u0E01\u0E44\u0E27\u0E49"
+  - key: gift
+    value: "\u0E43\u0E2B\u0E49\u0E02\u0E2D\u0E07\u0E02\u0E27\u0E31\u0E0D"
+  - key: giftHint
+    value: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E02\u0E2D\u0E07\u0E08\u0E32\u0E01\u0E01\u0E23\u0E30\u0E40\u0E1B\u0E4B\u0E32
+      \xB7 \u0E44\u0E21\u0E48\u0E1C\u0E48\u0E32\u0E19\u0E40\u0E27\u0E25\u0E32\n\u0E43\u0E2B\u0E49\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E2D\u0E48\u0E32\u0E19\u0E04\u0E33\u0E15\u0E2D\u0E1A\u0E08\u0E1A\n\u0E01\u0E14\u0E25\u0E39\u0E01\u0E28\u0E23\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E01\u0E25\u0E31\u0E1A"
+  - key: noGifts
+    value: "\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E21\u0E35\u0E02\u0E2D\u0E07\u0E02\u0E27\u0E31\u0E0D\u0E43\u0E19\u0E01\u0E23\u0E30\u0E40\u0E1B\u0E4B\u0E32\u0E04\u0E48\u0E30\n\u0E01\u0E14\u0E25\u0E39\u0E01\u0E28\u0E23\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E01\u0E25\u0E31\u0E1A"
+  - key: giftItem
+    value: "\u0E21\u0E2D\u0E1A {0} \xD7{1}"
+  - key: greeting
+    value: "\u0E27\u0E31\u0E19\u0E19\u0E35\u0E49\u0E21\u0E35\u0E2D\u0E30\u0E44\u0E23\u0E2D\u0E22\u0E32\u0E01\u0E17\u0E33\u0E14\u0E49\u0E27\u0E22\u0E01\u0E31\u0E19?"
+  - key: workStream
+    value: "{0} \xB7 \u0E2A\u0E30\u0E2A\u0E21 {1}"
+  - key: blocked
+    value: "\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E21\u0E35\u0E04\u0E33\u0E15\u0E2D\u0E1A\u0E17\u0E35\u0E48\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E44\u0E14\u0E49
+      \xB7 \u0E01\u0E14\u0E25\u0E39\u0E01\u0E28\u0E23\u0E01\u0E25\u0E31\u0E1A\u0E44\u0E14\u0E49"
+  - key: optionsHint
+    value: "\u0E40\u0E0B\u0E1F\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E2D\u0E22\u0E39\u0E48\u0E43\u0E19\u0E2B\u0E49\u0E2D\u0E07\n\u0E40\u0E23\u0E34\u0E48\u0E21\u0E43\u0E2B\u0E21\u0E48\u0E08\u0E30\u0E40\u0E01\u0E47\u0E1A\u0E44\u0E1F\u0E25\u0E4C\u0E40\u0E0B\u0E1F\u0E40\u0E14\u0E34\u0E21\u0E44\u0E27\u0E49"
+  - key: board
+    value: "\u0E1A\u0E2D\u0E23\u0E4C\u0E14 Sprint"
+  - key: passPhase
+    value: "\u0E1C\u0E48\u0E32\u0E19 1 \u0E0A\u0E48\u0E27\u0E07"
+  - key: producer
+    value: "\u0E07\u0E32\u0E19 Producer"
+  - key: close
+    value: "\u0E01\u0E25\u0E31\u0E1A\u0E2B\u0E49\u0E2D\u0E07"
+  - key: review
+    value: "\u0E15\u0E23\u0E27\u0E08\u0E23\u0E31\u0E1A\u0E07\u0E32\u0E19\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E2A\u0E48\u0E07
+      \xB7 \u0E44\u0E21\u0E48\u0E43\u0E0A\u0E49\u0E40\u0E27\u0E25\u0E32"
+  - key: priority
+    value: "\u0E17\u0E33\u0E43\u0E1A\u0E19\u0E35\u0E49\u0E01\u0E48\u0E2D\u0E19"
+  - key: backlog
+    value: "\u0E23\u0E2D\u0E17\u0E33"
+  - key: inProgress
+    value: "\u0E01\u0E33\u0E25\u0E31\u0E07\u0E17\u0E33 / \u0E15\u0E34\u0E14\u0E02\u0E31\u0E14"
+  - key: reviewColumn
+    value: "\u0E23\u0E2D\u0E15\u0E23\u0E27\u0E08"
+  - key: done
+    value: "\u0E2A\u0E48\u0E07\u0E41\u0E25\u0E49\u0E27"
+  - key: decisionBlock
+    value: "\u0E23\u0E2D Producer \u0E40\u0E04\u0E25\u0E35\u0E22\u0E23\u0E4C\u0E01\u0E32\u0E23\u0E15\u0E31\u0E14\u0E2A\u0E34\u0E19\u0E43\u0E08"
+  - key: dependencyBlock
+    value: "\u0E23\u0E2D\u0E2A\u0E48\u0E07\u0E07\u0E32\u0E19\u0E17\u0E35\u0E48\u0E40\u0E1B\u0E47\u0E19\u0E40\u0E07\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E02"
+  - key: absent
+    value: "\u0E1E\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19\u0E44\u0E21\u0E48\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E17\u0E33\u0E07\u0E32\u0E19"
+  - key: unavailable
+    value: "\u0E22\u0E31\u0E07\u0E17\u0E33\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E43\u0E19\u0E15\u0E2D\u0E19\u0E19\u0E35\u0E49"
+  - key: noTask
+    value: "\u0E07\u0E32\u0E19\u0E1B\u0E31\u0E08\u0E08\u0E38\u0E1A\u0E31\u0E19\u0E04\u0E23\u0E1A\u0E41\u0E25\u0E49\u0E27
+      \xB7 \u0E15\u0E23\u0E27\u0E08\u0E23\u0E31\u0E1A\u0E07\u0E32\u0E19\u0E2B\u0E23\u0E37\u0E2D\u0E23\u0E2D\u0E40\u0E1B\u0E34\u0E14\u0E07\u0E32\u0E19\u0E43\u0E2B\u0E21\u0E48"
+  - key: planActive
+    value: "\u0E41\u0E1C\u0E19\u0E1B\u0E23\u0E30\u0E2A\u0E32\u0E19\u0E07\u0E32\u0E19\u0E40\u0E14\u0E34\u0E21\u0E22\u0E31\u0E07\u0E21\u0E35\u0E1C\u0E25"
+  - key: noDecision
+    value: "\u0E44\u0E21\u0E48\u0E21\u0E35\u0E01\u0E32\u0E23\u0E15\u0E31\u0E14\u0E2A\u0E34\u0E19\u0E43\u0E08\u0E17\u0E35\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E40\u0E04\u0E25\u0E35\u0E22\u0E23\u0E4C"
+  - key: lowEnergy
+    value: "Stamina \u0E44\u0E21\u0E48\u0E1E\u0E2D"
+  - key: actionReport
+    value: "\u0E43\u0E0A\u0E49 Stamina {0} \xB7 \u0E40\u0E27\u0E25\u0E32\u0E40\u0E14\u0E34\u0E19
+      1 \u0E0A\u0E48\u0E27\u0E07\n{1}"
+  - key: workerReport
+    value: "{0}: \u0E0A\u0E48\u0E27\u0E22 +{1} / \u0E17\u0E35\u0E21 +{2} \xB7 \u0E40\u0E04\u0E23\u0E35\u0E22\u0E14
+      {3} \u2192 {4}"
+  - key: sprintHeader
+    value: "{0} \xB7 \u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 {1}\u2013{2}\n{3}"
+  - key: quota
+    value: '{0} {1}/{2}'
+  - key: card
+    value: "{0}\n{1} \xB7 {2}/{3}\n{4}"
+  - key: characterStatus
+    value: "\u0E2A\u0E31\u0E21\u0E1E\u0E31\u0E19\u0E18\u0E4C {0}/100 \xB7 \u0E40\u0E04\u0E23\u0E35\u0E22\u0E14
+      {1}/100\n{2}\n{3}"
+  - key: taskStatus
+    value: "{0} \xB7 {1}/{2}"
+  - key: helpForecast
+    value: "\u0E0A\u0E48\u0E27\u0E22 +{0} / \u0E17\u0E35\u0E21 +{1} \u2192 {2}/{3}\nStamina
+      \u2212{4} \xB7 1 \u0E0A\u0E48\u0E27\u0E07 \xB7 \u0E40\u0E04\u0E23\u0E35\u0E22\u0E14
+      {5} \u2192 {6}"
+  - key: workButton
+    value: "\u0E0A\u0E48\u0E27\u0E22\u0E07\u0E32\u0E19 \xB7 Stamina \u2212{0} \xB7
+      1 \u0E0A\u0E48\u0E27\u0E07"
+  - key: coordinate
+    value: "\u0E1B\u0E23\u0E30\u0E2A\u0E32\u0E19\u0E17\u0E35\u0E21 \xB7 Stamina \u2212{0}
+      \xB7 1 \u0E0A\u0E48\u0E27\u0E07"
+  - key: coordinateHint
+    value: "\u0E17\u0E35\u0E21\u0E44\u0E14\u0E49 +{0} \u0E15\u0E48\u0E2D\u0E04\u0E19
+      \u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A {1} \u0E0A\u0E48\u0E27\u0E07\u0E17\u0E33\u0E07\u0E32\u0E19
+      \xB7 \u0E40\u0E2B\u0E25\u0E37\u0E2D {2} \u0E0A\u0E48\u0E27\u0E07"
+  - key: clarify
+    value: "\u0E40\u0E04\u0E25\u0E35\u0E22\u0E23\u0E4C: {0}\nStamina \u2212{1} \xB7
+      1 \u0E0A\u0E48\u0E27\u0E07"
+  - key: care
+    value: "\u0E43\u0E2B\u0E49 {0} \u0E1E\u0E31\u0E01 \xB7 Stamina \u2212{1}\n1 \u0E0A\u0E48\u0E27\u0E07
+      \xB7 \u0E40\u0E04\u0E23\u0E35\u0E22\u0E14 \u2212{2} \xB7 \u0E2B\u0E22\u0E38\u0E14\u0E07\u0E32\u0E19\u0E0A\u0E48\u0E27\u0E07\u0E19\u0E35\u0E49"
+  - key: reviewResult
+    value: "\u0E1C\u0E25 {0}: {1}\n{2} \xB7 \u0E07\u0E32\u0E19\u0E04\u0E49\u0E32\u0E07
+      {3} \u0E43\u0E1A"
+  - key: passed
+    value: "\u0E1C\u0E48\u0E32\u0E19\u0E40\u0E1B\u0E49\u0E32"
+  - key: missed
+    value: "\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E04\u0E23\u0E1A\u0E40\u0E1B\u0E49\u0E32"
+  - key: noReview
+    value: "\u0E2A\u0E34\u0E49\u0E19\u0E27\u0E31\u0E19\u0E1B\u0E34\u0E14 Sprint \u0E08\u0E30\u0E15\u0E23\u0E27\u0E08\u0E23\u0E31\u0E1A\u0E2D\u0E31\u0E15\u0E42\u0E19\u0E21\u0E31\u0E15\u0E34\u0E41\u0E25\u0E30\u0E2A\u0E23\u0E38\u0E1B\u0E1C\u0E25"
+  - key: eventButton
+    value: "\u0E17\u0E14\u0E25\u0E2D\u0E07: {0}"
+  - key: assignment
+    value: "\u0E1C\u0E39\u0E49\u0E23\u0E31\u0E1A\u0E1C\u0E34\u0E14\u0E0A\u0E2D\u0E1A:
+      {0}"
+  - key: teamStatus
+    value: "{0} \xB7 \u0E40\u0E04\u0E23\u0E35\u0E22\u0E14 {1} \xB7 \u0E1B\u0E01\u0E15\u0E34
+      {2}/\u0E0A\u0E48\u0E27\u0E07"
+  - key: overview
+    value: "\u0E17\u0E35\u0E21\u0E17\u0E33\u0E07\u0E32\u0E19\u0E40\u0E0A\u0E49\u0E32
+      \u0E1A\u0E48\u0E32\u0E22 \u0E40\u0E22\u0E47\u0E19 \xB7 \u0E01\u0E25\u0E32\u0E07\u0E04\u0E37\u0E19\u0E1E\u0E31\u0E01\n\u0E01\u0E14\u0E15\u0E31\u0E27\u0E25\u0E30\u0E04\u0E23\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E0A\u0E48\u0E27\u0E22\u0E07\u0E32\u0E19
+      \u0E04\u0E38\u0E22 \u0E2B\u0E23\u0E37\u0E2D\u0E43\u0E2B\u0E49\u0E02\u0E2D\u0E07\n\u0E01\u0E14\u0E1A\u0E2D\u0E23\u0E4C\u0E14\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E14\u0E39\u0E01\u0E32\u0E23\u0E4C\u0E14\u0E41\u0E25\u0E30\u0E07\u0E32\u0E19
+      Producer"
+  - key: overviewTitle
+    value: "\u0E2A\u0E15\u0E39\u0E14\u0E34\u0E42\u0E2D\u0E27\u0E31\u0E19\u0E19\u0E35\u0E49"
+  - key: workerRestButton
+    value: "\u0E43\u0E2B\u0E49\u0E1E\u0E31\u0E01\u0E0A\u0E48\u0E27\u0E07\u0E19\u0E35\u0E49
+      \xB7 \u0E40\u0E04\u0E23\u0E35\u0E22\u0E14 \u2212{0}\n\u0E44\u0E21\u0E48\u0E43\u0E0A\u0E49\u0E40\u0E27\u0E25\u0E32
+      \xB7 \u0E07\u0E14\u0E07\u0E32\u0E19\u0E0A\u0E48\u0E27\u0E07\u0E19\u0E35\u0E49"
+  - key: overtimeButton
+    value: "\u0E02\u0E2D\u0E43\u0E2B\u0E49 OT \xB7 \u0E40\u0E07\u0E34\u0E19 \u2212{0}
+      \xB7 \u0E40\u0E04\u0E23\u0E35\u0E22\u0E14 +{1}\n\u0E44\u0E21\u0E48\u0E43\u0E0A\u0E49\u0E40\u0E27\u0E25\u0E32
+      \xB7 \u0E17\u0E33\u0E07\u0E32\u0E19\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E08\u0E1A\u0E01\u0E25\u0E32\u0E07\u0E04\u0E37\u0E19"
+  - key: orderAlready
+    value: "\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E07\u0E32\u0E19\u0E0A\u0E48\u0E27\u0E07\u0E19\u0E35\u0E49\u0E41\u0E25\u0E49\u0E27"
+  - key: noStress
+    value: "\u0E44\u0E21\u0E48\u0E21\u0E35\u0E04\u0E27\u0E32\u0E21\u0E40\u0E04\u0E23\u0E35\u0E22\u0E14\u0E17\u0E35\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E1F\u0E37\u0E49\u0E19\u0E1F\u0E39"
+  - key: restOrdered
+    value: "\u0E1E\u0E31\u0E01\u0E0A\u0E48\u0E27\u0E07\u0E19\u0E35\u0E49\u0E41\u0E25\u0E49\u0E27
+      \xB7 \u0E25\u0E14\u0E04\u0E27\u0E32\u0E21\u0E40\u0E04\u0E23\u0E35\u0E22\u0E14\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E40\u0E27\u0E25\u0E32\u0E1C\u0E48\u0E32\u0E19
+      \xB7 \u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E07\u0E32\u0E19"
+  - key: overtimeOrdered
+    value: "\u0E15\u0E01\u0E25\u0E07 OT \u0E41\u0E25\u0E49\u0E27 \xB7 \u0E08\u0E48\u0E32\u0E22\u0E40\u0E07\u0E34\u0E19\u0E41\u0E25\u0E49\u0E27
+      \xB7 \u0E17\u0E33\u0E07\u0E32\u0E19\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E08\u0E1A\u0E01\u0E25\u0E32\u0E07\u0E04\u0E37\u0E19"
+  - key: nightOnly
+    value: "\u0E02\u0E2D OT \u0E44\u0E14\u0E49\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E01\u0E25\u0E32\u0E07\u0E04\u0E37\u0E19"
+  - key: lowMoney
+    value: "\u0E40\u0E07\u0E34\u0E19\u0E44\u0E21\u0E48\u0E1E\u0E2D\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A
+      OT"
+  - key: producerFinished
+    value: "\u0E07\u0E32\u0E19 Producer \u0E17\u0E38\u0E01\u0E02\u0E31\u0E49\u0E19\u0E04\u0E23\u0E1A\u0E41\u0E25\u0E49\u0E27"
+  - key: producerStage
+    value: "Producer \xB7 {0}\n\u0E04\u0E27\u0E32\u0E21\u0E04\u0E37\u0E1A\u0E2B\u0E19\u0E49\u0E32
+      {1}/{2}"
+  - key: producerWork
+    value: "\u0E17\u0E33\u0E07\u0E32\u0E19 Producer \xB7 Stamina \u2212{0}\n1 \u0E0A\u0E48\u0E27\u0E07
+      \xB7 \u0E40\u0E07\u0E34\u0E19 +{1} \xB7 \u0E07\u0E32\u0E19\u0E15\u0E31\u0E27\u0E40\u0E2D\u0E07
+      +{2}\n\u0E0A\u0E48\u0E27\u0E22\u0E2A\u0E39\u0E07\u0E2A\u0E38\u0E14\u0E1D\u0E48\u0E32\u0E22\u0E25\u0E30
+      +{3}"
+  - key: producerResult
+    value: "\u0E40\u0E07\u0E34\u0E19 +{0} \xB7 Producer +{1}\n\u0E42\u0E1A\u0E19\u0E31\u0E2A:
+      {2}"
+  - key: nightOff
+    value: "\u0E01\u0E25\u0E32\u0E07\u0E04\u0E37\u0E19\u0E1E\u0E31\u0E01 \xB7 \u0E02\u0E2D
+      OT \u0E2B\u0E23\u0E37\u0E2D\u0E04\u0E38\u0E22\u0E44\u0E14\u0E49"
+  - key: unreleased
+    value: "\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E1B\u0E25\u0E14\u0E25\u0E47\u0E2D\u0E04
+      \xB7 \u0E17\u0E33\u0E07\u0E32\u0E19 Producer \u0E02\u0E2D\u0E07\u0E02\u0E31\u0E49\u0E19\u0E01\u0E48\u0E2D\u0E19\u0E2B\u0E19\u0E49\u0E32\u0E43\u0E2B\u0E49\u0E40\u0E15\u0E47\u0E21"
+  - key: otForecast
+    value: "OT \u0E40\u0E21\u0E37\u0E48\u0E2D\u0E08\u0E1A\u0E01\u0E25\u0E32\u0E07\u0E04\u0E37\u0E19:
+      +{0} \xB7 \u0E40\u0E04\u0E23\u0E35\u0E22\u0E14 {1} \u2192 {2} \xB7 \u0E40\u0E07\u0E34\u0E19
+      \u2212{3}"
+  - key: eventBubble
+    value: '!'
+  - key: hint
+    value: "\u0E1A\u0E31\u0E1A\u0E40\u0E1A\u0E34\u0E25 ! = \u0E2D\u0E35\u0E40\u0E27\u0E49\u0E19
+      \xB7 \u0E01\u0E14\u0E15\u0E31\u0E27\u0E25\u0E30\u0E04\u0E23\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E38\u0E22/\u0E0A\u0E48\u0E27\u0E22\u0E07\u0E32\u0E19
+      \xB7 \u0E42\u0E15\u0E4A\u0E30\u0E40\u0E1B\u0E34\u0E14\u0E1A\u0E2D\u0E23\u0E4C\u0E14
+      Sprint"
+  - key: hudDay
+    value: "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 {0}/{1} \xB7 {2}"
+  - key: hudMoney
+    value: "\u0E40\u0E07\u0E34\u0E19 {0}"
+  - key: hudEnergy
+    value: Stamina {0}/{1}
+  - key: hudProgress
+    value: "\u0E07\u0E32\u0E19 {0}%"
+  - key: affectionShort
+    value: "\u0E2A\u0E31\u0E21\u0E1E\u0E31\u0E19\u0E18\u0E4C {0}/100"
+  - key: stressShort
+    value: "\u0E40\u0E04\u0E23\u0E35\u0E22\u0E14 {0}/100"
+  - key: workShort
+    value: "\u0E07\u0E32\u0E19 {0}/{1}"
+  - key: dependencyReady
+    value: "\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E17\u0E33"
+  - key: dependencyWaiting
+    value: "\u0E23\u0E2D\u0E15\u0E49\u0E19\u0E17\u0E32\u0E07"
+  - key: dependencyReview
+    value: "\u0E23\u0E2D\u0E15\u0E23\u0E27\u0E08\u0E23\u0E31\u0E1A"
+  - key: dependencyAccepted
+    value: "\u0E2A\u0E48\u0E07\u0E41\u0E25\u0E49\u0E27"
+  - key: dependencyIndependent
+    value: "\u0E07\u0E32\u0E19\u0E2D\u0E34\u0E2A\u0E23\u0E30 \xB7 \u0E44\u0E21\u0E48\u0E23\u0E2D\u0E15\u0E49\u0E19\u0E17\u0E32\u0E07"
+  - key: dependencyNeeds
+    value: "\u0E23\u0E2D {0} \xB7 {1}"
+  - key: dependencyTitle
+    value: "\u0E23\u0E32\u0E22\u0E25\u0E30\u0E40\u0E2D\u0E35\u0E22\u0E14\u0E07\u0E32\u0E19"
+  - key: dependencyBefore
+    value: "\u0E15\u0E49\u0E2D\u0E07\u0E23\u0E2D\u0E2A\u0E48\u0E07\u0E07\u0E32\u0E19\u0E15\u0E49\u0E19\u0E17\u0E32\u0E07"
+  - key: dependencyAfter
+    value: "\u0E2A\u0E48\u0E07\u0E43\u0E1A\u0E19\u0E35\u0E49\u0E41\u0E25\u0E49\u0E27\u0E1B\u0E25\u0E14\u0E07\u0E32\u0E19\u0E15\u0E48\u0E2D"
+  - key: dependencyOwner
+    value: "{0} \xB7 {1}/{2}"
+  - key: dependencyJump
+    value: "\u0E14\u0E39 {0}"
+  - key: dependencyProgress
+    value: "{0}/{1} \xB7 {2}"
+  - key: dependencyReviewHint
+    value: "\u0E17\u0E33\u0E04\u0E23\u0E1A\u0E41\u0E25\u0E49\u0E27\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E14\u0E15\u0E23\u0E27\u0E08\u0E23\u0E31\u0E1A
+      \u0E08\u0E36\u0E07\u0E1B\u0E25\u0E14\u0E07\u0E32\u0E19\u0E15\u0E48\u0E2D\u0E44\u0E14\u0E49"
+  - key: dependencyNoneAfter
+    value: "\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E21\u0E35\u0E07\u0E32\u0E19\u0E15\u0E48\u0E2D\u0E17\u0E35\u0E48\u0E23\u0E2D\u0E43\u0E1A\u0E19\u0E35\u0E49"
+  - key: dependencyChoose
+    value: "\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E17\u0E33\u0E2D\u0E35\u0E01 {0} \u0E43\u0E1A"
+  - key: dependencyInspect
+    value: "\u0E23\u0E32\u0E22\u0E25\u0E30\u0E40\u0E2D\u0E35\u0E22\u0E14"
+  - key: dependencyFocus
+    value: "\u0E01\u0E25\u0E31\u0E1A\u0E07\u0E32\u0E19 Producer"
+  - key: dependencyProducer
+    value: "\u0E23\u0E2D Producer \u0E40\u0E04\u0E25\u0E35\u0E22\u0E23\u0E4C"
+  - key: dependencyStage
+    value: "\u0E23\u0E2D\u0E1B\u0E25\u0E14 Sprint"
+  - key: dependencyDone
+    value: "\u0E2A\u0E48\u0E07\u0E15\u0E49\u0E19\u0E17\u0E32\u0E07\u0E41\u0E25\u0E49\u0E27"
+  - key: boardHint
+    value: "\u0E07\u0E32\u0E19\u0E23\u0E2D: \u0E01\u0E14\u0E23\u0E32\u0E22\u0E25\u0E30\u0E40\u0E2D\u0E35\u0E22\u0E14\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E14\u0E39\u0E15\u0E49\u0E19\u0E17\u0E32\u0E07
+      \xB7 \u0E40\u0E25\u0E37\u0E2D\u0E01\u0E07\u0E32\u0E19\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E17\u0E33\u0E23\u0E30\u0E2B\u0E27\u0E48\u0E32\u0E07\u0E23\u0E2D
+      \xB7 \u0E15\u0E23\u0E27\u0E08\u0E23\u0E31\u0E1A\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E1B\u0E25\u0E14\u0E07\u0E32\u0E19\u0E15\u0E48\u0E2D"
+  - key: eventHint
+    value: "{0}\n\u0E40\u0E02\u0E49\u0E32\u0E16\u0E36\u0E07\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48
+      {1}\u2013{2} \xB7 \u0E40\u0E27\u0E25\u0E32 {3} \u0E0A\u0E48\u0E27\u0E07 \xB7
+      Stamina {4}"
+  - key: restBadgeHint
+    value: "{0}: \u0E1E\u0E31\u0E01\u0E0A\u0E48\u0E27\u0E07\u0E19\u0E35\u0E49 \u0E07\u0E32\u0E19\u0E44\u0E21\u0E48\u0E40\u0E14\u0E34\u0E19
+      \u0E25\u0E14\u0E04\u0E27\u0E32\u0E21\u0E40\u0E04\u0E23\u0E35\u0E22\u0E14\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E1C\u0E48\u0E32\u0E19\u0E0A\u0E48\u0E27\u0E07\u0E40\u0E27\u0E25\u0E32"
+  - key: otBadgeHint
+    value: "{0}: \u0E22\u0E37\u0E19\u0E22\u0E31\u0E19 OT \u0E41\u0E25\u0E49\u0E27
+      \u0E07\u0E32\u0E19\u0E40\u0E14\u0E34\u0E19\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E08\u0E1A\u0E01\u0E25\u0E32\u0E07\u0E04\u0E37\u0E19"
+  - key: sheetHint
+    value: "\u0E2A\u0E35\u0E17\u0E36\u0E1A = \u0E07\u0E32\u0E19\u0E1B\u0E31\u0E08\u0E08\u0E38\u0E1A\u0E31\u0E19
+      \xB7 \u0E25\u0E32\u0E22\u0E40\u0E09\u0E35\u0E22\u0E07 = \u0E04\u0E32\u0E14\u0E01\u0E32\u0E23\u0E13\u0E4C\u0E2B\u0E25\u0E31\u0E07\u0E0A\u0E48\u0E27\u0E22
+      \u0E23\u0E27\u0E21\u0E07\u0E32\u0E19\u0E17\u0E35\u0E21 \xB7 \u0E15\u0E31\u0E27\u0E40\u0E25\u0E02\u0E40\u0E1B\u0E47\u0E19\u0E04\u0E48\u0E32\u0E17\u0E35\u0E48\u0E04\u0E33\u0E19\u0E27\u0E13\u0E41\u0E25\u0E49\u0E27"
+  - key: dependencyTip
+    value: "\u0E15\u0E23\u0E27\u0E08\u0E23\u0E31\u0E1A\u0E07\u0E32\u0E19\u0E15\u0E49\u0E19\u0E17\u0E32\u0E07\u0E01\u0E48\u0E2D\u0E19\u0E40\u0E23\u0E34\u0E48\u0E21\u0E07\u0E32\u0E19\u0E15\u0E48\u0E2D
+      \u0E01\u0E14\u0E23\u0E32\u0E22\u0E25\u0E30\u0E40\u0E2D\u0E35\u0E22\u0E14\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E14\u0E39\u0E40\u0E08\u0E49\u0E32\u0E02\u0E2D\u0E07\u0E07\u0E32\u0E19\u0E41\u0E25\u0E30\u0E04\u0E27\u0E32\u0E21\u0E04\u0E37\u0E1A\u0E2B\u0E19\u0E49\u0E32"
+  - key: newRunHint
+    value: "\u0E21\u0E35\u0E01\u0E32\u0E23\u0E1B\u0E23\u0E31\u0E1A\u0E2A\u0E32\u0E22\u0E07\u0E32\u0E19
+      S1 \u0E40\u0E23\u0E34\u0E48\u0E21\u0E23\u0E2D\u0E1A\u0E43\u0E2B\u0E21\u0E48\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E43\u0E0A\u0E49\u0E41\u0E1C\u0E19\u0E07\u0E32\u0E19\u0E19\u0E35\u0E49"
+  - key: volunteerChoice
+    value: "\u0E40\u0E07\u0E34\u0E19 -{0} \xB7 \u0E40\u0E27\u0E25\u0E32\u0E44\u0E21\u0E48\u0E1C\u0E48\u0E32\u0E19\n\u0E07\u0E32\u0E19\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E08\u0E1A\u0E04\u0E37\u0E19
+      +{3} \xB7 \u0E40\u0E04\u0E23\u0E35\u0E22\u0E14 {4} \u2192 {5}"
+  - key: sharedNightChoice
+    value: "\u0E40\u0E07\u0E34\u0E19 -{0} \xB7 Stamina -{1} \xB7 \u0E08\u0E1A\u0E04\u0E37\u0E19\u0E19\u0E35\u0E49\n\u0E0A\u0E48\u0E27\u0E22
+      +{2} / \u0E17\u0E35\u0E21 +{3} \xB7 \u0E2A\u0E19\u0E34\u0E17 +{6} \xB7 \u0E40\u0E04\u0E23\u0E35\u0E22\u0E14
+      {4} \u2192 {5}"
+  - key: sharedNightResult
+    value: "\u0E2D\u0E22\u0E39\u0E48\u0E0A\u0E48\u0E27\u0E22 {0} \xB7 {1}\n\u0E0A\u0E48\u0E27\u0E22
+      +{2} / \u0E17\u0E35\u0E21 +{3} \xB7 Stamina -{4} / \u0E40\u0E07\u0E34\u0E19
+      -{5}"
+  - key: nightHelpButton
+    value: "\u0E2D\u0E22\u0E39\u0E48\u0E0A\u0E48\u0E27\u0E22 \xB7 Stamina \u2212{0}
+      \xB7 1 \u0E04\u0E37\u0E19 \xB7 \u0E2A\u0E31\u0E21\u0E1E\u0E31\u0E19\u0E18\u0E4C
+      +{1}"
+  icons:
+  - key: art
+    sprite: {fileID: 21300000, guid: 159e345dab20a1a4a967d0f4f198ba2f, type: 3}
+  - key: back
+    sprite: {fileID: 21300000, guid: 36101d22ffd80c94fb41eaefe85c714b, type: 3}
+  - key: bag
+    sprite: {fileID: 21300000, guid: fdc64dd1a51fdc54ca264e5afe5979f7, type: 3}
+  - key: blocked
+    sprite: {fileID: 21300000, guid: 81f48d7d72a378f468d6876eadb11336, type: 3}
+  - key: bug
+    sprite: {fileID: 21300000, guid: 7e7a3aeb8cb6276408a031b0ed42c7ae, type: 3}
+  - key: close
+    sprite: {fileID: 21300000, guid: 1c8dc03c6ce53024586f0e7199a0f36d, type: 3}
+  - key: code
+    sprite: {fileID: 21300000, guid: aed99b6badad86d4c8cc4cc3f2bdffc5, type: 3}
+  - key: day
+    sprite: {fileID: 21300000, guid: 60b76403845501841a5832a9bccf08a2, type: 3}
+  - key: dependency
+    sprite: {fileID: 21300000, guid: ebd07b97768baa54bb62ee7baeb71eaa, type: 3}
+  - key: design
+    sprite: {fileID: 21300000, guid: 90ef3cdaa3f620a4a8152ff5656a93b1, type: 3}
+  - key: done
+    sprite: {fileID: 21300000, guid: 926c8f06c89a1b24889bc565c67f4ff3, type: 3}
+  - key: gift
+    sprite: {fileID: 21300000, guid: 2407849ef525c294285c91d467c87418, type: 3}
+  - key: heart
+    sprite: {fileID: 21300000, guid: a5ad8208801c7e945900aa01080044d0, type: 3}
+  - key: info
+    sprite: {fileID: 21300000, guid: fcf1a3984070bfe4a93cd89446b78d96, type: 3}
+  - key: item
+    sprite: {fileID: 21300000, guid: 65528bb17cb20c649b091c23cdab89c4, type: 3}
+  - key: load
+    sprite: {fileID: 21300000, guid: ac40e4ede5df0e8469a4679226e33815, type: 3}
+  - key: locked
+    sprite: {fileID: 21300000, guid: ee589de4ad13aaf4ebae5d357d303580, type: 3}
+  - key: money
+    sprite: {fileID: 21300000, guid: 54537b99e00a4324c9e025abc367edc1, type: 3}
+  - key: night
+    sprite: {fileID: 21300000, guid: 9c8a12b7803dc024588372abd4d56a39, type: 3}
+  - key: overtime
+    sprite: {fileID: 21300000, guid: 85b731a37127e1d428c89208008fc9ec, type: 3}
+  - key: priority
+    sprite: {fileID: 21300000, guid: 1dcda3db033bac14b96c67e7f40b75ea, type: 3}
+  - key: producer
+    sprite: {fileID: 21300000, guid: 2e9de4fc203f4e54ab8a79b6700ebcc0, type: 3}
+  - key: progress
+    sprite: {fileID: 21300000, guid: 1c43c795100ea3f44a78cc1a552641aa, type: 3}
+  - key: rest
+    sprite: {fileID: 21300000, guid: 640a19389607e5544886739e4ef27475, type: 3}
+  - key: review
+    sprite: {fileID: 21300000, guid: 831f8b4189103fd4598fbed89b83ee25, type: 3}
+  - key: save
+    sprite: {fileID: 21300000, guid: 9a1e8e5e38fbf9d41847b1b806ed7ddf, type: 3}
+  - key: settings
+    sprite: {fileID: 21300000, guid: 321a127951fb4cf48a9fffac24d3210d, type: 3}
+  - key: shop
+    sprite: {fileID: 21300000, guid: d16f80b4ab82b6f4a9b461b672be657f, type: 3}
+  - key: sprint_board
+    sprite: {fileID: 21300000, guid: a8fed197f326bc348a99f2feca94452b, type: 3}
+  - key: stamina
+    sprite: {fileID: 21300000, guid: 76c6741613dd4254e8f3b06660290525, type: 3}
+  - key: stress
+    sprite: {fileID: 21300000, guid: 9697d44633260b74c9716ce669e00a45, type: 3}
+  - key: talk
+    sprite: {fileID: 21300000, guid: 6ebc9e79dbeb7844dbe3d96f2c71baec, type: 3}
+  - key: time
+    sprite: {fileID: 21300000, guid: 77f6cfdb437d4fa4fba2100883456f08, type: 3}
+  - key: travel
+    sprite: {fileID: 21300000, guid: 7d5e6530b1a8d994aabc4a75847051da, type: 3}
+  - key: unlock
+    sprite: {fileID: 21300000, guid: b5fb115ef34e1e7459744027b888a415, type: 3}
+  - key: work
+    sprite: {fileID: 21300000, guid: d5b871bdf257f074ba547357d259ca76, type: 3}
+  useStudioSkin: 1
+  panelSprite: {fileID: 21300000, guid: 4e825798856655e46a5ae885b2f2e3a9, type: 3}
+  taskCardSprite: {fileID: 21300000, guid: c8ad0a472b6950444a95c7c55713dc4c, type: 3}
+  avatarFrameSprite: {fileID: 21300000, guid: 71d3da5ac13a3364d8724e8e94a7767d, type: 3}
+  selectionRingSprite: {fileID: 21300000, guid: 5ee25dc09eb2d49488d14e1e62f5f4f8, type: 3}
+  barTrack: {fileID: -1535798149, guid: d264c948f7a8f354094c5906c3e89291, type: 3}
+  barFill: {fileID: -813021672, guid: d264c948f7a8f354094c5906c3e89291, type: 3}
+  barFrame: {fileID: -1278424506, guid: d264c948f7a8f354094c5906c3e89291, type: 3}
+  barForecast: {fileID: 672094243, guid: d264c948f7a8f354094c5906c3e89291, type: 3}
+  affectionTint: {r: 0.95, g: 0.48, b: 0.63, a: 1}
+  staminaTint: {r: 0.38, g: 0.82, b: 0.61, a: 1}
+  stressTint: {r: 0.96, g: 0.61, b: 0.32, a: 1}
+  producerTint: {r: 0.34, g: 0.75, b: 0.67, a: 1}
+  progressTint: {r: 0.4, g: 0.73, b: 0.9, a: 1}
+  uiContentVersion: 1
+  charactersPerSecond: 32
+  dialogueDimAlpha: 0.72

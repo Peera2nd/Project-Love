@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Failed(Child)" total="5" passed="4" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-25 12:27:32Z" end-time="2026-10-25 12:27:34Z" duration="1.734933">
+  <test-suite type="TestSuite" id="1000" name="Project Love" fullname="Project Love" runstate="Runnable" testcasecount="192" result="Failed" site="Child" start-time="2026-10-25 12:27:32Z" end-time="2026-10-25 12:27:34Z" duration="1.734933" total="5" passed="4" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1218" name="ProjectLove.Tests.Editor.dll" fullname="D:/Work/Unity/Project_Game/Visual Novel/.verify/Library/ScriptAssemblies/ProjectLove.Tests.Editor.dll" runstate="Runnable" testcasecount="192" result="Failed" site="Child" start-time="2026-10-25 12:27:32Z" end-time="2026-10-25 12:27:34Z" duration="1.730256" total="5" passed="4" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="60588" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1219" name="ProjectLove" fullname="ProjectLove" runstate="Runnable" testcasecount="192" result="Failed" site="Child" start-time="2026-10-25 12:27:32Z" end-time="2026-10-25 12:27:34Z" duration="1.729777" total="5" passed="4" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1220" name="Tests" fullname="ProjectLove.Tests" runstate="Runnable" testcasecount="192" result="Failed" site="Child" start-time="2026-10-25 12:27:32Z" end-time="2026-10-25 12:27:34Z" duration="1.729465" total="5" passed="4" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1001" name="ArtistAuthoringTests" fullname="ProjectLove.Tests.ArtistAuthoringTests" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2026-10-25 12:27:32Z" end-time="2026-10-25 12:27:34Z" duration="1.711774" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1014" name="ConversationGroupsCreatePersistSearchAndProbeWithoutChangingOriginalCharacter" fullname="ProjectLove.Tests.ArtistAuthoringTests.ConversationGroupsCreatePersistSearchAndProbeWithoutChangingOriginalCharacter" methodname="ConversationGroupsCreatePersistSearchAndProbeWithoutChangingOriginalCharacter" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" seed="1581252595" result="Failed" label="Error" start-time="2026-10-25 12:27:32Z" end-time="2026-10-25 12:27:33Z" duration="0.462898" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[System.ArgumentException : Invalid romance rules.]]></message>
+                <stack-trace><![CDATA[  at ProjectLove.Simulation.RomanceSystem..ctor (ProjectLove.Core.GameSession session) [0x00579] in D:\Work\Unity\Project_Game\Visual Novel\.verify\Assets\_Project\Scripts\Simulation\RomanceSystem.cs:61 
+  at ProjectLove.Core.GameSession..ctor (ProjectLove.Data.GameConfigSO config) [0x004bc] in D:\Work\Unity\Project_Game\Visual Novel\.verify\Assets\_Project\Scripts\Core\GameSession.cs:79 
+  at ProjectLove.EditorTools.ConversationPoolEditor.Probe (ProjectLove.Data.GameConfigSO game, ProjectLove.Data.CharacterDataSO character, System.Boolean greeting, System.Int32 affection, System.Int32 testDay, ProjectLove.Data.DayPhase testPhase, System.String testFlags, System.String testEvents, ProjectLove.Data.DialogueNodeSO& node) [0x00000] in D:\Work\Unity\Project_Game\Visual Novel\.verify\Assets\_Project\Scripts\Editor\ConversationPoolEditor.cs:42 
+  at ProjectLove.Tests.ArtistAuthoringTests.ConversationGroupsCreatePersistSearchAndProbeWithoutChangingOriginalCharacter () [0x00167] in D:\Work\Unity\Project_Game\Visual Novel\.verify\Assets\_Project\Tests\Editor\ArtistAuthoringTests.cs:98 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d49d4cb128564ee1b54a84338c98d353>:0 ]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1013" name="WorkspaceWindowOpensAndRepaintsWithoutEditorErrors" fullname="ProjectLove.Tests.ArtistAuthoringTests.WorkspaceWindowOpensAndRepaintsWithoutEditorErrors" methodname="WorkspaceWindowOpensAndRepaintsWithoutEditorErrors" classname="ProjectLove.Tests.ArtistAuthoringTests" runstate="Runnable" seed="1977026733" result="Passed" start-time="2026-10-25 12:27:33Z" end-time="2026-10-25 12:27:34Z" duration="1.237116" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1016" name="CharacterInteractionTests" fullname="ProjectLove.Tests.CharacterInteractionTests" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-10-25 12:27:34Z" end-time="2026-10-25 12:27:34Z" duration="0.009661" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1030" name="AffectionBandReplacesPoolAndUnwrittenAlternativesAreSkipped" fullname="ProjectLove.Tests.CharacterInteractionTests.AffectionBandReplacesPoolAndUnwrittenAlternativesAreSkipped" methodname="AffectionBandReplacesPoolAndUnwrittenAlternativesAreSkipped" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="1324140551" result="Passed" start-time="2026-10-25 12:27:34Z" end-time="2026-10-25 12:27:34Z" duration="0.004301" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1029" name="GreetingPoolRotatesAcrossDaysAndStaysStableAcrossRefreshAndReopen" fullname="ProjectLove.Tests.CharacterInteractionTests.GreetingPoolRotatesAcrossDaysAndStaysStableAcrossRefreshAndReopen" methodname="GreetingPoolRotatesAcrossDaysAndStaysStableAcrossRefreshAndReopen" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="492367034" result="Passed" start-time="2026-10-25 12:27:34Z" end-time="2026-10-25 12:27:34Z" duration="0.001272" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1028" name="VariantSelectionRespectsDayPhaseAffectionFlagsAndStoryCompletion" fullname="ProjectLove.Tests.CharacterInteractionTests.VariantSelectionRespectsDayPhaseAffectionFlagsAndStoryCompletion" methodname="VariantSelectionRespectsDayPhaseAffectionFlagsAndStoryCompletion" classname="ProjectLove.Tests.CharacterInteractionTests" runstate="Runnable" seed="1919566450" result="Passed" start-time="2026-10-25 12:27:34Z" end-time="2026-10-25 12:27:34Z" duration="0.000674" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/UsEr/AppData/LocalLow/DefaultCompany/Project Love\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

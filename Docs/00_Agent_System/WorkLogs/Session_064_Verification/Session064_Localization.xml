@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Failed(Child)" total="5" passed="3" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-26 13:07:29Z" end-time="2026-10-26 13:07:32Z" duration="2.8091717">
+  <test-suite type="TestSuite" id="1000" name="Project Love" fullname="Project Love" runstate="Runnable" testcasecount="206" result="Failed" site="Child" start-time="2026-10-26 13:07:29Z" end-time="2026-10-26 13:07:32Z" duration="2.809172" total="5" passed="3" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1235" name="ProjectLove.Tests.Editor.dll" fullname="D:/Work/Unity/Project_Game/Visual Novel/.verify/Library/ScriptAssemblies/ProjectLove.Tests.Editor.dll" runstate="Runnable" testcasecount="206" result="Failed" site="Child" start-time="2026-10-26 13:07:29Z" end-time="2026-10-26 13:07:32Z" duration="2.797754" total="5" passed="3" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="10624" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1236" name="ProjectLove" fullname="ProjectLove" runstate="Runnable" testcasecount="206" result="Failed" site="Child" start-time="2026-10-26 13:07:29Z" end-time="2026-10-26 13:07:32Z" duration="2.794771" total="5" passed="3" failed="2" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1237" name="Tests" fullname="ProjectLove.Tests" runstate="Runnable" testcasecount="206" result="Failed" site="Child" start-time="2026-10-26 13:07:29Z" end-time="2026-10-26 13:07:32Z" duration="2.792234" total="5" passed="3" failed="2" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1090" name="LocalizationTests" fullname="ProjectLove.Tests.LocalizationTests" classname="ProjectLove.Tests.LocalizationTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-10-26 13:07:29Z" end-time="2026-10-26 13:07:32Z" duration="2.785344" total="5" passed="3" failed="2" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1091" name="LookupFallbackStalenessAndCsvProtectSourceAndRoundtripMultiline" fullname="ProjectLove.Tests.LocalizationTests.LookupFallbackStalenessAndCsvProtectSourceAndRoundtripMultiline" methodname="LookupFallbackStalenessAndCsvProtectSourceAndRoundtripMultiline" classname="ProjectLove.Tests.LocalizationTests" runstate="Runnable" seed="472215587" result="Passed" start-time="2026-10-26 13:07:29Z" end-time="2026-10-26 13:07:29Z" duration="0.385973" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1094" name="RealPrefabSwitchesActiveLineChoicesAndGreetingWithoutGameplayMutation" fullname="ProjectLove.Tests.LocalizationTests.RealPrefabSwitchesActiveLineChoicesAndGreetingWithoutGameplayMutation" methodname="RealPrefabSwitchesActiveLineChoicesAndGreetingWithoutGameplayMutation" classname="ProjectLove.Tests.LocalizationTests" runstate="Runnable" seed="526343751" result="Failed" start-time="2026-10-26 13:07:29Z" end-time="2026-10-26 13:07:30Z" duration="0.954071" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: not equal to "กำลังลองระบบอยู่ค่ะ แต่ถ้าคุณมีเรื่องอยากคุย ฉันฟังอยู่นะ"
+  But was:  "กำลังลองระบบอยู่ค่ะ แต่ถ้าคุณมีเรื่องอยากคุย ฉันฟังอยู่นะ"
+]]></message>
+                <stack-trace><![CDATA[at ProjectLove.Tests.LocalizationTests.RealPrefabSwitchesActiveLineChoicesAndGreetingWithoutGameplayMutation () [0x002da] in D:\Work\Unity\Project_Game\Visual Novel\.verify\Assets\_Project\Tests\Editor\LocalizationTests.cs:90
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1093" name="SourceEditsUndoAndPersistWithoutRewritingFrozenFields" fullname="ProjectLove.Tests.LocalizationTests.SourceEditsUndoAndPersistWithoutRewritingFrozenFields" methodname="SourceEditsUndoAndPersistWithoutRewritingFrozenFields" classname="ProjectLove.Tests.LocalizationTests" runstate="Runnable" seed="1953507043" result="Passed" start-time="2026-10-26 13:07:30Z" end-time="2026-10-26 13:07:30Z" duration="0.215222" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1092" name="TranslationChangesPreserveSavesButMechanicalChangesAreRejectedAndV8IsRetained" fullname="ProjectLove.Tests.LocalizationTests.TranslationChangesPreserveSavesButMechanicalChangesAreRejectedAndV8IsRetained" methodname="TranslationChangesPreserveSavesButMechanicalChangesAreRejectedAndV8IsRetained" classname="ProjectLove.Tests.LocalizationTests" runstate="Runnable" seed="457651048" result="Failed" start-time="2026-10-26 13:07:30Z" end-time="2026-10-26 13:07:30Z" duration="0.015905" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: Success
+  But was:  Invalid
+]]></message>
+                <stack-trace><![CDATA[at ProjectLove.Tests.LocalizationTests.TranslationChangesPreserveSavesButMechanicalChangesAreRejectedAndV8IsRetained () [0x0006e] in D:\Work\Unity\Project_Game\Visual Novel\.verify\Assets\_Project\Tests\Editor\LocalizationTests.cs:49
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1095" name="WorkspaceTranslationTabAndDetachedLanguagePreviewOpen" fullname="ProjectLove.Tests.LocalizationTests.WorkspaceTranslationTabAndDetachedLanguagePreviewOpen" methodname="WorkspaceTranslationTabAndDetachedLanguagePreviewOpen" classname="ProjectLove.Tests.LocalizationTests" runstate="Runnable" seed="1923730676" result="Passed" start-time="2026-10-26 13:07:30Z" end-time="2026-10-26 13:07:32Z" duration="1.191253" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/UsEr/AppData/LocalLow/DefaultCompany/Project Love\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

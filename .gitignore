@@ -1,0 +1,28 @@
+# Unity-generated state
+/Project Love/[Ll]ibrary/
+/Project Love/[Tt]emp/
+/Project Love/[Oo]bj/
+/Project Love/[Ll]ogs/
+/Project Love/[Uu]serSettings/
+/Project Love/[Bb]uild/
+/Project Love/[Bb]uilds/
+/Project Love/*.csproj
+/Project Love/*.sln
+/Project Love/*.slnx
+/.verify/
+
+/.backups/
+
+# Generated prototype projects and developer-local state
+/.sandbox/
+/Project Love/.vs/
+/Project Love/.idea/
+/Project Love/MemoryCaptures/
+/Project Love/Recordings/
+**/.DS_Store
+**/Thumbs.db
+*.user
+*.suo
+
+# Machine-specific raw Unity diagnostics; keep source, test summaries and captures
+/Docs/00_Agent_System/WorkLogs/**/*.log

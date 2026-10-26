@@ -1,0 +1,642 @@
+[
+  {
+    "file": "Session027_30Day_BugFalse_TalkFalse.json",
+    "mainProgress": 100,
+    "producerStages": [
+      {
+        "sprintId": "studio_sprint_1",
+        "effort": 40,
+        "completedDay": 2,
+        "completedPhase": 0
+      },
+      {
+        "sprintId": "studio_sprint_2",
+        "effort": 40,
+        "completedDay": 5,
+        "completedPhase": 3
+      },
+      {
+        "sprintId": "studio_sprint_3",
+        "effort": 40,
+        "completedDay": 12,
+        "completedPhase": 3
+      },
+      {
+        "sprintId": "studio_sprint_4",
+        "effort": 40,
+        "completedDay": 18,
+        "completedPhase": 2
+      },
+      {
+        "sprintId": "studio_sprint_5",
+        "effort": 20,
+        "completedDay": 20,
+        "completedPhase": 0
+      }
+    ],
+    "affection": [
+      0,
+      0,
+      0
+    ],
+    "metWeeklyTargets": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "reviews": [
+      {
+        "sprintId": "studio_sprint_1",
+        "reviewedDay": 7,
+        "carryoverCount": 0,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ]
+      },
+      {
+        "sprintId": "studio_sprint_2",
+        "reviewedDay": 14,
+        "carryoverCount": 0,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ]
+      },
+      {
+        "sprintId": "studio_sprint_3",
+        "reviewedDay": 21,
+        "carryoverCount": 0,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ]
+      },
+      {
+        "sprintId": "studio_sprint_4",
+        "reviewedDay": 28,
+        "carryoverCount": 0,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ]
+      },
+      {
+        "sprintId": "studio_sprint_5",
+        "reviewedDay": 30,
+        "carryoverCount": 0,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 24,
+            "required": 24
+          },
+          {
+            "streamId": "work_art",
+            "completed": 16,
+            "required": 16
+          },
+          {
+            "streamId": "work_design",
+            "completed": 16,
+            "required": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "Session027_30Day_BugFalse_TalkTrue.json",
+    "mainProgress": 100,
+    "producerStages": [
+      {
+        "sprintId": "studio_sprint_1",
+        "effort": 40,
+        "completedDay": 2,
+        "completedPhase": 0
+      },
+      {
+        "sprintId": "studio_sprint_2",
+        "effort": 40,
+        "completedDay": 6,
+        "completedPhase": 0
+      },
+      {
+        "sprintId": "studio_sprint_3",
+        "effort": 40,
+        "completedDay": 13,
+        "completedPhase": 0
+      },
+      {
+        "sprintId": "studio_sprint_4",
+        "effort": 40,
+        "completedDay": 19,
+        "completedPhase": 1
+      },
+      {
+        "sprintId": "studio_sprint_5",
+        "effort": 20,
+        "completedDay": 20,
+        "completedPhase": 2
+      }
+    ],
+    "affection": [
+      60,
+      60,
+      60
+    ],
+    "metWeeklyTargets": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "reviews": [
+      {
+        "sprintId": "studio_sprint_1",
+        "reviewedDay": 7,
+        "carryoverCount": 0,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ]
+      },
+      {
+        "sprintId": "studio_sprint_2",
+        "reviewedDay": 14,
+        "carryoverCount": 0,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ]
+      },
+      {
+        "sprintId": "studio_sprint_3",
+        "reviewedDay": 21,
+        "carryoverCount": 0,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ]
+      },
+      {
+        "sprintId": "studio_sprint_4",
+        "reviewedDay": 28,
+        "carryoverCount": 0,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ]
+      },
+      {
+        "sprintId": "studio_sprint_5",
+        "reviewedDay": 30,
+        "carryoverCount": 0,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 24,
+            "required": 24
+          },
+          {
+            "streamId": "work_art",
+            "completed": 16,
+            "required": 16
+          },
+          {
+            "streamId": "work_design",
+            "completed": 16,
+            "required": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "Session027_30Day_BugTrue_TalkFalse.json",
+    "mainProgress": 100,
+    "producerStages": [
+      {
+        "sprintId": "studio_sprint_1",
+        "effort": 40,
+        "completedDay": 2,
+        "completedPhase": 0
+      },
+      {
+        "sprintId": "studio_sprint_2",
+        "effort": 40,
+        "completedDay": 5,
+        "completedPhase": 3
+      },
+      {
+        "sprintId": "studio_sprint_3",
+        "effort": 40,
+        "completedDay": 12,
+        "completedPhase": 3
+      },
+      {
+        "sprintId": "studio_sprint_4",
+        "effort": 40,
+        "completedDay": 19,
+        "completedPhase": 3
+      },
+      {
+        "sprintId": "studio_sprint_5",
+        "effort": 20,
+        "completedDay": 21,
+        "completedPhase": 1
+      }
+    ],
+    "affection": [
+      0,
+      0,
+      0
+    ],
+    "metWeeklyTargets": [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "reviews": [
+      {
+        "sprintId": "studio_sprint_1",
+        "reviewedDay": 7,
+        "carryoverCount": 1,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 104
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ]
+      },
+      {
+        "sprintId": "studio_sprint_2",
+        "reviewedDay": 14,
+        "carryoverCount": 1,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ]
+      },
+      {
+        "sprintId": "studio_sprint_3",
+        "reviewedDay": 21,
+        "carryoverCount": 0,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ]
+      },
+      {
+        "sprintId": "studio_sprint_4",
+        "reviewedDay": 28,
+        "carryoverCount": 0,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ]
+      },
+      {
+        "sprintId": "studio_sprint_5",
+        "reviewedDay": 30,
+        "carryoverCount": 0,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 24,
+            "required": 24
+          },
+          {
+            "streamId": "work_art",
+            "completed": 16,
+            "required": 16
+          },
+          {
+            "streamId": "work_design",
+            "completed": 16,
+            "required": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "Session027_30Day_BugTrue_TalkTrue.json",
+    "mainProgress": 100,
+    "producerStages": [
+      {
+        "sprintId": "studio_sprint_1",
+        "effort": 40,
+        "completedDay": 2,
+        "completedPhase": 0
+      },
+      {
+        "sprintId": "studio_sprint_2",
+        "effort": 40,
+        "completedDay": 6,
+        "completedPhase": 0
+      },
+      {
+        "sprintId": "studio_sprint_3",
+        "effort": 40,
+        "completedDay": 13,
+        "completedPhase": 0
+      },
+      {
+        "sprintId": "studio_sprint_4",
+        "effort": 40,
+        "completedDay": 19,
+        "completedPhase": 3
+      },
+      {
+        "sprintId": "studio_sprint_5",
+        "effort": 20,
+        "completedDay": 21,
+        "completedPhase": 2
+      }
+    ],
+    "affection": [
+      60,
+      60,
+      60
+    ],
+    "metWeeklyTargets": [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "reviews": [
+      {
+        "sprintId": "studio_sprint_1",
+        "reviewedDay": 7,
+        "carryoverCount": 1,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 104
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ]
+      },
+      {
+        "sprintId": "studio_sprint_2",
+        "reviewedDay": 14,
+        "carryoverCount": 1,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ]
+      },
+      {
+        "sprintId": "studio_sprint_3",
+        "reviewedDay": 21,
+        "carryoverCount": 0,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ]
+      },
+      {
+        "sprintId": "studio_sprint_4",
+        "reviewedDay": 28,
+        "carryoverCount": 0,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 80,
+            "required": 80
+          },
+          {
+            "streamId": "work_art",
+            "completed": 72,
+            "required": 72
+          },
+          {
+            "streamId": "work_design",
+            "completed": 64,
+            "required": 64
+          }
+        ]
+      },
+      {
+        "sprintId": "studio_sprint_5",
+        "reviewedDay": 30,
+        "carryoverCount": 0,
+        "quotas": [
+          {
+            "streamId": "work_code",
+            "completed": 24,
+            "required": 24
+          },
+          {
+            "streamId": "work_art",
+            "completed": 16,
+            "required": 16
+          },
+          {
+            "streamId": "work_design",
+            "completed": 16,
+            "required": 16
+          }
+        ]
+      }
+    ]
+  }
+]

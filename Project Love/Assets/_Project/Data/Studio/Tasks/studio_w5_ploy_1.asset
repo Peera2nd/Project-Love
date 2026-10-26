@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b191a46ce67c44b9bee317bce1c1676c, type: 3}
+  m_Name: studio_w5_ploy_1
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.WorkTaskSO
+  id: studio_w5_ploy_1
+  displayName: "S5 \xB7 \u0E15\u0E23\u0E27\u0E08\u0E23\u0E27\u0E21\u0E01\u0E48\u0E2D\u0E19\u0E2A\u0E48\u0E07\u0E07\u0E32\u0E19"
+  stream: {fileID: 11400000, guid: dbeb219401524be4faf2519dcd970149, type: 2}
+  owner: {fileID: 11400000, guid: fa8a14d681055804cba87ae63af75ff7, type: 2}
+  effort: 16
+  mainWeight: 16
+  releaseDay: 29
+  decisionBlocked: 0
+  prerequisites: []
+  sprint: {fileID: 11400000, guid: 6014d26a4989ed84682352a013372b95, type: 2}

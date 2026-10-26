@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47c8b73468064fa1a0329f4e5c981e06, type: 3}
+  m_Name: RomanceCampaign
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.GameConfigSO
+  id: romance_campaign
+  totalDays: 30
+  maxActionPointsPerDay: 4
+  startingMoney: 20
+  startingSkillPoints: 0
+  startingProgress: 0
+  burnoutThreshold: 80
+  mainProgressLabel: "\u0E04\u0E27\u0E32\u0E21\u0E04\u0E37\u0E1A\u0E2B\u0E19\u0E49\u0E32"
+  usesStamina: 0
+  maxStamina: 100
+  startingStamina: 0
+  overnightRecovery: 0
+  items:
+  - {fileID: 11400000, guid: 8f69e437f6a4f164a9b15553c67fa1ae, type: 2}
+  - {fileID: 11400000, guid: 1241e81903cd1704f98ac2c4f6eb8906, type: 2}
+  - {fileID: 11400000, guid: e635f8b9f7c82564c9090ecef3843ca6, type: 2}
+  rooms:
+  - {fileID: 11400000, guid: e69f497ffb1f6804e9a9c0406c75dc1d, type: 2}
+  - {fileID: 11400000, guid: 770800d0b75a3754891c51b5c58e2e7d, type: 2}
+  startingRoomId: romance_studio_workspace
+  characters:
+  - {fileID: 11400000, guid: b36cc8da13aa4914fae3a8b5aac0bf99, type: 2}
+  - {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+  - {fileID: 11400000, guid: 08140245bb9f0c54b8e6fd5c6e3d6ecf, type: 2}
+  workStreams: []
+  production: {fileID: 0}
+  romance: {fileID: 11400000, guid: 2beecd0ac6403314c847a4d08fa6e6d6, type: 2}
+  localization: {fileID: 11400000, guid: f9bc70170a702ce409b8ede9d30a6a58, type: 2}
+  events:
+  - {fileID: 11400000, guid: fe630f90c1d515a418fbb202335d535f, type: 2}
+  - {fileID: 11400000, guid: fa8f90937ce3e914cafbf690b577a03b, type: 2}
+  - {fileID: 11400000, guid: ba67ed1f9103fe346849e9a6c2b1227f, type: 2}
+  - {fileID: 11400000, guid: 24289940a792435a82a4fa56f9949039, type: 2}
+  - {fileID: 11400000, guid: 340fe74dde5946f3bfc259677bab194f, type: 2}
+  - {fileID: 11400000, guid: 841701066af84bfdab0bfeb2d1d483f2, type: 2}
+  - {fileID: 11400000, guid: 8d91ac03e7664066bc3174a74923c583, type: 2}
+  - {fileID: 11400000, guid: fc200b2830eb4b67a571c56e76a5f001, type: 2}
+  - {fileID: 11400000, guid: 190518a6c0f64dc6bedf3ddd248ffa9c, type: 2}
+  - {fileID: 11400000, guid: 16a9e38852b3422ab1e1de197b01a941, type: 2}
+  - {fileID: 11400000, guid: 9bcd50777c914d428f6822072c072b4c, type: 2}
+  - {fileID: 11400000, guid: 491d680a9b3d4d0da35ec57bbe8b51b0, type: 2}
+  - {fileID: 11400000, guid: 5a428ce004274754ab492dc30fa4d258, type: 2}
+  - {fileID: 11400000, guid: 84f944b70dbe4803a18c4d132774e94c, type: 2}
+  - {fileID: 11400000, guid: eb4df2041e934018bf225ea944ed3f25, type: 2}
+  - {fileID: 11400000, guid: 463e2bc58e8f449eba276ae025896318, type: 2}
+  - {fileID: 11400000, guid: 123cc53f96d74c079f740c69f8e6a8a2, type: 2}
+  - {fileID: 11400000, guid: b31d6e140778475bbd9f6dcab1e5ffca, type: 2}
+  - {fileID: 11400000, guid: a26d6c0846a140fa956702240903d8c4, type: 2}
+  - {fileID: 11400000, guid: cf5c8db9e23c4867af4c40751fca8c30, type: 2}
+  - {fileID: 11400000, guid: 95d9d4e982fc493982ac9c56603932fd, type: 2}
+  - {fileID: 11400000, guid: 79b738a6121a4580bee39cbdccf40666, type: 2}
+  - {fileID: 11400000, guid: 7b82822562994383b7b9a613924afce8, type: 2}
+  - {fileID: 11400000, guid: 64e250872bea4a9e8f12e9a346c19d65, type: 2}
+  - {fileID: 11400000, guid: 70ea8014a24b4360b4db3bf6374918af, type: 2}
+  - {fileID: 11400000, guid: 0415d997f28e407c953ead931878e15f, type: 2}
+  - {fileID: 11400000, guid: e0a61fbb936b4e5a8f9458305f0dd1d5, type: 2}
+  eventContentVersion: 2

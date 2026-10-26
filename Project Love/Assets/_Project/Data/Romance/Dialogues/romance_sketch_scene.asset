@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68294642b7394931b38b71feca2638e1, type: 3}
+  m_Name: romance_sketch_scene
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.DialogueNodeSO
+  id: romance_sketch_scene
+  displayName: 
+  lines:
+  - lineId: romance_sketch_scene_line_0
+    speaker: {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+    expression: 0
+    text: "\u0E20\u0E32\u0E1E\u0E19\u0E35\u0E49\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E17\u0E35\u0E48\u0E09\u0E31\u0E19\u0E04\u0E34\u0E14\u0E44\u0E27\u0E49\u0E40\u0E25\u0E22\u0E04\u0E48\u0E30...
+      \u0E04\u0E38\u0E13\u0E1E\u0E2D\u0E08\u0E30\u0E19\u0E31\u0E48\u0E07\u0E14\u0E39\u0E14\u0E49\u0E27\u0E22\u0E01\u0E31\u0E19\u0E44\u0E14\u0E49\u0E44\u0E2B\u0E21"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/romance_sketch_scene/line/romance_sketch_scene_line_0
+  choices:
+  - choiceId: romance_sketch_choice_0
+    text: "\u0E1F\u0E31\u0E07\u0E27\u0E48\u0E32\u0E40\u0E18\u0E2D\u0E2D\u0E22\u0E32\u0E01\u0E40\u0E25\u0E48\u0E32\u0E2D\u0E30\u0E44\u0E23\u0E1C\u0E48\u0E32\u0E19\u0E20\u0E32\u0E1E"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/romance_sketch_scene/choice/romance_sketch_choice_0
+    actionPointCost: 0
+    staminaCost: 0
+    conditions: []
+    effects:
+    - stat: 3
+      character: {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+      amount: 3
+    flags:
+    - flagId: romance_sketch_listen
+      value: 1
+    activateWorkloads: []
+    workAction: 0
+    workCharacter: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: d491fd2cd874cf245a48114558025488, type: 2}
+  - choiceId: romance_sketch_choice_1
+    text: "\u0E0A\u0E27\u0E19\u0E1E\u0E31\u0E01\u0E41\u0E25\u0E49\u0E27\u0E44\u0E1B\u0E14\u0E39\u0E41\u0E2A\u0E07\u0E02\u0E49\u0E32\u0E07\u0E2B\u0E19\u0E49\u0E32\u0E15\u0E48\u0E32\u0E07"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/romance_sketch_scene/choice/romance_sketch_choice_1
+    actionPointCost: 0
+    staminaCost: 0
+    conditions: []
+    effects:
+    - stat: 3
+      character: {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+      amount: 3
+    flags:
+    - flagId: romance_sketch_light
+      value: 1
+    activateWorkloads: []
+    workAction: 0
+    workCharacter: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 5a3a0263b70afb245ae118177fc9fc4c, type: 2}
+  nextNode: {fileID: 0}

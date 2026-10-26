@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641f167f8a7f48d09256348d0c022645, type: 3}
+  m_Name: studio_grace_night_callback_0_event
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.EventDataSO
+  id: studio_grace_night_callback_0_event
+  displayName: "\u0E40\u0E01\u0E23\u0E0B \xB7 \u0E2B\u0E25\u0E31\u0E07\u0E04\u0E37\u0E19\u0E17\u0E35\u0E48\u0E0A\u0E48\u0E27\u0E22\u0E01\u0E31\u0E19"
+  startDay: 2
+  endDay: 30
+  preferredDay: 2
+  triggerPhase: 0
+  priority: 25
+  repeatDaily: 0
+  minimumRepeatDays: 0
+  repeatGroup: 
+  anyPhase: 0
+  elapsedPhases: 0
+  staminaCost: 0
+  conditions:
+  - type: 12
+    stat: 0
+    character: {fileID: 11400000, guid: 9353622ac86272845b5c833e9ed087bc, type: 2}
+    value: 2
+    flagId: 
+    eventId: 
+    targetId: 
+  - type: 0
+    stat: 3
+    character: {fileID: 11400000, guid: 9353622ac86272845b5c833e9ed087bc, type: 2}
+    value: 0
+    flagId: 
+    eventId: 
+    targetId: 
+  - type: 1
+    stat: 3
+    character: {fileID: 11400000, guid: 9353622ac86272845b5c833e9ed087bc, type: 2}
+    value: 19
+    flagId: 
+    eventId: 
+    targetId: 
+  - type: 0
+    stat: 4
+    character: {fileID: 11400000, guid: 9353622ac86272845b5c833e9ed087bc, type: 2}
+    value: 0
+    flagId: 
+    eventId: 
+    targetId: 
+  - type: 1
+    stat: 4
+    character: {fileID: 11400000, guid: 9353622ac86272845b5c833e9ed087bc, type: 2}
+    value: 100
+    flagId: 
+    eventId: 
+    targetId: 
+  entryNode: {fileID: 11400000, guid: 37932889b3286704d8d909d9db3f2f58, type: 2}
+  delivery: 2
+  character: {fileID: 11400000, guid: 9353622ac86272845b5c833e9ed087bc, type: 2}
+  room: {fileID: 11400000, guid: 61547a3b3e8f41a4191ef14c484e9476, type: 2}
+  exclusiveGroup: studio_grace_night_callback

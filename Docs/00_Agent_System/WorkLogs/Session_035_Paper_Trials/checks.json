@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "models": 3,
+  "policies": 5,
+  "seedsPerCombination": 1000,
+  "offlinePaths": 15000,
+  "summaryRows": 15,
+  "matchedSeedTraceRowsPerPolicy": 84,
+  "changedMarkdownFiles": 9,
+  "localReferences": 139,
+  "unchangedGameDeliveryHashes": 591,
+  "notes": "Design arithmetic only; no Unity/game/UI implementation. Finite paper sample, not final balance or romance/economy validation."
+}

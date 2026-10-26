@@ -1,0 +1,1241 @@
+{
+  "status": "passed",
+  "newStudioAssets": 75,
+  "sourceFiles": 35,
+  "testFiles": 7,
+  "comparedFiles": [
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Core.meta",
+      "sha256": "71524ea325328bb9f6c8f138a0cb84f8d79f59ad83dd28e7c7981b740134cff8"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data.meta",
+      "sha256": "c4eeca2317d6b0963ac9e8afc0a5711d644e8242c54a96484576f70c8fb29dad"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor.meta",
+      "sha256": "23506681ab62585ef0d9a68edf4ef6cb9b7ca6eea66b3a8074248f3c279306bd"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Minigames.meta",
+      "sha256": "ceac1fedf25f0b517a8218c5d832b4f40d39c900f06abd5153489b4b2143fbc3"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/ProjectLove.Runtime.asmdef",
+      "sha256": "c57b8f88ff236d67018f341c277949b999ca87e0e89726c4a8f3edea5bce4565"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/ProjectLove.Runtime.asmdef.meta",
+      "sha256": "4b428d2f0703292ef0a845e3a8734e61306930c61a1d222abc56be8f2c791f4d"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Simulation.meta",
+      "sha256": "6d099dd7f2b10a1d697cb48a874bc43a4b1c2f15c038a468f2c229c0be49743c"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/UI.meta",
+      "sha256": "3f5bbe6e587966212bf037cd1baf9e30ce3e7a58242290dec35915206d19dc0d"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Utilities.meta",
+      "sha256": "803b5e7683bf72df225755b4a5f51d2497047e503d6e3c4b3ef7fc6ea159eccb"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/VN.meta",
+      "sha256": "096210efea024700c51537c73bad1bcc7095a0041a926bf9477ae7e60e3e0c6c"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Core/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Core/.gitkeep.meta",
+      "sha256": "3472acfcee56e7559fd33e634de3a9325e7d083157288ee7ff81e88204124e31"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Core/CharacterInteractions.cs",
+      "sha256": "740a7cb8ad209d073757596e0d75e51dd0137e60b48d36c2458ee3abcd0097d2"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Core/CharacterInteractions.cs.meta",
+      "sha256": "07c6f2ece4a07eb04aa4191bed37007cd8e332f28600b3baa86db54b6d7482df"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Core/GameSession.cs",
+      "sha256": "223b77c6e27780c515cf076b74fa9d5a2d7e03edc9d4f52a874b901136279d82"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Core/GameSession.cs.meta",
+      "sha256": "9ab7b0bd568c5e4d0a5f46b4ca909f88b12c5acce4abcc57df5f177e864e1da0"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Core/ProductionState.cs",
+      "sha256": "5ac704e51eb34ba0c70327736f630582078f764f1d55b32a628fa6f0989aa968"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Core/ProductionState.cs.meta",
+      "sha256": "8b3f657a396879ea4036f3893301dcafbf41d43fb0d6d57757c954ac55d060c4"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Core/RuntimeGameState.cs",
+      "sha256": "b3f7312ba01c545f07661abc75b9653b441987d16f29e84b774672e7c730d937"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Core/RuntimeGameState.cs.meta",
+      "sha256": "a2139a4312d9d25544c00b7a68f590a2b0e6955f5eb89d349e1d36aec379936a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Core/SaveStore.cs",
+      "sha256": "284c59e421206d16631422d63e904aaa7c9dff521a6618d8a193493561976bba"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Core/SaveStore.cs.meta",
+      "sha256": "0a2267a5b9a3031796b6c06e88ecba07a633b3330ba590a1ba4aab8f9fc36d0b"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/.gitkeep.meta",
+      "sha256": "0c5913e7e42b0db6ae8d7569e804457bdfb966d01ae39fe090d7f85ed6434ace"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/ActivityDataSO.cs",
+      "sha256": "73cd617df658516a21ea122ce2ecd782fe38956f9cd64fa0055d5c26c8ec7c92"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/ActivityDataSO.cs.meta",
+      "sha256": "400fb9a05eb3e7cb435675077d45a157f02acb5f6405ea02f8497af8f3793a7e"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/CharacterDataSO.cs",
+      "sha256": "9b31c0f9b2d644910faf894c34623a8f8271ab4facdf65922812e84f48f80ca3"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/CharacterDataSO.cs.meta",
+      "sha256": "617c7ce677c215c4ebb54e3871b5f9e16c4aa9db05ed9f5fc725bf78d7b76b1a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/CharacterInteractionData.cs",
+      "sha256": "d015283edacc7c3dfe71db8f361d6a7915a1c69adeb24996dc36bbd04b6cac91"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/CharacterInteractionData.cs.meta",
+      "sha256": "264e1d83490cf33956686bcea5a7fbed45c39ba6ee71f668f0e0f4dfe0baf2d2"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/Condition.cs",
+      "sha256": "f332a142ee03c776507116ea7377830376a47974b9212a34ed0cd55fec50414c"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/Condition.cs.meta",
+      "sha256": "b441ff6c2ce72567e04dc8150f79f48478bfb057fc97467b21c954c260061d92"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/DialogueNodeSO.cs",
+      "sha256": "f92fb399b372f92e7b890ddff243fa55f0f42102f648caa0fb35b9e7f354d8c7"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/DialogueNodeSO.cs.meta",
+      "sha256": "5d9c4b407e4fe785cff628963f1d60558b6aefab80eff0cd247c9e9b178b1588"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/EventDataSO.cs",
+      "sha256": "5409bcb9bd8c972b4830cadb8e5d427d88e1d99416759c1256da05a8331c38f2"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/EventDataSO.cs.meta",
+      "sha256": "5011419a2607c498e6c8a16bd94e572a3cb8c95eb6956a9be14aabd58d6c5479"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/GameConfigSO.cs",
+      "sha256": "0b725d95f1f0a0ad15f77ce04d615f501ca88bf20d4b92c04289b692e1132a3a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/GameConfigSO.cs.meta",
+      "sha256": "ce24795ddc31529932b31c3b1fe5b2f49391edf02cab4a1b28d0c96eafe3f438"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/IdentifiedDataSO.cs",
+      "sha256": "5d7d2c310984a386fcbc1bfe5affad285cd0eb239fbc42cb67507b0269007a0a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/IdentifiedDataSO.cs.meta",
+      "sha256": "fef252784b9cb61b2d2f0e47f5b0653205f12e36216a0cd4300573d2f03617f6"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/ItemDataSO.cs",
+      "sha256": "f8dfce0777433df2f347be9a64f06b5748441df6911924db1a165ae8fbc67152"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/ItemDataSO.cs.meta",
+      "sha256": "9ed5ee3c1641f3fdc81fa9b32d0a42786b902c82c17262bfd78db25264398a7f"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/ProductionConfigSO.cs",
+      "sha256": "e892c5013713c4025be2b7178daf8b051c58267e1bf134bf3ecdfd07ec548695"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/ProductionConfigSO.cs.meta",
+      "sha256": "8ef977c37bddac1e2dfd38b7e49f1f5acb81b4823a8d7385ef2b6d81a8ca8dcb"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/RoomDataSO.cs",
+      "sha256": "b0449b8fe6b5c5c635740245882e28d23bbbfc16d6d98e1a9216f2a85a0cd711"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/RoomDataSO.cs.meta",
+      "sha256": "3df018db6ff79ad98b4d640108865912c00e6db98e93369ecde4505ad6974173"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/RoomPresentationSO.cs",
+      "sha256": "7a40d475749c0666d7d5bedaea49dcf9cf197e38a4b02a34e3b29c9b9da50568"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/RoomPresentationSO.cs.meta",
+      "sha256": "32744de528230d0d11121a792ab847ae35c2a3f35287aa3ceae8e8b169039bfb"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/SandboxPresentationSO.cs",
+      "sha256": "0773047b0e44420a757f5838b3bf258c629f86e0957ae83e777efbb8df36ea69"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/SandboxPresentationSO.cs.meta",
+      "sha256": "56e8bbd3dc7a7f43ebe645d08ccc23032f3fa745f67c75a51c52311601710515"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/SprintDataSO.cs",
+      "sha256": "dffe6dccc7b0912834b09b2975f535c475a06476fe796c0f641c402de94307c0"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/SprintDataSO.cs.meta",
+      "sha256": "42efbbb31c3831678728e7198ea048be8f73bc7a478ab578be4f9e12b8972e8d"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/WorkStreamSO.cs",
+      "sha256": "75e433051204d98baad6a03d0511144eef5e162dd6019a0bd8fb5645fccece60"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/WorkStreamSO.cs.meta",
+      "sha256": "79d2ea24e92e13b6c62eb06aedc3d94dc997432cc885d9b723be0413f5b55c92"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/WorkTaskSO.cs",
+      "sha256": "cf775a5ff56295a571de044445a4a1d385c5312b49766e1e44880f762cd91e4d"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Data/WorkTaskSO.cs.meta",
+      "sha256": "be538f93492fe354c823376f89f2b49a4300ef3c52a64f2c26378339abd852b4"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/CharacterInteractionBuilder.cs",
+      "sha256": "6692d8ca61586553f7573290a9ed320e81bf0545b6ecf7072976745534327835"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/CharacterInteractionBuilder.cs.meta",
+      "sha256": "e206dac4fe13e40fe2dd73fc51e8daae4e538db2a1e0461bf8e4749930fc3647"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/Dashboard.meta",
+      "sha256": "e632552083bf3a15a13337a161210700edd01569ee8f44de17e1819722395e5e"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/DatabaseTools.meta",
+      "sha256": "ad37fb5fcda05279f8db577e158f555c63497f9b7508ff31393780fc9681e9d1"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/DialogueEditor.meta",
+      "sha256": "78d06ce57a42e7215c57d2605052686412d9e3d9dfa993113990d3f0abd93cd9"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/IsometricPrototypeBuilder.cs",
+      "sha256": "592f7a98f8fa86e116d2e5a458e80fe1192bf4fefc78d0b8356fa3486d0a8c31"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/IsometricPrototypeBuilder.cs.meta",
+      "sha256": "d004c50ed2700269b18f4bb3a0792de16a02eed138a845ec1e5b44da6525ae0f"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/ProjectLove.Editor.asmdef",
+      "sha256": "855826bd8a241873c82d82659fbb163feccbc8622757844e2bf11309faa64084"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/ProjectLove.Editor.asmdef.meta",
+      "sha256": "0050564e01cd2eccf6a95155065b184fcee276fd27d64278679ed6451f235202"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/SandboxProjectBuilder.cs",
+      "sha256": "79a9eb97a2554486b0832109158c16f7a3a255f1058b0253a5429f4e3a033d35"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/SandboxProjectBuilder.cs.meta",
+      "sha256": "0540bea4a9563e76ec09c37962f1c67a5ba5e81d6ae471f2456a1d232fdf8a6e"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/StudioPrototypeBuilder.cs",
+      "sha256": "34f06a648113fd6e431727808d0a44138fdce1f61fe89b13f692a258ac18e976"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/StudioPrototypeBuilder.cs.meta",
+      "sha256": "442ce5d7f4f538b548a4bcbd97a20e1c144cdaf99fc83f3063a85c647efdec1d"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/Validators.meta",
+      "sha256": "23a9069455f32cf7d55ba6d020094eaae3954b4c293d1758c9c162f9e5b7a1bf"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/Dashboard/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/Dashboard/.gitkeep.meta",
+      "sha256": "44726b8570f9998ac122ca427e18d06adf81e4f39850eb1b8f825dcc619278e2"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/Dashboard/DesignerDashboard.cs",
+      "sha256": "506cff6cf386e8cc3258a5669568ad10319218f555c66a12dd4b48e504a14a53"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/Dashboard/DesignerDashboard.cs.meta",
+      "sha256": "85fbaa0f5cfe21561ea0efb1a52f7b6d8376eba940c56a27142e66a1580c7ffd"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/DatabaseTools/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/DatabaseTools/.gitkeep.meta",
+      "sha256": "634e2d6776cec49033f306e300731394b16894d253f247aff87ed77faf1b6db5"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/DialogueEditor/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/DialogueEditor/.gitkeep.meta",
+      "sha256": "904aad7f6e866d06066817c35fbd9387f339ce514033875e6c53cf280bdb35bb"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/Validators/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/Validators/.gitkeep.meta",
+      "sha256": "cb4f7975516e5ca3fc715cfaf6bfc7ab99b5d3ab534671713daa82d04d5a40d0"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/Validators/FoundationValidator.cs",
+      "sha256": "40ce82a891e00b9f1ba5b296bc1e8cacfccdfbac3802c92f8dee0829eecead4a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Editor/Validators/FoundationValidator.cs.meta",
+      "sha256": "0b30c7933a267cf69d5c1e5ff720c2a8991ec6c73c66ce75d51288c85e646e3a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Minigames/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Minigames/.gitkeep.meta",
+      "sha256": "9f8ce5844abab3413031cf226adb693af5b6b173cb5d8b9a51bdfef13b478893"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Simulation/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Simulation/.gitkeep.meta",
+      "sha256": "e2d736db3c199d70ed9326d4eda1ef7683f4c5b56c8cf5e6ea5d1898907fb69c"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Simulation/EventScheduler.cs",
+      "sha256": "2b8c247587fccaa1f55bacb098972c56b7cc7529a9f3c28bdf0905a7df0d6e9d"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Simulation/EventScheduler.cs.meta",
+      "sha256": "875666d320487c351798ef2c2d8f22b193adbc96daca2c559467260d76c2129d"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Simulation/FoundationSystems.cs",
+      "sha256": "200f82452c414b8652ec441cd109b2b5c747888cc83e1258657fe47d721be01c"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Simulation/FoundationSystems.cs.meta",
+      "sha256": "692f27095299af5b4a3cbea8348c7b8c058578cf50828b558943b51be2cb17d1"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Simulation/ProductionSystem.cs",
+      "sha256": "33a383b33bd9fe5915105a446be253de841549e1e2f94aecd08f9f934310ca09"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Simulation/ProductionSystem.cs.meta",
+      "sha256": "f25a563e018689b00dc5a03e757a4d89e221dff2326cccbb8d1ca336f8e93dec"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/UI/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/UI/.gitkeep.meta",
+      "sha256": "fb40c47dc8f14dbe064dd09a8d06f45aa9c5d67f055f6d8ccb20b95cc65e7e21"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/UI/BackArrowGraphic.cs",
+      "sha256": "f4d2deaf1c3ece7b6d8f04e839aaddc8ce444acfb26011df75314d673e9d3823"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/UI/BackArrowGraphic.cs.meta",
+      "sha256": "aaa451f4a4d8565d1946108a92dd1996b37d00980a01104ba092c4029ed0ee02"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/UI/IsometricRoomView.cs",
+      "sha256": "65ede9bbf585828a591df8cdbd1ceb9dfadf8aaa1078f14cfe71b279f94d0ece"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/UI/IsometricRoomView.cs.meta",
+      "sha256": "a185bdcf677ce41391a82b90fa2a8e679e706b14993fbbef1e4367fe110d44b0"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/UI/SandboxView.cs",
+      "sha256": "8d226160ea5453d33521c151a08265b92255316de7a80d7aeeda62f21a7ea7da"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/UI/SandboxView.cs.meta",
+      "sha256": "c93e15fcc980272ff8e2cb3fd14859c352cba996b51dec9ad666bcd3f2c278ea"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/UI/StudioSprintView.cs",
+      "sha256": "1f48395353d55d99c88b3064a9fbc0dedae6e0a55e7b9d41b1ebe1c54fd95b32"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/UI/StudioSprintView.cs.meta",
+      "sha256": "8eb832c75fcbc1f79382422627852b03380b0d8b5a32328cf356c8edb7e263ec"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Utilities/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/Utilities/.gitkeep.meta",
+      "sha256": "b95a0eb279a8b7ef9bb4054c41c392030928c63d6ef7f744c6ed324609979643"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/VN/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/VN/.gitkeep.meta",
+      "sha256": "a5d74c54a9e2769eada9639eddb146df408e14a21ecff7210f327d55a1a67986"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/VN/DialogueRunner.cs",
+      "sha256": "ce5c35530d35e62a61ec526b2d2b123bc96f5f595c2b821159d5fe139f1c12ad"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scripts/VN/DialogueRunner.cs.meta",
+      "sha256": "8128a1a021d779e8c67b43d8837356b02908a8e221e4736c2200f9dbfaa8fdcd"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/Editor.meta",
+      "sha256": "c4f1940636f7e245d6a74eda4a3fd5111dc67cb03ab769ba64adf1132c41374b"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/PlayMode.meta",
+      "sha256": "64bf460b8becf04982032a43d562fe4447e6ec10531bde4f192f6afe2fa5990f"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/Editor/CharacterInteractionTests.cs",
+      "sha256": "851a6f6dc6c0d93ae62235b4e2bc6e2f6403c9ace597721582eedb58bd976bda"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/Editor/CharacterInteractionTests.cs.meta",
+      "sha256": "897ed165c0d6a595b19b7f0f379bc4c592643c6e4126779084f851e98674ef8a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/Editor/FoundationTests.cs",
+      "sha256": "bc596f296914a4add990c75ed0511a06f94668f78894deba7ba45b2c58ad7681"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/Editor/FoundationTests.cs.meta",
+      "sha256": "ae073fed7c22d65bcecc1914dae2bcefe734119bce203eb56a3d497970f4ea5a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/Editor/ProductionTests.cs",
+      "sha256": "6318db763a6a074965123f895ca34631fe97a1183017f50fbc48c973d3d70833"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/Editor/ProductionTests.cs.meta",
+      "sha256": "32d4f05d834fcd49c9a89cdd95db4eadce51d395402271cf1c6509fd44cac3c3"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/Editor/ProjectLove.Tests.Editor.asmdef",
+      "sha256": "b677c66ce850e8e6e4572895aa4d2a40fa45c746b06a5e7ca9551516f5d572b0"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/Editor/ProjectLove.Tests.Editor.asmdef.meta",
+      "sha256": "6d237024394546822937899a18fea35385f47d413a25cfb32a65dd25a2d311ea"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/Editor/RoomSystemsTests.cs",
+      "sha256": "1f193dc018f44486198abe68ff486417a503bf0b30518e68be4cc7f307399fa9"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/Editor/RoomSystemsTests.cs.meta",
+      "sha256": "e367d3da85c117d16eae60a9ce8a692ab1cf47a72ac22adbfbd7d766c2410813"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/PlayMode/IsometricPlayTests.cs",
+      "sha256": "1185eb155a411c18fcb1870727286f645984bd50ba2943e6f7cf4013d44cce67"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/PlayMode/IsometricPlayTests.cs.meta",
+      "sha256": "3ec18d463b6a434c5e9a50ba04306d9a6f4a6585ea607dd3d0a83033f71f82ac"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/PlayMode/ProjectLove.Tests.PlayMode.asmdef",
+      "sha256": "177f91e7af4bc2219d42e85164f988dd5370cd6545288e55a5527f35d55373a3"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/PlayMode/ProjectLove.Tests.PlayMode.asmdef.meta",
+      "sha256": "b3b28b4151ebba928c701ce712918becdb77f92cddce3dc5a13e843e28ca47f6"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/PlayMode/SandboxPlayTests.cs",
+      "sha256": "1a8cdf5eda6b885bd14848e704bdc6da18a1dab4e8b84b98798d7685e01d3425"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/PlayMode/SandboxPlayTests.cs.meta",
+      "sha256": "be7061d40adb007bcd4a933370bff7990e86b03e569af5419335f811d7d5a0e1"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/PlayMode/StudioPlayTests.cs",
+      "sha256": "3a05e2a84d8923f7c9a71f7bd6a1a5eeebc37843fabb4d5dd5678a90eae2cbb5"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Tests/PlayMode/StudioPlayTests.cs.meta",
+      "sha256": "18f167bd13aae1e27b1afd5d372625c9dc88bd54caa00e360a7b85324f238e6e"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues.meta",
+      "sha256": "7f647e3110a84385c8f75e00db9e9ba4c6409ca2688824bd34969156496a32ca"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/StudioCampaign.asset",
+      "sha256": "262ff8d79f70629ad021fb2441eb1d81d84ab36c1a06c56e76ad7645dc1df25d"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/StudioCampaign.asset.meta",
+      "sha256": "f3c64ad3904fedc13757cf3fa206dbcf76c2d1a6ffd027a157891286a41b15ab"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/StudioPresentation.asset",
+      "sha256": "993c03aa584e9662973f5b1badf30a8cef5d1052d66f78546c1b321a8e49e27d"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/StudioPresentation.asset.meta",
+      "sha256": "1d2ee6dc9375436a5ec90c13cd1f3c3e7e21a62a6835ce6b45c21572074b7ef5"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/StudioProduction.asset",
+      "sha256": "f96930cb0c401b8c3d5552dbda1b704d48a8c4f71b9e53d3ad91640b1ba1cc7f"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/StudioProduction.asset.meta",
+      "sha256": "8ca7dd1430e1c9696a8ec8bd071b1786baf4129555173547c8557134876419de"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_grace.asset",
+      "sha256": "4c7efcb25e3f0762daf11de7323e8411ffaca14a16b6e62d385de96609ec951e"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_grace.asset.meta",
+      "sha256": "323c51d54786d6317ad01357df3a2057f7fcf2f017151fb2f97dc43523003ba9"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_plaifah.asset",
+      "sha256": "8eacd5c3d1168d34aee5d6161057d7d81195e4ede4b72a356b21c6eadd7d25df"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_plaifah.asset.meta",
+      "sha256": "899a16d67f21ac87deb61d0c27901bd56f4f5f6291468b3693af4455cba3a1c9"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_ploy.asset",
+      "sha256": "5b36b05acdd6f1d8b7c385907267481be51887d3ed551d8f1d80a7949104eb97"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_ploy.asset.meta",
+      "sha256": "c612c23888e3874d59ddeb8ae9bd16ec81ced3c0f603ed7a57ba1e23163dc233"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_rest.asset",
+      "sha256": "965451a0c14df42932952ab1f980544f4837df3d4b6a64bafc92112be85dd438"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_rest.asset.meta",
+      "sha256": "b92ab1c0558a8962ba6d619d277f470bf621c02b5828b67e4c228fd2aac471d9"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_sprint_1.asset",
+      "sha256": "cca79df8e12b2f830a28fb98ef5840f39973f1cef18cd7b380d9ead72b10065a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_sprint_1.asset.meta",
+      "sha256": "6721891fc5c644886ddc7b6c0ffd4087f0a0607a83a66e56247524b76c2d46d8"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_sprint_2.asset",
+      "sha256": "d03385023248086daa230281e49f5d26044592d3dffb214f40f17fdd2c4a2bcb"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_sprint_2.asset.meta",
+      "sha256": "39e4666dcbd79bb16e26f4d356c13efe323a2b268431cee3d0e450cab7cd3753"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_sprint_3.asset",
+      "sha256": "95f8796fd57af0ba6a3556e3d6251b0d84e6a0ac3579ca7bf920169fe0657a7e"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_sprint_3.asset.meta",
+      "sha256": "bd924535e5e7538fce64da0cec2b23685c0ed9672e9f551e9297c5e9e67d9e3a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_sprint_4.asset",
+      "sha256": "1e9affc35ad081632c2dcba4db292a9ad0e214dd38d0b0d170c37976734e16d2"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_sprint_4.asset.meta",
+      "sha256": "03f59c98e4e615f6b506069ead88c1bd7cb92a3ad704d6a949f2e6976bafc57b"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_sprint_5.asset",
+      "sha256": "93de685960bd2c29a4d81711d76937624c316ccde7fbfa368606fe68bd7370a0"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_sprint_5.asset.meta",
+      "sha256": "addb25154f719bbbcc0358ff93fc6f2fb94af871554cbbafc7395921b676a95f"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_store.asset",
+      "sha256": "a753e6e93f9087e869c24585e3003afbee17050a07b43e31eef88efc7a8111f5"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_store.asset.meta",
+      "sha256": "927dbbe1bae9083924c546f543f6e41f13061796a637dbfe855a5d6cd8677266"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_workspace.asset",
+      "sha256": "565ec53ca48e62e17222c24cf7ddd98146ffb00d2b428be755101d5b9d288893"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/studio_workspace.asset.meta",
+      "sha256": "0f9d953f06fae7022ae5adee34103080d554de278cf89dc2f7d53c461037623a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks.meta",
+      "sha256": "64da4fa5870a360f172a1495274fca928535d755b3e047350fce7229e650bebd"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_grace_close.asset",
+      "sha256": "3f055f64bc7310b57a5d436cb6bb045eca54d40157d8ae26e6a9c562627b6f27"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_grace_close.asset.meta",
+      "sha256": "70eac3e7e3df69ed3e54de66f6e416a02c55fc7aa28e7e3233d8951e81063f7e"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_grace_disliked_gift.asset",
+      "sha256": "c5ddc767af341c6bb1f5bdab1991a0730e27b30b01935eb96d72cfe5318a44c2"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_grace_disliked_gift.asset.meta",
+      "sha256": "41b68b52682c75eb75b6120059622f57634ce0e380fd45e84358dbc797b002a6"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_grace_greeting.asset",
+      "sha256": "2bd6b7f2f40bdb59f5b84818255732a77f707e31b3893ca340811a83c2484679"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_grace_greeting.asset.meta",
+      "sha256": "cbcc5ead771bbccfc694d671afe0da7f202340fd4c71f669baafb829a81affaf"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_grace_liked_gift.asset",
+      "sha256": "2e1eab817184fc1dcd16230ad837c2b37603c581a7ac6ba40b7b873a1f6606af"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_grace_liked_gift.asset.meta",
+      "sha256": "6fa99877955d3a5c979640f1d4034c9b69237d10362290f61f2e60589971700c"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_grace_neutral_gift.asset",
+      "sha256": "c2016132db5c44ca2289bcf325cf249b1018a1c9aa5263931417fe3774b0a2c7"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_grace_neutral_gift.asset.meta",
+      "sha256": "7fc996a531c222dcceec17ba4a6bb9cd28e6ea4dbf928400e6d109f57f5a3361"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_grace_night.asset",
+      "sha256": "e53ae5d6cd33e5a7b858c85fd49c786f437906312d9f02ff0124032289d35d99"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_grace_night.asset.meta",
+      "sha256": "55e6a2e06c74dacc83525f8df5cb1d83004aeecd324d33c93a199b461204f9ed"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_grace_talk.asset",
+      "sha256": "d648d664b99f24060bc887a668d9bbe74a5af987a68959a4e995fb80933f4cde"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_grace_talk.asset.meta",
+      "sha256": "1128f0f36cf469c1b6edf03b7da7c500dfe0aa48e340c17b2d8a120ed311a76a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_plaifah_close.asset",
+      "sha256": "68f041a8e89a462e5645f971037610ad5094896fab9e696f903e75d3c6a9df76"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_plaifah_close.asset.meta",
+      "sha256": "c3d06fbf23d22e3e6c47f50157e23f077c4675238ee82b22e68f4a691e51a7d3"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_plaifah_disliked_gift.asset",
+      "sha256": "eeaf76289a3eaa1330edc05b03d1cbe2d964d40d042d00b37a49db71423a5c41"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_plaifah_disliked_gift.asset.meta",
+      "sha256": "cc868af54913ee7c6e22c8e1f01bf6f2721cc3bc331d5cc014ca213470cd7e0d"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_plaifah_greeting.asset",
+      "sha256": "b75249eb99f779ce6c470bdd82e67a9aa23df4a0db59065363a1e25e38772336"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_plaifah_greeting.asset.meta",
+      "sha256": "c28b7c7d0e81c8192eb167af142edb29eecce090effa18d9b4fde9e9ea6bd17b"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_plaifah_liked_gift.asset",
+      "sha256": "6fbb90a134ce27cff6f5b93801c68bc1e56ad7b5091af4b75bbbbcac4f5bd70a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_plaifah_liked_gift.asset.meta",
+      "sha256": "2eb9f89c1834d303bc6bdb7ecbf7e1635b419adf47e1eaee8ab303b7decde8ec"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_plaifah_neutral_gift.asset",
+      "sha256": "dbebecaf127a081a91a80d9aac7f7d7d1f1a465aa4426c9866e80fc7c8d0c21e"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_plaifah_neutral_gift.asset.meta",
+      "sha256": "bca8a3acffd419ad13fd78b2f57f24aa6913ebae2681de5149499152862d21df"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_plaifah_night.asset",
+      "sha256": "6e72cdc4c143fb4e935ff7bc9f4de368202330ae8e14318ed8665677bc3c5a1b"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_plaifah_night.asset.meta",
+      "sha256": "821caf6479857c017fe7f7fde5ffef4b755805f92a11866bf835222c16a2c891"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_plaifah_talk.asset",
+      "sha256": "ee78899dd72d6ffe497667873002cfaf3df287631f6d3aee70a5e0773f68e7d9"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_plaifah_talk.asset.meta",
+      "sha256": "162e891f9c49a194e787c9c99a6b14559574f8dff14869297ec9b6b21094380c"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_ploy_close.asset",
+      "sha256": "ac1780ba4a1c24105889e4df0cb46688f7afdf4111e884a6e8cc06dfbb85f344"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_ploy_close.asset.meta",
+      "sha256": "591fc25edae9042c033f70320be9c4aa4afa57f0c74f8a5bebee79206ef37907"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_ploy_disliked_gift.asset",
+      "sha256": "75f94186ea4d4fc0f6d1b7fa82a21113bf625606f30d24dfe374b386b6433848"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_ploy_disliked_gift.asset.meta",
+      "sha256": "fb96216193a43e4629fd67a76bbf481670008680ac930c77748477a849a8d7cc"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_ploy_greeting.asset",
+      "sha256": "8f57efe61443e98e4cbd69207fab4326aa5ae61f0db9d943438c1f15fa76d626"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_ploy_greeting.asset.meta",
+      "sha256": "1c56157bc115c752fc50dd77b10236982082d6d4820b657850f3728a69aca8bc"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_ploy_liked_gift.asset",
+      "sha256": "0bfdd71afffb00fd0b0239f4d8f60eb2ca6a78c0c30664c824d8a574c9fbb8fa"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_ploy_liked_gift.asset.meta",
+      "sha256": "37a5e21f59206c59aa83521b4dcb443eee3257a98f1a55581236897a8c0163ee"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_ploy_neutral_gift.asset",
+      "sha256": "99ee70b44f68d1be69e95d146566b13c90bfdcbca098339ebad410fb29010b0e"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_ploy_neutral_gift.asset.meta",
+      "sha256": "f610dbbb0eefa40c04344a1477c4600e8e0cba22a96307d717aedc8142810c79"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_ploy_night.asset",
+      "sha256": "86afdd0b27720d0c81130d080c1043d2f6062320657d6019e275c25cace76f3e"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_ploy_night.asset.meta",
+      "sha256": "a0bd8ef1bc625a78ceefe02cdf8ba09c964a4d2e0fabb5f8107a74d5684f2c5f"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_ploy_talk.asset",
+      "sha256": "d6593c85d06bd7085526bbda295f725deda8ae03113945f765bde97f26425bd3"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Dialogues/studio_ploy_talk.asset.meta",
+      "sha256": "ef2b70439cc9668551976b62d245d94ac17b6b8d419929d8d35bbda15f4cbb53"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_bug.asset",
+      "sha256": "70ff18a65bdc96b78d35e088641fa3a5e0d42dbc52aaec00e22b0459824ac81b"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_bug.asset.meta",
+      "sha256": "7016f34102e531eeaa6ffd8e5c2d6c573fe86223180d83e02415cfe46f747764"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_grace_1.asset",
+      "sha256": "5eef8cc31fdd453d21985c769313981bc4a15d1df8bf7e9581b9d2309de48b6c"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_grace_1.asset.meta",
+      "sha256": "b095a4b2a81acbca7ad58d9832b80a0945efab887e5e5a8d96950c88b7801b75"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_grace_2.asset",
+      "sha256": "33497bdd200d3619c8af170b54bfdfbd014e49b48f73a7d9468d413dcbb25bf3"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_grace_2.asset.meta",
+      "sha256": "884ecedfeeccb90d8ce3ddc50fd139f18d121e9d57f7dca8ac557cf88157766b"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_grace_3.asset",
+      "sha256": "af22de3248fcc78b5dc785d007478ff50779e262d86eb33372ec49e1e5df3408"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_grace_3.asset.meta",
+      "sha256": "1811b1ad4b4dddf5eff401a483c657e767c5cd73854b5f2b59bfa1cf61ee0ed3"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_plaifah_1.asset",
+      "sha256": "30d415a6c780c86927984e6743f4b906cc0d89e12569b1a2778585cf47cb6ef8"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_plaifah_1.asset.meta",
+      "sha256": "1a801f626224e2d42e1b16cc38f610ea0ee7bd78ebc699a07e94464f62472b54"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_plaifah_2.asset",
+      "sha256": "87f81a75816b763ee9b32bcccf7eb7234fbbcf4eb413fbe951460502bc802cc1"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_plaifah_2.asset.meta",
+      "sha256": "b31900babaec58905601e1a6ab7ee49b139f3bc5898b1dd84cd4754fe7b912ec"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_plaifah_3.asset",
+      "sha256": "4001fe8799d9552ab04226fedcb5064b74d72b6e7ad07e9e09d331e3547cc3a6"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_plaifah_3.asset.meta",
+      "sha256": "c0fba607ea146f4404514784e35716980ee2143a8030c9be22f51148f0a56583"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_ploy_1.asset",
+      "sha256": "cf722c0a70248b09f37561d37e93dec6926c9c44acc16c06b0fde52e266e5b75"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_ploy_1.asset.meta",
+      "sha256": "708cce691a6408381d6c64266f5ff19fdd9e55a67b1b1cc5ef0a4b7be0f35d19"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_ploy_2.asset",
+      "sha256": "c565f82052da2306f753c30fa89dce7ce450814bae2b5a0c7edbcd1e4a461ab0"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_ploy_2.asset.meta",
+      "sha256": "43cb7f0ac8ef9191a148ec1790963db162705fc7ee616565f09437e83348be76"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_ploy_3.asset",
+      "sha256": "e504d6a611a69a4adf55f3655dfa628d6604e208f293670968cb05c861fb9e93"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w1_ploy_3.asset.meta",
+      "sha256": "ae012679340f5e2e8787c3bdf54433337b08cc61a5d57f333a9ffc0dd737c9d5"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_grace_1.asset",
+      "sha256": "7b9ae13aa09f7393ef9fb9393e8c9912440f5b9fb2fef31ea46a811fb2a2c218"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_grace_1.asset.meta",
+      "sha256": "f3c9c06993138b143a9adff5db2f5dda3ec439d67a7d44337380af9be6ff6ce4"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_grace_2.asset",
+      "sha256": "a8c7d422f5fee4ad22f9a39ff93a23835b61bda2ad6ac7f99c4ffe3840b8915a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_grace_2.asset.meta",
+      "sha256": "9ed74da912ca9ad09c4df450603d758c363a9f02de26d703a4fb908a706a39a9"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_grace_3.asset",
+      "sha256": "0a806a21e7767112b79c413bd5453728006c14d4483e45eb632570cbb8dc52d5"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_grace_3.asset.meta",
+      "sha256": "d000d82f082ffff3a2ff424ab7bd5e975584fe2fcf5f11e6a284ad3e589b3d92"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_plaifah_1.asset",
+      "sha256": "fc2e05ffa5c8a7a856c19401527e90ba9e0816c3423212defdf5bd84b920f593"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_plaifah_1.asset.meta",
+      "sha256": "9753ffe88fce3a33d8acb6f5748db9f79b428af07e8937d278640e875c1007f9"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_plaifah_2.asset",
+      "sha256": "fbaafde53bd0ab4516edbaf24a3730b60a73c8cc77596076ff5627c024ffc226"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_plaifah_2.asset.meta",
+      "sha256": "e545fcd61d0415806668def662e4a622b91e54ef821b179a20c010343a63d9d5"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_plaifah_3.asset",
+      "sha256": "2600a75ecdb6a86964a9d8b8037c6cbf6a7804b9be514635c5c5807040ce198b"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_plaifah_3.asset.meta",
+      "sha256": "e3c2d6bf7e6642c13028a20dd77a6701d5c1f5d03a2787f70031849c569a5db9"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_ploy_1.asset",
+      "sha256": "5bb5eac5a9b1cc4472c842b1b4a3b2d803120f98d692d23249582bc4ec164393"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_ploy_1.asset.meta",
+      "sha256": "1b708f733d5245bb4cfb5a6f0a1b349c38e8073d07d9961c3f9a8a73a5c82cb3"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_ploy_2.asset",
+      "sha256": "31a7023dade92f94a745a1c793006be327b4c2e858a0795b97cf0b9a1bbb6982"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_ploy_2.asset.meta",
+      "sha256": "54e4bd46e49089e9046b32acf9ec3a4eb78f7b7b55d334aa2d9424774efd286a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_ploy_3.asset",
+      "sha256": "99753a324a1d66fdc04c2cdd099aa3b8017e55cf013d0639cdd8ac23602c9990"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w2_ploy_3.asset.meta",
+      "sha256": "6be733cfbbb581675d708cceca8536ea5f88afa7019874429374fdf104076950"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_grace_1.asset",
+      "sha256": "23ee7f1eb978d48aab57f6e0148c41fc23059458a6b4dd6eac4e06929b60aa30"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_grace_1.asset.meta",
+      "sha256": "ca2a3fa5b830541ed6b4121c07cfcdea46943023f32d90d0b6b7660b66d50b3e"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_grace_2.asset",
+      "sha256": "b868b53efa955b9299b5bc784762c76f300c2adac1b41984536fd35d3a10cb0a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_grace_2.asset.meta",
+      "sha256": "6a257d3d0706460a2d11b4021e16753edebc8ed1bd07d9a04b02dad5751bb247"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_grace_3.asset",
+      "sha256": "af39a5aee6a95d20d9c1bd1b220e1a03019d401ebe0939f663692541899e9745"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_grace_3.asset.meta",
+      "sha256": "846458970d269904f89384e01c894b15491bb81f5e7326fea4b51b704e9f5acb"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_plaifah_1.asset",
+      "sha256": "df2305685ae447aa27c92c422c86b4aa545d2eecb57a7940596459cf71223a35"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_plaifah_1.asset.meta",
+      "sha256": "f073b2459981af8fa704d3c009bd0d0d3da5508dc706fd1195f7f055de8bae51"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_plaifah_2.asset",
+      "sha256": "0e264905470ffb3db1a5b5ef0424e9cae3c0a5dc75450a4551a74f00cc822b0b"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_plaifah_2.asset.meta",
+      "sha256": "2692586b6407ffe1abb3cee9eb840d5031ec208d3c11dd00cccfd9be017e92ec"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_plaifah_3.asset",
+      "sha256": "c882474f3329e22e4fbe1cf30d2e573ae75768cb875c9d6e9a79c081b89185fc"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_plaifah_3.asset.meta",
+      "sha256": "865f457732c75ac2da12b00071efa40424ac7e72cc5b0b732309c1547d1ac74e"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_ploy_1.asset",
+      "sha256": "3f45c7707730e876ccbeb556b8fe6a2f6376a8e59223b42daeadf0b48aee9ac4"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_ploy_1.asset.meta",
+      "sha256": "2364c4fcac4df1edc359ba4455d6fed5deeb1614fc2869070211d010cb577151"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_ploy_2.asset",
+      "sha256": "933811a292237bb06ef102f3ae415ac8e1646fd2d6683561edc5d70334ef4d2d"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_ploy_2.asset.meta",
+      "sha256": "8f38c44acb028412c70da89f16ca3ce550ac1b2ef7266ee8a82d3aa13b079073"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_ploy_3.asset",
+      "sha256": "e3e6b3838bc66a5a7008bdd15b60895cdf4c4591de8dc9eb9a8a1babb11924ce"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w3_ploy_3.asset.meta",
+      "sha256": "8dc64b76333bbd340e8f574a47209eeabe58281bc49034230e34d41bb8b90ec4"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_grace_1.asset",
+      "sha256": "ad39e61f9f0346f74a45bb1fab5b88c3a2ef6a453cd8fa0fecf77a3b1f5ae036"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_grace_1.asset.meta",
+      "sha256": "1c54fc1a31707d054f7f96882fb4c6add761d9aa23596413abf92f3e2d1cac1d"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_grace_2.asset",
+      "sha256": "5013fa7f076d48d775c87f1bce776172cb96e54cb3d4f933e24a74a96f9804bf"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_grace_2.asset.meta",
+      "sha256": "9157f4d37a2e7939f4776dcee48f6e75164933af6918ada9bc18a5b348c6ca15"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_grace_3.asset",
+      "sha256": "0408761c7aea95beed6492b351c9df9930f6927ecfa85fa66dfb4e4802804f3c"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_grace_3.asset.meta",
+      "sha256": "14b4d9afa710fd8069d60655c7d714c08f19a003d34eb26b264bdceaf9e62eff"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_plaifah_1.asset",
+      "sha256": "276706100e9df31d3b50b9cff272596014f83b88c3198d7a9d4ead6744126889"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_plaifah_1.asset.meta",
+      "sha256": "c7cd056c71231e584c2d07408ba5b076eff76d42e3ff70427c97c687342356b6"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_plaifah_2.asset",
+      "sha256": "f64c85a0fe062b3fe9d8270c24e094f8ee7888d32a2a2219258ef7abb6b7d073"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_plaifah_2.asset.meta",
+      "sha256": "84c018cee43fcc1342879875558c0fd443d02c08ec167e906e2094061a6b7a09"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_plaifah_3.asset",
+      "sha256": "0174fa142791c841a2b736c14c1c0e2bf02114b0d5159dfb2e78c6b59b6fe92b"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_plaifah_3.asset.meta",
+      "sha256": "0203a668f1cd53523c38c2ee37e7559e080e7144f2ce64d3237c22771a07c42b"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_ploy_1.asset",
+      "sha256": "97c4887242b0382abc3ea9d0eea12bb34c6b20736d82b60fc9cbada8a1b3ac33"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_ploy_1.asset.meta",
+      "sha256": "3e541eb4779798c5114435a74c2d848c28a8722e4a67f4fb39f68b6ba577ca08"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_ploy_2.asset",
+      "sha256": "f39e346e3cc0a55905856fed2ac9d9eceba5cdd2bd4beb8e7cb8c00e950fc07a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_ploy_2.asset.meta",
+      "sha256": "a70db853d5e7192b5bad747dac607adb0f6b96a36b2e263dea77136ee826b934"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_ploy_3.asset",
+      "sha256": "10a8f20a487fb7094b03bc7728fff9afa7c79e24f59f908b091494da0f37f48c"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w4_ploy_3.asset.meta",
+      "sha256": "d594f2b350bd6923a49af2abc342fe6d0230b6a39cbe1edd899862aba402f3ae"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w5_grace_1.asset",
+      "sha256": "e801db075d774807f2724544dbe2f7b62a6933e473749c6ddf897ee07eaac51a"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w5_grace_1.asset.meta",
+      "sha256": "6e6ca8ad7a3dee0b0bc3a15e97312b23c91bda4d3f9830173d7c40b665cb21ec"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w5_plaifah_1.asset",
+      "sha256": "0fd9facf66ddf41ce01f0d8545b9c80c16f9e652c75389c4ce8a2a03256d4cb3"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w5_plaifah_1.asset.meta",
+      "sha256": "e055255fa7e2ca85e6f5560009255e746de66c9c7e4a60ed6b763c1082a5c414"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w5_ploy_1.asset",
+      "sha256": "528cdb95267bdc0a24e5900345513751fd7d0634cbbee86e7b5d92108181a6d3"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio/Tasks/studio_w5_ploy_1.asset.meta",
+      "sha256": "b78d128f6a32e985a8770ce2d8b82be8f6850535c640648efc4b78a4e1b54216"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Studio.meta",
+      "sha256": "996d3fc3cd0bf19949d399c2c07a1599f35f9048fbd26b0a64bad73fa0413aa8"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scenes/Gameplay/StudioSprintPrototype.unity",
+      "sha256": "47430285215d181305c56c5b422c254753ccaf24ab33d5997c8834e0bb3e38c9"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Scenes/Gameplay/StudioSprintPrototype.unity.meta",
+      "sha256": "fd9f463e1fc669c4e0b6423148bf70e6fe2a43047c9591c020996bad9634d859"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Settings/StudioSprintSeed.json",
+      "sha256": "45fd14cbc082e20356bd19be1c8146d0bbc08776f84103a068b04a73a5a62003"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Data/Settings/StudioSprintSeed.json.meta",
+      "sha256": "9b2e7f304d45f18d0eb51d8e6106204bb7595fcab5bbd38ca11295cabc840b9c"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Art/Characters/Sprites/Mockup/Dialogue/chr_grace_Normal.png.meta",
+      "sha256": "9543182b4eda7dbf07d5721dd1e73b62a7f73a2d65ce391fefe53ace727d7903"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Art/Characters/Sprites/Mockup/Dialogue/chr_grace_Smile.png.meta",
+      "sha256": "a9105575056737d03728ebb5da7ae0e30737a8e0374f79a0daba87e6d0ef1e66"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Art/Characters/Sprites/Mockup/Dialogue/chr_ploy_Normal.png.meta",
+      "sha256": "fa1918e772b8831e0a22b6bc53a6688da9e2d16b46ccb67d8871fac9e7c89a17"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Art/Characters/Sprites/Mockup/Dialogue/chr_ploy_Smile.png.meta",
+      "sha256": "e37303f9e4e5bfe7398b493d923959b1729d59c44809268bddacbdce312ba721"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Art/Characters/Sprites/Mockup/Room/chr_grace_Seated_Working.png.meta",
+      "sha256": "f8839f115f2589640089c3fdb3ee46aaecc9c45500f6dc67cdfdd95950d20ecb"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Art/Characters/Sprites/Mockup/Room/chr_grace_Standing_Relaxed.png.meta",
+      "sha256": "beca889c14a45ffb2f2c9151b3ee02e184aec0b2677cc48df73bb9dff10661b7"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Art/Characters/Sprites/Mockup/Room/chr_ploy_Seated_Working.png.meta",
+      "sha256": "170f65d1e1ac1186405fd109dfdfa7eaa34a459b70004af97306365be57ee494"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Art/Characters/Sprites/Mockup/Room/chr_ploy_Standing_Relaxed.png.meta",
+      "sha256": "a6e29a17da0d69dc4e0b05e6cb8c315516786cceac746ce3e2ee2c541f2028bf"
+    }
+  ],
+  "normalizedImports": [
+    {
+      "path": "Project Love/Assets/_Project/Art/Characters/Sprites/Mockup/Dialogue/chr_grace_Normal.png.meta",
+      "guid": "b88c3fd43e6b79344bb98a0d033fcff5",
+      "before": "d5e52d0cd89ea8cff4aae500b7a8496b34cae5a44ee0f2fdb702a88cab892b62",
+      "after": "9543182b4eda7dbf07d5721dd1e73b62a7f73a2d65ce391fefe53ace727d7903",
+      "pngHash": "76b00aff70c4090603e37a55e7f72ea14d34185ce87713ead493cbd360fd022e"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Art/Characters/Sprites/Mockup/Dialogue/chr_grace_Smile.png.meta",
+      "guid": "78e73a19d27f3314fb259e60a50ef385",
+      "before": "0308477a515ddf5c5338a6890dc02c5ace92a0dfc792a6eb850048d7c13aeced",
+      "after": "a9105575056737d03728ebb5da7ae0e30737a8e0374f79a0daba87e6d0ef1e66",
+      "pngHash": "74c6173c62d13c68c90b73a9ece4acc08895beba4f3338d7fab9ca04d015b568"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Art/Characters/Sprites/Mockup/Dialogue/chr_ploy_Normal.png.meta",
+      "guid": "6fc8a6fb309c2f8499cdc52e6414c14c",
+      "before": "e77b139165cbd1ea07f65a7bd5dfcb5772cc1408001b37de1ede4304b20a1518",
+      "after": "fa1918e772b8831e0a22b6bc53a6688da9e2d16b46ccb67d8871fac9e7c89a17",
+      "pngHash": "a74bde324a45da231926961c4e0b5258473ae7dd647cb4c018861d249a80ab39"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Art/Characters/Sprites/Mockup/Dialogue/chr_ploy_Smile.png.meta",
+      "guid": "308b80e9547fe18498500937ced714fd",
+      "before": "e1e119cbfde33f6eecc91288b7d0a8c07669f0fc3fad2d2cdeff863343bc1571",
+      "after": "e37303f9e4e5bfe7398b493d923959b1729d59c44809268bddacbdce312ba721",
+      "pngHash": "b414a56f0e532db3d55d5db2d49c37abf5ee7b60000e3489a5446da57927c7f5"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Art/Characters/Sprites/Mockup/Room/chr_grace_Seated_Working.png.meta",
+      "guid": "c61514d659e71d0479bb0a714fc08985",
+      "before": "0351a3d1962d12526483af03aa4d1654e759bc34035e40d5387c3edc78a059f5",
+      "after": "f8839f115f2589640089c3fdb3ee46aaecc9c45500f6dc67cdfdd95950d20ecb",
+      "pngHash": "c677c3ec65434c16ff4197dd5e1d76af653674b53f4a7a7c73454e08e1fc68e2"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Art/Characters/Sprites/Mockup/Room/chr_grace_Standing_Relaxed.png.meta",
+      "guid": "0fc48e6bf8f867f42a159bbc0bb2cccf",
+      "before": "191376e2a6d49c017113aa856ff328d9815dc1e2c282dd16659b82be54a40ec2",
+      "after": "beca889c14a45ffb2f2c9151b3ee02e184aec0b2677cc48df73bb9dff10661b7",
+      "pngHash": "36786f1214a03006304ab1ff7f6c88ff279e0dad5f61f3c100647be823038d47"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Art/Characters/Sprites/Mockup/Room/chr_ploy_Seated_Working.png.meta",
+      "guid": "f1c1951bf089e614a8cae7567c9f6296",
+      "before": "a1138e677e9cc15ca1b287142cb9b307783f973946d8799bc6c057fe4b34f672",
+      "after": "170f65d1e1ac1186405fd109dfdfa7eaa34a459b70004af97306365be57ee494",
+      "pngHash": "bd782609b0d8262ce46a05430b9b0a727c81290012c7a9dc6564b9a3f33a4cf1"
+    },
+    {
+      "path": "Project Love/Assets/_Project/Art/Characters/Sprites/Mockup/Room/chr_ploy_Standing_Relaxed.png.meta",
+      "guid": "404c7be187f73064db8d3256239c46cf",
+      "before": "1c9a2b65318d49e6c3806b1c63a7a302c02ce6a66b87f6e3470fdb05c167dbd9",
+      "after": "a6e29a17da0d69dc4e0b05e6cb8c315516786cceac746ce3e2ee2c541f2028bf",
+      "pngHash": "8db178cc6f50566ec45d2a892459cdbac5056080cbfb05ec4d4b96f0bc2fdae8"
+    }
+  ],
+  "protectedBaselineFiles": 318,
+  "serializedReferenceCheck": "All new scene/Studio GUIDs resolve in delivered Assets or resolved Unity packages.",
+  "excluded": "Verification-only dynamic Sarabun SDF cache; never copied back."
+}

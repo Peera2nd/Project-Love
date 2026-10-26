@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "nodes": [
+    {
+      "id": "evt_studio_brief",
+      "characterId": "studio_ploy",
+      "text": "ก่อนเริ่มงานวันนี้ ขอเช็กเป้า Sprint กันนิดนะคะ งานพร้อมแล้วกดตรวจรับบนบอร์ดด้วย จะได้รู้ว่าส่งทันแค่ไหน",
+      "choices": [],
+      "nextId": ""
+    },
+    {
+      "id": "evt_studio_bug",
+      "characterId": "studio_grace",
+      "text": "เจอบัคในตัวทดลองค่ะ ต้องเพิ่มงาน Code อีก 24 เป้ารอบนี้จะเป็น 104 งานเดิมไม่ได้หายไปนะคะ เราจัดลำดับใหม่แล้วค่อยเลือกว่าจะช่วยหรือขอ OT ก็ได้",
+      "choices": [
+        {
+          "id": "evt_bug_accept",
+          "text": "เพิ่มงาน Code 24 เข้า Sprint นี้ แล้วไปจัดแผนบนบอร์ด",
+          "nextId": "evt_studio_bug_result",
+          "workloads": [
+            "studio_bug_demo"
+          ],
+          "flags": [
+            {
+              "flagId": "studio_event_bug_acknowledged",
+              "value": true
+            }
+          ],
+          "effects": []
+        },
+        {
+          "id": "evt_bug_details",
+          "text": "ขอฟังรายละเอียดก่อน",
+          "nextId": "evt_studio_bug_details",
+          "workloads": [],
+          "flags": [],
+          "effects": []
+        }
+      ],
+      "nextId": ""
+    },
+    {
+      "id": "evt_studio_bug_details",
+      "characterId": "studio_grace",
+      "text": "บัคนี้เป็นงานเพิ่มค่ะ ถ้ารอบนี้ไม่ทัน งานที่ทำไปยังอยู่ เราค่อยตามเก็บต่อได้ อยากให้ช่วยดูคิวก่อน จะได้ไม่ต้องอยู่ดึกโดยไม่จำเป็น",
+      "choices": [
+        {
+          "id": "evt_bug_details_accept",
+          "text": "รับงาน Code เพิ่ม 24 แล้วกลับไปดูบอร์ด",
+          "nextId": "evt_studio_bug_result",
+          "workloads": [
+            "studio_bug_demo"
+          ],
+          "flags": [
+            {
+              "flagId": "studio_event_bug_acknowledged",
+              "value": true
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "nextId": ""
+    },
+    {
+      "id": "evt_studio_bug_result",
+      "characterId": "studio_grace",
+      "text": "เพิ่มการ์ดและเป้า Code ในบอร์ดแล้วค่ะ ขอบคุณที่ช่วยดูแผนด้วยกัน ถ้าจะกลับไปคิดก่อน กดย้อนออกได้ งานเพิ่มนี้จะยังไม่ถูกยืนยัน",
+      "choices": [],
+      "nextId": ""
+    },
+    {
+      "id": "evt_studio_art_check",
+      "characterId": "studio_plaifah",
+      "text": "ก่อนลงรายละเอียดภาพ อยากให้ช่วยดูว่าภาพนี้สื่ออารมณ์ตรงกับที่ทีมอยากได้ไหมคะ จะได้ไม่ต้องแก้กันตอนท้าย",
+      "choices": [
+        {
+          "id": "evt_art_listen",
+          "text": "ฟังแนวคิดและให้ข้อเสนอแนะ · ความสัมพันธ์ +1",
+          "nextId": "evt_studio_art_result",
+          "workloads": [],
+          "flags": [
+            {
+              "flagId": "studio_event_art_listened",
+              "value": true
+            }
+          ],
+          "effects": [
+            {
+              "stat": "Affection",
+              "characterId": "studio_plaifah",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "nextId": ""
+    },
+    {
+      "id": "evt_studio_art_result",
+      "characterId": "studio_plaifah",
+      "text": "ขอบคุณค่ะ พอมีคนรับฟังแล้วรู้สึกมั่นใจขึ้นหน่อย เดี๋ยวเอาสิ่งที่คุยกันไปปรับต่อค่ะ",
+      "choices": [],
+      "nextId": ""
+    },
+    {
+      "id": "evt_studio_bug_followup",
+      "characterId": "studio_grace",
+      "text": "เรื่องบัคที่คุยกันวันก่อน อย่างน้อยตอนนี้ทีมเห็นภาระงานตรงกันแล้วค่ะ อย่าลืมดูทั้งงานที่ส่งทันกับความเครียดด้วยนะคะ ถ้าจำเป็นเรายังปรับแผนกันได้",
+      "choices": [],
+      "nextId": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "studio_event_brief",
+      "displayName": "เช็กเป้า Sprint",
+      "characterId": "studio_ploy",
+      "entryId": "evt_studio_brief",
+      "startDay": 2,
+      "endDay": 4,
+      "priority": 100,
+      "delivery": "Forced",
+      "conditions": []
+    },
+    {
+      "id": "studio_event_bug",
+      "displayName": "บัคในตัวทดลอง",
+      "characterId": "studio_grace",
+      "entryId": "evt_studio_bug",
+      "startDay": 2,
+      "endDay": 5,
+      "priority": 50,
+      "delivery": "CharacterBubble",
+      "conditions": [
+        {
+          "type": "WorkloadNotActivated",
+          "targetId": "studio_bug_demo"
+        }
+      ]
+    },
+    {
+      "id": "studio_event_art_check",
+      "displayName": "คุยแนวทางภาพ",
+      "characterId": "studio_plaifah",
+      "entryId": "evt_studio_art_check",
+      "startDay": 2,
+      "endDay": 5,
+      "priority": 30,
+      "delivery": "CharacterBubble",
+      "conditions": []
+    },
+    {
+      "id": "studio_event_bug_followup",
+      "displayName": "แผนหลังเจอบัค",
+      "characterId": "studio_grace",
+      "entryId": "evt_studio_bug_followup",
+      "startDay": 3,
+      "endDay": 7,
+      "priority": 20,
+      "delivery": "CharacterBubble",
+      "conditions": [
+        {
+          "type": "EventCompleted",
+          "eventId": "studio_event_bug"
+        }
+      ]
+    }
+  ],
+  "text": [
+    {
+      "key": "eventBubble",
+      "value": "!"
+    },
+    {
+      "key": "hint",
+      "value": "บับเบิล ! = อีเว้น · กดตัวละครเพื่อคุย/ช่วยงาน · โต๊ะเปิดบอร์ด Sprint"
+    }
+  ]
+}

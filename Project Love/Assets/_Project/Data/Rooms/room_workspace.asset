@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 737bb5152fe34f158688747fa4cc2217, type: 3}
+  m_Name: room_workspace
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.RoomDataSO
+  id: room_workspace
+  displayName: "\u0E2B\u0E49\u0E2D\u0E07\u0E17\u0E33\u0E07\u0E32\u0E19"
+  phases:
+  - phase: 0
+    background: {fileID: 21300000, guid: 8295d1b731f8fab46958a4a98e854075, type: 3}
+  - phase: 1
+    background: {fileID: 21300000, guid: 03ca4d6ac02facc468525fe35f790469, type: 3}
+  - phase: 2
+    background: {fileID: 21300000, guid: 849b1c1275572f648b3d6f9b6218d79f, type: 3}
+  - phase: 3
+    background: {fileID: 21300000, guid: 65539f4af9c25a3469cc11a7e4c07b8b, type: 3}
+  dayEndedBackground: {fileID: 21300000, guid: dedcc5aaa9c28fb4d92c293f2cb811ad, type: 3}
+  hotspots:
+  - id: room_person
+    label: "\u0E1B\u0E25\u0E32\u0E22\u0E1F\u0E49\u0E32"
+    kind: 0
+    placements:
+    - phase: 0
+      sprite: {fileID: 21300000, guid: 6199d949b3c27c149b4f05fc21eb86bc, type: 3}
+      position: {x: 0.55, y: 0.53}
+      size: {x: 0.25, y: 0.25}
+      visible: 1
+    - phase: 1
+      sprite: {fileID: 21300000, guid: 8bafb8de2d28e8f4cb6b9fbc15f45891, type: 3}
+      position: {x: 0.64, y: 0.25}
+      size: {x: 0.25, y: 0.25}
+      visible: 1
+    - phase: 2
+      sprite: {fileID: 21300000, guid: 8bafb8de2d28e8f4cb6b9fbc15f45891, type: 3}
+      position: {x: 0.64, y: 0.25}
+      size: {x: 0.25, y: 0.25}
+      visible: 1
+    - phase: 3
+      sprite: {fileID: 21300000, guid: 8bafb8de2d28e8f4cb6b9fbc15f45891, type: 3}
+      position: {x: 0.64, y: 0.25}
+      size: {x: 0.25, y: 0.25}
+      visible: 1
+    character: {fileID: 11400000, guid: ffc192ed428ec1b4f82eaadc277ae7d1, type: 2}
+    conversation: {fileID: 11400000, guid: 816db85942c33264283ea546039c59e3, type: 2}
+    activity: {fileID: 0}
+    item: {fileID: 0}
+  - id: room_desk
+    label: "\u0E17\u0E33\u0E07\u0E32\u0E19"
+    kind: 1
+    placements:
+    - phase: 0
+      sprite: {fileID: 0}
+      position: {x: 0.3, y: 0.49}
+      size: {x: 0.18, y: 0.08}
+      visible: 1
+    - phase: 1
+      sprite: {fileID: 0}
+      position: {x: 0.3, y: 0.49}
+      size: {x: 0.18, y: 0.08}
+      visible: 1
+    - phase: 2
+      sprite: {fileID: 0}
+      position: {x: 0.3, y: 0.49}
+      size: {x: 0.18, y: 0.08}
+      visible: 1
+    - phase: 3
+      sprite: {fileID: 0}
+      position: {x: 0.3, y: 0.49}
+      size: {x: 0.18, y: 0.08}
+      visible: 1
+    character: {fileID: 0}
+    conversation: {fileID: 0}
+    activity: {fileID: 11400000, guid: 7e4f269e865eb4d4a8d7259db296498f, type: 2}
+    item: {fileID: 0}
+  - id: room_sofa
+    label: "\u0E1E\u0E31\u0E01"
+    kind: 1
+    placements:
+    - phase: 0
+      sprite: {fileID: 0}
+      position: {x: 0.35, y: 0.23}
+      size: {x: 0.14, y: 0.07}
+      visible: 1
+    - phase: 1
+      sprite: {fileID: 0}
+      position: {x: 0.35, y: 0.23}
+      size: {x: 0.14, y: 0.07}
+      visible: 1
+    - phase: 2
+      sprite: {fileID: 0}
+      position: {x: 0.35, y: 0.23}
+      size: {x: 0.14, y: 0.07}
+      visible: 1
+    - phase: 3
+      sprite: {fileID: 0}
+      position: {x: 0.35, y: 0.23}
+      size: {x: 0.14, y: 0.07}
+      visible: 1
+    character: {fileID: 0}
+    conversation: {fileID: 0}
+    activity: {fileID: 11400000, guid: 37cbd42f8b15aa64a989ca4d736d2ad8, type: 2}
+    item: {fileID: 0}
+  - id: room_pickup_water
+    label: "\u0E40\u0E01\u0E47\u0E1A\u0E19\u0E49\u0E33\u0E14\u0E37\u0E48\u0E21"
+    kind: 2
+    placements:
+    - phase: 0
+      sprite: {fileID: 21300000, guid: 2dc1ddcb95663ce4c81f74f23c7c8b2f, type: 3}
+      position: {x: 0.54, y: 0.13}
+      size: {x: 0.07, y: 0.09}
+      visible: 1
+    - phase: 1
+      sprite: {fileID: 21300000, guid: 2dc1ddcb95663ce4c81f74f23c7c8b2f, type: 3}
+      position: {x: 0.54, y: 0.13}
+      size: {x: 0.07, y: 0.09}
+      visible: 1
+    - phase: 2
+      sprite: {fileID: 21300000, guid: 2dc1ddcb95663ce4c81f74f23c7c8b2f, type: 3}
+      position: {x: 0.54, y: 0.13}
+      size: {x: 0.07, y: 0.09}
+      visible: 1
+    - phase: 3
+      sprite: {fileID: 21300000, guid: 2dc1ddcb95663ce4c81f74f23c7c8b2f, type: 3}
+      position: {x: 0.54, y: 0.13}
+      size: {x: 0.07, y: 0.09}
+      visible: 1
+    character: {fileID: 0}
+    conversation: {fileID: 0}
+    activity: {fileID: 0}
+    item: {fileID: 11400000, guid: 8f69e437f6a4f164a9b15553c67fa1ae, type: 2}
+  shopItems: []
+  entryPhaseCost: 0

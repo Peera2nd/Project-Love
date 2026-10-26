@@ -1,0 +1,10 @@
+{
+  "rows": 689,
+  "englishDrafts": 96,
+  "missingEnglish": 593,
+  "multilineRows": 18,
+  "sourceUnchanged": true,
+  "exactSixColumnRoundtrip": true,
+  "utf8Bom": true,
+  "scope": "Entire saved current Romance localization catalog; not an inventory of every legacy/custom UI literal."
+}

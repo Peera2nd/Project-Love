@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bc80a0861de45c6acfedaa09b79b222, type: 3}
+  m_Name: work_producer
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.WorkStreamSO
+  id: work_producer
+  displayName: Producer
+  tint: {r: 0.3372549, g: 0.74509805, b: 0.6666667, a: 1}
+  icon: {fileID: 21300000, guid: 2e9de4fc203f4e54ab8a79b6700ebcc0, type: 3}

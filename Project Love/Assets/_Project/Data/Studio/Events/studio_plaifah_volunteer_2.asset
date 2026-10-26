@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68294642b7394931b38b71feca2638e1, type: 3}
+  m_Name: studio_plaifah_volunteer_2
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.DialogueNodeSO
+  id: studio_plaifah_volunteer_2
+  lines:
+  - lineId: studio_plaifah_volunteer_2_line
+    speaker: {fileID: 11400000, guid: b25bb883c2b856841955abfa79b36ca0, type: 2}
+    expression: 0
+    text: "\u0E1B\u0E25\u0E32\u0E22\u0E1F\u0E49\u0E32\u0E40\u0E23\u0E34\u0E48\u0E21\u0E21\u0E2D\u0E07\u0E23\u0E32\u0E22\u0E25\u0E30\u0E40\u0E2D\u0E35\u0E22\u0E14\u0E44\u0E21\u0E48\u0E0A\u0E31\u0E14\u0E41\u0E25\u0E49\u0E27\u0E04\u0E48\u0E30
+      \u0E41\u0E15\u0E48\u0E07\u0E32\u0E19\u0E17\u0E35\u0E48\u0E43\u0E01\u0E25\u0E49\u0E2A\u0E48\u0E07\u0E22\u0E31\u0E07\u0E40\u0E2B\u0E25\u0E37\u0E2D
+      \u0E02\u0E2D\u0E40\u0E01\u0E47\u0E1A\u0E41\u0E04\u0E48\u0E2A\u0E48\u0E27\u0E19\u0E17\u0E35\u0E48\u0E1A\u0E23\u0E35\u0E1F\u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E2D\u0E35\u0E01\u0E19\u0E34\u0E14\u0E44\u0E14\u0E49\u0E44\u0E2B\u0E21\u0E04\u0E30"
+  choices:
+  - choiceId: studio_plaifah_volunteer_2_join
+    text: "\u0E2D\u0E22\u0E39\u0E48\u0E0A\u0E48\u0E27\u0E22\u0E17\u0E33\u0E07\u0E32\u0E19\u0E14\u0E49\u0E27\u0E22\u0E01\u0E31\u0E19"
+    actionPointCost: 0
+    staminaCost: 0
+    conditions: []
+    effects: []
+    flags: []
+    activateWorkloads: []
+    workAction: 2
+    workCharacter: {fileID: 11400000, guid: b25bb883c2b856841955abfa79b36ca0, type: 2}
+    nextNode: {fileID: 11400000, guid: 1b0742f2eca9eeb4eb9938b7a4509c6b, type: 2}
+  - choiceId: studio_plaifah_volunteer_2_allow
+    text: "\u0E15\u0E01\u0E25\u0E07\u0E43\u0E2B\u0E49\u0E2D\u0E22\u0E39\u0E48\u0E15\u0E48\u0E2D"
+    actionPointCost: 0
+    staminaCost: 0
+    conditions: []
+    effects: []
+    flags: []
+    activateWorkloads: []
+    workAction: 1
+    workCharacter: {fileID: 11400000, guid: b25bb883c2b856841955abfa79b36ca0, type: 2}
+    nextNode: {fileID: 11400000, guid: c52a6e021883aac4c905f0f454d22cd2, type: 2}
+  - choiceId: studio_plaifah_volunteer_2_decline
+    text: "\u0E04\u0E37\u0E19\u0E19\u0E35\u0E49\u0E1E\u0E31\u0E01\u0E01\u0E48\u0E2D\u0E19"
+    actionPointCost: 0
+    staminaCost: 0
+    conditions: []
+    effects: []
+    flags: []
+    activateWorkloads: []
+    workAction: 0
+    workCharacter: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 2c51745e5f8e35f41a926ef114435e08, type: 2}
+  nextNode: {fileID: 0}

@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "dependencies": [
+    {
+      "taskId": "studio_w1_ploy_1",
+      "displayName": "S1 · บรีฟตัวละครและรูปแบบเกม",
+      "prerequisites": []
+    },
+    {
+      "taskId": "studio_w1_plaifah_2",
+      "displayName": "S1 · วาดภาพตัวละครตามบรีฟ",
+      "prerequisites": [
+        "studio_w1_ploy_1"
+      ]
+    },
+    {
+      "taskId": "studio_w1_grace_2",
+      "displayName": "S1 · ใส่ภาพตัวละครและเชื่อมบทสนทนา",
+      "prerequisites": [
+        "studio_w1_plaifah_2"
+      ]
+    },
+    {
+      "taskId": "studio_w1_grace_3",
+      "displayName": "S1 · ทดสอบระบบควบคุม",
+      "prerequisites": [
+        "studio_w1_grace_1"
+      ]
+    }
+  ],
+  "text": [
+    {
+      "key": "hudDay",
+      "value": "วันที่ {0}/{1} · {2}"
+    },
+    {
+      "key": "hudMoney",
+      "value": "เงิน {0}"
+    },
+    {
+      "key": "hudEnergy",
+      "value": "Stamina {0}/{1}"
+    },
+    {
+      "key": "hudProgress",
+      "value": "งาน {0}%"
+    },
+    {
+      "key": "affectionShort",
+      "value": "สัมพันธ์ {0}/100"
+    },
+    {
+      "key": "stressShort",
+      "value": "เครียด {0}/100"
+    },
+    {
+      "key": "workShort",
+      "value": "งาน {0}/{1}"
+    },
+    {
+      "key": "dependencyReady",
+      "value": "พร้อมทำ"
+    },
+    {
+      "key": "dependencyWaiting",
+      "value": "รอต้นทาง"
+    },
+    {
+      "key": "dependencyReview",
+      "value": "รอตรวจรับ"
+    },
+    {
+      "key": "dependencyAccepted",
+      "value": "ส่งแล้ว"
+    },
+    {
+      "key": "dependencyIndependent",
+      "value": "งานอิสระ · ไม่รอต้นทาง"
+    },
+    {
+      "key": "dependencyNeeds",
+      "value": "รอ {0} · {1}"
+    },
+    {
+      "key": "dependencyTitle",
+      "value": "รายละเอียดงาน"
+    },
+    {
+      "key": "dependencyBefore",
+      "value": "ต้องรอส่งงานต้นทาง"
+    },
+    {
+      "key": "dependencyAfter",
+      "value": "ส่งใบนี้แล้วปลดงานต่อ"
+    },
+    {
+      "key": "dependencyOwner",
+      "value": "{0} · {1}/{2}"
+    },
+    {
+      "key": "dependencyJump",
+      "value": "ดู {0}"
+    },
+    {
+      "key": "dependencyProgress",
+      "value": "{0}/{1} · {2}"
+    },
+    {
+      "key": "dependencyReviewHint",
+      "value": "ทำครบแล้วต้องกดตรวจรับ จึงปลดงานต่อได้"
+    },
+    {
+      "key": "dependencyNoneAfter",
+      "value": "ยังไม่มีงานต่อที่รอใบนี้"
+    },
+    {
+      "key": "dependencyChoose",
+      "value": "พร้อมทำอีก {0} ใบ"
+    },
+    {
+      "key": "dependencyInspect",
+      "value": "รายละเอียด"
+    },
+    {
+      "key": "dependencyFocus",
+      "value": "กลับงาน Producer"
+    },
+    {
+      "key": "dependencyProducer",
+      "value": "รอ Producer เคลียร์"
+    },
+    {
+      "key": "dependencyStage",
+      "value": "รอปลด Sprint"
+    },
+    {
+      "key": "dependencyDone",
+      "value": "ส่งต้นทางแล้ว"
+    },
+    {
+      "key": "boardHint",
+      "value": "งานรอ: กดรายละเอียดเพื่อดูต้นทาง · เลือกงานพร้อมทำระหว่างรอ · ตรวจรับเพื่อปลดงานต่อ"
+    },
+    {
+      "key": "eventHint",
+      "value": "{0}\nเข้าถึงวันที่ {1}–{2} · เวลา {3} ช่วง · Stamina {4}"
+    },
+    {
+      "key": "restBadgeHint",
+      "value": "{0}: พักช่วงนี้ งานไม่เดิน ลดความเครียดเมื่อผ่านช่วงเวลา"
+    },
+    {
+      "key": "otBadgeHint",
+      "value": "{0}: ยืนยัน OT แล้ว งานเดินเมื่อจบกลางคืน"
+    },
+    {
+      "key": "sheetHint",
+      "value": "สีทึบ = งานปัจจุบัน · ลายเฉียง = คาดการณ์หลังช่วย รวมงานทีม · ตัวเลขเป็นค่าที่คำนวณแล้ว"
+    },
+    {
+      "key": "dependencyTip",
+      "value": "ตรวจรับงานต้นทางก่อนเริ่มงานต่อ กดรายละเอียดเพื่อดูเจ้าของงานและความคืบหน้า"
+    },
+    {
+      "key": "newRunHint",
+      "value": "มีการปรับสายงาน S1 เริ่มรอบใหม่เพื่อใช้แผนงานนี้"
+    }
+  ]
+}

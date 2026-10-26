@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db1ae98ed8e54673abea99d7ad2df85a, type: 3}
+  m_Name: romance_grace
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.CharacterDataSO
+  id: romance_grace
+  displayName: เกรซ
+  roleTitle: Code
+  startingAffection: 0
+  startingStress: 0
+  sprites:
+  - expression: 0
+    sprite: {fileID: 21300000, guid: b88c3fd43e6b79344bb98a0d033fcff5, type: 3}
+  - expression: 1
+    sprite: {fileID: 21300000, guid: 78e73a19d27f3314fb259e60a50ef385, type: 3}
+  taskAvatar: {fileID: 21300000, guid: cd58fefc7f8282f47916d0761374877d, type: 3}
+  greetings:
+  - id: default
+    priority: 0
+    startDay: 1
+    endDay: 30
+    anyPhase: 1
+    phase: 0
+    minimumAffection: 0
+    maximumAffection: 100
+    minimumStress: 0
+    maximumStress: 100
+    overtimeOnly: 0
+    conditions: []
+    node: {fileID: 11400000, guid: f2e498e35c3d24243a364160f9e3d626, type: 2}
+  - id: opening_grace_reminder_daytime
+    displayName: นัดช่วงบ่าย วันที่ 3–7 ยังอยู่นะคะ · กดบับเบิลช่วงบ่าย ใช้เวลา 1 ช่วง
+    priority: 80
+    startDay: 2
+    endDay: 7
+    anyPhase: 1
+    phase: 0
+    minimumAffection: 0
+    maximumAffection: 100
+    minimumStress: 0
+    maximumStress: 100
+    overtimeOnly: 0
+    conditions:
+    - type: 2
+      stat: 0
+      character: {fileID: 0}
+      value: 0
+      flagId: opening_grace_invited
+      eventId: ''
+      targetId: ''
+    - type: 2
+      stat: 0
+      character: {fileID: 0}
+      value: 0
+      flagId: opening_grace_daytime
+      eventId: ''
+      targetId: ''
+    - type: 3
+      stat: 0
+      character: {fileID: 0}
+      value: 0
+      flagId: opening_grace_payoff
+      eventId: ''
+      targetId: ''
+    node: {fileID: 11400000, guid: a467817507244ebda25c85b82556641a, type: 2}
+    pool: []
+  - id: opening_grace_reminder_evening
+    displayName: นัดช่วงเย็น วันที่ 3–7 ยังอยู่นะคะ · กดบับเบิลช่วงเย็น ใช้เวลา 1 ช่วง
+    priority: 80
+    startDay: 2
+    endDay: 7
+    anyPhase: 1
+    phase: 0
+    minimumAffection: 0
+    maximumAffection: 100
+    minimumStress: 0
+    maximumStress: 100
+    overtimeOnly: 0
+    conditions:
+    - type: 2
+      stat: 0
+      character: {fileID: 0}
+      value: 0
+      flagId: opening_grace_invited
+      eventId: ''
+      targetId: ''
+    - type: 2
+      stat: 0
+      character: {fileID: 0}
+      value: 0
+      flagId: opening_grace_evening
+      eventId: ''
+      targetId: ''
+    - type: 3
+      stat: 0
+      character: {fileID: 0}
+      value: 0
+      flagId: opening_grace_payoff
+      eventId: ''
+      targetId: ''
+    node: {fileID: 11400000, guid: 8bd4fd1c67c84b4f942a499627d485f7, type: 2}
+    pool: []
+  - id: opening_grace_after
+    displayName: วันนี้ไม่มีบทต้องทดสอบค่ะ แต่ที่ข้างโต๊ะยังว่าง ถ้าคุณอยากนั่งคุย
+    priority: 60
+    startDay: 3
+    endDay: 30
+    anyPhase: 1
+    phase: 0
+    minimumAffection: 0
+    maximumAffection: 100
+    minimumStress: 0
+    maximumStress: 100
+    overtimeOnly: 0
+    conditions:
+    - type: 2
+      stat: 0
+      character: {fileID: 0}
+      value: 0
+      flagId: opening_grace_payoff
+      eventId: ''
+      targetId: ''
+    node: {fileID: 11400000, guid: d38e00667f1d4a56b8545a9bf9b41201, type: 2}
+    pool: []
+  - id: opening_grace_missed
+    displayName: คราวก่อนเราคลาดกัน ถ้ายังอยากคุย แวะกดบับเบิลมาหาได้ · 1 ช่วง
+    priority: 80
+    startDay: 8
+    endDay: 10
+    anyPhase: 1
+    phase: 0
+    minimumAffection: 0
+    maximumAffection: 100
+    minimumStress: 0
+    maximumStress: 100
+    overtimeOnly: 0
+    conditions:
+    - type: 2
+      stat: 0
+      character: {fileID: 0}
+      value: 0
+      flagId: opening_grace_invited
+      eventId: ''
+      targetId: ''
+    - type: 3
+      stat: 0
+      character: {fileID: 0}
+      value: 0
+      flagId: opening_grace_payoff
+      eventId: ''
+      targetId: ''
+    node: {fileID: 11400000, guid: 7b7379866eb94ab3808f20aee1d31b45, type: 2}
+    pool: []
+  conversations:
+  - id: default
+    priority: 0
+    startDay: 1
+    endDay: 30
+    anyPhase: 1
+    phase: 0
+    minimumAffection: 0
+    maximumAffection: 100
+    minimumStress: 0
+    maximumStress: 100
+    overtimeOnly: 0
+    conditions: []
+    node: {fileID: 11400000, guid: 2b83c68d6e5de334bb8d8b04a2927629, type: 2}
+  dailyTalkStaminaCost: 0
+  dailyTalkAffection: 1
+  workActivity: {fileID: 0}
+  neutralGiftResponse: {fileID: 11400000, guid: e7ee38ec1169b9748bb825318eccb9bd, type: 2}
+  neutralGiftAffection: 1
+  giftPreferences:
+  - item: {fileID: 11400000, guid: 8f69e437f6a4f164a9b15553c67fa1ae, type: 2}
+    reaction: 1
+    affectionChange: 4
+    response: {fileID: 11400000, guid: a678414f7ef71944da1ccfb85cfcbf16, type: 2}
+  - item: {fileID: 11400000, guid: e635f8b9f7c82564c9090ecef3843ca6, type: 2}
+    reaction: 2
+    affectionChange: -2
+    response: {fileID: 11400000, guid: afb767bc9d00a8e4a817b00e713d88a9, type: 2}

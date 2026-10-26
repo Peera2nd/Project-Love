@@ -1,0 +1,90 @@
+[
+  {
+    "dailyTalk": false,
+    "mainProgress": 100,
+    "resolvedPhases": 120,
+    "completedEvents": [
+      "studio_event_brief",
+      "studio_event_bug",
+      "studio_event_art_check",
+      "studio_event_bug_followup"
+    ],
+    "producerStagesCompleted": 5,
+    "affection": {
+      "studio_grace": 0,
+      "studio_plaifah": 1,
+      "studio_ploy": 0
+    },
+    "sprints": [
+      {
+        "sprint": "studio_sprint_1",
+        "met": false,
+        "carryover": 1
+      },
+      {
+        "sprint": "studio_sprint_2",
+        "met": true,
+        "carryover": 1
+      },
+      {
+        "sprint": "studio_sprint_3",
+        "met": true,
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_4",
+        "met": true,
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_5",
+        "met": true,
+        "carryover": 0
+      }
+    ]
+  },
+  {
+    "dailyTalk": true,
+    "mainProgress": 100,
+    "resolvedPhases": 120,
+    "completedEvents": [
+      "studio_event_brief",
+      "studio_event_bug",
+      "studio_event_art_check",
+      "studio_event_bug_followup"
+    ],
+    "producerStagesCompleted": 5,
+    "affection": {
+      "studio_grace": 60,
+      "studio_plaifah": 61,
+      "studio_ploy": 60
+    },
+    "sprints": [
+      {
+        "sprint": "studio_sprint_1",
+        "met": false,
+        "carryover": 1
+      },
+      {
+        "sprint": "studio_sprint_2",
+        "met": true,
+        "carryover": 1
+      },
+      {
+        "sprint": "studio_sprint_3",
+        "met": true,
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_4",
+        "met": true,
+        "carryover": 0
+      },
+      {
+        "sprint": "studio_sprint_5",
+        "met": true,
+        "carryover": 0
+      }
+    ]
+  }
+]

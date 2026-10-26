@@ -1,0 +1,5 @@
+{
+  "name": "ProjectLove.Tests.PlayMode",
+  "references": ["ProjectLove.Runtime", "UnityEngine.UI", "Unity.TextMeshPro", "Unity.InputSystem", "Unity.InputSystem.TestFramework", "Unity.RenderPipelines.Universal.Runtime"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

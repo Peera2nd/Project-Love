@@ -1,0 +1,11 @@
+{
+  "Scripts/Data/CharacterInteractionData.cs": "e010f5f8a4f5e144f6a92cf9015ede0e8c938b8cf0b8ff245a13a400615b34ad",
+  "Scripts/Core/CharacterInteractions.cs": "8e265d8b0f6e7a9e6e0a9bf3184753b197df9026dfaf7cfdf990d9c94c2cb004",
+  "Scripts/Simulation/RomanceSystem.cs": "de657b5b7b1816baa6279ea0616c6566521a27d67ce2f031fe57243e82d48785",
+  "Scripts/Editor/Validators/FoundationValidator.cs": "ef6d4fe621667262b8e5191ef80f181845e070fb9325a7f9a68cc005cb80dc2f",
+  "Scripts/Editor/AuthoringCatalog.cs": "f869bbad2f4dcc66989d299dd9e3d10a636dbebc62dcbbf27c6290b975ac54fa",
+  "Scripts/Editor/Dashboard/DesignerDashboard.cs": "2993a164adeb18b9d8f1572ded1a4f5ec38facfaacf7e96c236029fa36f47764",
+  "Scripts/Editor/ConversationPoolEditor.cs": "6d11bf5494f4e07f2c499492b8b865d05f460af76062e2948a84403ece34cec3",
+  "Tests/Editor/CharacterInteractionTests.cs": "cd6214c4b9c270470dceb42f566d056dbfbfd4481a2ef2f5adcfbd7a728c3cdd",
+  "Tests/Editor/ArtistAuthoringTests.cs": "bbfdf8a9bbdbd9d7dba35cef03fd002f1f45edbadabfe4c42768df5a2e489032"
+}

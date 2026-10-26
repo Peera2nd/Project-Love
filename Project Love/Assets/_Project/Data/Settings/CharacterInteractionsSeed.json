@@ -1,0 +1,245 @@
+{
+  "streams": [
+    {
+      "id": "work_code",
+      "displayName": "Code"
+    },
+    {
+      "id": "work_art",
+      "displayName": "Art"
+    },
+    {
+      "id": "work_design",
+      "displayName": "Design"
+    },
+    {
+      "id": "work_producer",
+      "displayName": "Producer"
+    }
+  ],
+  "items": [
+    {
+      "id": "room_water",
+      "displayName": "น้ำดื่ม",
+      "price": 5,
+      "maxStack": 9,
+      "giftable": true
+    },
+    {
+      "id": "room_pudding",
+      "displayName": "พุดดิ้งคาราเมล",
+      "price": 8,
+      "maxStack": 9,
+      "giftable": true
+    },
+    {
+      "id": "room_trial_gift",
+      "displayName": "ของขวัญทดสอบ · ไม่ชอบ",
+      "price": 2,
+      "maxStack": 9,
+      "giftable": true
+    }
+  ],
+  "nodes": [
+    {
+      "id": "social_greeting",
+      "text": "สวัสดีค่ะ วันนี้มีอะไรให้ฟ้าช่วยไหมคะ?",
+      "expression": 0
+    },
+    {
+      "id": "social_greeting_evening",
+      "text": "เริ่มเย็นแล้วนะคะ แวะมาคุยกันก่อนกลับไหม?",
+      "expression": 0
+    },
+    {
+      "id": "social_talk",
+      "text": "ฟ้ากำลังลองสีให้ภาพอยู่ค่ะ คุณมีเรื่องอะไรอยากเล่าไหมคะ?",
+      "expression": 0
+    },
+    {
+      "id": "social_talk_evening",
+      "text": "แสงตอนเย็นแบบนี้ทำให้ฟ้าอยากวาดท้องฟ้าจังค่ะ วันนี้คุณเหนื่อยไหมคะ?",
+      "expression": 0
+    },
+    {
+      "id": "social_talk_close",
+      "text": "ดีใจที่คุณแวะมานะคะ นั่งเป็นเพื่อนฟ้าสักหน่อยได้ไหม?",
+      "expression": 1
+    },
+    {
+      "id": "social_talk_after_event",
+      "text": "เรื่องงานที่เราช่วยกันแก้วันก่อน ฟ้ายังจำได้นะคะ ขอบคุณที่อยู่ช่วยกันค่ะ",
+      "expression": 1
+    },
+    {
+      "id": "social_gift_neutral",
+      "text": "ขอบคุณนะคะ ฟ้ารับไว้ค่ะ",
+      "expression": 0
+    },
+    {
+      "id": "social_gift_liked",
+      "text": "พุดดิ้งคาราเมล! ฟ้าชอบมากเลยค่ะ ขอบคุณที่นึกถึงฟ้านะคะ",
+      "expression": 1
+    },
+    {
+      "id": "social_gift_disliked",
+      "text": "ขอบคุณที่ตั้งใจให้นะคะ แต่อันนี้ฟ้าไม่ค่อยชอบเท่าไรค่ะ",
+      "expression": 0
+    }
+  ],
+  "greetings": [
+    {
+      "id": "greeting_default",
+      "nodeId": "social_greeting",
+      "priority": 0,
+      "startDay": 1,
+      "endDay": 30,
+      "minimumAffection": 0,
+      "maximumAffection": 100,
+      "anyPhase": true,
+      "phase": 0
+    },
+    {
+      "id": "greeting_evening",
+      "nodeId": "social_greeting_evening",
+      "priority": 10,
+      "startDay": 1,
+      "endDay": 30,
+      "minimumAffection": 0,
+      "maximumAffection": 100,
+      "anyPhase": false,
+      "phase": 2
+    }
+  ],
+  "conversations": [
+    {
+      "id": "talk_default",
+      "nodeId": "social_talk",
+      "priority": 0,
+      "startDay": 1,
+      "endDay": 30,
+      "minimumAffection": 0,
+      "maximumAffection": 100,
+      "anyPhase": true,
+      "phase": 0
+    },
+    {
+      "id": "talk_evening",
+      "nodeId": "social_talk_evening",
+      "priority": 10,
+      "startDay": 1,
+      "endDay": 30,
+      "minimumAffection": 0,
+      "maximumAffection": 100,
+      "anyPhase": false,
+      "phase": 2
+    },
+    {
+      "id": "talk_close",
+      "nodeId": "social_talk_close",
+      "priority": 20,
+      "startDay": 1,
+      "endDay": 30,
+      "minimumAffection": 30,
+      "maximumAffection": 100,
+      "anyPhase": true,
+      "phase": 0
+    },
+    {
+      "id": "talk_after_event",
+      "nodeId": "social_talk_after_event",
+      "priority": 30,
+      "startDay": 2,
+      "endDay": 30,
+      "minimumAffection": 0,
+      "maximumAffection": 100,
+      "anyPhase": true,
+      "phase": 0,
+      "requiredFlag": "prototype_shared_task_done"
+    }
+  ],
+  "gifts": [
+    {
+      "itemId": "room_pudding",
+      "nodeId": "social_gift_liked",
+      "reaction": 1,
+      "affectionChange": 5
+    },
+    {
+      "itemId": "room_trial_gift",
+      "nodeId": "social_gift_disliked",
+      "reaction": 2,
+      "affectionChange": -2
+    }
+  ],
+  "talkStaminaCost": 3,
+  "talkAffection": 2,
+  "artActivityId": "room_art_work",
+  "artStreamId": "work_art",
+  "producerStreamId": "work_producer",
+  "workAmount": 6,
+  "neutralGiftNode": "social_gift_neutral",
+  "neutralGiftAffection": 1,
+  "text": [
+    {
+      "key": "overview",
+      "value": "คุยครั้งแรกต่อคนต่อวันใช้พลังงาน\nคุยซ้ำฟรี · ไม่ผ่านเวลา\nงานสะสมแยกประเภท:"
+    },
+    {
+      "key": "characterStats",
+      "value": "ความสัมพันธ์ {0}/100\nความเครียด {1}/100"
+    },
+    {
+      "key": "dailyTalk",
+      "value": "พูดคุย · Stamina −{0} · สัมพันธ์ +{1}"
+    },
+    {
+      "key": "repeatTalk",
+      "value": "พูดคุยซ้ำ · ฟรี · ไม่เพิ่มแต้ม"
+    },
+    {
+      "key": "workTogether",
+      "value": "ทำงานด้วยกัน"
+    },
+    {
+      "key": "unavailableWork",
+      "value": "ยังไม่มีงานที่ผูกไว้"
+    },
+    {
+      "key": "gift",
+      "value": "ให้ของขวัญ"
+    },
+    {
+      "key": "giftHint",
+      "value": "เลือกของจากกระเป๋า · ไม่ผ่านเวลา\nให้สำเร็จเมื่ออ่านคำตอบจบ\nกดลูกศรเพื่อกลับ"
+    },
+    {
+      "key": "noGifts",
+      "value": "ยังไม่มีของขวัญในกระเป๋าค่ะ\nกดลูกศรเพื่อกลับ"
+    },
+    {
+      "key": "giftItem",
+      "value": "มอบ {0} ×{1}"
+    },
+    {
+      "key": "greeting",
+      "value": "วันนี้มีอะไรอยากทำด้วยกัน?"
+    },
+    {
+      "key": "workStream",
+      "value": "{0} · สะสม {1}"
+    },
+    {
+      "key": "blocked",
+      "value": "ยังไม่มีคำตอบที่เลือกได้ · กดลูกศรกลับได้"
+    },
+    {
+      "key": "hint",
+      "value": "กดตัวละครเพื่อทำงาน คุย หรือให้ของ · แตะหน้าคุยเพื่ออ่านต่อ · ลูกศรใช้ย้อนกลับ"
+    },
+    {
+      "key": "optionsHint",
+      "value": "เซฟเมื่ออยู่ในห้อง\nเริ่มใหม่จะเก็บไฟล์เซฟเดิมไว้"
+    }
+  ]
+}

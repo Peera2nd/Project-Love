@@ -1,0 +1,818 @@
+[
+  {
+    "name": "ui_progress_bar_fill.png",
+    "size": [
+      256,
+      64
+    ],
+    "bbox": [
+      4,
+      4,
+      252,
+      60
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_progress_bar_forecast.png",
+    "size": [
+      256,
+      64
+    ],
+    "bbox": [
+      4,
+      4,
+      252,
+      60
+    ],
+    "alphaExtrema": [
+      0,
+      190
+    ]
+  },
+  {
+    "name": "ui_progress_bar_frame.png",
+    "size": [
+      256,
+      64
+    ],
+    "bbox": [
+      4,
+      4,
+      252,
+      60
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_progress_bar_sheet.png",
+    "size": [
+      1024,
+      64
+    ],
+    "bbox": [
+      4,
+      4,
+      1020,
+      60
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_progress_bar_track.png",
+    "size": [
+      256,
+      64
+    ],
+    "bbox": [
+      4,
+      4,
+      252,
+      60
+    ],
+    "alphaExtrema": [
+      0,
+      240
+    ]
+  },
+  {
+    "name": "ui_art.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_back.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      3,
+      0,
+      254,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_bag.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      26,
+      11,
+      231,
+      251
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_blocked.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_bug.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      16,
+      16,
+      240,
+      240
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_close.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_code.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      25,
+      26,
+      231,
+      232
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_day.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_dependency.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_design.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_done.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      10,
+      256,
+      247
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_gift.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      5,
+      0,
+      251,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_heart.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      5,
+      23,
+      253,
+      233
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_info.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_item.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      32,
+      34,
+      224,
+      239
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_load.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      39,
+      45,
+      218,
+      211
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_locked.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      32,
+      0,
+      224,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_money.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_night.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_overtime.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      16,
+      0,
+      241,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_priority.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      32,
+      41,
+      225,
+      217
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_producer.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      30,
+      0,
+      227,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_progress.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      12,
+      256,
+      245
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_rest.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      26,
+      13,
+      231,
+      243
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_review.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      21,
+      11,
+      236,
+      247
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_save.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      32,
+      32,
+      225,
+      225
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_settings.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_shop.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      17,
+      27,
+      240,
+      224
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_sprint_board.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_stamina.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      59,
+      27,
+      198,
+      230
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_stress.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      14,
+      13,
+      244,
+      243
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_talk.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      16,
+      256,
+      241
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_time.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      16,
+      16,
+      240,
+      240
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_travel.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      44,
+      8,
+      212,
+      250
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_unlock.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      32,
+      0,
+      224,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_work.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      24,
+      256,
+      232
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_avatar_frame.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      12,
+      12,
+      244,
+      244
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_panel.png",
+    "size": [
+      512,
+      512
+    ],
+    "bbox": [
+      4,
+      4,
+      508,
+      508
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_selection_ring.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      10,
+      10,
+      246,
+      246
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_task_card.png",
+    "size": [
+      512,
+      320
+    ],
+    "bbox": [
+      4,
+      4,
+      508,
+      316
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_avatar_grace.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_avatar_plaifah.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "name": "ui_avatar_ploy.png",
+    "size": [
+      256,
+      256
+    ],
+    "bbox": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  }
+]

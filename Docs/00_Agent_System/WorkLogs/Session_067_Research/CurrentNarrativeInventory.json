@@ -1,0 +1,11 @@
+{
+  "reachableDataAssets": 160,
+  "dialogueNodeAssets": 117,
+  "spokenOrNarratedLines": 265,
+  "choiceOptions": 58,
+  "nodesWithChoices": 24,
+  "oneLineNodes": 40,
+  "sharedContinuationTargets": 7,
+  "catalogEntries": 689,
+  "allProjectDataAssets": 362
+}

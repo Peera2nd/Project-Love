@@ -1,0 +1,6 @@
+{
+  "name": "ProjectLove.Tests.Editor",
+  "references": ["ProjectLove.Runtime", "ProjectLove.Editor", "Unity.TextMeshPro", "Unity.ugui"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

@@ -1,0 +1,688 @@
+{
+  "version": 1,
+  "sharedNightAffection": 3,
+  "deadlineDays": 2,
+  "cooldownDays": 3,
+  "nodes": [
+    {
+      "id": "studio_grace_night_accept",
+      "characterId": "studio_grace",
+      "text": "ตกลงค่ะ ฉันจะเก็บเฉพาะงานที่พร้อม ไม่ข้ามส่วนที่ยังรอคนอื่น ส่งงานแล้วค่อยตรวจรับตามปกตินะคะ",
+      "choices": []
+    },
+    {
+      "id": "studio_grace_night_rest",
+      "characterId": "studio_grace",
+      "text": "ได้ค่ะ งั้นคืนนี้พอแค่นี้ พรุ่งนี้เราค่อยมาดูงานที่พร้อมกับส่วนที่ยังติดกันใหม่",
+      "choices": []
+    },
+    {
+      "id": "studio_grace_volunteer_0_shared",
+      "characterId": "studio_grace",
+      "text": "ขอบคุณที่ช่วยไล่ทีละข้อค่ะ พอมีคนช่วยตรวจ ฉันก็ไม่ต้องแบกทุกคำตอบไว้คนเดียว คืนนี้พอเท่านี้นะคะ",
+      "choices": []
+    },
+    {
+      "id": "studio_grace_volunteer_0",
+      "characterId": "studio_grace",
+      "text": "งานที่เหลือเริ่มชนวันส่งแล้วค่ะ ฉันขออยู่ต่ออีกช่วง จัดการส่วนที่พร้อมก่อน จะได้ไม่โยนภาระให้พรุ่งนี้",
+      "choices": [
+        {
+          "id": "studio_grace_volunteer_0_join",
+          "text": "อยู่ช่วยทำงานด้วยกัน",
+          "action": "WorkTogether",
+          "nextId": "studio_grace_volunteer_0_shared"
+        },
+        {
+          "id": "studio_grace_volunteer_0_allow",
+          "text": "ตกลงให้อยู่ต่อ",
+          "action": "Overtime",
+          "nextId": "studio_grace_night_accept"
+        },
+        {
+          "id": "studio_grace_volunteer_0_decline",
+          "text": "คืนนี้พักก่อน",
+          "action": "None",
+          "nextId": "studio_grace_night_rest"
+        }
+      ]
+    },
+    {
+      "id": "studio_grace_volunteer_1_shared",
+      "characterId": "studio_grace",
+      "text": "ปกติฉันไม่ชอบให้ใครเห็นตอนคิดอะไรไม่ออก... แต่คืนนี้คุยกับคุณแล้วเงียบในหัวดีค่ะ ขอบคุณที่อยู่ด้วย",
+      "choices": []
+    },
+    {
+      "id": "studio_grace_volunteer_1",
+      "characterId": "studio_grace",
+      "text": "คุณยังอยู่เหรอคะ ฉันว่าจะเก็บงานที่พร้อมทำก่อนถึงวันส่ง ถ้าคุณช่วยไล่เงื่อนไขให้ ก็น่าจะเบาลง",
+      "choices": [
+        {
+          "id": "studio_grace_volunteer_1_join",
+          "text": "อยู่ช่วยทำงานด้วยกัน",
+          "action": "WorkTogether",
+          "nextId": "studio_grace_volunteer_1_shared"
+        },
+        {
+          "id": "studio_grace_volunteer_1_allow",
+          "text": "ตกลงให้อยู่ต่อ",
+          "action": "Overtime",
+          "nextId": "studio_grace_night_accept"
+        },
+        {
+          "id": "studio_grace_volunteer_1_decline",
+          "text": "คืนนี้พักก่อน",
+          "action": "None",
+          "nextId": "studio_grace_night_rest"
+        }
+      ]
+    },
+    {
+      "id": "studio_grace_volunteer_2_shared",
+      "characterId": "studio_grace",
+      "text": "หยุดตรงนี้ก่อนค่ะ เริ่มล้าแล้ว แต่ส่วนที่ช่วยกันทำคืนนี้มีอยู่จริง พรุ่งนี้เราค่อยตรวจรับงานด้วยหัวที่โล่งกว่านี้",
+      "choices": []
+    },
+    {
+      "id": "studio_grace_volunteer_2",
+      "characterId": "studio_grace",
+      "text": "งานยังค้างอยู่ค่ะ แต่เริ่มต้องอ่านซ้ำแล้ว ถ้าจะอยู่ต่อ ขอเลือกเก็บเฉพาะส่วนที่ทำได้จริงนะคะ",
+      "choices": [
+        {
+          "id": "studio_grace_volunteer_2_join",
+          "text": "อยู่ช่วยทำงานด้วยกัน",
+          "action": "WorkTogether",
+          "nextId": "studio_grace_volunteer_2_shared"
+        },
+        {
+          "id": "studio_grace_volunteer_2_allow",
+          "text": "ตกลงให้อยู่ต่อ",
+          "action": "Overtime",
+          "nextId": "studio_grace_night_accept"
+        },
+        {
+          "id": "studio_grace_volunteer_2_decline",
+          "text": "คืนนี้พักก่อน",
+          "action": "None",
+          "nextId": "studio_grace_night_rest"
+        }
+      ]
+    },
+    {
+      "id": "studio_grace_volunteer_3_shared",
+      "characterId": "studio_grace",
+      "text": "ถ้าอยู่คนเดียว ฉันคงฝืนแก้ต่ออีกพักใหญ่ ขอบคุณที่ช่วยทำ แล้วก็ช่วยให้ฉันยอมหยุดนะคะ",
+      "choices": []
+    },
+    {
+      "id": "studio_grace_volunteer_3",
+      "characterId": "studio_grace",
+      "text": "ฉันเริ่มล้าแล้วค่ะ แต่ไม่อยากทิ้งงานที่ใกล้ส่ง ถ้าคุณอยู่ด้วย ช่วยดูให้หน่อยว่าฉันไม่ได้ฝืนแก้ผิดจุด",
+      "choices": [
+        {
+          "id": "studio_grace_volunteer_3_join",
+          "text": "อยู่ช่วยทำงานด้วยกัน",
+          "action": "WorkTogether",
+          "nextId": "studio_grace_volunteer_3_shared"
+        },
+        {
+          "id": "studio_grace_volunteer_3_allow",
+          "text": "ตกลงให้อยู่ต่อ",
+          "action": "Overtime",
+          "nextId": "studio_grace_night_accept"
+        },
+        {
+          "id": "studio_grace_volunteer_3_decline",
+          "text": "คืนนี้พักก่อน",
+          "action": "None",
+          "nextId": "studio_grace_night_rest"
+        }
+      ]
+    },
+    {
+      "id": "studio_grace_night_callback_0",
+      "characterId": "studio_grace",
+      "text": "เรื่องเมื่อคืน... ขอบคุณนะคะ การมีคนช่วยตรวจทำให้งานเดินต่อได้ ฉันจำได้ค่ะ",
+      "choices": []
+    },
+    {
+      "id": "studio_grace_night_callback_1",
+      "characterId": "studio_grace",
+      "text": "ฉันเกือบจะส่งรายการตรวจให้คุณอีกแล้วค่ะ คงเริ่มชินกับการมีคุณนั่งข้างๆ เมื่อคืน ขอบคุณนะคะ",
+      "choices": []
+    },
+    {
+      "id": "studio_plaifah_night_accept",
+      "characterId": "studio_plaifah",
+      "text": "ได้ค่ะ ปลายฟ้าจะทำเฉพาะส่วนที่มีบรีฟพร้อม ไม่เดางานที่ยังรอนะคะ",
+      "choices": []
+    },
+    {
+      "id": "studio_plaifah_night_rest",
+      "characterId": "studio_plaifah",
+      "text": "ค่ะ... ได้ยินว่าพักได้แล้วก็โล่งขึ้นนิดหนึ่ง พรุ่งนี้ค่อยกลับมาดูด้วยตาใหม่ค่ะ",
+      "choices": []
+    },
+    {
+      "id": "studio_plaifah_volunteer_0_shared",
+      "characterId": "studio_plaifah",
+      "text": "พอได้คุยระหว่างทำ ก็เห็นชัดขึ้นว่าควรหยุดแก้ตรงไหน ขอบคุณที่ช่วยดูนะคะ คืนนี้พอเท่านี้ก่อนค่ะ",
+      "choices": []
+    },
+    {
+      "id": "studio_plaifah_volunteer_0",
+      "characterId": "studio_plaifah",
+      "text": "งานภาพที่พร้อมยังเหลืออยู่ แล้วก็ใกล้วันส่งแล้วค่ะ ถ้าไหว... ปลายฟ้าขออยู่เก็บอีกช่วงได้ไหมคะ",
+      "choices": [
+        {
+          "id": "studio_plaifah_volunteer_0_join",
+          "text": "อยู่ช่วยทำงานด้วยกัน",
+          "action": "WorkTogether",
+          "nextId": "studio_plaifah_volunteer_0_shared"
+        },
+        {
+          "id": "studio_plaifah_volunteer_0_allow",
+          "text": "ตกลงให้อยู่ต่อ",
+          "action": "Overtime",
+          "nextId": "studio_plaifah_night_accept"
+        },
+        {
+          "id": "studio_plaifah_volunteer_0_decline",
+          "text": "คืนนี้พักก่อน",
+          "action": "None",
+          "nextId": "studio_plaifah_night_rest"
+        }
+      ]
+    },
+    {
+      "id": "studio_plaifah_volunteer_1_shared",
+      "characterId": "studio_plaifah",
+      "text": "เมื่อก่อนปลายฟ้าชอบเก็บงานเงียบๆ คนเดียวค่ะ แต่มีคุณอยู่ด้วยแล้ว... ห้องไม่เงียบเกินไปดีนะคะ",
+      "choices": []
+    },
+    {
+      "id": "studio_plaifah_volunteer_1",
+      "characterId": "studio_plaifah",
+      "text": "คุณยังไม่กลับเหรอคะ ปลายฟ้ากำลังดูงานภาพที่ยังค้าง ถ้าช่วยดูด้วยกันอีกหน่อย ก็คงอุ่นใจค่ะ",
+      "choices": [
+        {
+          "id": "studio_plaifah_volunteer_1_join",
+          "text": "อยู่ช่วยทำงานด้วยกัน",
+          "action": "WorkTogether",
+          "nextId": "studio_plaifah_volunteer_1_shared"
+        },
+        {
+          "id": "studio_plaifah_volunteer_1_allow",
+          "text": "ตกลงให้อยู่ต่อ",
+          "action": "Overtime",
+          "nextId": "studio_plaifah_night_accept"
+        },
+        {
+          "id": "studio_plaifah_volunteer_1_decline",
+          "text": "คืนนี้พักก่อน",
+          "action": "None",
+          "nextId": "studio_plaifah_night_rest"
+        }
+      ]
+    },
+    {
+      "id": "studio_plaifah_volunteer_2_shared",
+      "characterId": "studio_plaifah",
+      "text": "ขอบคุณที่ช่วยค่ะ ปลายฟ้าเริ่มล้าแล้วจริงๆ อย่างน้อยส่วนที่ทำด้วยกันก็เดินหน้า พรุ่งนี้ค่อยตรวจรับกันอีกทีนะคะ",
+      "choices": []
+    },
+    {
+      "id": "studio_plaifah_volunteer_2",
+      "characterId": "studio_plaifah",
+      "text": "ปลายฟ้าเริ่มมองรายละเอียดไม่ชัดแล้วค่ะ แต่งานที่ใกล้ส่งยังเหลือ ขอเก็บแค่ส่วนที่บรีฟพร้อมอีกนิดได้ไหมคะ",
+      "choices": [
+        {
+          "id": "studio_plaifah_volunteer_2_join",
+          "text": "อยู่ช่วยทำงานด้วยกัน",
+          "action": "WorkTogether",
+          "nextId": "studio_plaifah_volunteer_2_shared"
+        },
+        {
+          "id": "studio_plaifah_volunteer_2_allow",
+          "text": "ตกลงให้อยู่ต่อ",
+          "action": "Overtime",
+          "nextId": "studio_plaifah_night_accept"
+        },
+        {
+          "id": "studio_plaifah_volunteer_2_decline",
+          "text": "คืนนี้พักก่อน",
+          "action": "None",
+          "nextId": "studio_plaifah_night_rest"
+        }
+      ]
+    },
+    {
+      "id": "studio_plaifah_volunteer_3_shared",
+      "characterId": "studio_plaifah",
+      "text": "ถ้าคุณไม่ช่วยดู ปลายฟ้าคงนั่งแก้จุดเดิมซ้ำไปมา ขอบคุณที่อยู่ด้วย แล้วก็บอกว่าหยุดได้ค่ะ",
+      "choices": []
+    },
+    {
+      "id": "studio_plaifah_volunteer_3",
+      "characterId": "studio_plaifah",
+      "text": "วันนี้เหนื่อยนิดหน่อยค่ะ แต่พอเห็นงานค้างก็ยังวางไม่ลง ถ้าคุณช่วยดูด้วยกัน... ปลายฟ้าคงไม่ต้องเดาคนเดียว",
+      "choices": [
+        {
+          "id": "studio_plaifah_volunteer_3_join",
+          "text": "อยู่ช่วยทำงานด้วยกัน",
+          "action": "WorkTogether",
+          "nextId": "studio_plaifah_volunteer_3_shared"
+        },
+        {
+          "id": "studio_plaifah_volunteer_3_allow",
+          "text": "ตกลงให้อยู่ต่อ",
+          "action": "Overtime",
+          "nextId": "studio_plaifah_night_accept"
+        },
+        {
+          "id": "studio_plaifah_volunteer_3_decline",
+          "text": "คืนนี้พักก่อน",
+          "action": "None",
+          "nextId": "studio_plaifah_night_rest"
+        }
+      ]
+    },
+    {
+      "id": "studio_plaifah_night_callback_0",
+      "characterId": "studio_plaifah",
+      "text": "เมื่อคืนขอบคุณนะคะ ปลายฟ้าจำตอนที่เราช่วยกันดูงานได้ งานยังต้องตรวจรับ แต่รู้สึกว่าไม่ได้ทำอยู่คนเดียวค่ะ",
+      "choices": []
+    },
+    {
+      "id": "studio_plaifah_night_callback_1",
+      "characterId": "studio_plaifah",
+      "text": "วันนี้เห็นเก้าอี้ข้างโต๊ะแล้วนึกถึงเมื่อคืนเลยค่ะ ถ้าคราวหน้ามีเวลาว่าง... มานั่งคุยกันตอนที่ไม่ต้องเร่งงานบ้างนะคะ",
+      "choices": []
+    },
+    {
+      "id": "studio_ploy_night_accept",
+      "characterId": "studio_ploy",
+      "text": "รับทราบค่ะ! เก็บงานที่พร้อมอีกช่วง แล้วหยุดนะ จะไม่แอบเพิ่มไอเดียจนกลายเป็นงานใหม่ค่ะ",
+      "choices": []
+    },
+    {
+      "id": "studio_ploy_night_rest",
+      "characterId": "studio_ploy",
+      "text": "โอเคค่ะ ปิดสมุด! พรุ่งนี้ค่อยมาวางแผนใหม่ ไม่ได้แพ้สักหน่อย แค่พักเซฟพอยต์ค่ะ",
+      "choices": []
+    },
+    {
+      "id": "studio_ploy_volunteer_0_shared",
+      "characterId": "studio_ploy",
+      "text": "มีคนช่วยถามกลับ งานเลยชัดขึ้นเยอะค่ะ ขอบคุณนะคะ คืนนี้ปิดสมุดก่อน เดี๋ยวพรุ่งนี้มาตรวจรับกัน",
+      "choices": []
+    },
+    {
+      "id": "studio_ploy_volunteer_0",
+      "characterId": "studio_ploy",
+      "text": "ใกล้ส่งแล้ว แต่ยังมีงานดีไซน์ที่พร้อมให้เก็บอีกหน่อย ขออยู่ต่ออีกช่วงนะคะ จะได้ไม่ยกกองนี้ไปพรุ่งนี้หมด",
+      "choices": [
+        {
+          "id": "studio_ploy_volunteer_0_join",
+          "text": "อยู่ช่วยทำงานด้วยกัน",
+          "action": "WorkTogether",
+          "nextId": "studio_ploy_volunteer_0_shared"
+        },
+        {
+          "id": "studio_ploy_volunteer_0_allow",
+          "text": "ตกลงให้อยู่ต่อ",
+          "action": "Overtime",
+          "nextId": "studio_ploy_night_accept"
+        },
+        {
+          "id": "studio_ploy_volunteer_0_decline",
+          "text": "คืนนี้พักก่อน",
+          "action": "None",
+          "nextId": "studio_ploy_night_rest"
+        }
+      ]
+    },
+    {
+      "id": "studio_ploy_volunteer_1_shared",
+      "characterId": "studio_ploy",
+      "text": "เวลาเงียบๆ แล้วมีคุณนั่งช่วยคิดด้วย มันก็ดีนะคะ... อ๊ะ อย่าเพิ่งแซว พลอยกำลังพูดจริงอยู่!",
+      "choices": []
+    },
+    {
+      "id": "studio_ploy_volunteer_1",
+      "characterId": "studio_ploy",
+      "text": "โปรดิวเซอร์ยังอยู่พอดี! พลอยมีงานพร้อมเก็บก่อนวันส่ง ช่วยเป็นคู่คิดอีกหน่อยไหมคะ คืนนี้ขอทีมสองคน",
+      "choices": [
+        {
+          "id": "studio_ploy_volunteer_1_join",
+          "text": "อยู่ช่วยทำงานด้วยกัน",
+          "action": "WorkTogether",
+          "nextId": "studio_ploy_volunteer_1_shared"
+        },
+        {
+          "id": "studio_ploy_volunteer_1_allow",
+          "text": "ตกลงให้อยู่ต่อ",
+          "action": "Overtime",
+          "nextId": "studio_ploy_night_accept"
+        },
+        {
+          "id": "studio_ploy_volunteer_1_decline",
+          "text": "คืนนี้พักก่อน",
+          "action": "None",
+          "nextId": "studio_ploy_night_rest"
+        }
+      ]
+    },
+    {
+      "id": "studio_ploy_volunteer_2_shared",
+      "characterId": "studio_ploy",
+      "text": "วันนี้สมองแบตแดงแล้วค่ะ แต่ส่วนที่ช่วยกันทำก็ไปต่อได้ ขอบคุณที่ช่วยนะ คืนนี้พักกันเถอะ",
+      "choices": []
+    },
+    {
+      "id": "studio_ploy_volunteer_2",
+      "characterId": "studio_ploy",
+      "text": "วันนี้หัวเริ่มหมุนแล้วค่ะ แต่งานที่ใกล้ส่งยังเหลือ ขอเก็บเฉพาะข้อที่ชัดก่อนนะ ถ้าฝืนคิดเรื่องใหม่คงไม่ไหว",
+      "choices": [
+        {
+          "id": "studio_ploy_volunteer_2_join",
+          "text": "อยู่ช่วยทำงานด้วยกัน",
+          "action": "WorkTogether",
+          "nextId": "studio_ploy_volunteer_2_shared"
+        },
+        {
+          "id": "studio_ploy_volunteer_2_allow",
+          "text": "ตกลงให้อยู่ต่อ",
+          "action": "Overtime",
+          "nextId": "studio_ploy_night_accept"
+        },
+        {
+          "id": "studio_ploy_volunteer_2_decline",
+          "text": "คืนนี้พักก่อน",
+          "action": "None",
+          "nextId": "studio_ploy_night_rest"
+        }
+      ]
+    },
+    {
+      "id": "studio_ploy_volunteer_3_shared",
+      "characterId": "studio_ploy",
+      "text": "ปกติพลอยจะชวนคนอื่นสู้ต่อ แต่คืนนี้ได้มีคนอยู่ช่วยตอนตัวเองล้าบ้าง ขอบคุณนะคะ ไม่ต้องทำหน้าตกใจสิ",
+      "choices": []
+    },
+    {
+      "id": "studio_ploy_volunteer_3",
+      "characterId": "studio_ploy",
+      "text": "พลอยยังยิ้มไหวค่ะ แต่หัวเริ่มไม่ตามแล้ว... งานใกล้ส่งก็ยังค้าง ถ้าอยู่ด้วยกัน ช่วยทักตอนเริ่มคิดวนด้วยนะคะ",
+      "choices": [
+        {
+          "id": "studio_ploy_volunteer_3_join",
+          "text": "อยู่ช่วยทำงานด้วยกัน",
+          "action": "WorkTogether",
+          "nextId": "studio_ploy_volunteer_3_shared"
+        },
+        {
+          "id": "studio_ploy_volunteer_3_allow",
+          "text": "ตกลงให้อยู่ต่อ",
+          "action": "Overtime",
+          "nextId": "studio_ploy_night_accept"
+        },
+        {
+          "id": "studio_ploy_volunteer_3_decline",
+          "text": "คืนนี้พักก่อน",
+          "action": "None",
+          "nextId": "studio_ploy_night_rest"
+        }
+      ]
+    },
+    {
+      "id": "studio_ploy_night_callback_0",
+      "characterId": "studio_ploy",
+      "text": "เมื่อคืนทำงานด้วยกันแล้วไอเดียชัดขึ้นเยอะเลยค่ะ ขอบคุณนะคะ งานที่เสร็จรอตรวจรับอยู่ อย่าลืมบอร์ดด้วยล่ะ",
+      "choices": []
+    },
+    {
+      "id": "studio_ploy_night_callback_1",
+      "characterId": "studio_ploy",
+      "text": "เมื่อคืนพลอยไม่ได้แค่มีคนช่วยทำงานนะ มีคนยอมนั่งฟังตอนคิดไม่ออกด้วย... ขอบคุณค่ะ คราวหน้าไปกินอะไรตอนที่ไม่ต้องเร่งงานกันบ้างนะ",
+      "choices": []
+    }
+  ],
+  "events": [
+    {
+      "id": "studio_grace_volunteer_0_event",
+      "characterId": "studio_grace",
+      "entryId": "studio_grace_volunteer_0",
+      "group": "studio_grace_volunteer",
+      "callback": false,
+      "minimumAffection": 0,
+      "maximumAffection": 19,
+      "minimumStress": 0,
+      "maximumStress": 39,
+      "priority": 40
+    },
+    {
+      "id": "studio_grace_volunteer_1_event",
+      "characterId": "studio_grace",
+      "entryId": "studio_grace_volunteer_1",
+      "group": "studio_grace_volunteer",
+      "callback": false,
+      "minimumAffection": 20,
+      "maximumAffection": 100,
+      "minimumStress": 0,
+      "maximumStress": 39,
+      "priority": 40
+    },
+    {
+      "id": "studio_grace_volunteer_2_event",
+      "characterId": "studio_grace",
+      "entryId": "studio_grace_volunteer_2",
+      "group": "studio_grace_volunteer",
+      "callback": false,
+      "minimumAffection": 0,
+      "maximumAffection": 19,
+      "minimumStress": 40,
+      "maximumStress": 65,
+      "priority": 40
+    },
+    {
+      "id": "studio_grace_volunteer_3_event",
+      "characterId": "studio_grace",
+      "entryId": "studio_grace_volunteer_3",
+      "group": "studio_grace_volunteer",
+      "callback": false,
+      "minimumAffection": 20,
+      "maximumAffection": 100,
+      "minimumStress": 40,
+      "maximumStress": 65,
+      "priority": 40
+    },
+    {
+      "id": "studio_grace_night_callback_0_event",
+      "characterId": "studio_grace",
+      "entryId": "studio_grace_night_callback_0",
+      "group": "studio_grace_night_callback",
+      "callback": true,
+      "minimumAffection": 0,
+      "maximumAffection": 19,
+      "minimumStress": 0,
+      "maximumStress": 100,
+      "priority": 25
+    },
+    {
+      "id": "studio_grace_night_callback_1_event",
+      "characterId": "studio_grace",
+      "entryId": "studio_grace_night_callback_1",
+      "group": "studio_grace_night_callback",
+      "callback": true,
+      "minimumAffection": 20,
+      "maximumAffection": 100,
+      "minimumStress": 0,
+      "maximumStress": 100,
+      "priority": 25
+    },
+    {
+      "id": "studio_plaifah_volunteer_0_event",
+      "characterId": "studio_plaifah",
+      "entryId": "studio_plaifah_volunteer_0",
+      "group": "studio_plaifah_volunteer",
+      "callback": false,
+      "minimumAffection": 0,
+      "maximumAffection": 19,
+      "minimumStress": 0,
+      "maximumStress": 39,
+      "priority": 40
+    },
+    {
+      "id": "studio_plaifah_volunteer_1_event",
+      "characterId": "studio_plaifah",
+      "entryId": "studio_plaifah_volunteer_1",
+      "group": "studio_plaifah_volunteer",
+      "callback": false,
+      "minimumAffection": 20,
+      "maximumAffection": 100,
+      "minimumStress": 0,
+      "maximumStress": 39,
+      "priority": 40
+    },
+    {
+      "id": "studio_plaifah_volunteer_2_event",
+      "characterId": "studio_plaifah",
+      "entryId": "studio_plaifah_volunteer_2",
+      "group": "studio_plaifah_volunteer",
+      "callback": false,
+      "minimumAffection": 0,
+      "maximumAffection": 19,
+      "minimumStress": 40,
+      "maximumStress": 60,
+      "priority": 40
+    },
+    {
+      "id": "studio_plaifah_volunteer_3_event",
+      "characterId": "studio_plaifah",
+      "entryId": "studio_plaifah_volunteer_3",
+      "group": "studio_plaifah_volunteer",
+      "callback": false,
+      "minimumAffection": 20,
+      "maximumAffection": 100,
+      "minimumStress": 40,
+      "maximumStress": 60,
+      "priority": 40
+    },
+    {
+      "id": "studio_plaifah_night_callback_0_event",
+      "characterId": "studio_plaifah",
+      "entryId": "studio_plaifah_night_callback_0",
+      "group": "studio_plaifah_night_callback",
+      "callback": true,
+      "minimumAffection": 0,
+      "maximumAffection": 19,
+      "minimumStress": 0,
+      "maximumStress": 100,
+      "priority": 25
+    },
+    {
+      "id": "studio_plaifah_night_callback_1_event",
+      "characterId": "studio_plaifah",
+      "entryId": "studio_plaifah_night_callback_1",
+      "group": "studio_plaifah_night_callback",
+      "callback": true,
+      "minimumAffection": 20,
+      "maximumAffection": 100,
+      "minimumStress": 0,
+      "maximumStress": 100,
+      "priority": 25
+    },
+    {
+      "id": "studio_ploy_volunteer_0_event",
+      "characterId": "studio_ploy",
+      "entryId": "studio_ploy_volunteer_0",
+      "group": "studio_ploy_volunteer",
+      "callback": false,
+      "minimumAffection": 0,
+      "maximumAffection": 19,
+      "minimumStress": 0,
+      "maximumStress": 39,
+      "priority": 40
+    },
+    {
+      "id": "studio_ploy_volunteer_1_event",
+      "characterId": "studio_ploy",
+      "entryId": "studio_ploy_volunteer_1",
+      "group": "studio_ploy_volunteer",
+      "callback": false,
+      "minimumAffection": 20,
+      "maximumAffection": 100,
+      "minimumStress": 0,
+      "maximumStress": 39,
+      "priority": 40
+    },
+    {
+      "id": "studio_ploy_volunteer_2_event",
+      "characterId": "studio_ploy",
+      "entryId": "studio_ploy_volunteer_2",
+      "group": "studio_ploy_volunteer",
+      "callback": false,
+      "minimumAffection": 0,
+      "maximumAffection": 19,
+      "minimumStress": 40,
+      "maximumStress": 65,
+      "priority": 40
+    },
+    {
+      "id": "studio_ploy_volunteer_3_event",
+      "characterId": "studio_ploy",
+      "entryId": "studio_ploy_volunteer_3",
+      "group": "studio_ploy_volunteer",
+      "callback": false,
+      "minimumAffection": 20,
+      "maximumAffection": 100,
+      "minimumStress": 40,
+      "maximumStress": 65,
+      "priority": 40
+    },
+    {
+      "id": "studio_ploy_night_callback_0_event",
+      "characterId": "studio_ploy",
+      "entryId": "studio_ploy_night_callback_0",
+      "group": "studio_ploy_night_callback",
+      "callback": true,
+      "minimumAffection": 0,
+      "maximumAffection": 19,
+      "minimumStress": 0,
+      "maximumStress": 100,
+      "priority": 25
+    },
+    {
+      "id": "studio_ploy_night_callback_1_event",
+      "characterId": "studio_ploy",
+      "entryId": "studio_ploy_night_callback_1",
+      "group": "studio_ploy_night_callback",
+      "callback": true,
+      "minimumAffection": 20,
+      "maximumAffection": 100,
+      "minimumStress": 0,
+      "maximumStress": 100,
+      "priority": 25
+    }
+  ],
+  "text": [
+    {
+      "key": "volunteerChoice",
+      "value": "เงิน -{0} · เวลาไม่ผ่าน\nงานเมื่อจบคืน +{3} · เครียด {4} → {5}"
+    },
+    {
+      "key": "sharedNightChoice",
+      "value": "เงิน -{0} · Stamina -{1} · จบคืนนี้\nช่วย +{2} / ทีม +{3} · สนิท +{6} · เครียด {4} → {5}"
+    },
+    {
+      "key": "sharedNightResult",
+      "value": "อยู่ช่วย {0} · {1}\nช่วย +{2} / ทีม +{3} · Stamina -{4} / เงิน -{5}"
+    },
+    {
+      "key": "nightHelpButton",
+      "value": "อยู่ช่วย · Stamina −{0} · 1 คืน · สัมพันธ์ +{1}"
+    }
+  ]
+}

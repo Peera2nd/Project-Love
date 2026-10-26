@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641f167f8a7f48d09256348d0c022645, type: 3}
+  m_Name: opening_plaifah_memory_1
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.EventDataSO
+  id: opening_plaifah_memory_1
+  displayName: ปลายฟ้า · คำชวนครั้งต่อไป
+  startDay: 2
+  endDay: 6
+  preferredDay: 2
+  triggerPhase: 0
+  priority: 90
+  repeatDaily: 0
+  minimumRepeatDays: 0
+  repeatGroup: ''
+  anyPhase: 1
+  elapsedPhases: 0
+  staminaCost: 0
+  conditions:
+  - type: 4
+    stat: 0
+    character: {fileID: 0}
+    value: 0
+    flagId: ''
+    eventId: opening_plaifah_personal
+    targetId: ''
+  - type: 2
+    stat: 0
+    character: {fileID: 0}
+    value: 0
+    flagId: opening_plaifah_response_1
+    eventId: ''
+    targetId: ''
+  entryNode: {fileID: 11400000, guid: ef91f4969b0d4523ba430488246c0dc0, type: 2}
+  delivery: 1
+  character: {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+  room: {fileID: 11400000, guid: e69f497ffb1f6804e9a9c0406c75dc1d, type: 2}
+  exclusiveGroup: opening_plaifah_memory

@@ -1,0 +1,206 @@
+{
+  "config": {
+    "id": "sandbox_campaign",
+    "totalDays": 30,
+    "maxActionPointsPerDay": 4,
+    "startingMoney": 10,
+    "startingSkillPoints": 0,
+    "startingProgress": 0,
+    "burnoutThreshold": 80,
+    "mainProgressLabel": "ความคืบหน้า"
+  },
+  "character": {
+    "id": "sandbox_character",
+    "displayName": "ตัวละครทดสอบ",
+    "roleTitle": "ข้อมูลชั่วคราวสำหรับทดลองระบบ",
+    "startingAffection": 0,
+    "startingStress": 35
+  },
+  "presentation": {
+    "id": "sandbox_presentation",
+    "title": "PROJECT LOVE · SANDBOX",
+    "subtitle": "ฉากทดสอบระบบ · ข้อมูลชั่วคราวที่แก้ไขได้",
+    "dayFormat": "วันที่ {0}/{1} · {2}\nAP {3}/{4}",
+    "statsFormat": "{0} {1}%   |   เงิน {2}   |   SP {3}",
+    "characterFormat": "{0}\nความสัมพันธ์ {1} / 100\nความเครียด {2} / 100",
+    "narratorLabel": "ระบบทดสอบ",
+    "readyText": "เลือกบทสนทนาหรือทดลองกิจกรรมด้านขวา\nแก้ข้อมูลและตัวเลขได้จาก Dashboard",
+    "continueLabel": "ต่อ / แสดงข้อความทั้งหมด",
+    "nextPhaseLabel": "ช่วงเวลาถัดไป",
+    "endDayLabel": "จบวันนี้",
+    "nextDayLabel": "เริ่มวันถัดไป",
+    "restartLabel": "เริ่มทดสอบใหม่",
+    "successLabel": "สำเร็จ",
+    "failureLabel": "พลาด",
+    "activityFormat": "{0} · {1} AP",
+    "unavailableLabel": "เงื่อนไขหรือ AP ไม่พอ",
+    "dayEndedFormat": "จบวันที่ {0} · ความคืบหน้า {1}%\nสถานะพร้อมสำหรับวันถัดไป",
+    "campaignEndedText": "จบรอบทดสอบแล้ว\nระบบฉากจบจริงยังไม่ได้พัฒนา",
+    "phaseNames": [
+      "เช้า",
+      "กลางวัน",
+      "เย็น",
+      "ค่ำ"
+    ],
+    "charactersPerSecond": 32,
+    "deferLabel": "คุยต่อภายหลัง · คืน AP",
+    "blockedText": "ยังไม่มีคำตอบที่เลือกได้ในตอนนี้\nกดคุยต่อภายหลังเพื่อคืนสถานะก่อนเริ่มคุย แล้วค่อยกลับมาใหม่",
+    "saveLabel": "บันทึกเกม",
+    "loadLabel": "โหลดที่บันทึก",
+    "loadAutoLabel": "โหลดอัตโนมัติ",
+    "savedText": "บันทึกแล้ว",
+    "loadedText": "โหลดแล้ว",
+    "saveFailedText": "บันทึกไม่สำเร็จ",
+    "loadFailedText": "โหลดไม่ได้ · ไม่มีเซฟหรือข้อมูลไม่ตรง",
+    "busyText": "จบบทสนทนาหรือคุยต่อภายหลังก่อน",
+    "prototypeEndedText": "ครบต้นแบบ 3 วันแล้ว · เกมเต็มยัง 30 วัน\nทดลองใหม่หรือโหลดเซฟเพื่อเปลี่ยนแผนได้"
+  },
+  "nodes": [
+    {
+      "id": "sandbox_greeting",
+      "lines": [
+        {
+          "lineId": "sandbox_line_01",
+          "text": "สวัสดีค่ะ วันนี้เราลองวางแผนวันทำงานกันดูไหมคะ?",
+          "expression": 0
+        },
+        {
+          "lineId": "sandbox_line_02",
+          "text": "<color=#A8D8CA>วันนี้ฉันรู้สึกเหนื่อยนิดหน่อย</color> แต่ยังอยากค่อย ๆ ทำงานไปด้วยกันค่ะ",
+          "expression": 3
+        }
+      ],
+      "choices": [
+        {
+          "choiceId": "sandbox_choice_support",
+          "text": "คุยและรับฟังกันก่อน · 1 AP",
+          "actionPointCost": 1,
+          "effects": [
+            {
+              "stat": 3,
+              "amount": 8
+            },
+            {
+              "stat": 4,
+              "amount": -5
+            }
+          ],
+          "flags": [
+            {
+              "flagId": "sandbox_supported",
+              "value": true
+            }
+          ],
+          "nextNodeId": "sandbox_support_reply"
+        },
+        {
+          "choiceId": "sandbox_choice_plan",
+          "text": "ช่วยกันจัดงานให้ชัดเจน · 1 AP",
+          "actionPointCost": 1,
+          "effects": [
+            {
+              "stat": 0,
+              "amount": 8
+            },
+            {
+              "stat": 3,
+              "amount": 2
+            }
+          ],
+          "flags": [],
+          "nextNodeId": "sandbox_plan_reply"
+        }
+      ]
+    },
+    {
+      "id": "sandbox_support_reply",
+      "lines": [
+        {
+          "lineId": "sandbox_line_03",
+          "text": "ขอบคุณที่รับฟังนะคะ รู้สึกผ่อนคลายขึ้นแล้วค่ะ เราค่อย ๆ ไปต่อกันเถอะ",
+          "expression": 1
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "sandbox_plan_reply",
+      "lines": [
+        {
+          "lineId": "sandbox_line_04",
+          "text": "เห็นขั้นตอนแล้วสบายใจขึ้นค่ะ ถ้าพลาดบ้างก็ค่อยมาปรับแผนด้วยกันนะคะ",
+          "expression": 1
+        }
+      ],
+      "choices": []
+    }
+  ],
+  "events": [
+    {
+      "id": "sandbox_intro_event",
+      "displayName": "เริ่มบทสนทนาทดสอบ",
+      "startDay": 1,
+      "endDay": 30,
+      "preferredDay": 1,
+      "triggerPhase": 0,
+      "entryNodeId": "sandbox_greeting",
+      "repeatDaily": true,
+      "anyPhase": true,
+      "elapsedPhases": 1
+    }
+  ],
+  "activities": [
+    {
+      "id": "sandbox_work",
+      "displayName": "จำลองทำงาน",
+      "actionPointCost": 1,
+      "successEffects": [
+        {
+          "stat": 0,
+          "amount": 15
+        },
+        {
+          "stat": 1,
+          "amount": 5
+        },
+        {
+          "stat": 2,
+          "amount": 1
+        },
+        {
+          "stat": 4,
+          "amount": 3
+        }
+      ],
+      "failureEffects": [
+        {
+          "stat": 0,
+          "amount": 2
+        },
+        {
+          "stat": 4,
+          "amount": 5
+        }
+      ],
+      "elapsedPhases": 1
+    },
+    {
+      "id": "sandbox_rest",
+      "displayName": "จำลองพักผ่อน",
+      "actionPointCost": 1,
+      "successEffects": [
+        {
+          "stat": 4,
+          "amount": -10
+        }
+      ],
+      "failureEffects": [
+        {
+          "stat": 4,
+          "amount": -4
+        }
+      ],
+      "elapsedPhases": 1
+    }
+  ]
+}

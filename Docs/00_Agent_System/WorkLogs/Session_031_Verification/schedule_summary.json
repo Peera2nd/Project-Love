@@ -1,0 +1,110 @@
+[
+  {
+    "file": "Session031_30Day_Events_TalkFalse.json",
+    "mainProgress": 100,
+    "resolvedPhases": 120,
+    "completedProducerStages": 5,
+    "sprintsMet": [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "affection": {
+      "studio_grace": 0,
+      "studio_plaifah": 1,
+      "studio_ploy": 0
+    }
+  },
+  {
+    "file": "Session031_30Day_Events_TalkTrue.json",
+    "mainProgress": 100,
+    "resolvedPhases": 120,
+    "completedProducerStages": 5,
+    "sprintsMet": [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "affection": {
+      "studio_grace": 60,
+      "studio_plaifah": 61,
+      "studio_ploy": 60
+    }
+  },
+  {
+    "file": "Session031_NoStory_30Day_BugFalse_TalkFalse.json",
+    "mainProgress": 100,
+    "resolvedPhases": 120,
+    "completedProducerStages": 5,
+    "sprintsMet": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "affection": {
+      "studio_grace": 0,
+      "studio_plaifah": 0,
+      "studio_ploy": 0
+    }
+  },
+  {
+    "file": "Session031_NoStory_30Day_BugFalse_TalkTrue.json",
+    "mainProgress": 100,
+    "resolvedPhases": 120,
+    "completedProducerStages": 5,
+    "sprintsMet": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "affection": {
+      "studio_grace": 60,
+      "studio_plaifah": 60,
+      "studio_ploy": 60
+    }
+  },
+  {
+    "file": "Session031_NoStory_30Day_BugTrue_TalkFalse.json",
+    "mainProgress": 100,
+    "resolvedPhases": 120,
+    "completedProducerStages": 5,
+    "sprintsMet": [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "affection": {
+      "studio_grace": 0,
+      "studio_plaifah": 0,
+      "studio_ploy": 0
+    }
+  },
+  {
+    "file": "Session031_NoStory_30Day_BugTrue_TalkTrue.json",
+    "mainProgress": 100,
+    "resolvedPhases": 120,
+    "completedProducerStages": 5,
+    "sprintsMet": [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "affection": {
+      "studio_grace": 60,
+      "studio_plaifah": 60,
+      "studio_ploy": 60
+    }
+  }
+]

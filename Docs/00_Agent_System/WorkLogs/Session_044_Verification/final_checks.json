@@ -1,0 +1,38 @@
+{
+  "tests": {
+    "EditFinal": {
+      "result": "Passed",
+      "passed": 189,
+      "total": 189
+    },
+    "PlayFinal": {
+      "result": "Passed",
+      "passed": 35,
+      "total": 35
+    },
+    "WorkspaceFinal": {
+      "result": "Passed",
+      "passed": 12,
+      "total": 12
+    }
+  },
+  "delivered_files": 243,
+  "protected_files_unchanged": 937,
+  "generated_assets_with_resolved_guids": {
+    "Assets\\_Project\\Prefabs\\UI\\RomanceActionRow.prefab": 6,
+    "Assets\\_Project\\Prefabs\\UI\\RomanceCharacterCard.prefab": 7,
+    "Assets\\_Project\\Prefabs\\UI\\RomanceDialogue.prefab": 12,
+    "Assets\\_Project\\Prefabs\\UI\\RomanceEventBubble.prefab": 7,
+    "Assets\\_Project\\Prefabs\\UI\\RomanceHotspot.prefab": 2,
+    "Assets\\_Project\\Prefabs\\UI\\RomanceHud.prefab": 8,
+    "Assets\\_Project\\Prefabs\\UI\\RomanceMorningRecap.prefab": 10,
+    "Assets\\_Project\\Prefabs\\UI\\RomanceWeeklySupport.prefab": 10,
+    "Assets\\_Project\\Prefabs\\UI\\RomanceWorkspace.prefab": 47,
+    "Assets\\_Project\\Scenes\\Gameplay\\StudioRomancePrototype.unity": 7
+  },
+  "relative_doc_links_checked": 205,
+  "broken_links": [],
+  "owner_foreground_editor_controlled": false,
+  "standalone_build_run": false,
+  "owner_authoring_acceptance": "pending"
+}

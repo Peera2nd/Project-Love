@@ -1,0 +1,414 @@
+{
+  "version": 1,
+  "producerCost": 20,
+  "producerEffort": 10,
+  "producerMoney": 10,
+  "producerTeamBonus": 1,
+  "restStressRecovery": 5,
+  "overtimeMoneyCost": 5,
+  "overtimeStress": 10,
+  "stages": [
+    {
+      "sprintId": "studio_sprint_1",
+      "goal": 40
+    },
+    {
+      "sprintId": "studio_sprint_2",
+      "goal": 40
+    },
+    {
+      "sprintId": "studio_sprint_3",
+      "goal": 40
+    },
+    {
+      "sprintId": "studio_sprint_4",
+      "goal": 40
+    },
+    {
+      "sprintId": "studio_sprint_5",
+      "goal": 20
+    }
+  ],
+  "taskBindings": [
+    {
+      "taskId": "studio_w1_grace_1",
+      "sprintId": "studio_sprint_1"
+    },
+    {
+      "taskId": "studio_w1_grace_2",
+      "sprintId": "studio_sprint_1"
+    },
+    {
+      "taskId": "studio_w1_grace_3",
+      "sprintId": "studio_sprint_1"
+    },
+    {
+      "taskId": "studio_w1_plaifah_1",
+      "sprintId": "studio_sprint_1"
+    },
+    {
+      "taskId": "studio_w1_plaifah_2",
+      "sprintId": "studio_sprint_1"
+    },
+    {
+      "taskId": "studio_w1_plaifah_3",
+      "sprintId": "studio_sprint_1"
+    },
+    {
+      "taskId": "studio_w1_ploy_1",
+      "sprintId": "studio_sprint_1"
+    },
+    {
+      "taskId": "studio_w1_ploy_2",
+      "sprintId": "studio_sprint_1"
+    },
+    {
+      "taskId": "studio_w1_ploy_3",
+      "sprintId": "studio_sprint_1"
+    },
+    {
+      "taskId": "studio_w2_grace_1",
+      "sprintId": "studio_sprint_2"
+    },
+    {
+      "taskId": "studio_w2_grace_2",
+      "sprintId": "studio_sprint_2"
+    },
+    {
+      "taskId": "studio_w2_grace_3",
+      "sprintId": "studio_sprint_2"
+    },
+    {
+      "taskId": "studio_w2_plaifah_1",
+      "sprintId": "studio_sprint_2"
+    },
+    {
+      "taskId": "studio_w2_plaifah_2",
+      "sprintId": "studio_sprint_2"
+    },
+    {
+      "taskId": "studio_w2_plaifah_3",
+      "sprintId": "studio_sprint_2"
+    },
+    {
+      "taskId": "studio_w2_ploy_1",
+      "sprintId": "studio_sprint_2"
+    },
+    {
+      "taskId": "studio_w2_ploy_2",
+      "sprintId": "studio_sprint_2"
+    },
+    {
+      "taskId": "studio_w2_ploy_3",
+      "sprintId": "studio_sprint_2"
+    },
+    {
+      "taskId": "studio_w3_grace_1",
+      "sprintId": "studio_sprint_3"
+    },
+    {
+      "taskId": "studio_w3_grace_2",
+      "sprintId": "studio_sprint_3"
+    },
+    {
+      "taskId": "studio_w3_grace_3",
+      "sprintId": "studio_sprint_3"
+    },
+    {
+      "taskId": "studio_w3_plaifah_1",
+      "sprintId": "studio_sprint_3"
+    },
+    {
+      "taskId": "studio_w3_plaifah_2",
+      "sprintId": "studio_sprint_3"
+    },
+    {
+      "taskId": "studio_w3_plaifah_3",
+      "sprintId": "studio_sprint_3"
+    },
+    {
+      "taskId": "studio_w3_ploy_1",
+      "sprintId": "studio_sprint_3"
+    },
+    {
+      "taskId": "studio_w3_ploy_2",
+      "sprintId": "studio_sprint_3"
+    },
+    {
+      "taskId": "studio_w3_ploy_3",
+      "sprintId": "studio_sprint_3"
+    },
+    {
+      "taskId": "studio_w4_grace_1",
+      "sprintId": "studio_sprint_4"
+    },
+    {
+      "taskId": "studio_w4_grace_2",
+      "sprintId": "studio_sprint_4"
+    },
+    {
+      "taskId": "studio_w4_grace_3",
+      "sprintId": "studio_sprint_4"
+    },
+    {
+      "taskId": "studio_w4_plaifah_1",
+      "sprintId": "studio_sprint_4"
+    },
+    {
+      "taskId": "studio_w4_plaifah_2",
+      "sprintId": "studio_sprint_4"
+    },
+    {
+      "taskId": "studio_w4_plaifah_3",
+      "sprintId": "studio_sprint_4"
+    },
+    {
+      "taskId": "studio_w4_ploy_1",
+      "sprintId": "studio_sprint_4"
+    },
+    {
+      "taskId": "studio_w4_ploy_2",
+      "sprintId": "studio_sprint_4"
+    },
+    {
+      "taskId": "studio_w4_ploy_3",
+      "sprintId": "studio_sprint_4"
+    },
+    {
+      "taskId": "studio_w5_grace_1",
+      "sprintId": "studio_sprint_5"
+    },
+    {
+      "taskId": "studio_w5_plaifah_1",
+      "sprintId": "studio_sprint_5"
+    },
+    {
+      "taskId": "studio_w5_ploy_1",
+      "sprintId": "studio_sprint_5"
+    },
+    {
+      "taskId": "studio_bug",
+      "sprintId": "studio_sprint_1"
+    }
+  ],
+  "colors": [
+    {
+      "streamId": "work_code",
+      "color": "#4EA6E8"
+    },
+    {
+      "streamId": "work_art",
+      "color": "#BB86E8"
+    },
+    {
+      "streamId": "work_design",
+      "color": "#E8B75A"
+    },
+    {
+      "streamId": "work_producer",
+      "color": "#56BEAA"
+    }
+  ],
+  "variants": [
+    {
+      "id": "studio_grace_ot_0",
+      "characterId": "studio_grace",
+      "text": "ได้ค่ะ คืนนี้ฉันจะทำ OT ตามที่ตกลงไว้ ขอขอบเขตงานให้ชัดเจนด้วยนะคะ",
+      "minimumAffection": 0,
+      "maximumAffection": 19,
+      "minimumStress": 0,
+      "maximumStress": 69
+    },
+    {
+      "id": "studio_grace_ot_1",
+      "characterId": "studio_grace",
+      "text": "คืนนี้ฉันทำ OT ให้ค่ะ แต่ถ้างานเสร็จแล้ว คุณต้องยอมพักด้วยนะ อย่านั่งเฝ้าฉันจนดึกนัก",
+      "minimumAffection": 20,
+      "maximumAffection": 100,
+      "minimumStress": 0,
+      "maximumStress": 69
+    },
+    {
+      "id": "studio_grace_ot_2",
+      "characterId": "studio_grace",
+      "text": "ฉันรับ OT แล้วค่ะ แต่ตอนนี้สมาธิเหลือน้อย ขอจัดการเฉพาะงานที่จำเป็นก่อนนะคะ",
+      "minimumAffection": 0,
+      "maximumAffection": 19,
+      "minimumStress": 70,
+      "maximumStress": 100
+    },
+    {
+      "id": "studio_grace_ot_3",
+      "characterId": "studio_grace",
+      "text": "ฉันจะทำ OT ให้จบเท่าที่ไหวนะคะ วันนี้เหนื่อยมากจริง ๆ ถ้าคุณอยู่ใกล้ ๆ เงียบ ๆ ฉันคงสบายใจขึ้น",
+      "minimumAffection": 20,
+      "maximumAffection": 100,
+      "minimumStress": 70,
+      "maximumStress": 100
+    },
+    {
+      "id": "studio_plaifah_ot_0",
+      "characterId": "studio_plaifah",
+      "text": "คืนนี้ปลายฟ้าจะทำ OT ต่อให้นะคะ ขอค่อย ๆ เก็บงานทีละส่วนค่ะ",
+      "minimumAffection": 0,
+      "maximumAffection": 19,
+      "minimumStress": 0,
+      "maximumStress": 69
+    },
+    {
+      "id": "studio_plaifah_ot_1",
+      "characterId": "studio_plaifah",
+      "text": "ได้อยู่ทำ OT ด้วยกันอีกหน่อยแล้วสินะคะ แฮะ ๆ ถ้างานเสร็จไว เราพักคุยกันหน่อยได้ไหม",
+      "minimumAffection": 20,
+      "maximumAffection": 100,
+      "minimumStress": 0,
+      "maximumStress": 69
+    },
+    {
+      "id": "studio_plaifah_ot_2",
+      "characterId": "studio_plaifah",
+      "text": "ปลายฟ้าตกลงทำ OT แล้วค่ะ แต่ตอนนี้มือเริ่มล้า ขอทำช้าลงนิดหนึ่งนะคะ",
+      "minimumAffection": 0,
+      "maximumAffection": 19,
+      "minimumStress": 70,
+      "maximumStress": 100
+    },
+    {
+      "id": "studio_plaifah_ot_3",
+      "characterId": "studio_plaifah",
+      "text": "วันนี้ปลายฟ้าเหนื่อยจังค่ะ ถึงจะทำ OT ต่อไหว แต่ขอให้เธออยู่เป็นเพื่อนอีกนิดได้ไหม",
+      "minimumAffection": 20,
+      "maximumAffection": 100,
+      "minimumStress": 70,
+      "maximumStress": 100
+    },
+    {
+      "id": "studio_ploy_ot_0",
+      "characterId": "studio_ploy",
+      "text": "รับทราบค่า คืนนี้มีรอบ OT! แต่ขอเลือกเป้าหมายเดียวก่อนนะคะ ไม่งั้นไอเดียจะพาวิ่งออกนอกทางอีก",
+      "minimumAffection": 0,
+      "maximumAffection": 19,
+      "minimumStress": 0,
+      "maximumStress": 69
+    },
+    {
+      "id": "studio_ploy_ot_1",
+      "characterId": "studio_ploy",
+      "text": "OT ด้วยกันแบบนี้ โปรดิวเซอร์ห้ามแอบหนีกลับก่อนนะคะ งานจบแล้วขอคุยด้วยอีกหน่อย!",
+      "minimumAffection": 20,
+      "maximumAffection": 100,
+      "minimumStress": 0,
+      "maximumStress": 69
+    },
+    {
+      "id": "studio_ploy_ot_2",
+      "characterId": "studio_ploy",
+      "text": "คืนนี้พลอยรับ OT ไว้แล้วค่ะ แต่ขอเบาเสียงหน่อยนะ วันนี้มุกเริ่มไม่ออกแล้ว",
+      "minimumAffection": 0,
+      "maximumAffection": 19,
+      "minimumStress": 70,
+      "maximumStress": 100
+    },
+    {
+      "id": "studio_ploy_ot_3",
+      "characterId": "studio_ploy",
+      "text": "ทำ OT ต่อได้นะ แต่วันนี้พลอยยิ้มไม่ค่อยไหวแล้ว ขอพูดตรง ๆ กับเธอหน่อยได้ไหมคะ",
+      "minimumAffection": 20,
+      "maximumAffection": 100,
+      "minimumStress": 70,
+      "maximumStress": 100
+    }
+  ],
+  "text": [
+    {
+      "key": "workerRestButton",
+      "value": "ให้พักช่วงนี้ · เครียด −{0}\nไม่ใช้เวลา · งดงานช่วงนี้"
+    },
+    {
+      "key": "overtimeButton",
+      "value": "ขอให้ OT · เงิน −{0} · เครียด +{1}\nไม่ใช้เวลา · ทำงานเมื่อจบกลางคืน"
+    },
+    {
+      "key": "orderAlready",
+      "value": "กำหนดงานช่วงนี้แล้ว"
+    },
+    {
+      "key": "noStress",
+      "value": "ไม่มีความเครียดที่ต้องฟื้นฟู"
+    },
+    {
+      "key": "restOrdered",
+      "value": "พักช่วงนี้แล้ว · ลดความเครียดเมื่อเวลาผ่าน · ไม่ได้งาน"
+    },
+    {
+      "key": "overtimeOrdered",
+      "value": "ตกลง OT แล้ว · จ่ายเงินแล้ว · ทำงานเมื่อจบกลางคืน"
+    },
+    {
+      "key": "nightOnly",
+      "value": "ขอ OT ได้เฉพาะกลางคืน"
+    },
+    {
+      "key": "lowMoney",
+      "value": "เงินไม่พอสำหรับ OT"
+    },
+    {
+      "key": "producerFinished",
+      "value": "งาน Producer ทุกขั้นครบแล้ว"
+    },
+    {
+      "key": "producerStage",
+      "value": "Producer · {0}\nความคืบหน้า {1}/{2}"
+    },
+    {
+      "key": "producerWork",
+      "value": "ทำงาน Producer · Stamina −{0}\n1 ช่วง · เงิน +{1} · งานตัวเอง +{2}\nช่วยสูงสุดฝ่ายละ +{3}"
+    },
+    {
+      "key": "producerResult",
+      "value": "เงิน +{0} · Producer +{1}\nโบนัส: {2}"
+    },
+    {
+      "key": "nightOff",
+      "value": "กลางคืนพัก · ขอ OT หรือคุยได้"
+    },
+    {
+      "key": "unreleased",
+      "value": "ยังไม่ปลดล็อค · ทำงาน Producer ของขั้นก่อนหน้าให้เต็ม"
+    },
+    {
+      "key": "boardHint",
+      "value": "การ์ดแยกสีตามฝ่าย · ตรวจรับ/จัดลำดับฟรี · งาน Producer ปลดล็อคขั้นถัดไป"
+    },
+    {
+      "key": "otForecast",
+      "value": "OT เมื่อจบกลางคืน: +{0} · เครียด {1} → {2} · เงิน −{3}"
+    }
+  ],
+  "icons": [
+    "heart",
+    "stamina",
+    "stress",
+    "money",
+    "time",
+    "bag",
+    "item",
+    "sprint_board",
+    "rest",
+    "overtime",
+    "producer",
+    "progress",
+    "code",
+    "art",
+    "design",
+    "work",
+    "talk",
+    "gift",
+    "locked",
+    "blocked",
+    "review",
+    "done",
+    "priority",
+    "back"
+  ]
+}

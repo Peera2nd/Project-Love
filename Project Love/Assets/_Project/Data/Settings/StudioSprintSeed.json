@@ -1,0 +1,942 @@
+{
+  "configId": "studio_campaign",
+  "productionId": "studio_production",
+  "workspaceId": "studio_workspace",
+  "storeId": "studio_store",
+  "presentationId": "studio_presentation",
+  "restId": "studio_rest",
+  "restName": "พักบนโซฟา",
+  "restCost": 0,
+  "restRecovery": 30,
+  "restPhases": 1,
+  "deskLabel": "บอร์ด Sprint",
+  "workers": [
+    {
+      "id": "studio_grace",
+      "artId": "grace",
+      "displayName": "เกรซ",
+      "roleTitle": "Code",
+      "streamId": "work_code",
+      "startingAffection": 0,
+      "startingStress": 30,
+      "baseRate": 4,
+      "dailyTalkStaminaCost": 3,
+      "dailyTalkAffection": 2,
+      "likedItemId": "room_water",
+      "likedAffection": 4,
+      "neutralGiftAffection": 1,
+      "dislikedAffection": -2,
+      "closeAffection": 20,
+      "greeting": "ตอนนี้ฉันกำลังไล่งานระบบอยู่ มีอะไรให้ช่วยไหม",
+      "talk": "วันนี้งานระบบค่อย ๆ เป็นรูปเป็นร่างขึ้นแล้วนะ",
+      "closeTalk": "ขอบคุณที่แวะมาคุยด้วย ฉันรู้สึกสบายใจขึ้นเยอะเลย",
+      "nightGreeting": "ดึกแล้ว วันนี้พักงานก่อนนะ แต่คุยกันได้นะ",
+      "neutralGift": "ขอบคุณนะ เดี๋ยวฉันเก็บไว้ใช้",
+      "likedGift": "ชอบอันนี้พอดีเลย ขอบคุณที่นึกถึงกันนะ",
+      "dislikedGift": "ขอบคุณนะ แต่ของแบบนี้ฉันไม่ค่อยได้ใช้เท่าไร",
+      "roomSprites": [
+        "chr_grace_Seated_Working.png",
+        "chr_grace_Standing_Relaxed.png"
+      ],
+      "positions": [
+        {
+          "x": 0.36,
+          "y": 0.55
+        },
+        {
+          "x": 0.3,
+          "y": 0.39
+        },
+        {
+          "x": 0.3,
+          "y": 0.39
+        },
+        {
+          "x": 0.3,
+          "y": 0.39
+        }
+      ],
+      "size": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    {
+      "id": "studio_plaifah",
+      "artId": "plaifah",
+      "displayName": "ปลายฟ้า",
+      "roleTitle": "Art",
+      "streamId": "work_art",
+      "startingAffection": 0,
+      "startingStress": 30,
+      "baseRate": 4,
+      "dailyTalkStaminaCost": 3,
+      "dailyTalkAffection": 2,
+      "likedItemId": "room_pudding",
+      "likedAffection": 4,
+      "neutralGiftAffection": 1,
+      "dislikedAffection": -2,
+      "closeAffection": 20,
+      "greeting": "กำลังจัดภาพให้เข้าชุดกันอยู่ มาดูด้วยกันไหม",
+      "talk": "วันนี้ได้ลองโทนภาพใหม่ด้วย ไว้ว่าง ๆ จะเอาให้ดูนะ",
+      "closeTalk": "คุยกับเธอแล้วรู้สึกมีกำลังใจกลับไปวาดต่อเลย",
+      "nightGreeting": "ดึกแล้ว วันนี้พักงานก่อนนะ แต่คุยกันได้นะ",
+      "neutralGift": "ขอบคุณนะ เดี๋ยวฉันเก็บไว้ใช้",
+      "likedGift": "ชอบอันนี้พอดีเลย ขอบคุณที่นึกถึงกันนะ",
+      "dislikedGift": "ขอบคุณนะ แต่ของแบบนี้ฉันไม่ค่อยได้ใช้เท่าไร",
+      "roomSprites": [
+        "chr_plaifah_Seated_Working.png",
+        "chr_plaifah_Seated_Phone.png"
+      ],
+      "positions": [
+        {
+          "x": 0.55,
+          "y": 0.53
+        },
+        {
+          "x": 0.64,
+          "y": 0.25
+        },
+        {
+          "x": 0.64,
+          "y": 0.25
+        },
+        {
+          "x": 0.64,
+          "y": 0.25
+        }
+      ],
+      "size": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    },
+    {
+      "id": "studio_ploy",
+      "artId": "ploy",
+      "displayName": "พลอย",
+      "roleTitle": "Design",
+      "streamId": "work_design",
+      "startingAffection": 0,
+      "startingStress": 30,
+      "baseRate": 4,
+      "dailyTalkStaminaCost": 3,
+      "dailyTalkAffection": 2,
+      "likedItemId": "room_pudding",
+      "likedAffection": 4,
+      "neutralGiftAffection": 1,
+      "dislikedAffection": -2,
+      "closeAffection": 20,
+      "greeting": "กำลังเช็กว่ากติกาเล่นแล้วเข้าใจง่ายไหม อยากลองช่วยดูไหม",
+      "talk": "วันนี้เจอจุดที่ผู้เล่นน่าจะสับสนอยู่ เดี๋ยวค่อย ๆ แก้กัน",
+      "closeTalk": "ดีจังที่มีคนฟังไอเดียแปลก ๆ ของฉันด้วย",
+      "nightGreeting": "ดึกแล้ว วันนี้พักงานก่อนนะ แต่คุยกันได้นะ",
+      "neutralGift": "ขอบคุณนะ เดี๋ยวฉันเก็บไว้ใช้",
+      "likedGift": "ชอบอันนี้พอดีเลย ขอบคุณที่นึกถึงกันนะ",
+      "dislikedGift": "ขอบคุณนะ แต่ของแบบนี้ฉันไม่ค่อยได้ใช้เท่าไร",
+      "roomSprites": [
+        "chr_ploy_Seated_Working.png",
+        "chr_ploy_Standing_Relaxed.png"
+      ],
+      "positions": [
+        {
+          "x": 0.76,
+          "y": 0.4
+        },
+        {
+          "x": 0.78,
+          "y": 0.29
+        },
+        {
+          "x": 0.78,
+          "y": 0.29
+        },
+        {
+          "x": 0.78,
+          "y": 0.29
+        }
+      ],
+      "size": {
+        "x": 0.25,
+        "y": 0.25
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "studio_w1_grace_1",
+      "displayName": "S1 · ระบบควบคุมหลัก",
+      "streamId": "work_code",
+      "ownerId": "studio_grace",
+      "effort": 28,
+      "mainWeight": 28,
+      "releaseDay": 1,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w1_grace_2",
+      "displayName": "S1 · เชื่อมระบบบทสนทนา",
+      "streamId": "work_code",
+      "ownerId": "studio_grace",
+      "effort": 28,
+      "mainWeight": 28,
+      "releaseDay": 1,
+      "decisionBlocked": true,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w1_grace_3",
+      "displayName": "S1 · ทดสอบและแก้ระบบ",
+      "streamId": "work_code",
+      "ownerId": "studio_grace",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 1,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w1_plaifah_1",
+      "displayName": "S1 · ภาพฉากต้นแบบ",
+      "streamId": "work_art",
+      "ownerId": "studio_plaifah",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 1,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w1_plaifah_2",
+      "displayName": "S1 · ภาพตัวละคร",
+      "streamId": "work_art",
+      "ownerId": "studio_plaifah",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 1,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w1_plaifah_3",
+      "displayName": "S1 · ตรวจความสอดคล้องของภาพ",
+      "streamId": "work_art",
+      "ownerId": "studio_plaifah",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 1,
+      "decisionBlocked": false,
+      "prerequisiteIds": [
+        "studio_w1_ploy_2"
+      ]
+    },
+    {
+      "id": "studio_w1_ploy_1",
+      "displayName": "S1 · ออกแบบลำดับการเล่น",
+      "streamId": "work_design",
+      "ownerId": "studio_ploy",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 1,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w1_ploy_2",
+      "displayName": "S1 · ทดสอบกติกา",
+      "streamId": "work_design",
+      "ownerId": "studio_ploy",
+      "effort": 20,
+      "mainWeight": 20,
+      "releaseDay": 1,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w1_ploy_3",
+      "displayName": "S1 · ปรับจังหวะเกม",
+      "streamId": "work_design",
+      "ownerId": "studio_ploy",
+      "effort": 20,
+      "mainWeight": 20,
+      "releaseDay": 1,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w2_grace_1",
+      "displayName": "S2 · ระบบควบคุมหลัก",
+      "streamId": "work_code",
+      "ownerId": "studio_grace",
+      "effort": 28,
+      "mainWeight": 28,
+      "releaseDay": 8,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w2_grace_2",
+      "displayName": "S2 · เชื่อมระบบบทสนทนา",
+      "streamId": "work_code",
+      "ownerId": "studio_grace",
+      "effort": 28,
+      "mainWeight": 28,
+      "releaseDay": 8,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w2_grace_3",
+      "displayName": "S2 · ทดสอบและแก้ระบบ",
+      "streamId": "work_code",
+      "ownerId": "studio_grace",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 8,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w2_plaifah_1",
+      "displayName": "S2 · ภาพฉากต้นแบบ",
+      "streamId": "work_art",
+      "ownerId": "studio_plaifah",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 8,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w2_plaifah_2",
+      "displayName": "S2 · ภาพตัวละคร",
+      "streamId": "work_art",
+      "ownerId": "studio_plaifah",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 8,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w2_plaifah_3",
+      "displayName": "S2 · ตรวจความสอดคล้องของภาพ",
+      "streamId": "work_art",
+      "ownerId": "studio_plaifah",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 8,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w2_ploy_1",
+      "displayName": "S2 · ออกแบบลำดับการเล่น",
+      "streamId": "work_design",
+      "ownerId": "studio_ploy",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 8,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w2_ploy_2",
+      "displayName": "S2 · ทดสอบกติกา",
+      "streamId": "work_design",
+      "ownerId": "studio_ploy",
+      "effort": 20,
+      "mainWeight": 20,
+      "releaseDay": 8,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w2_ploy_3",
+      "displayName": "S2 · ปรับจังหวะเกม",
+      "streamId": "work_design",
+      "ownerId": "studio_ploy",
+      "effort": 20,
+      "mainWeight": 20,
+      "releaseDay": 8,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w3_grace_1",
+      "displayName": "S3 · ระบบควบคุมหลัก",
+      "streamId": "work_code",
+      "ownerId": "studio_grace",
+      "effort": 28,
+      "mainWeight": 28,
+      "releaseDay": 15,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w3_grace_2",
+      "displayName": "S3 · เชื่อมระบบบทสนทนา",
+      "streamId": "work_code",
+      "ownerId": "studio_grace",
+      "effort": 28,
+      "mainWeight": 28,
+      "releaseDay": 15,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w3_grace_3",
+      "displayName": "S3 · ทดสอบและแก้ระบบ",
+      "streamId": "work_code",
+      "ownerId": "studio_grace",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 15,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w3_plaifah_1",
+      "displayName": "S3 · ภาพฉากต้นแบบ",
+      "streamId": "work_art",
+      "ownerId": "studio_plaifah",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 15,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w3_plaifah_2",
+      "displayName": "S3 · ภาพตัวละคร",
+      "streamId": "work_art",
+      "ownerId": "studio_plaifah",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 15,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w3_plaifah_3",
+      "displayName": "S3 · ตรวจความสอดคล้องของภาพ",
+      "streamId": "work_art",
+      "ownerId": "studio_plaifah",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 15,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w3_ploy_1",
+      "displayName": "S3 · ออกแบบลำดับการเล่น",
+      "streamId": "work_design",
+      "ownerId": "studio_ploy",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 15,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w3_ploy_2",
+      "displayName": "S3 · ทดสอบกติกา",
+      "streamId": "work_design",
+      "ownerId": "studio_ploy",
+      "effort": 20,
+      "mainWeight": 20,
+      "releaseDay": 15,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w3_ploy_3",
+      "displayName": "S3 · ปรับจังหวะเกม",
+      "streamId": "work_design",
+      "ownerId": "studio_ploy",
+      "effort": 20,
+      "mainWeight": 20,
+      "releaseDay": 15,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w4_grace_1",
+      "displayName": "S4 · ระบบควบคุมหลัก",
+      "streamId": "work_code",
+      "ownerId": "studio_grace",
+      "effort": 28,
+      "mainWeight": 28,
+      "releaseDay": 22,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w4_grace_2",
+      "displayName": "S4 · เชื่อมระบบบทสนทนา",
+      "streamId": "work_code",
+      "ownerId": "studio_grace",
+      "effort": 28,
+      "mainWeight": 28,
+      "releaseDay": 22,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w4_grace_3",
+      "displayName": "S4 · ทดสอบและแก้ระบบ",
+      "streamId": "work_code",
+      "ownerId": "studio_grace",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 22,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w4_plaifah_1",
+      "displayName": "S4 · ภาพฉากต้นแบบ",
+      "streamId": "work_art",
+      "ownerId": "studio_plaifah",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 22,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w4_plaifah_2",
+      "displayName": "S4 · ภาพตัวละคร",
+      "streamId": "work_art",
+      "ownerId": "studio_plaifah",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 22,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w4_plaifah_3",
+      "displayName": "S4 · ตรวจความสอดคล้องของภาพ",
+      "streamId": "work_art",
+      "ownerId": "studio_plaifah",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 22,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w4_ploy_1",
+      "displayName": "S4 · ออกแบบลำดับการเล่น",
+      "streamId": "work_design",
+      "ownerId": "studio_ploy",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 22,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w4_ploy_2",
+      "displayName": "S4 · ทดสอบกติกา",
+      "streamId": "work_design",
+      "ownerId": "studio_ploy",
+      "effort": 20,
+      "mainWeight": 20,
+      "releaseDay": 22,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w4_ploy_3",
+      "displayName": "S4 · ปรับจังหวะเกม",
+      "streamId": "work_design",
+      "ownerId": "studio_ploy",
+      "effort": 20,
+      "mainWeight": 20,
+      "releaseDay": 22,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w5_grace_1",
+      "displayName": "S5 · ตรวจรวมก่อนส่งงาน",
+      "streamId": "work_code",
+      "ownerId": "studio_grace",
+      "effort": 24,
+      "mainWeight": 24,
+      "releaseDay": 29,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w5_plaifah_1",
+      "displayName": "S5 · ตรวจรวมก่อนส่งงาน",
+      "streamId": "work_art",
+      "ownerId": "studio_plaifah",
+      "effort": 16,
+      "mainWeight": 16,
+      "releaseDay": 29,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_w5_ploy_1",
+      "displayName": "S5 · ตรวจรวมก่อนส่งงาน",
+      "streamId": "work_design",
+      "ownerId": "studio_ploy",
+      "effort": 16,
+      "mainWeight": 16,
+      "releaseDay": 29,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    },
+    {
+      "id": "studio_bug",
+      "displayName": "บัคระบบบันทึก · งานแทรก",
+      "streamId": "work_code",
+      "ownerId": "studio_grace",
+      "effort": 24,
+      "mainWeight": 0,
+      "releaseDay": 1,
+      "decisionBlocked": false,
+      "prerequisiteIds": []
+    }
+  ],
+  "sprints": [
+    {
+      "id": "studio_sprint_1",
+      "displayName": "Sprint 1",
+      "startDay": 1,
+      "endDay": 7,
+      "quotas": [
+        {
+          "streamId": "work_code",
+          "effort": 80
+        },
+        {
+          "streamId": "work_art",
+          "effort": 72
+        },
+        {
+          "streamId": "work_design",
+          "effort": 64
+        }
+      ]
+    },
+    {
+      "id": "studio_sprint_2",
+      "displayName": "Sprint 2",
+      "startDay": 8,
+      "endDay": 14,
+      "quotas": [
+        {
+          "streamId": "work_code",
+          "effort": 80
+        },
+        {
+          "streamId": "work_art",
+          "effort": 72
+        },
+        {
+          "streamId": "work_design",
+          "effort": 64
+        }
+      ]
+    },
+    {
+      "id": "studio_sprint_3",
+      "displayName": "Sprint 3",
+      "startDay": 15,
+      "endDay": 21,
+      "quotas": [
+        {
+          "streamId": "work_code",
+          "effort": 80
+        },
+        {
+          "streamId": "work_art",
+          "effort": 72
+        },
+        {
+          "streamId": "work_design",
+          "effort": 64
+        }
+      ]
+    },
+    {
+      "id": "studio_sprint_4",
+      "displayName": "Sprint 4",
+      "startDay": 22,
+      "endDay": 28,
+      "quotas": [
+        {
+          "streamId": "work_code",
+          "effort": 80
+        },
+        {
+          "streamId": "work_art",
+          "effort": 72
+        },
+        {
+          "streamId": "work_design",
+          "effort": 64
+        }
+      ]
+    },
+    {
+      "id": "studio_sprint_5",
+      "displayName": "ตรวจรวมก่อนส่ง",
+      "startDay": 29,
+      "endDay": 30,
+      "quotas": [
+        {
+          "streamId": "work_code",
+          "effort": 24
+        },
+        {
+          "streamId": "work_art",
+          "effort": 16
+        },
+        {
+          "streamId": "work_design",
+          "effort": 16
+        }
+      ]
+    }
+  ],
+  "stressBands": [
+    {
+      "minimum": 0,
+      "outputPercent": 100
+    },
+    {
+      "minimum": 40,
+      "outputPercent": 75
+    },
+    {
+      "minimum": 70,
+      "outputPercent": 50
+    },
+    {
+      "minimum": 90,
+      "outputPercent": 25
+    }
+  ],
+  "productivePhases": [
+    0,
+    1,
+    2
+  ],
+  "workStress": 2,
+  "overnightStressRecovery": 4,
+  "helpCost": 20,
+  "helpEffort": 6,
+  "helpStressRecovery": 3,
+  "coordinateCost": 15,
+  "coordinateBonus": 1,
+  "coordinateTicks": 2,
+  "clarifyCost": 15,
+  "careCost": 10,
+  "careStressRecovery": 15,
+  "events": [
+    {
+      "id": "studio_bug_demo",
+      "displayName": "บัค Code +24 · เป้าสัปดาห์ +24",
+      "earliestDay": 1,
+      "latestDay": 7,
+      "automatic": false,
+      "taskIds": [
+        "studio_bug"
+      ],
+      "extraQuotas": [
+        {
+          "streamId": "work_code",
+          "effort": 24
+        }
+      ],
+      "absenceDays": 0
+    }
+  ],
+  "text": [
+    {
+      "key": "board",
+      "value": "บอร์ด Sprint"
+    },
+    {
+      "key": "passPhase",
+      "value": "ผ่าน 1 ช่วง"
+    },
+    {
+      "key": "producer",
+      "value": "งาน Producer"
+    },
+    {
+      "key": "close",
+      "value": "กลับห้อง"
+    },
+    {
+      "key": "review",
+      "value": "ตรวจรับงานพร้อมส่ง · ไม่ใช้เวลา"
+    },
+    {
+      "key": "priority",
+      "value": "ทำใบนี้ก่อน"
+    },
+    {
+      "key": "backlog",
+      "value": "รอทำ"
+    },
+    {
+      "key": "inProgress",
+      "value": "กำลังทำ / ติดขัด"
+    },
+    {
+      "key": "reviewColumn",
+      "value": "รอตรวจ"
+    },
+    {
+      "key": "done",
+      "value": "ส่งแล้ว"
+    },
+    {
+      "key": "unreleased",
+      "value": "ยังไม่เปิดงาน"
+    },
+    {
+      "key": "decisionBlock",
+      "value": "รอ Producer เคลียร์การตัดสินใจ"
+    },
+    {
+      "key": "dependencyBlock",
+      "value": "รอส่งงานที่เป็นเงื่อนไข"
+    },
+    {
+      "key": "absent",
+      "value": "พนักงานไม่พร้อมทำงาน"
+    },
+    {
+      "key": "unavailable",
+      "value": "ยังทำไม่ได้ในตอนนี้"
+    },
+    {
+      "key": "nightOff",
+      "value": "กลางคืนทีมพัก · คุยหรือให้ของได้"
+    },
+    {
+      "key": "noTask",
+      "value": "งานปัจจุบันครบแล้ว · ตรวจรับงานหรือรอเปิดงานใหม่"
+    },
+    {
+      "key": "planActive",
+      "value": "แผนประสานงานเดิมยังมีผล"
+    },
+    {
+      "key": "noDecision",
+      "value": "ไม่มีการตัดสินใจที่ต้องเคลียร์"
+    },
+    {
+      "key": "lowEnergy",
+      "value": "Stamina ไม่พอ"
+    },
+    {
+      "key": "actionReport",
+      "value": "ใช้ Stamina {0} · เวลาเดิน 1 ช่วง\n{1}"
+    },
+    {
+      "key": "workerReport",
+      "value": "{0}: ช่วย +{1} / ทีม +{2} · เครียด {3} → {4}"
+    },
+    {
+      "key": "sprintHeader",
+      "value": "{0} · วันที่ {1}–{2}\n{3}"
+    },
+    {
+      "key": "quota",
+      "value": "{0} {1}/{2}"
+    },
+    {
+      "key": "boardHint",
+      "value": "จัดลำดับและตรวจรับฟรี · ทีมเดินงานเมื่อเวลาเดิน · งานค้างยกต่อได้"
+    },
+    {
+      "key": "card",
+      "value": "{0}\n{1} · {2}/{3}\n{4}"
+    },
+    {
+      "key": "characterStatus",
+      "value": "สัมพันธ์ {0}/100 · เครียด {1}/100\n{2}\n{3}"
+    },
+    {
+      "key": "taskStatus",
+      "value": "{0} · {1}/{2}"
+    },
+    {
+      "key": "helpForecast",
+      "value": "ช่วย +{0} / ทีม +{1} → {2}/{3}\nStamina −{4} · 1 ช่วง · เครียด {5} → {6}"
+    },
+    {
+      "key": "workButton",
+      "value": "ช่วยงาน · Stamina −{0} · 1 ช่วง"
+    },
+    {
+      "key": "coordinate",
+      "value": "ประสานทีม · Stamina −{0} · 1 ช่วง"
+    },
+    {
+      "key": "coordinateHint",
+      "value": "ทีมได้ +{0} ต่อคน สำหรับ {1} ช่วงทำงาน · เหลือ {2} ช่วง"
+    },
+    {
+      "key": "clarify",
+      "value": "เคลียร์: {0}\nStamina −{1} · 1 ช่วง"
+    },
+    {
+      "key": "care",
+      "value": "ให้ {0} พัก · Stamina −{1}\n1 ช่วง · เครียด −{2} · หยุดงานช่วงนี้"
+    },
+    {
+      "key": "reviewResult",
+      "value": "ผล {0}: {1}\n{2} · งานค้าง {3} ใบ"
+    },
+    {
+      "key": "passed",
+      "value": "ผ่านเป้า"
+    },
+    {
+      "key": "missed",
+      "value": "ยังไม่ครบเป้า"
+    },
+    {
+      "key": "noReview",
+      "value": "สิ้นวันปิด Sprint จะตรวจรับอัตโนมัติและสรุปผล"
+    },
+    {
+      "key": "eventButton",
+      "value": "ทดลอง: {0}"
+    },
+    {
+      "key": "assignment",
+      "value": "ผู้รับผิดชอบ: {0}"
+    },
+    {
+      "key": "teamStatus",
+      "value": "{0} · เครียด {1} · ปกติ {2}/ช่วง"
+    },
+    {
+      "key": "overview",
+      "value": "ทีมทำงานเช้า บ่าย เย็น · กลางคืนพัก\nกดตัวละครเพื่อช่วยงาน คุย หรือให้ของ\nกดบอร์ดเพื่อดูการ์ดและงาน Producer"
+    },
+    {
+      "key": "hint",
+      "value": "กดตัวละครเพื่อคุย/ช่วยงาน · โต๊ะเปิดบอร์ด Sprint · โซฟาพัก Stamina"
+    },
+    {
+      "key": "overviewTitle",
+      "value": "สตูดิโอวันนี้"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="9" result="Failed(Child)" total="9" passed="8" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-25 14:40:18Z" end-time="2026-10-25 14:40:19Z" duration="0.2996518">
+  <test-suite type="TestSuite" id="1000" name="Project Love" fullname="Project Love" runstate="Runnable" testcasecount="201" result="Failed" site="Child" start-time="2026-10-25 14:40:18Z" end-time="2026-10-25 14:40:19Z" duration="0.299652" total="9" passed="8" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1229" name="ProjectLove.Tests.Editor.dll" fullname="D:/Work/Unity/Project_Game/Visual Novel/.verify/Library/ScriptAssemblies/ProjectLove.Tests.Editor.dll" runstate="Runnable" testcasecount="201" result="Failed" site="Child" start-time="2026-10-25 14:40:18Z" end-time="2026-10-25 14:40:19Z" duration="0.290543" total="9" passed="8" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="39964" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1230" name="ProjectLove" fullname="ProjectLove" runstate="Runnable" testcasecount="201" result="Failed" site="Child" start-time="2026-10-25 14:40:18Z" end-time="2026-10-25 14:40:19Z" duration="0.284431" total="9" passed="8" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1231" name="Tests" fullname="ProjectLove.Tests" runstate="Runnable" testcasecount="201" result="Failed" site="Child" start-time="2026-10-25 14:40:18Z" end-time="2026-10-25 14:40:19Z" duration="0.268246" total="9" passed="8" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1090" name="OpeningStoryTests" fullname="ProjectLove.Tests.OpeningStoryTests" classname="ProjectLove.Tests.OpeningStoryTests" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2026-10-25 14:40:18Z" end-time="2026-10-25 14:40:19Z" duration="0.247455" total="9" passed="8" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1100" name="AuthoredGraphIsDiscoverableAndOpeningChoicesRender" fullname="ProjectLove.Tests.OpeningStoryTests.AuthoredGraphIsDiscoverableAndOpeningChoicesRender" methodname="AuthoredGraphIsDiscoverableAndOpeningChoicesRender" classname="ProjectLove.Tests.OpeningStoryTests" runstate="Runnable" seed="2135812378" result="Failed" start-time="2026-10-25 14:40:18Z" end-time="2026-10-25 14:40:18Z" duration="0.078532" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  opening_plaifah_appointment_evening
+  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[at ProjectLove.Tests.OpeningStoryTests.AuthoredGraphIsDiscoverableAndOpeningChoicesRender () [0x000a5] in D:\Work\Unity\Project_Game\Visual Novel\.verify\Assets\_Project\Tests\Editor\OpeningStoryTests.cs:172
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1098" name="BackRollsBackOpeningAndPersonalChoiceWithoutRewardsOrFocusLock" fullname="ProjectLove.Tests.OpeningStoryTests.BackRollsBackOpeningAndPersonalChoiceWithoutRewardsOrFocusLock" methodname="BackRollsBackOpeningAndPersonalChoiceWithoutRewardsOrFocusLock" classname="ProjectLove.Tests.OpeningStoryTests" runstate="Runnable" seed="1271620285" result="Passed" start-time="2026-10-25 14:40:18Z" end-time="2026-10-25 14:40:18Z" duration="0.031656" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1097" name="CompanionMemoryAppointmentAndReload" fullname="ProjectLove.Tests.OpeningStoryTests.CompanionMemoryAppointmentAndReload" classname="ProjectLove.Tests.OpeningStoryTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-25 14:40:18Z" end-time="2026-10-25 14:40:19Z" duration="0.114535" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1091" name="CompanionMemoryAppointmentAndReload(&quot;grace&quot;,0,0,0)" fullname="ProjectLove.Tests.OpeningStoryTests.CompanionMemoryAppointmentAndReload(&quot;grace&quot;,0,0,0)" methodname="CompanionMemoryAppointmentAndReload" classname="ProjectLove.Tests.OpeningStoryTests" runstate="Runnable" seed="2047637317" result="Passed" start-time="2026-10-25 14:40:18Z" end-time="2026-10-25 14:40:18Z" duration="0.031834" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1092" name="CompanionMemoryAppointmentAndReload(&quot;grace&quot;,1,1,1)" fullname="ProjectLove.Tests.OpeningStoryTests.CompanionMemoryAppointmentAndReload(&quot;grace&quot;,1,1,1)" methodname="CompanionMemoryAppointmentAndReload" classname="ProjectLove.Tests.OpeningStoryTests" runstate="Runnable" seed="1170637218" result="Passed" start-time="2026-10-25 14:40:18Z" end-time="2026-10-25 14:40:18Z" duration="0.013465" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1093" name="CompanionMemoryAppointmentAndReload(&quot;plaifah&quot;,0,2,0)" fullname="ProjectLove.Tests.OpeningStoryTests.CompanionMemoryAppointmentAndReload(&quot;plaifah&quot;,0,2,0)" methodname="CompanionMemoryAppointmentAndReload" classname="ProjectLove.Tests.OpeningStoryTests" runstate="Runnable" seed="616797871" result="Passed" start-time="2026-10-25 14:40:18Z" end-time="2026-10-25 14:40:19Z" duration="0.019433" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1094" name="CompanionMemoryAppointmentAndReload(&quot;plaifah&quot;,1,0,1)" fullname="ProjectLove.Tests.OpeningStoryTests.CompanionMemoryAppointmentAndReload(&quot;plaifah&quot;,1,0,1)" methodname="CompanionMemoryAppointmentAndReload" classname="ProjectLove.Tests.OpeningStoryTests" runstate="Runnable" seed="1516869652" result="Passed" start-time="2026-10-25 14:40:19Z" end-time="2026-10-25 14:40:19Z" duration="0.010105" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1095" name="CompanionMemoryAppointmentAndReload(&quot;ploy&quot;,0,1,0)" fullname="ProjectLove.Tests.OpeningStoryTests.CompanionMemoryAppointmentAndReload(&quot;ploy&quot;,0,1,0)" methodname="CompanionMemoryAppointmentAndReload" classname="ProjectLove.Tests.OpeningStoryTests" runstate="Runnable" seed="196392611" result="Passed" start-time="2026-10-25 14:40:19Z" end-time="2026-10-25 14:40:19Z" duration="0.009920" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1096" name="CompanionMemoryAppointmentAndReload(&quot;ploy&quot;,1,2,1)" fullname="ProjectLove.Tests.OpeningStoryTests.CompanionMemoryAppointmentAndReload(&quot;ploy&quot;,1,2,1)" methodname="CompanionMemoryAppointmentAndReload" classname="ProjectLove.Tests.OpeningStoryTests" runstate="Runnable" seed="1336104145" result="Passed" start-time="2026-10-25 14:40:19Z" end-time="2026-10-25 14:40:19Z" duration="0.024649" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1099" name="DeclineReturnLateVignetteAndMissedAppointmentHaveRepair" fullname="ProjectLove.Tests.OpeningStoryTests.DeclineReturnLateVignetteAndMissedAppointmentHaveRepair" methodname="DeclineReturnLateVignetteAndMissedAppointmentHaveRepair" classname="ProjectLove.Tests.OpeningStoryTests" runstate="Runnable" seed="59767833" result="Passed" start-time="2026-10-25 14:40:19Z" end-time="2026-10-25 14:40:19Z" duration="0.012092" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/UsEr/AppData/LocalLow/DefaultCompany/Project Love\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

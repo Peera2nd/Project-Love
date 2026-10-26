@@ -1,0 +1,6862 @@
+[
+  {
+    "name": "No player work",
+    "goals": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "effort": {
+      "Code": 74,
+      "Art": 72,
+      "Design": 64
+    },
+    "accepted": {
+      "Code": 56,
+      "Art": 72,
+      "Design": 64
+    },
+    "remaining": {
+      "Code": 6,
+      "Art": 0,
+      "Design": 0
+    },
+    "stress_end": {
+      "Code": 44,
+      "Art": 44,
+      "Design": 38
+    },
+    "passed": false,
+    "actions": {
+      "help": 0,
+      "plan": 0,
+      "clarify": 0,
+      "care": 0,
+      "rest": 0,
+      "talks": 21
+    },
+    "unspent_phase_slots": 28,
+    "minimum_energy": 91,
+    "rejected": [],
+    "ledger": [
+      {
+        "day": 1,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          32,
+          32,
+          32
+        ],
+        "effort": [
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          34,
+          34,
+          34
+        ],
+        "effort": [
+          8,
+          8,
+          8
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          36,
+          36
+        ],
+        "effort": [
+          12,
+          12,
+          12
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          36,
+          36
+        ],
+        "effort": [
+          12,
+          12,
+          12
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          34,
+          34,
+          34
+        ],
+        "effort": [
+          16,
+          16,
+          16
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          36,
+          36
+        ],
+        "effort": [
+          20,
+          20,
+          20
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          38,
+          38,
+          38
+        ],
+        "effort": [
+          24,
+          24,
+          24
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          38,
+          38,
+          38
+        ],
+        "effort": [
+          24,
+          24,
+          24
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          36,
+          36
+        ],
+        "effort": [
+          28,
+          28,
+          28
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          38,
+          38,
+          38
+        ],
+        "effort": [
+          32,
+          32,
+          32
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          40,
+          40,
+          40
+        ],
+        "effort": [
+          36,
+          36,
+          36
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          40,
+          40,
+          40
+        ],
+        "effort": [
+          36,
+          36,
+          36
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          38,
+          38,
+          38
+        ],
+        "effort": [
+          40,
+          40,
+          40
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          40,
+          40,
+          40
+        ],
+        "effort": [
+          44,
+          44,
+          44
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 91,
+        "stress": [
+          42,
+          42,
+          42
+        ],
+        "effort": [
+          47,
+          47,
+          47
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          42,
+          42,
+          42
+        ],
+        "effort": [
+          47,
+          47,
+          47
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          1,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          40,
+          40,
+          40
+        ],
+        "effort": [
+          51,
+          48,
+          51
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 91,
+        "stress": [
+          42,
+          42,
+          42
+        ],
+        "effort": [
+          54,
+          51,
+          54
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          2,
+          3,
+          3
+        ],
+        "energy": 91,
+        "stress": [
+          44,
+          44,
+          44
+        ],
+        "effort": [
+          56,
+          54,
+          57
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          44,
+          44,
+          44
+        ],
+        "effort": [
+          56,
+          54,
+          57
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 91,
+        "stress": [
+          42,
+          42,
+          42
+        ],
+        "effort": [
+          59,
+          57,
+          60
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 91,
+        "stress": [
+          44,
+          44,
+          44
+        ],
+        "effort": [
+          62,
+          60,
+          63
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          1
+        ],
+        "energy": 91,
+        "stress": [
+          46,
+          46,
+          46
+        ],
+        "effort": [
+          65,
+          63,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          46,
+          46,
+          46
+        ],
+        "effort": [
+          65,
+          63,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          44,
+          44,
+          42
+        ],
+        "effort": [
+          68,
+          66,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          46,
+          46,
+          42
+        ],
+        "effort": [
+          71,
+          69,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          48,
+          48,
+          42
+        ],
+        "effort": [
+          74,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          48,
+          48,
+          42
+        ],
+        "effort": [
+          74,
+          72,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Late focused help",
+    "goals": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "effort": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "accepted": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "remaining": {
+      "Code": 0,
+      "Art": 0,
+      "Design": 0
+    },
+    "stress_end": {
+      "Code": 41,
+      "Art": 44,
+      "Design": 38
+    },
+    "passed": true,
+    "actions": {
+      "help": 1,
+      "plan": 0,
+      "clarify": 0,
+      "care": 0,
+      "rest": 0,
+      "talks": 21
+    },
+    "unspent_phase_slots": 27,
+    "minimum_energy": 71,
+    "rejected": [],
+    "ledger": [
+      {
+        "day": 1,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          32,
+          32,
+          32
+        ],
+        "effort": [
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          34,
+          34,
+          34
+        ],
+        "effort": [
+          8,
+          8,
+          8
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          36,
+          36
+        ],
+        "effort": [
+          12,
+          12,
+          12
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          36,
+          36
+        ],
+        "effort": [
+          12,
+          12,
+          12
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          34,
+          34,
+          34
+        ],
+        "effort": [
+          16,
+          16,
+          16
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          36,
+          36
+        ],
+        "effort": [
+          20,
+          20,
+          20
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          38,
+          38,
+          38
+        ],
+        "effort": [
+          24,
+          24,
+          24
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          38,
+          38,
+          38
+        ],
+        "effort": [
+          24,
+          24,
+          24
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          36,
+          36
+        ],
+        "effort": [
+          28,
+          28,
+          28
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          38,
+          38,
+          38
+        ],
+        "effort": [
+          32,
+          32,
+          32
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          40,
+          40,
+          40
+        ],
+        "effort": [
+          36,
+          36,
+          36
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          40,
+          40,
+          40
+        ],
+        "effort": [
+          36,
+          36,
+          36
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          38,
+          38,
+          38
+        ],
+        "effort": [
+          40,
+          40,
+          40
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          40,
+          40,
+          40
+        ],
+        "effort": [
+          44,
+          44,
+          44
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 91,
+        "stress": [
+          42,
+          42,
+          42
+        ],
+        "effort": [
+          47,
+          47,
+          47
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          42,
+          42,
+          42
+        ],
+        "effort": [
+          47,
+          47,
+          47
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          1,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          40,
+          40,
+          40
+        ],
+        "effort": [
+          51,
+          48,
+          51
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 91,
+        "stress": [
+          42,
+          42,
+          42
+        ],
+        "effort": [
+          54,
+          51,
+          54
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          2,
+          3,
+          3
+        ],
+        "energy": 91,
+        "stress": [
+          44,
+          44,
+          44
+        ],
+        "effort": [
+          56,
+          54,
+          57
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          44,
+          44,
+          44
+        ],
+        "effort": [
+          56,
+          54,
+          57
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 91,
+        "stress": [
+          42,
+          42,
+          42
+        ],
+        "effort": [
+          59,
+          57,
+          60
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 91,
+        "stress": [
+          44,
+          44,
+          44
+        ],
+        "effort": [
+          62,
+          60,
+          63
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          1
+        ],
+        "energy": 91,
+        "stress": [
+          46,
+          46,
+          46
+        ],
+        "effort": [
+          65,
+          63,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          46,
+          46,
+          46
+        ],
+        "effort": [
+          65,
+          63,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          44,
+          44,
+          42
+        ],
+        "effort": [
+          68,
+          66,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          46,
+          46,
+          42
+        ],
+        "effort": [
+          71,
+          69,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 2,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          3,
+          3,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          45,
+          48,
+          42
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          45,
+          48,
+          42
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mixed daily help",
+    "goals": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "effort": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "accepted": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "remaining": {
+      "Code": 0,
+      "Art": 0,
+      "Design": 0
+    },
+    "stress_end": {
+      "Code": 32,
+      "Art": 28,
+      "Design": 29
+    },
+    "passed": true,
+    "actions": {
+      "help": 5,
+      "plan": 0,
+      "clarify": 0,
+      "care": 0,
+      "rest": 0,
+      "talks": 21
+    },
+    "unspent_phase_slots": 23,
+    "minimum_energy": 71,
+    "rejected": [],
+    "ledger": [
+      {
+        "day": 1,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          29,
+          32,
+          32
+        ],
+        "effort": [
+          10,
+          4,
+          4
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          31,
+          34,
+          34
+        ],
+        "effort": [
+          14,
+          8,
+          8
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          33,
+          36,
+          36
+        ],
+        "effort": [
+          18,
+          12,
+          12
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          33,
+          36,
+          36
+        ],
+        "effort": [
+          18,
+          12,
+          12
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 0,
+        "action": "help",
+        "target": 1,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          31,
+          31,
+          34
+        ],
+        "effort": [
+          22,
+          22,
+          16
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          2,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          33,
+          33,
+          36
+        ],
+        "effort": [
+          26,
+          24,
+          20
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          2,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          35,
+          35,
+          38
+        ],
+        "effort": [
+          28,
+          28,
+          24
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          35,
+          35,
+          38
+        ],
+        "effort": [
+          28,
+          28,
+          24
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 0,
+        "action": "help",
+        "target": 2,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          33,
+          33,
+          33
+        ],
+        "effort": [
+          32,
+          32,
+          34
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          35,
+          35,
+          35
+        ],
+        "effort": [
+          36,
+          36,
+          38
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          37,
+          37,
+          37
+        ],
+        "effort": [
+          40,
+          40,
+          42
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          37,
+          37,
+          37
+        ],
+        "effort": [
+          40,
+          40,
+          42
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          2
+        ],
+        "energy": 71,
+        "stress": [
+          32,
+          35,
+          35
+        ],
+        "effort": [
+          50,
+          44,
+          44
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          34,
+          37,
+          37
+        ],
+        "effort": [
+          54,
+          48,
+          48
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          2,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          36,
+          39,
+          39
+        ],
+        "effort": [
+          56,
+          52,
+          52
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          36,
+          39,
+          39
+        ],
+        "effort": [
+          56,
+          52,
+          52
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 0,
+        "action": "help",
+        "target": 1,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          34,
+          34,
+          37
+        ],
+        "effort": [
+          60,
+          62,
+          56
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          36,
+          36,
+          39
+        ],
+        "effort": [
+          64,
+          66,
+          60
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          38,
+          38,
+          41
+        ],
+        "effort": [
+          68,
+          70,
+          64
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          38,
+          38,
+          41
+        ],
+        "effort": [
+          68,
+          70,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          2,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          36,
+          37
+        ],
+        "effort": [
+          72,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          38,
+          36,
+          37
+        ],
+        "effort": [
+          76,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          40,
+          36,
+          37
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          40,
+          36,
+          37
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          32,
+          33
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          32,
+          33
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          32,
+          33
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          32,
+          33
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Code bug +24 with response",
+    "goals": {
+      "Code": 104,
+      "Art": 72,
+      "Design": 64
+    },
+    "effort": {
+      "Code": 104,
+      "Art": 72,
+      "Design": 64
+    },
+    "accepted": {
+      "Code": 104,
+      "Art": 72,
+      "Design": 64
+    },
+    "remaining": {
+      "Code": 0,
+      "Art": 0,
+      "Design": 0
+    },
+    "stress_end": {
+      "Code": 20,
+      "Art": 28,
+      "Design": 29
+    },
+    "passed": true,
+    "actions": {
+      "help": 9,
+      "plan": 0,
+      "clarify": 0,
+      "care": 0,
+      "rest": 0,
+      "talks": 21
+    },
+    "unspent_phase_slots": 19,
+    "minimum_energy": 42,
+    "rejected": [],
+    "ledger": [
+      {
+        "day": 1,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          29,
+          32,
+          32
+        ],
+        "effort": [
+          10,
+          4,
+          4
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          31,
+          34,
+          34
+        ],
+        "effort": [
+          14,
+          8,
+          8
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          33,
+          36,
+          36
+        ],
+        "effort": [
+          18,
+          12,
+          12
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          33,
+          36,
+          36
+        ],
+        "effort": [
+          18,
+          12,
+          12
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 0,
+        "action": "help",
+        "target": 1,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          31,
+          31,
+          34
+        ],
+        "effort": [
+          22,
+          22,
+          16
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          2,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          33,
+          33,
+          36
+        ],
+        "effort": [
+          26,
+          24,
+          20
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          2,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          35,
+          35,
+          38
+        ],
+        "effort": [
+          28,
+          28,
+          24
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          35,
+          35,
+          38
+        ],
+        "effort": [
+          28,
+          28,
+          24
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 0,
+        "action": "help",
+        "target": 2,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          33,
+          33,
+          33
+        ],
+        "effort": [
+          32,
+          32,
+          34
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          35,
+          35,
+          35
+        ],
+        "effort": [
+          36,
+          36,
+          38
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          37,
+          37,
+          37
+        ],
+        "effort": [
+          40,
+          40,
+          42
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          37,
+          37,
+          37
+        ],
+        "effort": [
+          40,
+          40,
+          42
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          2
+        ],
+        "energy": 71,
+        "stress": [
+          32,
+          35,
+          35
+        ],
+        "effort": [
+          50,
+          44,
+          44
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 1,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          0,
+          4,
+          4
+        ],
+        "energy": 51,
+        "stress": [
+          29,
+          37,
+          37
+        ],
+        "effort": [
+          56,
+          48,
+          48
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 51,
+        "stress": [
+          31,
+          39,
+          39
+        ],
+        "effort": [
+          60,
+          52,
+          52
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 51,
+        "stress": [
+          31,
+          39,
+          39
+        ],
+        "effort": [
+          60,
+          52,
+          52
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 0,
+        "action": "help",
+        "target": 1,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 62,
+        "stress": [
+          29,
+          34,
+          37
+        ],
+        "effort": [
+          64,
+          62,
+          56
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 1,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 42,
+        "stress": [
+          28,
+          36,
+          39
+        ],
+        "effort": [
+          74,
+          66,
+          60
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 42,
+        "stress": [
+          30,
+          38,
+          41
+        ],
+        "effort": [
+          78,
+          70,
+          64
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 42,
+        "stress": [
+          30,
+          38,
+          41
+        ],
+        "effort": [
+          78,
+          70,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          2,
+          2,
+          0
+        ],
+        "energy": 73,
+        "stress": [
+          28,
+          36,
+          37
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 1,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          0,
+          0
+        ],
+        "energy": 53,
+        "stress": [
+          27,
+          36,
+          37
+        ],
+        "effort": [
+          90,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          0,
+          0
+        ],
+        "energy": 53,
+        "stress": [
+          29,
+          36,
+          37
+        ],
+        "effort": [
+          94,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 53,
+        "stress": [
+          29,
+          36,
+          37
+        ],
+        "effort": [
+          94,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          0,
+          0
+        ],
+        "energy": 64,
+        "stress": [
+          24,
+          32,
+          33
+        ],
+        "effort": [
+          104,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 64,
+        "stress": [
+          24,
+          32,
+          33
+        ],
+        "effort": [
+          104,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 64,
+        "stress": [
+          24,
+          32,
+          33
+        ],
+        "effort": [
+          104,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 64,
+        "stress": [
+          24,
+          32,
+          33
+        ],
+        "effort": [
+          104,
+          72,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Two missed help days",
+    "goals": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "effort": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "accepted": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "remaining": {
+      "Code": 0,
+      "Art": 0,
+      "Design": 0
+    },
+    "stress_end": {
+      "Code": 32,
+      "Art": 35,
+      "Design": 31
+    },
+    "passed": true,
+    "actions": {
+      "help": 4,
+      "plan": 0,
+      "clarify": 0,
+      "care": 0,
+      "rest": 0,
+      "talks": 21
+    },
+    "unspent_phase_slots": 24,
+    "minimum_energy": 71,
+    "rejected": [],
+    "ledger": [
+      {
+        "day": 1,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          29,
+          32,
+          32
+        ],
+        "effort": [
+          10,
+          4,
+          4
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          31,
+          34,
+          34
+        ],
+        "effort": [
+          14,
+          8,
+          8
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          33,
+          36,
+          36
+        ],
+        "effort": [
+          18,
+          12,
+          12
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          33,
+          36,
+          36
+        ],
+        "effort": [
+          18,
+          12,
+          12
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          31,
+          34,
+          34
+        ],
+        "effort": [
+          22,
+          16,
+          16
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          33,
+          36,
+          36
+        ],
+        "effort": [
+          26,
+          20,
+          20
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          2,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          35,
+          38,
+          38
+        ],
+        "effort": [
+          28,
+          24,
+          24
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          35,
+          38,
+          38
+        ],
+        "effort": [
+          28,
+          24,
+          24
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          33,
+          36,
+          36
+        ],
+        "effort": [
+          32,
+          28,
+          28
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          35,
+          38,
+          38
+        ],
+        "effort": [
+          36,
+          32,
+          32
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          37,
+          40,
+          40
+        ],
+        "effort": [
+          40,
+          36,
+          36
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          37,
+          40,
+          40
+        ],
+        "effort": [
+          40,
+          36,
+          36
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          32,
+          38,
+          38
+        ],
+        "effort": [
+          50,
+          40,
+          40
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          34,
+          40,
+          40
+        ],
+        "effort": [
+          54,
+          44,
+          44
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          2,
+          3,
+          3
+        ],
+        "energy": 71,
+        "stress": [
+          36,
+          42,
+          42
+        ],
+        "effort": [
+          56,
+          47,
+          47
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          36,
+          42,
+          42
+        ],
+        "effort": [
+          56,
+          47,
+          47
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 0,
+        "action": "help",
+        "target": 1,
+        "help": 1,
+        "baseline": [
+          4,
+          0,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          34,
+          35,
+          40
+        ],
+        "effort": [
+          60,
+          48,
+          51
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          3
+        ],
+        "energy": 71,
+        "stress": [
+          36,
+          37,
+          42
+        ],
+        "effort": [
+          64,
+          52,
+          54
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          3
+        ],
+        "energy": 71,
+        "stress": [
+          38,
+          39,
+          44
+        ],
+        "effort": [
+          68,
+          56,
+          57
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          38,
+          39,
+          44
+        ],
+        "effort": [
+          68,
+          56,
+          57
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 0,
+        "action": "help",
+        "target": 2,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          1
+        ],
+        "energy": 71,
+        "stress": [
+          36,
+          37,
+          39
+        ],
+        "effort": [
+          72,
+          60,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          38,
+          39,
+          39
+        ],
+        "effort": [
+          76,
+          64,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          40,
+          41,
+          39
+        ],
+        "effort": [
+          80,
+          68,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          40,
+          41,
+          39
+        ],
+        "effort": [
+          80,
+          68,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          4,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          39,
+          35
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          39,
+          35
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          39,
+          35
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          39,
+          35
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "High stress 75: partial care",
+    "goals": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "effort": {
+      "Code": 74,
+      "Art": 63,
+      "Design": 59
+    },
+    "accepted": {
+      "Code": 56,
+      "Art": 48,
+      "Design": 44
+    },
+    "remaining": {
+      "Code": 6,
+      "Art": 9,
+      "Design": 5
+    },
+    "stress_end": {
+      "Code": 41,
+      "Art": 47,
+      "Design": 52
+    },
+    "passed": false,
+    "actions": {
+      "help": 7,
+      "plan": 0,
+      "clarify": 0,
+      "care": 6,
+      "rest": 0,
+      "talks": 21
+    },
+    "unspent_phase_slots": 15,
+    "minimum_energy": 42,
+    "rejected": [],
+    "ledger": [
+      {
+        "day": 1,
+        "phase": 0,
+        "action": "care",
+        "target": 0,
+        "help": 0,
+        "baseline": [
+          0,
+          2,
+          2
+        ],
+        "energy": 81,
+        "stress": [
+          60,
+          77,
+          77
+        ],
+        "effort": [
+          0,
+          2,
+          2
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 1,
+        "action": "care",
+        "target": 1,
+        "help": 0,
+        "baseline": [
+          3,
+          0,
+          2
+        ],
+        "energy": 71,
+        "stress": [
+          62,
+          62,
+          79
+        ],
+        "effort": [
+          3,
+          2,
+          4
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 2,
+        "action": "care",
+        "target": 2,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          0
+        ],
+        "energy": 61,
+        "stress": [
+          64,
+          64,
+          64
+        ],
+        "effort": [
+          6,
+          5,
+          4
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 61,
+        "stress": [
+          64,
+          64,
+          64
+        ],
+        "effort": [
+          6,
+          5,
+          4
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 0,
+        "action": "care",
+        "target": 0,
+        "help": 0,
+        "baseline": [
+          0,
+          3,
+          3
+        ],
+        "energy": 81,
+        "stress": [
+          45,
+          62,
+          62
+        ],
+        "effort": [
+          6,
+          8,
+          7
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 1,
+        "action": "care",
+        "target": 1,
+        "help": 0,
+        "baseline": [
+          3,
+          0,
+          3
+        ],
+        "energy": 71,
+        "stress": [
+          47,
+          47,
+          64
+        ],
+        "effort": [
+          9,
+          8,
+          10
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 2,
+        "action": "care",
+        "target": 2,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          0
+        ],
+        "energy": 61,
+        "stress": [
+          49,
+          49,
+          49
+        ],
+        "effort": [
+          12,
+          11,
+          10
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 61,
+        "stress": [
+          49,
+          49,
+          49
+        ],
+        "effort": [
+          12,
+          11,
+          10
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 71,
+        "stress": [
+          44,
+          47,
+          47
+        ],
+        "effort": [
+          21,
+          14,
+          13
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 71,
+        "stress": [
+          46,
+          49,
+          49
+        ],
+        "effort": [
+          24,
+          17,
+          16
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 71,
+        "stress": [
+          48,
+          51,
+          51
+        ],
+        "effort": [
+          27,
+          20,
+          19
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          48,
+          51,
+          51
+        ],
+        "effort": [
+          27,
+          20,
+          19
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 0,
+        "action": "help",
+        "target": 1,
+        "help": 4,
+        "baseline": [
+          1,
+          0,
+          3
+        ],
+        "energy": 71,
+        "stress": [
+          46,
+          44,
+          49
+        ],
+        "effort": [
+          28,
+          24,
+          22
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          2
+        ],
+        "energy": 71,
+        "stress": [
+          48,
+          46,
+          51
+        ],
+        "effort": [
+          31,
+          27,
+          24
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 71,
+        "stress": [
+          50,
+          48,
+          53
+        ],
+        "effort": [
+          34,
+          30,
+          27
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          50,
+          48,
+          53
+        ],
+        "effort": [
+          34,
+          30,
+          27
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 0,
+        "action": "help",
+        "target": 2,
+        "help": 6,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 71,
+        "stress": [
+          48,
+          46,
+          48
+        ],
+        "effort": [
+          37,
+          33,
+          36
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 71,
+        "stress": [
+          50,
+          48,
+          50
+        ],
+        "effort": [
+          40,
+          36,
+          39
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 71,
+        "stress": [
+          52,
+          50,
+          52
+        ],
+        "effort": [
+          43,
+          39,
+          42
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          52,
+          50,
+          52
+        ],
+        "effort": [
+          43,
+          39,
+          42
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          3,
+          3,
+          2
+        ],
+        "energy": 71,
+        "stress": [
+          47,
+          48,
+          50
+        ],
+        "effort": [
+          52,
+          42,
+          44
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 1,
+        "action": "help",
+        "target": 0,
+        "help": 4,
+        "baseline": [
+          0,
+          3,
+          3
+        ],
+        "energy": 51,
+        "stress": [
+          44,
+          50,
+          52
+        ],
+        "effort": [
+          56,
+          45,
+          47
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 51,
+        "stress": [
+          46,
+          52,
+          54
+        ],
+        "effort": [
+          59,
+          48,
+          50
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 51,
+        "stress": [
+          46,
+          52,
+          54
+        ],
+        "effort": [
+          59,
+          48,
+          50
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 0,
+        "action": "help",
+        "target": 1,
+        "help": 6,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 62,
+        "stress": [
+          44,
+          47,
+          52
+        ],
+        "effort": [
+          62,
+          57,
+          53
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 1,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 42,
+        "stress": [
+          43,
+          49,
+          54
+        ],
+        "effort": [
+          71,
+          60,
+          56
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 42,
+        "stress": [
+          45,
+          51,
+          56
+        ],
+        "effort": [
+          74,
+          63,
+          59
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 42,
+        "stress": [
+          45,
+          51,
+          56
+        ],
+        "effort": [
+          74,
+          63,
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "name": "High stress 75: deliberate recovery",
+    "goals": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "effort": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "accepted": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "remaining": {
+      "Code": 0,
+      "Art": 0,
+      "Design": 0
+    },
+    "stress_end": {
+      "Code": 24,
+      "Art": 27,
+      "Design": 33
+    },
+    "passed": true,
+    "actions": {
+      "help": 8,
+      "plan": 0,
+      "clarify": 0,
+      "care": 9,
+      "rest": 0,
+      "talks": 21
+    },
+    "unspent_phase_slots": 11,
+    "minimum_energy": 13,
+    "rejected": [],
+    "ledger": [
+      {
+        "day": 1,
+        "phase": 0,
+        "action": "care",
+        "target": 0,
+        "help": 0,
+        "baseline": [
+          0,
+          2,
+          2
+        ],
+        "energy": 81,
+        "stress": [
+          60,
+          77,
+          77
+        ],
+        "effort": [
+          0,
+          2,
+          2
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 1,
+        "action": "care",
+        "target": 1,
+        "help": 0,
+        "baseline": [
+          3,
+          0,
+          2
+        ],
+        "energy": 71,
+        "stress": [
+          62,
+          62,
+          79
+        ],
+        "effort": [
+          3,
+          2,
+          4
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 2,
+        "action": "care",
+        "target": 2,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          0
+        ],
+        "energy": 61,
+        "stress": [
+          64,
+          64,
+          64
+        ],
+        "effort": [
+          6,
+          5,
+          4
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 61,
+        "stress": [
+          64,
+          64,
+          64
+        ],
+        "effort": [
+          6,
+          5,
+          4
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 0,
+        "action": "care",
+        "target": 0,
+        "help": 0,
+        "baseline": [
+          0,
+          3,
+          3
+        ],
+        "energy": 81,
+        "stress": [
+          45,
+          62,
+          62
+        ],
+        "effort": [
+          6,
+          8,
+          7
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 1,
+        "action": "care",
+        "target": 1,
+        "help": 0,
+        "baseline": [
+          3,
+          0,
+          3
+        ],
+        "energy": 71,
+        "stress": [
+          47,
+          47,
+          64
+        ],
+        "effort": [
+          9,
+          8,
+          10
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 2,
+        "action": "care",
+        "target": 2,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          0
+        ],
+        "energy": 61,
+        "stress": [
+          49,
+          49,
+          49
+        ],
+        "effort": [
+          12,
+          11,
+          10
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 61,
+        "stress": [
+          49,
+          49,
+          49
+        ],
+        "effort": [
+          12,
+          11,
+          10
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 0,
+        "action": "care",
+        "target": 0,
+        "help": 0,
+        "baseline": [
+          0,
+          3,
+          3
+        ],
+        "energy": 81,
+        "stress": [
+          30,
+          47,
+          47
+        ],
+        "effort": [
+          12,
+          14,
+          13
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 1,
+        "action": "care",
+        "target": 1,
+        "help": 0,
+        "baseline": [
+          4,
+          0,
+          3
+        ],
+        "energy": 71,
+        "stress": [
+          32,
+          32,
+          49
+        ],
+        "effort": [
+          16,
+          14,
+          16
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 2,
+        "action": "care",
+        "target": 2,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          0
+        ],
+        "energy": 61,
+        "stress": [
+          34,
+          34,
+          34
+        ],
+        "effort": [
+          20,
+          18,
+          16
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 61,
+        "stress": [
+          34,
+          34,
+          34
+        ],
+        "effort": [
+          20,
+          18,
+          16
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          2,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          29,
+          32,
+          32
+        ],
+        "effort": [
+          28,
+          22,
+          20
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 1,
+        "action": "help",
+        "target": 1,
+        "help": 2,
+        "baseline": [
+          4,
+          0,
+          4
+        ],
+        "energy": 51,
+        "stress": [
+          31,
+          29,
+          34
+        ],
+        "effort": [
+          32,
+          24,
+          24
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 2,
+        "action": "help",
+        "target": 2,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 31,
+        "stress": [
+          33,
+          31,
+          33
+        ],
+        "effort": [
+          36,
+          28,
+          34
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 31,
+        "stress": [
+          33,
+          31,
+          33
+        ],
+        "effort": [
+          36,
+          28,
+          34
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 42,
+        "stress": [
+          28,
+          29,
+          31
+        ],
+        "effort": [
+          46,
+          32,
+          38
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 1,
+        "action": "help",
+        "target": 1,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 22,
+        "stress": [
+          30,
+          28,
+          33
+        ],
+        "effort": [
+          50,
+          42,
+          42
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          2
+        ],
+        "energy": 22,
+        "stress": [
+          32,
+          30,
+          35
+        ],
+        "effort": [
+          54,
+          46,
+          44
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 22,
+        "stress": [
+          32,
+          30,
+          35
+        ],
+        "effort": [
+          54,
+          46,
+          44
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 2,
+        "baseline": [
+          0,
+          2,
+          4
+        ],
+        "energy": 33,
+        "stress": [
+          25,
+          28,
+          33
+        ],
+        "effort": [
+          56,
+          48,
+          48
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 1,
+        "action": "help",
+        "target": 1,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 13,
+        "stress": [
+          27,
+          27,
+          35
+        ],
+        "effort": [
+          60,
+          58,
+          52
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 13,
+        "stress": [
+          29,
+          29,
+          37
+        ],
+        "effort": [
+          64,
+          62,
+          56
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 13,
+        "stress": [
+          29,
+          29,
+          37
+        ],
+        "effort": [
+          64,
+          62,
+          56
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 24,
+        "stress": [
+          24,
+          27,
+          35
+        ],
+        "effort": [
+          74,
+          66,
+          60
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 24,
+        "stress": [
+          26,
+          29,
+          37
+        ],
+        "effort": [
+          78,
+          70,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          2,
+          2,
+          0
+        ],
+        "energy": 24,
+        "stress": [
+          28,
+          31,
+          37
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 24,
+        "stress": [
+          28,
+          31,
+          37
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Code worker absent Days 4-6",
+    "goals": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "effort": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "accepted": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "remaining": {
+      "Code": 0,
+      "Art": 0,
+      "Design": 0
+    },
+    "stress_end": {
+      "Code": 1,
+      "Art": 33,
+      "Design": 29
+    },
+    "passed": true,
+    "actions": {
+      "help": 9,
+      "plan": 0,
+      "clarify": 0,
+      "care": 0,
+      "rest": 0,
+      "talks": 18
+    },
+    "unspent_phase_slots": 19,
+    "minimum_energy": 13,
+    "rejected": [],
+    "ledger": [
+      {
+        "day": 1,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          29,
+          32,
+          32
+        ],
+        "effort": [
+          10,
+          4,
+          4
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          31,
+          34,
+          34
+        ],
+        "effort": [
+          14,
+          8,
+          8
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 2,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 51,
+        "stress": [
+          30,
+          36,
+          36
+        ],
+        "effort": [
+          24,
+          12,
+          12
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 51,
+        "stress": [
+          30,
+          36,
+          36
+        ],
+        "effort": [
+          24,
+          12,
+          12
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 4,
+        "baseline": [
+          0,
+          4,
+          4
+        ],
+        "energy": 62,
+        "stress": [
+          23,
+          34,
+          34
+        ],
+        "effort": [
+          28,
+          16,
+          16
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 1,
+        "action": "help",
+        "target": 1,
+        "help": 6,
+        "baseline": [
+          4,
+          2,
+          4
+        ],
+        "energy": 42,
+        "stress": [
+          25,
+          33,
+          36
+        ],
+        "effort": [
+          32,
+          24,
+          20
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 2,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 22,
+        "stress": [
+          24,
+          35,
+          38
+        ],
+        "effort": [
+          42,
+          28,
+          24
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 22,
+        "stress": [
+          24,
+          35,
+          38
+        ],
+        "effort": [
+          42,
+          28,
+          24
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 33,
+        "stress": [
+          19,
+          33,
+          36
+        ],
+        "effort": [
+          52,
+          32,
+          28
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 1,
+        "action": "help",
+        "target": 2,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 13,
+        "stress": [
+          21,
+          35,
+          35
+        ],
+        "effort": [
+          56,
+          36,
+          38
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 13,
+        "stress": [
+          23,
+          37,
+          37
+        ],
+        "effort": [
+          60,
+          40,
+          42
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 13,
+        "stress": [
+          23,
+          37,
+          37
+        ],
+        "effort": [
+          60,
+          40,
+          42
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          4,
+          2
+        ],
+        "energy": 47,
+        "stress": [
+          19,
+          35,
+          35
+        ],
+        "effort": [
+          60,
+          44,
+          44
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          4,
+          4
+        ],
+        "energy": 47,
+        "stress": [
+          19,
+          37,
+          37
+        ],
+        "effort": [
+          60,
+          48,
+          48
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          4,
+          4
+        ],
+        "energy": 47,
+        "stress": [
+          19,
+          39,
+          39
+        ],
+        "effort": [
+          60,
+          52,
+          52
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 47,
+        "stress": [
+          19,
+          39,
+          39
+        ],
+        "effort": [
+          60,
+          52,
+          52
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          4,
+          4
+        ],
+        "energy": 81,
+        "stress": [
+          15,
+          37,
+          37
+        ],
+        "effort": [
+          60,
+          56,
+          56
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          4,
+          4
+        ],
+        "energy": 81,
+        "stress": [
+          15,
+          39,
+          39
+        ],
+        "effort": [
+          60,
+          60,
+          60
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          4,
+          4
+        ],
+        "energy": 81,
+        "stress": [
+          15,
+          41,
+          41
+        ],
+        "effort": [
+          60,
+          64,
+          64
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 81,
+        "stress": [
+          15,
+          41,
+          41
+        ],
+        "effort": [
+          60,
+          64,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          4,
+          0
+        ],
+        "energy": 94,
+        "stress": [
+          11,
+          39,
+          37
+        ],
+        "effort": [
+          60,
+          68,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          4,
+          0
+        ],
+        "energy": 94,
+        "stress": [
+          11,
+          41,
+          37
+        ],
+        "effort": [
+          60,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 94,
+        "stress": [
+          11,
+          41,
+          37
+        ],
+        "effort": [
+          60,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 94,
+        "stress": [
+          11,
+          41,
+          37
+        ],
+        "effort": [
+          60,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          6,
+          37,
+          33
+        ],
+        "effort": [
+          70,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          8,
+          37,
+          33
+        ],
+        "effort": [
+          74,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 2,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 51,
+        "stress": [
+          5,
+          37,
+          33
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 51,
+        "stress": [
+          5,
+          37,
+          33
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four coordination actions only",
+    "goals": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "effort": {
+      "Code": 79,
+      "Art": 72,
+      "Design": 64
+    },
+    "accepted": {
+      "Code": 56,
+      "Art": 72,
+      "Design": 64
+    },
+    "remaining": {
+      "Code": 1,
+      "Art": 0,
+      "Design": 0
+    },
+    "stress_end": {
+      "Code": 44,
+      "Art": 40,
+      "Design": 36
+    },
+    "passed": false,
+    "actions": {
+      "help": 0,
+      "plan": 4,
+      "clarify": 0,
+      "care": 0,
+      "rest": 0,
+      "talks": 21
+    },
+    "unspent_phase_slots": 24,
+    "minimum_energy": 76,
+    "rejected": [],
+    "ledger": [
+      {
+        "day": 1,
+        "phase": 0,
+        "action": "plan",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          5,
+          5,
+          5
+        ],
+        "energy": 76,
+        "stress": [
+          32,
+          32,
+          32
+        ],
+        "effort": [
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          5,
+          5,
+          5
+        ],
+        "energy": 76,
+        "stress": [
+          34,
+          34,
+          34
+        ],
+        "effort": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 76,
+        "stress": [
+          36,
+          36,
+          36
+        ],
+        "effort": [
+          14,
+          14,
+          14
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 76,
+        "stress": [
+          36,
+          36,
+          36
+        ],
+        "effort": [
+          14,
+          14,
+          14
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          34,
+          34,
+          34
+        ],
+        "effort": [
+          18,
+          18,
+          18
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          36,
+          36,
+          36
+        ],
+        "effort": [
+          22,
+          22,
+          22
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          2,
+          2
+        ],
+        "energy": 91,
+        "stress": [
+          38,
+          38,
+          38
+        ],
+        "effort": [
+          26,
+          24,
+          24
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          38,
+          38,
+          38
+        ],
+        "effort": [
+          26,
+          24,
+          24
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 0,
+        "action": "plan",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          2,
+          5,
+          5
+        ],
+        "energy": 76,
+        "stress": [
+          36,
+          36,
+          36
+        ],
+        "effort": [
+          28,
+          29,
+          29
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          5,
+          5,
+          5
+        ],
+        "energy": 76,
+        "stress": [
+          38,
+          38,
+          38
+        ],
+        "effort": [
+          33,
+          34,
+          34
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 76,
+        "stress": [
+          40,
+          40,
+          40
+        ],
+        "effort": [
+          37,
+          38,
+          38
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 76,
+        "stress": [
+          40,
+          40,
+          40
+        ],
+        "effort": [
+          37,
+          38,
+          38
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          38,
+          38,
+          38
+        ],
+        "effort": [
+          41,
+          42,
+          42
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          2
+        ],
+        "energy": 91,
+        "stress": [
+          40,
+          40,
+          40
+        ],
+        "effort": [
+          45,
+          46,
+          44
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          2,
+          3
+        ],
+        "energy": 91,
+        "stress": [
+          42,
+          42,
+          42
+        ],
+        "effort": [
+          48,
+          48,
+          47
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          42,
+          42,
+          42
+        ],
+        "effort": [
+          48,
+          48,
+          47
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 0,
+        "action": "plan",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          5,
+          5,
+          5
+        ],
+        "energy": 76,
+        "stress": [
+          40,
+          40,
+          40
+        ],
+        "effort": [
+          53,
+          53,
+          52
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          4,
+          4
+        ],
+        "energy": 76,
+        "stress": [
+          42,
+          42,
+          42
+        ],
+        "effort": [
+          56,
+          57,
+          56
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 76,
+        "stress": [
+          44,
+          44,
+          44
+        ],
+        "effort": [
+          59,
+          60,
+          59
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 76,
+        "stress": [
+          44,
+          44,
+          44
+        ],
+        "effort": [
+          59,
+          60,
+          59
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          3
+        ],
+        "energy": 91,
+        "stress": [
+          42,
+          42,
+          42
+        ],
+        "effort": [
+          62,
+          63,
+          62
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          2
+        ],
+        "energy": 91,
+        "stress": [
+          44,
+          44,
+          44
+        ],
+        "effort": [
+          65,
+          66,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          3,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          46,
+          46,
+          44
+        ],
+        "effort": [
+          68,
+          69,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          46,
+          46,
+          44
+        ],
+        "effort": [
+          68,
+          69,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 0,
+        "action": "plan",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          3,
+          0
+        ],
+        "energy": 76,
+        "stress": [
+          44,
+          44,
+          40
+        ],
+        "effort": [
+          72,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          0,
+          0
+        ],
+        "energy": 76,
+        "stress": [
+          46,
+          44,
+          40
+        ],
+        "effort": [
+          76,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          3,
+          0,
+          0
+        ],
+        "energy": 76,
+        "stress": [
+          48,
+          44,
+          40
+        ],
+        "effort": [
+          79,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 76,
+        "stress": [
+          48,
+          44,
+          40
+        ],
+        "effort": [
+          79,
+          72,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Producer unblock plus focused help",
+    "goals": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "effort": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "accepted": {
+      "Code": 80,
+      "Art": 72,
+      "Design": 64
+    },
+    "remaining": {
+      "Code": 0,
+      "Art": 0,
+      "Design": 0
+    },
+    "stress_end": {
+      "Code": 25,
+      "Art": 28,
+      "Design": 29
+    },
+    "passed": true,
+    "actions": {
+      "help": 6,
+      "plan": 0,
+      "clarify": 1,
+      "care": 0,
+      "rest": 0,
+      "talks": 21
+    },
+    "unspent_phase_slots": 21,
+    "minimum_energy": 51,
+    "rejected": [],
+    "ledger": [
+      {
+        "day": 1,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          30,
+          32,
+          32
+        ],
+        "effort": [
+          0,
+          4,
+          4
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          30,
+          34,
+          34
+        ],
+        "effort": [
+          0,
+          8,
+          8
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          4,
+          4
+        ],
+        "energy": 91,
+        "stress": [
+          30,
+          36,
+          36
+        ],
+        "effort": [
+          0,
+          12,
+          12
+        ]
+      },
+      {
+        "day": 1,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          30,
+          36,
+          36
+        ],
+        "effort": [
+          0,
+          12,
+          12
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 0,
+        "action": "help",
+        "target": 1,
+        "help": 6,
+        "baseline": [
+          0,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          26,
+          31,
+          34
+        ],
+        "effort": [
+          0,
+          22,
+          16
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 1,
+        "action": "clarify",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          2,
+          4
+        ],
+        "energy": 56,
+        "stress": [
+          28,
+          33,
+          36
+        ],
+        "effort": [
+          4,
+          24,
+          20
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 56,
+        "stress": [
+          30,
+          35,
+          38
+        ],
+        "effort": [
+          8,
+          28,
+          24
+        ]
+      },
+      {
+        "day": 2,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 56,
+        "stress": [
+          30,
+          35,
+          38
+        ],
+        "effort": [
+          8,
+          28,
+          24
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 0,
+        "action": "help",
+        "target": 2,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 67,
+        "stress": [
+          28,
+          33,
+          33
+        ],
+        "effort": [
+          12,
+          32,
+          34
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 67,
+        "stress": [
+          30,
+          35,
+          35
+        ],
+        "effort": [
+          16,
+          36,
+          38
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 67,
+        "stress": [
+          32,
+          37,
+          37
+        ],
+        "effort": [
+          20,
+          40,
+          42
+        ]
+      },
+      {
+        "day": 3,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 67,
+        "stress": [
+          32,
+          37,
+          37
+        ],
+        "effort": [
+          20,
+          40,
+          42
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          2,
+          4,
+          2
+        ],
+        "energy": 71,
+        "stress": [
+          27,
+          35,
+          35
+        ],
+        "effort": [
+          28,
+          44,
+          44
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          29,
+          37,
+          37
+        ],
+        "effort": [
+          32,
+          48,
+          48
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          31,
+          39,
+          39
+        ],
+        "effort": [
+          36,
+          52,
+          52
+        ]
+      },
+      {
+        "day": 4,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          31,
+          39,
+          39
+        ],
+        "effort": [
+          36,
+          52,
+          52
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 0,
+        "action": "help",
+        "target": 1,
+        "help": 6,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          29,
+          34,
+          37
+        ],
+        "effort": [
+          40,
+          62,
+          56
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          31,
+          36,
+          39
+        ],
+        "effort": [
+          44,
+          66,
+          60
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          4,
+          4
+        ],
+        "energy": 71,
+        "stress": [
+          33,
+          38,
+          41
+        ],
+        "effort": [
+          48,
+          70,
+          64
+        ]
+      },
+      {
+        "day": 5,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          33,
+          38,
+          41
+        ],
+        "effort": [
+          48,
+          70,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 0,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          2,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          31,
+          36,
+          37
+        ],
+        "effort": [
+          52,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 1,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          33,
+          36,
+          37
+        ],
+        "effort": [
+          56,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          4,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          35,
+          36,
+          37
+        ],
+        "effort": [
+          60,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 6,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 91,
+        "stress": [
+          35,
+          36,
+          37
+        ],
+        "effort": [
+          60,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 0,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          0,
+          0
+        ],
+        "energy": 71,
+        "stress": [
+          30,
+          32,
+          33
+        ],
+        "effort": [
+          70,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 1,
+        "action": "help",
+        "target": 0,
+        "help": 6,
+        "baseline": [
+          4,
+          0,
+          0
+        ],
+        "energy": 51,
+        "stress": [
+          29,
+          32,
+          33
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 2,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 51,
+        "stress": [
+          29,
+          32,
+          33
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      },
+      {
+        "day": 7,
+        "phase": 3,
+        "action": "free",
+        "target": null,
+        "help": 0,
+        "baseline": [
+          0,
+          0,
+          0
+        ],
+        "energy": 51,
+        "stress": [
+          29,
+          32,
+          33
+        ],
+        "effort": [
+          80,
+          72,
+          64
+        ]
+      }
+    ]
+  }
+]

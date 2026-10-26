@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da06289088594f9abe51f4f8222cab28, type: 3}
+  m_Name: PlanningProduction
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.ProductionConfigSO
+  id: studio_planning_production
+  planning: {fileID: 11400000, guid: fb94d029bab70274d8c893bab4732494, type: 2}
+  workers:
+  - character: {fileID: 11400000, guid: 9353622ac86272845b5c833e9ed087bc, type: 2}
+    stream: {fileID: 11400000, guid: f2de3a3edb631f348ace10ea5c1d41c8, type: 2}
+    baseRate: 4
+  - character: {fileID: 11400000, guid: b25bb883c2b856841955abfa79b36ca0, type: 2}
+    stream: {fileID: 11400000, guid: 1a1940b5da2bd4d4eb2f1ee97a829f61, type: 2}
+    baseRate: 4
+  - character: {fileID: 11400000, guid: fa8a14d681055804cba87ae63af75ff7, type: 2}
+    stream: {fileID: 11400000, guid: dbeb219401524be4faf2519dcd970149, type: 2}
+    baseRate: 4
+  stressBands:
+  - minimum: 0
+    outputPercent: 100
+  - minimum: 40
+    outputPercent: 75
+  - minimum: 70
+    outputPercent: 50
+  - minimum: 90
+    outputPercent: 25
+  productivePhases: 000000000100000002000000
+  tasks:
+  - {fileID: 11400000, guid: d5fe5905a9c5a9c48a76f42c6fbf769a, type: 2}
+  - {fileID: 11400000, guid: 527fdb207d320f04d8896a052beb67be, type: 2}
+  - {fileID: 11400000, guid: 2ab151fc5b72f1e44b31e2b91575663d, type: 2}
+  - {fileID: 11400000, guid: f1ed94fe344912a4cb2ab93d8976a134, type: 2}
+  - {fileID: 11400000, guid: 5aa34bddd256b08418b79a700432520d, type: 2}
+  - {fileID: 11400000, guid: a4d5ee47f69670f45b7a6579e60ed09c, type: 2}
+  - {fileID: 11400000, guid: cdb11f486e8077846b31a5b643ac58a0, type: 2}
+  - {fileID: 11400000, guid: c193cebbcf51dfb40861415db5dcb04a, type: 2}
+  - {fileID: 11400000, guid: d9d7655fc01cb4c4e8b751305d78d8ea, type: 2}
+  - {fileID: 11400000, guid: 48b108ce8c58e5344997915faf27c8c9, type: 2}
+  - {fileID: 11400000, guid: a2b4ec1e52987d4408474f57bba209a6, type: 2}
+  - {fileID: 11400000, guid: 1664a53fe517fc84fb3b137410460c25, type: 2}
+  - {fileID: 11400000, guid: 777ea4d7c8748a04cb59e310d9fddb01, type: 2}
+  - {fileID: 11400000, guid: 4b8d9b39fb5302d45b4c7e5e71d33466, type: 2}
+  - {fileID: 11400000, guid: ae4417ad62d7eed4b9ccf02dae8f1597, type: 2}
+  - {fileID: 11400000, guid: 894f5f39e2ee9cf47b8f430a4afffcc0, type: 2}
+  - {fileID: 11400000, guid: b7d25e3a1dd1baa4c948cb3584329218, type: 2}
+  - {fileID: 11400000, guid: 406a569808b811247adad4dee17b7eef, type: 2}
+  - {fileID: 11400000, guid: 0aec6aa26a60f9d43a520b5fedd953e7, type: 2}
+  - {fileID: 11400000, guid: 48bf968da749aea499f60d43301d9d67, type: 2}
+  - {fileID: 11400000, guid: c7b81f5f4fc0cc14694194eb7886021e, type: 2}
+  - {fileID: 11400000, guid: cf504cb310faa5643927f95a94108a4e, type: 2}
+  - {fileID: 11400000, guid: 96de95e2fbd8d5b4680cedefdd5c1b78, type: 2}
+  - {fileID: 11400000, guid: 0523ca9782faedd4fbf756c65decfb32, type: 2}
+  - {fileID: 11400000, guid: 6904e5ecf3381454996de752c03862b4, type: 2}
+  - {fileID: 11400000, guid: b5170b3da20eba44eb5ec1f4f10755c3, type: 2}
+  - {fileID: 11400000, guid: eee29c5be93a44249a74b61f44875847, type: 2}
+  - {fileID: 11400000, guid: 2c609f2ec228ba541b4ab0801d076e34, type: 2}
+  - {fileID: 11400000, guid: f32235a76a120b54e9a50d456ec8c8c4, type: 2}
+  - {fileID: 11400000, guid: beccbc430ead79c4d87302a8695c8a7e, type: 2}
+  - {fileID: 11400000, guid: 93a2ce0f6c8482145b12b1bb114ee122, type: 2}
+  - {fileID: 11400000, guid: ecc8dde35f490c44a81a525910dd500f, type: 2}
+  - {fileID: 11400000, guid: c376d476792b308458d4334d5ebd5991, type: 2}
+  - {fileID: 11400000, guid: 3eeda73af8deb304c87a51406015f01c, type: 2}
+  - {fileID: 11400000, guid: 46e050aa4f53e2f43b4a979aa14bb8d6, type: 2}
+  - {fileID: 11400000, guid: eeace0af6cbb0984db849a06f532f89b, type: 2}
+  - {fileID: 11400000, guid: 0956c4dc496b69148b640ecc2519c9aa, type: 2}
+  - {fileID: 11400000, guid: a99b960401e82fd44992f13e740ed039, type: 2}
+  - {fileID: 11400000, guid: dddf4873f9d0bd14c95dcea3529b970a, type: 2}
+  - {fileID: 11400000, guid: 5c6b667777780f042b726ec03df84394, type: 2}
+  sprints:
+  - {fileID: 11400000, guid: 5c4116d247bbc394895a1bf1dab7b93f, type: 2}
+  - {fileID: 11400000, guid: e38f8ede25925614c9e992a173f0bc7e, type: 2}
+  - {fileID: 11400000, guid: 1339cef3317daf544b543de7e890f5d5, type: 2}
+  - {fileID: 11400000, guid: 140ec013228882e4f81bb075a2c581c0, type: 2}
+  - {fileID: 11400000, guid: 6014d26a4989ed84682352a013372b95, type: 2}
+  events:
+  - id: studio_bug_demo
+    displayName: "\u0E1A\u0E31\u0E04 Code +24 \xB7 \u0E40\u0E1B\u0E49\u0E32\u0E2A\u0E31\u0E1B\u0E14\u0E32\u0E2B\u0E4C
+      +24"
+    earliestDay: 1
+    latestDay: 7
+    automatic: 0
+    tasks:
+    - {fileID: 11400000, guid: 5c6b667777780f042b726ec03df84394, type: 2}
+    extraQuotas:
+    - stream: {fileID: 11400000, guid: f2de3a3edb631f348ace10ea5c1d41c8, type: 2}
+      effort: 24
+    absentWorker: {fileID: 0}
+    absenceDays: 0
+  workStress: 2
+  overnightStressRecovery: 4
+  helpCost: 20
+  helpEffort: 6
+  helpStressRecovery: 3
+  coordinateCost: 15
+  coordinateBonus: 1
+  coordinateTicks: 2
+  clarifyCost: 15
+  careCost: 10
+  careStressRecovery: 15
+  presentation: {fileID: 11400000, guid: 762f8b77aa9922a4398d5b75782958aa, type: 2}
+  useProducerStages: 1
+  producerCost: 20
+  producerEffort: 10
+  producerMoney: 10
+  producerTeamBonus: 1
+  restStressRecovery: 5
+  overtimeMoneyCost: 5
+  overtimeStress: 10
+  sharedNightAffection: 3
+  nightContentVersion: 1
+  managementVersion: 1
+  dependencyContentVersion: 1

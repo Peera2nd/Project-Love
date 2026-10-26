@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68294642b7394931b38b71feca2638e1, type: 3}
+  m_Name: romance_grace_studio_grace_liked_gift
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.DialogueNodeSO
+  id: romance_grace_studio_grace_liked_gift
+  displayName: 
+  lines:
+  - lineId: romance_grace_studio_grace_liked_gift_line_0
+    speaker: {fileID: 11400000, guid: b36cc8da13aa4914fae3a8b5aac0bf99, type: 2}
+    expression: 0
+    text: "\u0E0A\u0E2D\u0E1A\u0E2D\u0E31\u0E19\u0E19\u0E35\u0E49\u0E1E\u0E2D\u0E14\u0E35\u0E40\u0E25\u0E22
+      \u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E17\u0E35\u0E48\u0E19\u0E36\u0E01\u0E16\u0E36\u0E07\u0E01\u0E31\u0E19\u0E19\u0E30"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/romance_grace_studio_grace_liked_gift/line/romance_grace_studio_grace_liked_gift_line_0
+  choices: []
+  nextNode: {fileID: 0}

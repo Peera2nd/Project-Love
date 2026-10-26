@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-26 13:11:09Z" end-time="2026-10-26 13:11:10Z" duration="1.1859223">
+  <test-suite type="TestSuite" id="1000" name="Project Love" fullname="Project Love" runstate="Runnable" testcasecount="206" result="Passed" start-time="2026-10-26 13:11:09Z" end-time="2026-10-26 13:11:10Z" duration="1.185922" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1235" name="ProjectLove.Tests.Editor.dll" fullname="D:/Work/Unity/Project_Game/Visual Novel/.verify/Library/ScriptAssemblies/ProjectLove.Tests.Editor.dll" runstate="Runnable" testcasecount="206" result="Passed" start-time="2026-10-26 13:11:09Z" end-time="2026-10-26 13:11:10Z" duration="1.178648" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="3736" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1236" name="ProjectLove" fullname="ProjectLove" runstate="Runnable" testcasecount="206" result="Passed" start-time="2026-10-26 13:11:09Z" end-time="2026-10-26 13:11:10Z" duration="1.176048" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1237" name="Tests" fullname="ProjectLove.Tests" runstate="Runnable" testcasecount="206" result="Passed" start-time="2026-10-26 13:11:09Z" end-time="2026-10-26 13:11:10Z" duration="1.174345" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1090" name="LocalizationTests" fullname="ProjectLove.Tests.LocalizationTests" classname="ProjectLove.Tests.LocalizationTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-26 13:11:09Z" end-time="2026-10-26 13:11:10Z" duration="1.165194" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1094" name="RealPrefabSwitchesActiveLineChoicesAndGreetingWithoutGameplayMutation" fullname="ProjectLove.Tests.LocalizationTests.RealPrefabSwitchesActiveLineChoicesAndGreetingWithoutGameplayMutation" methodname="RealPrefabSwitchesActiveLineChoicesAndGreetingWithoutGameplayMutation" classname="ProjectLove.Tests.LocalizationTests" runstate="Runnable" seed="1652349993" result="Passed" start-time="2026-10-26 13:11:09Z" end-time="2026-10-26 13:11:10Z" duration="1.151588" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/UsEr/AppData/LocalLow/DefaultCompany/Project Love\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

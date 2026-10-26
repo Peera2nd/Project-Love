@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68294642b7394931b38b71feca2638e1, type: 3}
+  m_Name: opening_grace_makeup
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.DialogueNodeSO
+  id: opening_grace_makeup
+  displayName: "\u0E40\u0E01\u0E23\u0E0B \xB7 \u0E19\u0E31\u0E14\u0E17\u0E35\u0E48\u0E04\u0E25\u0E32\u0E14\u0E01\u0E31\u0E19"
+  lines:
+  - lineId: opening_grace_makeup_line_0
+    speaker: {fileID: 11400000, guid: b36cc8da13aa4914fae3a8b5aac0bf99, type: 2}
+    expression: 0
+    text: "\u0E04\u0E23\u0E32\u0E27\u0E01\u0E48\u0E2D\u0E19\u0E40\u0E23\u0E32\u0E04\u0E25\u0E32\u0E14\u0E01\u0E31\u0E19\u0E17\u0E31\u0E49\u0E07\u0E2A\u0E31\u0E1B\u0E14\u0E32\u0E2B\u0E4C\u0E40\u0E25\u0E22...
+      \u0E16\u0E49\u0E32\u0E22\u0E31\u0E07\u0E2D\u0E22\u0E32\u0E01\u0E04\u0E38\u0E22
+      \u0E15\u0E2D\u0E19\u0E19\u0E35\u0E49\u0E1E\u0E2D\u0E21\u0E35\u0E40\u0E27\u0E25\u0E32\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E0A\u0E48\u0E27\u0E07\u0E44\u0E2B\u0E21\u0E04\u0E30"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/opening_grace_makeup/line/opening_grace_makeup_line_0
+  choices:
+  - choiceId: opening_grace_payoff_0
+    text: "\u0E41\u0E27\u0E30\u0E2A\u0E34 \u0E44\u0E21\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E21\u0E35\u0E07\u0E32\u0E19\u0E01\u0E47\u0E40\u0E23\u0E35\u0E22\u0E01\u0E44\u0E14\u0E49"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/opening_grace_makeup/choice/opening_grace_payoff_0
+    actionPointCost: 0
+    staminaCost: 0
+    conditions: []
+    effects:
+    - stat: 3
+      character: {fileID: 11400000, guid: b36cc8da13aa4914fae3a8b5aac0bf99, type: 2}
+      amount: 3
+    flags:
+    - flagId: opening_grace_payoff
+      value: 1
+    - flagId: opening_grace_answer_0
+      value: 1
+    activateWorkloads: []
+    workAction: 0
+    workCharacter: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: de55fe27fdb640dbafcb3805e820e149, type: 2}
+  - choiceId: opening_grace_payoff_1
+    text: "\u0E04\u0E23\u0E32\u0E27\u0E2B\u0E19\u0E49\u0E32\u0E25\u0E2D\u0E07\u0E43\u0E2B\u0E49\u0E09\u0E31\u0E19\u0E40\u0E1B\u0E47\u0E19\u0E04\u0E19\u0E2B\u0E32\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E21\u0E32\u0E04\u0E38\u0E22\u0E1A\u0E49\u0E32\u0E07"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/opening_grace_makeup/choice/opening_grace_payoff_1
+    actionPointCost: 0
+    staminaCost: 0
+    conditions: []
+    effects:
+    - stat: 3
+      character: {fileID: 11400000, guid: b36cc8da13aa4914fae3a8b5aac0bf99, type: 2}
+      amount: 3
+    flags:
+    - flagId: opening_grace_payoff
+      value: 1
+    - flagId: opening_grace_answer_1
+      value: 1
+    activateWorkloads: []
+    workAction: 0
+    workCharacter: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 31bc774ba2154ae5a9565b204ef4f03e, type: 2}
+  nextNode: {fileID: 0}

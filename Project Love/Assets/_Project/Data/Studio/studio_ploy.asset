@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db1ae98ed8e54673abea99d7ad2df85a, type: 3}
+  m_Name: studio_ploy
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.CharacterDataSO
+  id: studio_ploy
+  displayName: "\u0E1E\u0E25\u0E2D\u0E22"
+  roleTitle: Design
+  startingAffection: 0
+  startingStress: 30
+  sprites:
+  - expression: 0
+    sprite: {fileID: 21300000, guid: 6fc8a6fb309c2f8499cdc52e6414c14c, type: 3}
+  - expression: 1
+    sprite: {fileID: 21300000, guid: 308b80e9547fe18498500937ced714fd, type: 3}
+  taskAvatar: {fileID: 21300000, guid: e23f63209b662fd45841b9b4ce22ca38, type: 3}
+  greetings:
+  - id: default
+    priority: 0
+    startDay: 1
+    endDay: 30
+    anyPhase: 1
+    phase: 0
+    minimumAffection: 0
+    maximumAffection: 100
+    minimumStress: 0
+    maximumStress: 100
+    overtimeOnly: 0
+    conditions: []
+    node: {fileID: 11400000, guid: 4729207b21ec01d449712b44bd608b80, type: 2}
+  - id: night
+    priority: 10
+    startDay: 1
+    endDay: 30
+    anyPhase: 0
+    phase: 3
+    minimumAffection: 0
+    maximumAffection: 100
+    minimumStress: 0
+    maximumStress: 100
+    overtimeOnly: 0
+    conditions: []
+    node: {fileID: 11400000, guid: 7e6313734813f6344a945b520583a509, type: 2}
+  - id: studio_ploy_ot_0
+    priority: 100
+    startDay: 1
+    endDay: 30
+    anyPhase: 0
+    phase: 3
+    minimumAffection: 0
+    maximumAffection: 19
+    minimumStress: 0
+    maximumStress: 69
+    overtimeOnly: 1
+    conditions: []
+    node: {fileID: 11400000, guid: ed989c98e4ebc0c4586afd4d5d9d0a46, type: 2}
+  - id: studio_ploy_ot_1
+    priority: 100
+    startDay: 1
+    endDay: 30
+    anyPhase: 0
+    phase: 3
+    minimumAffection: 20
+    maximumAffection: 100
+    minimumStress: 0
+    maximumStress: 69
+    overtimeOnly: 1
+    conditions: []
+    node: {fileID: 11400000, guid: d3b43d7cae16b0b44af8b2208edc8af1, type: 2}
+  - id: studio_ploy_ot_2
+    priority: 100
+    startDay: 1
+    endDay: 30
+    anyPhase: 0
+    phase: 3
+    minimumAffection: 0
+    maximumAffection: 19
+    minimumStress: 70
+    maximumStress: 100
+    overtimeOnly: 1
+    conditions: []
+    node: {fileID: 11400000, guid: 7fd07ba26e58f2240a032036fe9477de, type: 2}
+  - id: studio_ploy_ot_3
+    priority: 100
+    startDay: 1
+    endDay: 30
+    anyPhase: 0
+    phase: 3
+    minimumAffection: 20
+    maximumAffection: 100
+    minimumStress: 70
+    maximumStress: 100
+    overtimeOnly: 1
+    conditions: []
+    node: {fileID: 11400000, guid: 057b56addf19aac44bba42ee93b98390, type: 2}
+  conversations:
+  - id: default
+    priority: 0
+    startDay: 1
+    endDay: 30
+    anyPhase: 1
+    phase: 0
+    minimumAffection: 0
+    maximumAffection: 100
+    minimumStress: 0
+    maximumStress: 100
+    overtimeOnly: 0
+    conditions: []
+    node: {fileID: 11400000, guid: deb88a2d2cc0bec438066720a93cf14f, type: 2}
+  - id: close
+    priority: 10
+    startDay: 1
+    endDay: 30
+    anyPhase: 1
+    phase: 0
+    minimumAffection: 20
+    maximumAffection: 100
+    minimumStress: 0
+    maximumStress: 100
+    overtimeOnly: 0
+    conditions: []
+    node: {fileID: 11400000, guid: e44f74f6955caa142a395eac19a24435, type: 2}
+  - id: studio_ploy_ot_0
+    priority: 100
+    startDay: 1
+    endDay: 30
+    anyPhase: 0
+    phase: 3
+    minimumAffection: 0
+    maximumAffection: 19
+    minimumStress: 0
+    maximumStress: 69
+    overtimeOnly: 1
+    conditions: []
+    node: {fileID: 11400000, guid: ed989c98e4ebc0c4586afd4d5d9d0a46, type: 2}
+  - id: studio_ploy_ot_1
+    priority: 100
+    startDay: 1
+    endDay: 30
+    anyPhase: 0
+    phase: 3
+    minimumAffection: 20
+    maximumAffection: 100
+    minimumStress: 0
+    maximumStress: 69
+    overtimeOnly: 1
+    conditions: []
+    node: {fileID: 11400000, guid: d3b43d7cae16b0b44af8b2208edc8af1, type: 2}
+  - id: studio_ploy_ot_2
+    priority: 100
+    startDay: 1
+    endDay: 30
+    anyPhase: 0
+    phase: 3
+    minimumAffection: 0
+    maximumAffection: 19
+    minimumStress: 70
+    maximumStress: 100
+    overtimeOnly: 1
+    conditions: []
+    node: {fileID: 11400000, guid: 7fd07ba26e58f2240a032036fe9477de, type: 2}
+  - id: studio_ploy_ot_3
+    priority: 100
+    startDay: 1
+    endDay: 30
+    anyPhase: 0
+    phase: 3
+    minimumAffection: 20
+    maximumAffection: 100
+    minimumStress: 70
+    maximumStress: 100
+    overtimeOnly: 1
+    conditions: []
+    node: {fileID: 11400000, guid: 057b56addf19aac44bba42ee93b98390, type: 2}
+  dailyTalkStaminaCost: 3
+  dailyTalkAffection: 2
+  workActivity: {fileID: 0}
+  neutralGiftResponse: {fileID: 11400000, guid: aa80b33839b6bf942897a668361dccf5, type: 2}
+  neutralGiftAffection: 1
+  giftPreferences:
+  - item: {fileID: 11400000, guid: 1241e81903cd1704f98ac2c4f6eb8906, type: 2}
+    reaction: 1
+    affectionChange: 4
+    response: {fileID: 11400000, guid: 95721f121068eb44d8f04d15d6e2e701, type: 2}
+  - item: {fileID: 11400000, guid: e635f8b9f7c82564c9090ecef3843ca6, type: 2}
+    reaction: 2
+    affectionChange: -2
+    response: {fileID: 11400000, guid: 8a3f49a65a63f564e8b473976e50e3a3, type: 2}

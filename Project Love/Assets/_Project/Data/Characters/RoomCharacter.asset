@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db1ae98ed8e54673abea99d7ad2df85a, type: 3}
+  m_Name: RoomCharacter
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.CharacterDataSO
+  id: char_01_plaifah
+  displayName: "\u0E1B\u0E25\u0E32\u0E22\u0E1F\u0E49\u0E32"
+  roleTitle: "\u0E15\u0E31\u0E27\u0E25\u0E30\u0E04\u0E23\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E15\u0E49\u0E19\u0E41\u0E1A\u0E1A\u0E2B\u0E49\u0E2D\u0E07"
+  startingAffection: 0
+  startingStress: 35
+  sprites:
+  - expression: 0
+    sprite: {fileID: 21300000, guid: 554fca76e28b1b542ae1f3826beae16d, type: 3}
+  - expression: 1
+    sprite: {fileID: 21300000, guid: 1478f5ae89618bd48ae9e4b34946ebb0, type: 3}
+  greetings:
+  - id: greeting_default
+    priority: 0
+    startDay: 1
+    endDay: 30
+    anyPhase: 1
+    phase: 0
+    minimumAffection: 0
+    maximumAffection: 100
+    conditions: []
+    node: {fileID: 11400000, guid: 9f66ed981c1b7f245a02a2efe20e9436, type: 2}
+  - id: greeting_evening
+    priority: 10
+    startDay: 1
+    endDay: 30
+    anyPhase: 0
+    phase: 2
+    minimumAffection: 0
+    maximumAffection: 100
+    conditions: []
+    node: {fileID: 11400000, guid: a43ffe81d099e374f8baca488fb1358a, type: 2}
+  conversations:
+  - id: talk_default
+    priority: 0
+    startDay: 1
+    endDay: 30
+    anyPhase: 1
+    phase: 0
+    minimumAffection: 0
+    maximumAffection: 100
+    conditions: []
+    node: {fileID: 11400000, guid: 139470f0b822b7343bbbaea7dbd2a598, type: 2}
+  - id: talk_evening
+    priority: 10
+    startDay: 1
+    endDay: 30
+    anyPhase: 0
+    phase: 2
+    minimumAffection: 0
+    maximumAffection: 100
+    conditions: []
+    node: {fileID: 11400000, guid: dba067e23d40c71429727ccac4b64a7f, type: 2}
+  - id: talk_close
+    priority: 20
+    startDay: 1
+    endDay: 30
+    anyPhase: 1
+    phase: 0
+    minimumAffection: 30
+    maximumAffection: 100
+    conditions: []
+    node: {fileID: 11400000, guid: 390c4cd931afaf24ea10cb20d60892fb, type: 2}
+  - id: talk_after_event
+    priority: 30
+    startDay: 2
+    endDay: 30
+    anyPhase: 1
+    phase: 0
+    minimumAffection: 0
+    maximumAffection: 100
+    conditions:
+    - type: 2
+      stat: 0
+      character: {fileID: 0}
+      value: 0
+      flagId: prototype_shared_task_done
+      eventId: 
+    node: {fileID: 11400000, guid: 6a8291f1a121b4e49ae18a9880fb5767, type: 2}
+  dailyTalkStaminaCost: 3
+  dailyTalkAffection: 2
+  workActivity: {fileID: 11400000, guid: d6f134be158c9b54683492309b0b76f0, type: 2}
+  neutralGiftResponse: {fileID: 11400000, guid: 923bc889a1360c742afdf62e824f8705, type: 2}
+  neutralGiftAffection: 1
+  giftPreferences:
+  - item: {fileID: 11400000, guid: 1241e81903cd1704f98ac2c4f6eb8906, type: 2}
+    reaction: 1
+    affectionChange: 5
+    response: {fileID: 11400000, guid: babd3600acbc07449b4e6924765beb35, type: 2}
+  - item: {fileID: 11400000, guid: e635f8b9f7c82564c9090ecef3843ca6, type: 2}
+    reaction: 2
+    affectionChange: -2
+    response: {fileID: 11400000, guid: 81067e14f9ccf7c408bb22c904cd2f45, type: 2}

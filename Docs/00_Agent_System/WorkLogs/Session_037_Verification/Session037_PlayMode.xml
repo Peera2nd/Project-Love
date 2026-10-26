@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="27" result="Passed" total="27" passed="27" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-25 06:44:14Z" end-time="2026-10-25 06:44:32Z" duration="17.723571">
+  <test-suite type="TestSuite" id="1042" name="Project Love" fullname="Project Love" runstate="Runnable" testcasecount="27" result="Passed" start-time="2026-10-25 06:44:14Z" end-time="2026-10-25 06:44:32Z" duration="17.723571" total="27" passed="27" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1036" name="ProjectLove.Tests.PlayMode.dll" fullname="D:/Work/Unity/Project_Game/Visual Novel/.verify/Library/ScriptAssemblies/ProjectLove.Tests.PlayMode.dll" runstate="Runnable" testcasecount="27" result="Passed" start-time="2026-10-25 06:44:14Z" end-time="2026-10-25 06:44:32Z" duration="17.716318" total="27" passed="27" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="31836" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1037" name="ProjectLove" fullname="ProjectLove" runstate="Runnable" testcasecount="27" result="Passed" start-time="2026-10-25 06:44:14Z" end-time="2026-10-25 06:44:32Z" duration="17.715758" total="27" passed="27" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1038" name="Tests" fullname="ProjectLove.Tests" runstate="Runnable" testcasecount="27" result="Passed" start-time="2026-10-25 06:44:14Z" end-time="2026-10-25 06:44:32Z" duration="17.715464" total="27" passed="27" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="IsometricPlayTests" fullname="ProjectLove.Tests.IsometricPlayTests" classname="ProjectLove.Tests.IsometricPlayTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-25 06:44:14Z" end-time="2026-10-25 06:44:17Z" duration="2.158653" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1004" name="CharacterWorkGiftInventoryAndContextSelectionWorkThroughRealClicks" fullname="ProjectLove.Tests.IsometricPlayTests.CharacterWorkGiftInventoryAndContextSelectionWorkThroughRealClicks" methodname="CharacterWorkGiftInventoryAndContextSelectionWorkThroughRealClicks" classname="ProjectLove.Tests.IsometricPlayTests" runstate="Runnable" seed="361162926" result="Passed" start-time="2026-10-25 06:44:14Z" end-time="2026-10-25 06:44:16Z" duration="1.175792" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="RoomConversationPhaseInventoryShopAndPersistenceWorkThroughUi" fullname="ProjectLove.Tests.IsometricPlayTests.RoomConversationPhaseInventoryShopAndPersistenceWorkThroughUi" methodname="RoomConversationPhaseInventoryShopAndPersistenceWorkThroughUi" classname="ProjectLove.Tests.IsometricPlayTests" runstate="Runnable" seed="1668762315" result="Passed" start-time="2026-10-25 06:44:16Z" end-time="2026-10-25 06:44:16Z" duration="0.647606" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="ZeroEnergyCanBackOutAndRestWhileRepeatTalkSurvivesSaveAndRefreshesTomorrow" fullname="ProjectLove.Tests.IsometricPlayTests.ZeroEnergyCanBackOutAndRestWhileRepeatTalkSurvivesSaveAndRefreshesTomorrow" methodname="ZeroEnergyCanBackOutAndRestWhileRepeatTalkSurvivesSaveAndRefreshesTomorrow" classname="ProjectLove.Tests.IsometricPlayTests" runstate="Runnable" seed="1784006556" result="Passed" start-time="2026-10-25 06:44:16Z" end-time="2026-10-25 06:44:17Z" duration="0.325994" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1005" name="PlanningPlayTests" fullname="ProjectLove.Tests.PlanningPlayTests" classname="ProjectLove.Tests.PlanningPlayTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-25 06:44:17Z" end-time="2026-10-25 06:44:18Z" duration="1.926549" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1008" name="EdgeScrollAndPointerReleaseOutsideRestoreWithoutClickThrough" fullname="ProjectLove.Tests.PlanningPlayTests.EdgeScrollAndPointerReleaseOutsideRestoreWithoutClickThrough" methodname="EdgeScrollAndPointerReleaseOutsideRestoreWithoutClickThrough" classname="ProjectLove.Tests.PlanningPlayTests" runstate="Runnable" seed="771945988" result="Passed" start-time="2026-10-25 06:44:17Z" end-time="2026-10-25 06:44:17Z" duration="0.601429" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="MouseDragUsesPureDraftAndApplyCommitsWithoutTimeWhileCrossOwnerAndEscapeCancel" fullname="ProjectLove.Tests.PlanningPlayTests.MouseDragUsesPureDraftAndApplyCommitsWithoutTimeWhileCrossOwnerAndEscapeCancel" methodname="MouseDragUsesPureDraftAndApplyCommitsWithoutTimeWhileCrossOwnerAndEscapeCancel" classname="ProjectLove.Tests.PlanningPlayTests" runstate="Runnable" seed="1530597846" result="Passed" start-time="2026-10-25 06:44:17Z" end-time="2026-10-25 06:44:18Z" duration="0.618690" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="RoomBoardInventoryAndConversationKeepTeamVisibleAndRenderWithoutOverflow" fullname="ProjectLove.Tests.PlanningPlayTests.RoomBoardInventoryAndConversationKeepTeamVisibleAndRenderWithoutOverflow" methodname="RoomBoardInventoryAndConversationKeepTeamVisibleAndRenderWithoutOverflow" classname="ProjectLove.Tests.PlanningPlayTests" runstate="Runnable" seed="1908663827" result="Passed" start-time="2026-10-25 06:44:18Z" end-time="2026-10-25 06:44:18Z" duration="0.704998" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1009" name="SandboxPlayTests" fullname="ProjectLove.Tests.SandboxPlayTests" classname="ProjectLove.Tests.SandboxPlayTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-25 06:44:18Z" end-time="2026-10-25 06:44:20Z" duration="1.346286" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1010" name="PlayThroughChoicesActivitiesAndDayEndWithoutMutatingAssets" fullname="ProjectLove.Tests.SandboxPlayTests.PlayThroughChoicesActivitiesAndDayEndWithoutMutatingAssets" methodname="PlayThroughChoicesActivitiesAndDayEndWithoutMutatingAssets" classname="ProjectLove.Tests.SandboxPlayTests" runstate="Runnable" seed="2088833238" result="Passed" start-time="2026-10-25 06:44:18Z" end-time="2026-10-25 06:44:19Z" duration="0.304257" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1011" name="ThaiFontAndLayoutHaveNoMissingGlyphsOrOverflow" fullname="ProjectLove.Tests.SandboxPlayTests.ThaiFontAndLayoutHaveNoMissingGlyphsOrOverflow" methodname="ThaiFontAndLayoutHaveNoMissingGlyphsOrOverflow" classname="ProjectLove.Tests.SandboxPlayTests" runstate="Runnable" seed="1465565803" result="Passed" start-time="2026-10-25 06:44:19Z" end-time="2026-10-25 06:44:19Z" duration="0.281035" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1013" name="ThreeDayPrototypeSupportsCatchupRecoveryPersistenceAndDaySummary" fullname="ProjectLove.Tests.SandboxPlayTests.ThreeDayPrototypeSupportsCatchupRecoveryPersistenceAndDaySummary" methodname="ThreeDayPrototypeSupportsCatchupRecoveryPersistenceAndDaySummary" classname="ProjectLove.Tests.SandboxPlayTests" runstate="Runnable" seed="1914838589" result="Passed" start-time="2026-10-25 06:44:19Z" end-time="2026-10-25 06:44:19Z" duration="0.441874" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1012" name="ZeroApOldSceneProvidesClickableDeferralAndNextDayRecovery" fullname="ProjectLove.Tests.SandboxPlayTests.ZeroApOldSceneProvidesClickableDeferralAndNextDayRecovery" methodname="ZeroApOldSceneProvidesClickableDeferralAndNextDayRecovery" classname="ProjectLove.Tests.SandboxPlayTests" runstate="Runnable" seed="555490859" result="Passed" start-time="2026-10-25 06:44:19Z" end-time="2026-10-25 06:44:20Z" duration="0.316133" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1014" name="SharedNightPlayTests" fullname="ProjectLove.Tests.SharedNightPlayTests" classname="ProjectLove.Tests.SharedNightPlayTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-25 06:44:20Z" end-time="2026-10-25 06:44:23Z" duration="2.871975" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1016" name="AcceptedVolunteerChangesNormalTalkAndCharacterWorkCanJoinOrderedNight" fullname="ProjectLove.Tests.SharedNightPlayTests.AcceptedVolunteerChangesNormalTalkAndCharacterWorkCanJoinOrderedNight" methodname="AcceptedVolunteerChangesNormalTalkAndCharacterWorkCanJoinOrderedNight" classname="ProjectLove.Tests.SharedNightPlayTests" runstate="Runnable" seed="1986635601" result="Passed" start-time="2026-10-25 06:44:20Z" end-time="2026-10-25 06:44:21Z" duration="0.954302" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1017" name="LowEnergyDisablesJoiningButDeclineRemainsFreeAndDoesNotConsumeNight" fullname="ProjectLove.Tests.SharedNightPlayTests.LowEnergyDisablesJoiningButDeclineRemainsFreeAndDoesNotConsumeNight" methodname="LowEnergyDisablesJoiningButDeclineRemainsFreeAndDoesNotConsumeNight" classname="ProjectLove.Tests.SharedNightPlayTests" runstate="Runnable" seed="1520920813" result="Passed" start-time="2026-10-25 06:44:21Z" end-time="2026-10-25 06:44:21Z" duration="0.739865" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="VolunteerBubbleSharedWorkBackAndMorningCallbackUseRealMouseAndOneNight" fullname="ProjectLove.Tests.SharedNightPlayTests.VolunteerBubbleSharedWorkBackAndMorningCallbackUseRealMouseAndOneNight" methodname="VolunteerBubbleSharedWorkBackAndMorningCallbackUseRealMouseAndOneNight" classname="ProjectLove.Tests.SharedNightPlayTests" runstate="Runnable" seed="542754158" result="Passed" start-time="2026-10-25 06:44:21Z" end-time="2026-10-25 06:44:23Z" duration="1.176503" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1018" name="StudioEventPlayTests" fullname="ProjectLove.Tests.StudioEventPlayTests" classname="ProjectLove.Tests.StudioEventPlayTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-25 06:44:23Z" end-time="2026-10-25 06:44:24Z" duration="1.565245" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1020" name="BubbleChoicesUpdateRealSprintBoardAndBackRollsEverythingBack" fullname="ProjectLove.Tests.StudioEventPlayTests.BubbleChoicesUpdateRealSprintBoardAndBackRollsEverythingBack" methodname="BubbleChoicesUpdateRealSprintBoardAndBackRollsEverythingBack" classname="ProjectLove.Tests.StudioEventPlayTests" runstate="Runnable" seed="1519737551" result="Passed" start-time="2026-10-25 06:44:23Z" end-time="2026-10-25 06:44:23Z" duration="0.618604" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1019" name="ForcedStartsAtSafePointAndBackSnoozesToClickableCharacterBubble" fullname="ProjectLove.Tests.StudioEventPlayTests.ForcedStartsAtSafePointAndBackSnoozesToClickableCharacterBubble" methodname="ForcedStartsAtSafePointAndBackSnoozesToClickableCharacterBubble" classname="ProjectLove.Tests.StudioEventPlayTests" runstate="Runnable" seed="477585796" result="Passed" start-time="2026-10-25 06:44:23Z" end-time="2026-10-25 06:44:24Z" duration="0.522633" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1021" name="SeparateCharacterBubblePaysAffectionOnceWithoutConsumingTime" fullname="ProjectLove.Tests.StudioEventPlayTests.SeparateCharacterBubblePaysAffectionOnceWithoutConsumingTime" methodname="SeparateCharacterBubblePaysAffectionOnceWithoutConsumingTime" classname="ProjectLove.Tests.StudioEventPlayTests" runstate="Runnable" seed="936543095" result="Passed" start-time="2026-10-25 06:44:24Z" end-time="2026-10-25 06:44:24Z" duration="0.422669" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1022" name="StudioManagementPlayTests" fullname="ProjectLove.Tests.StudioManagementPlayTests" classname="ProjectLove.Tests.StudioManagementPlayTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-25 06:44:24Z" end-time="2026-10-25 06:44:27Z" duration="2.839472" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1024" name="CharacterRestOrdersStayInMenuAndOnlyResolveWhenPhasePasses" fullname="ProjectLove.Tests.StudioManagementPlayTests.CharacterRestOrdersStayInMenuAndOnlyResolveWhenPhasePasses" methodname="CharacterRestOrdersStayInMenuAndOnlyResolveWhenPhasePasses" classname="ProjectLove.Tests.StudioManagementPlayTests" runstate="Runnable" seed="1170620538" result="Passed" start-time="2026-10-25 06:44:24Z" end-time="2026-10-25 06:44:25Z" duration="0.393911" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1023" name="ProducerBoardHasNoWorkerBreakAndShowsWorkStageAndColoredCards" fullname="ProjectLove.Tests.StudioManagementPlayTests.ProducerBoardHasNoWorkerBreakAndShowsWorkStageAndColoredCards" methodname="ProducerBoardHasNoWorkerBreakAndShowsWorkStageAndColoredCards" classname="ProjectLove.Tests.StudioManagementPlayTests" runstate="Runnable" seed="1189016773" result="Passed" start-time="2026-10-25 06:44:25Z" end-time="2026-10-25 06:44:25Z" duration="0.512806" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1026" name="ProducerUnlocksS2EarlyAndMouseReviewCreditsItsOwnGoal" fullname="ProjectLove.Tests.StudioManagementPlayTests.ProducerUnlocksS2EarlyAndMouseReviewCreditsItsOwnGoal" methodname="ProducerUnlocksS2EarlyAndMouseReviewCreditsItsOwnGoal" classname="ProjectLove.Tests.StudioManagementPlayTests" runstate="Runnable" seed="42948951" result="Passed" start-time="2026-10-25 06:44:25Z" end-time="2026-10-25 06:44:26Z" duration="1.119311" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1025" name="ThreeNightOvertimeOrdersAndContextTalkWorkWithoutPassingTime" fullname="ProjectLove.Tests.StudioManagementPlayTests.ThreeNightOvertimeOrdersAndContextTalkWorkWithoutPassingTime" methodname="ThreeNightOvertimeOrdersAndContextTalkWorkWithoutPassingTime" classname="ProjectLove.Tests.StudioManagementPlayTests" runstate="Runnable" seed="1855966369" result="Passed" start-time="2026-10-25 06:44:26Z" end-time="2026-10-25 06:44:27Z" duration="0.808804" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1027" name="StudioPlayTests" fullname="ProjectLove.Tests.StudioPlayTests" classname="ProjectLove.Tests.StudioPlayTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-25 06:44:27Z" end-time="2026-10-25 06:44:30Z" duration="2.976653" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1029" name="BoardBlocksWorldAndProducerReorderReviewAndBugWorkThroughMouse" fullname="ProjectLove.Tests.StudioPlayTests.BoardBlocksWorldAndProducerReorderReviewAndBugWorkThroughMouse" methodname="BoardBlocksWorldAndProducerReorderReviewAndBugWorkThroughMouse" classname="ProjectLove.Tests.StudioPlayTests" runstate="Runnable" seed="1175541638" result="Passed" start-time="2026-10-25 06:44:27Z" end-time="2026-10-25 06:44:28Z" duration="0.892868" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1030" name="DailyConversationGiftCancellationAndSaveRemainIndependentOfProduction" fullname="ProjectLove.Tests.StudioPlayTests.DailyConversationGiftCancellationAndSaveRemainIndependentOfProduction" methodname="DailyConversationGiftCancellationAndSaveRemainIndependentOfProduction" classname="ProjectLove.Tests.StudioPlayTests" runstate="Runnable" seed="399698579" result="Passed" start-time="2026-10-25 06:44:28Z" end-time="2026-10-25 06:44:29Z" duration="0.609851" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1031" name="MissedSprintCarriesCardsAndCanContinueNextWeekThroughMouse" fullname="ProjectLove.Tests.StudioPlayTests.MissedSprintCarriesCardsAndCanContinueNextWeekThroughMouse" methodname="MissedSprintCarriesCardsAndCanContinueNextWeekThroughMouse" classname="ProjectLove.Tests.StudioPlayTests" runstate="Runnable" seed="1145345991" result="Passed" start-time="2026-10-25 06:44:29Z" end-time="2026-10-25 06:44:29Z" duration="0.741863" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1028" name="ThreeWorkersShowStatusAndAccurateHelpThroughRealMouse" fullname="ProjectLove.Tests.StudioPlayTests.ThreeWorkersShowStatusAndAccurateHelpThroughRealMouse" methodname="ThreeWorkersShowStatusAndAccurateHelpThroughRealMouse" classname="ProjectLove.Tests.StudioPlayTests" runstate="Runnable" seed="683354619" result="Passed" start-time="2026-10-25 06:44:29Z" end-time="2026-10-25 06:44:30Z" duration="0.730537" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1032" name="StudioUiDependencyPlayTests" fullname="ProjectLove.Tests.StudioUiDependencyPlayTests" classname="ProjectLove.Tests.StudioUiDependencyPlayTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-25 06:44:30Z" end-time="2026-10-25 06:44:32Z" duration="2.029322" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1034" name="InspectorFollowsDesignArtCodeAndSwitchesFromBlockedCardToReadyWork" fullname="ProjectLove.Tests.StudioUiDependencyPlayTests.InspectorFollowsDesignArtCodeAndSwitchesFromBlockedCardToReadyWork" methodname="InspectorFollowsDesignArtCodeAndSwitchesFromBlockedCardToReadyWork" classname="ProjectLove.Tests.StudioUiDependencyPlayTests" runstate="Runnable" seed="863657889" result="Passed" start-time="2026-10-25 06:44:30Z" end-time="2026-10-25 06:44:31Z" duration="0.861789" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1035" name="ReviewUnlocksArtAndRestBadgeIsVisibleWithoutReopeningConversation" fullname="ProjectLove.Tests.StudioUiDependencyPlayTests.ReviewUnlocksArtAndRestBadgeIsVisibleWithoutReopeningConversation" methodname="ReviewUnlocksArtAndRestBadgeIsVisibleWithoutReopeningConversation" classname="ProjectLove.Tests.StudioUiDependencyPlayTests" runstate="Runnable" seed="1673800036" result="Passed" start-time="2026-10-25 06:44:31Z" end-time="2026-10-25 06:44:31Z" duration="0.533448" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1033" name="SuppliedSkinShowsExactHudWorkerForecastSharedBarsAndOwnerAvatars" fullname="ProjectLove.Tests.StudioUiDependencyPlayTests.SuppliedSkinShowsExactHudWorkerForecastSharedBarsAndOwnerAvatars" methodname="SuppliedSkinShowsExactHudWorkerForecastSharedBarsAndOwnerAvatars" classname="ProjectLove.Tests.StudioUiDependencyPlayTests" runstate="Runnable" seed="880855485" result="Passed" start-time="2026-10-25 06:44:31Z" end-time="2026-10-25 06:44:32Z" duration="0.629630" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/UsEr/AppData/LocalLow/DefaultCompany/Project Love\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

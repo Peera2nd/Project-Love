@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c38685a0319f49a7ac8a2f8f72c88318, type: 3}
+  m_Name: PlanningRules
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.PlanningConfigSO
+  id: studio_planning_rules
+  randomness: 1
+  taskSpread: 0.1
+  bands:
+  - minimum: 0
+    mean: 1
+    dailySpread: 0.05
+  - minimum: 40
+    mean: 0.9
+    dailySpread: 0.1
+  - minimum: 70
+    mean: 0.75
+    dailySpread: 0.15
+  - minimum: 90
+    mean: 0.55
+    dailySpread: 0.2
+  normalStress: 1
+  pressureStress: 1
+  waitingStress: 1
+  idleRecovery: 1
+  overnightRecovery: 5
+  comfortableLoad: 0.8
+  sharedAffection: 3
+  forecastSamples: 24
+  dragThreshold: 8
+  autoScrollSpeed: 650

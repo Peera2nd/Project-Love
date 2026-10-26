@@ -1,0 +1,294 @@
+{
+  "config": {
+    "id": "prototype_campaign",
+    "totalDays": 30,
+    "maxActionPointsPerDay": 4,
+    "startingMoney": 10,
+    "startingSkillPoints": 0,
+    "startingProgress": 0,
+    "burnoutThreshold": 80,
+    "mainProgressLabel": "ความคืบหน้า"
+  },
+  "character": {
+    "id": "prototype_character",
+    "displayName": "เพื่อนร่วมงานทดลอง",
+    "roleTitle": "บทชั่วคราว · ไม่ใช่ตัวละครเนื้อเรื่องจริง",
+    "startingAffection": 0,
+    "startingStress": 35
+  },
+  "presentation": {
+    "id": "prototype_presentation",
+    "title": "PROJECT LOVE · ต้นแบบ 3 วัน",
+    "subtitle": "ลองทำงาน พัก คุย และกลับมาแก้แผน · ข้อมูลชั่วคราว",
+    "dayFormat": "วันที่ {0}/{1} · {2}\nAP {3}/{4}",
+    "statsFormat": "{0} {1}%   |   เงิน {2}   |   SP {3}",
+    "characterFormat": "{0}\nความสัมพันธ์ {1} / 100\nความเครียด {2} / 100",
+    "narratorLabel": "ระบบทดสอบ",
+    "readyText": "เลือกกิจกรรมหรือบทสนทนาที่พร้อมด้านขวา\nบางเหตุการณ์ต้องเปลี่ยนช่วงเวลา · เซฟได้เมื่อจบบทสนทนา",
+    "continueLabel": "ต่อ / แสดงข้อความทั้งหมด",
+    "nextPhaseLabel": "ช่วงเวลาถัดไป",
+    "endDayLabel": "จบวันนี้",
+    "nextDayLabel": "เริ่มวันถัดไป",
+    "restartLabel": "เริ่มทดสอบใหม่",
+    "successLabel": "สำเร็จ",
+    "failureLabel": "พลาด",
+    "activityFormat": "{0} · {1} AP",
+    "unavailableLabel": "เงื่อนไขหรือ AP ไม่พอ",
+    "dayEndedFormat": "จบวันที่ {0} · ความคืบหน้า {1}%\nวันนี้เพิ่ม {2}% · พรุ่งนี้ปรับแผนได้",
+    "campaignEndedText": "จบรอบทดสอบแล้ว\nระบบฉากจบจริงยังไม่ได้พัฒนา",
+    "phaseNames": [
+      "เช้า",
+      "กลางวัน",
+      "เย็น",
+      "ค่ำ"
+    ],
+    "charactersPerSecond": 32,
+    "deferLabel": "คุยต่อภายหลัง · คืน AP",
+    "blockedText": "ยังไม่มีคำตอบที่เลือกได้ในตอนนี้\nกดคุยต่อภายหลังเพื่อคืนสถานะก่อนเริ่มคุย แล้วค่อยกลับมาใหม่",
+    "saveLabel": "บันทึกเกม",
+    "loadLabel": "โหลดที่บันทึก",
+    "loadAutoLabel": "โหลดอัตโนมัติ",
+    "savedText": "บันทึกแล้ว",
+    "loadedText": "โหลดแล้ว",
+    "saveFailedText": "บันทึกไม่สำเร็จ",
+    "loadFailedText": "โหลดไม่ได้ · ไม่มีเซฟหรือข้อมูลไม่ตรง",
+    "busyText": "จบบทสนทนาหรือคุยต่อภายหลังก่อน",
+    "prototypeEndedText": "ครบต้นแบบ 3 วันแล้ว · เกมเต็มยัง 30 วัน\nทดลองใหม่หรือโหลดเซฟเพื่อเปลี่ยนแผนได้"
+  },
+  "nodes": [
+    {
+      "id": "prototype_intro",
+      "lines": [
+        {
+          "lineId": "prototype_intro_01",
+          "text": "ช่วงนี้เรามีเวลาค่อย ๆ ปรับแผนกันค่ะ วันนี้จะเริ่มจากงานหรือคุยกันก่อนดีคะ?",
+          "expression": 0
+        }
+      ],
+      "choices": [
+        {
+          "choiceId": "prototype_listen",
+          "text": "ลองฟังความกังวลก่อน · 1 AP",
+          "actionPointCost": 1,
+          "effects": [
+            {
+              "stat": 3,
+              "amount": 8
+            }
+          ],
+          "flags": [
+            {
+              "flagId": "prototype_met",
+              "value": true
+            },
+            {
+              "flagId": "prototype_supported",
+              "value": true
+            }
+          ]
+        },
+        {
+          "choiceId": "prototype_plan",
+          "text": "ช่วยกันแบ่งงานก่อน · 1 AP",
+          "actionPointCost": 1,
+          "effects": [
+            {
+              "stat": 0,
+              "amount": 8
+            }
+          ],
+          "flags": [
+            {
+              "flagId": "prototype_met",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prototype_followup",
+      "lines": [
+        {
+          "lineId": "prototype_followup_01",
+          "text": "ที่วันก่อนคุณรับฟัง ฉันยังจำได้นะคะ ถึงเพิ่งมีโอกาสคุยวันนี้ก็ไม่เป็นไร เราค่อย ๆ ไปต่อได้ค่ะ",
+          "expression": 0
+        }
+      ],
+      "choices": [
+        {
+          "choiceId": "prototype_followup_choice",
+          "text": "ขอบคุณที่ไว้ใจ · 1 AP",
+          "actionPointCost": 1,
+          "effects": [
+            {
+              "stat": 3,
+              "amount": 5
+            },
+            {
+              "stat": 4,
+              "amount": -5
+            }
+          ],
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "prototype_recovery",
+      "lines": [
+        {
+          "lineId": "prototype_recovery_01",
+          "text": "งานที่พลาดไปยังแก้ได้ค่ะ เราลองแบ่งเป็นชิ้นเล็ก ๆ แล้วกลับมาทำกันไหมคะ?",
+          "expression": 0
+        }
+      ],
+      "choices": [
+        {
+          "choiceId": "prototype_recovery_choice",
+          "text": "ทบทวนแล้วค่อยลองใหม่ · ไม่เสีย AP",
+          "actionPointCost": 0,
+          "effects": [
+            {
+              "stat": 4,
+              "amount": -3
+            }
+          ],
+          "flags": [
+            {
+              "flagId": "prototype_recovered",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prototype_wrapup",
+      "lines": [
+        {
+          "lineId": "prototype_wrapup_01",
+          "text": "ผ่านมาสามวันแล้วค่ะ เราได้ลองทำงาน พัก และปรับแผน ถึงมีพลาดบ้างก็ยังเดินต่อได้ นี่เป็นเพียงบททดลองก่อนเกมเต็มนะคะ",
+          "expression": 0
+        }
+      ],
+      "choices": []
+    }
+  ],
+  "events": [
+    {
+      "id": "prototype_intro_event",
+      "displayName": "คุยวางแผนวันแรก · กลับมาได้ถึงวันที่ 3",
+      "startDay": 1,
+      "endDay": 3,
+      "preferredDay": 1,
+      "triggerPhase": 0,
+      "priority": 100,
+      "entryNodeId": "prototype_intro",
+      "conditions": []
+    },
+    {
+      "id": "prototype_followup_event",
+      "displayName": "เรื่องที่เคยรับฟัง · ช่วงกลางวัน",
+      "startDay": 2,
+      "endDay": 3,
+      "preferredDay": 2,
+      "triggerPhase": 1,
+      "priority": 20,
+      "entryNodeId": "prototype_followup",
+      "conditions": [
+        {
+          "type": 2,
+          "flagId": "prototype_supported"
+        }
+      ]
+    },
+    {
+      "id": "prototype_recovery_event",
+      "displayName": "ทบทวนงานที่พลาด · ช่วงกลางวัน",
+      "startDay": 2,
+      "endDay": 3,
+      "preferredDay": 2,
+      "triggerPhase": 1,
+      "priority": 30,
+      "entryNodeId": "prototype_recovery",
+      "conditions": [
+        {
+          "type": 2,
+          "flagId": "prototype_setback"
+        }
+      ]
+    },
+    {
+      "id": "prototype_wrapup_event",
+      "displayName": "ทบทวนสามวัน · ช่วงเย็น",
+      "startDay": 3,
+      "endDay": 3,
+      "preferredDay": 3,
+      "triggerPhase": 2,
+      "priority": 10,
+      "entryNodeId": "prototype_wrapup",
+      "conditions": []
+    }
+  ],
+  "activities": [
+    {
+      "id": "prototype_work",
+      "displayName": "ทำงานทดลอง",
+      "actionPointCost": 1,
+      "successEffects": [
+        {
+          "stat": 0,
+          "amount": 15
+        },
+        {
+          "stat": 1,
+          "amount": 5
+        },
+        {
+          "stat": 2,
+          "amount": 1
+        },
+        {
+          "stat": 4,
+          "amount": 3
+        }
+      ],
+      "failureEffects": [
+        {
+          "stat": 0,
+          "amount": 2
+        },
+        {
+          "stat": 4,
+          "amount": 5
+        }
+      ],
+      "failureFlags": [
+        {
+          "flagId": "prototype_setback",
+          "value": true
+        }
+      ],
+      "elapsedPhases": 1
+    },
+    {
+      "id": "prototype_rest",
+      "displayName": "พักผ่อน",
+      "actionPointCost": 1,
+      "successEffects": [
+        {
+          "stat": 4,
+          "amount": -10
+        }
+      ],
+      "failureEffects": [
+        {
+          "stat": 4,
+          "amount": -4
+        }
+      ],
+      "elapsedPhases": 1
+    }
+  ]
+}

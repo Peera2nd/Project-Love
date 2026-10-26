@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68294642b7394931b38b71feca2638e1, type: 3}
+  m_Name: evt_studio_art_check
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.DialogueNodeSO
+  id: evt_studio_art_check
+  lines:
+  - lineId: evt_studio_art_check_line
+    speaker: {fileID: 11400000, guid: b25bb883c2b856841955abfa79b36ca0, type: 2}
+    expression: 0
+    text: "\u0E01\u0E48\u0E2D\u0E19\u0E25\u0E07\u0E23\u0E32\u0E22\u0E25\u0E30\u0E40\u0E2D\u0E35\u0E22\u0E14\u0E20\u0E32\u0E1E
+      \u0E2D\u0E22\u0E32\u0E01\u0E43\u0E2B\u0E49\u0E0A\u0E48\u0E27\u0E22\u0E14\u0E39\u0E27\u0E48\u0E32\u0E20\u0E32\u0E1E\u0E19\u0E35\u0E49\u0E2A\u0E37\u0E48\u0E2D\u0E2D\u0E32\u0E23\u0E21\u0E13\u0E4C\u0E15\u0E23\u0E07\u0E01\u0E31\u0E1A\u0E17\u0E35\u0E48\u0E17\u0E35\u0E21\u0E2D\u0E22\u0E32\u0E01\u0E44\u0E14\u0E49\u0E44\u0E2B\u0E21\u0E04\u0E30
+      \u0E08\u0E30\u0E44\u0E14\u0E49\u0E44\u0E21\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E41\u0E01\u0E49\u0E01\u0E31\u0E19\u0E15\u0E2D\u0E19\u0E17\u0E49\u0E32\u0E22"
+  choices:
+  - choiceId: evt_art_listen
+    text: "\u0E1F\u0E31\u0E07\u0E41\u0E19\u0E27\u0E04\u0E34\u0E14\u0E41\u0E25\u0E30\u0E43\u0E2B\u0E49\u0E02\u0E49\u0E2D\u0E40\u0E2A\u0E19\u0E2D\u0E41\u0E19\u0E30
+      \xB7 \u0E04\u0E27\u0E32\u0E21\u0E2A\u0E31\u0E21\u0E1E\u0E31\u0E19\u0E18\u0E4C
+      +1"
+    actionPointCost: 0
+    staminaCost: 0
+    conditions: []
+    effects:
+    - stat: 3
+      character: {fileID: 11400000, guid: b25bb883c2b856841955abfa79b36ca0, type: 2}
+      amount: 1
+    flags:
+    - flagId: studio_event_art_listened
+      value: 1
+    activateWorkloads: []
+    nextNode: {fileID: 11400000, guid: 8b8ec23e7d63a8a42894433fb78de3f0, type: 2}
+  nextNode: {fileID: 0}

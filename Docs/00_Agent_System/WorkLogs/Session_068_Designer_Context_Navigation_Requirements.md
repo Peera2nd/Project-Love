@@ -1,0 +1,7 @@
+# Session 068 — 2026-10-26 — Designer context-navigation requirements
+
+Owner clarifies that abundant SOs are an authoring/discoverability problem, not a claim of slow gameplay. They expect selection of any passage to reveal its upstream origin, destinations of every choice, conditions and all speaking characters, and to locate a character's lines by situation/time.
+
+Updated the [scalable story plan](../../04_Technical_And_Tools/15_Scalable_Story_Authoring_And_Presentation_Plan.md), especially section 4.1 and Stage A acceptance: all registered incoming edges with distinct caller context; response previews/joins/end markers; readable inherited/path/local conditions and effects; all-branch speaker roster; exact navigation/back history; structured character/purpose/day-phase discovery and detached real-selector probes. Shared callers must not collapse to one parent or combine alternative path conditions incorrectly. Static possible links and context-verified availability remain distinct.
+
+Recorded the clarification in Master, Task Board/Handoff and ERR-103. No C#, Unity assets, source/translation/CSV data, saves, package or backend changes; no runtime/performance/engine tests. Changed-document references and requirement consistency checked. The clarified UX goals are owner requirements; actual new views, data consolidation and backend implementation remain pending. Current L2 localization and broader campaign/story priorities are unchanged.

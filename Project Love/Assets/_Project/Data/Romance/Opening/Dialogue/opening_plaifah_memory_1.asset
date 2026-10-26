@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68294642b7394931b38b71feca2638e1, type: 3}
+  m_Name: opening_plaifah_memory_1
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.DialogueNodeSO
+  id: opening_plaifah_memory_1
+  displayName: "\u0E1B\u0E25\u0E32\u0E22\u0E1F\u0E49\u0E32 \xB7 \u0E08\u0E33\u0E04\u0E33\u0E15\u0E2D\u0E1A\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E44\u0E14\u0E49"
+  lines:
+  - lineId: opening_plaifah_memory_1_line_0
+    speaker: {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+    expression: 1
+    text: "\u0E1F\u0E49\u0E32\u0E08\u0E33\u0E44\u0E14\u0E49\u0E27\u0E48\u0E32\u0E04\u0E38\u0E13\u0E43\u0E2B\u0E49\u0E1C\u0E25\u0E31\u0E14\u0E01\u0E31\u0E19\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E02\u0E19\u0E21\u0E04\u0E48\u0E30
+      \u0E27\u0E31\u0E19\u0E19\u0E35\u0E49\u0E40\u0E25\u0E22\u0E40\u0E27\u0E49\u0E19\u0E17\u0E35\u0E48\u0E43\u0E19\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\u0E44\u0E27\u0E49\u0E43\u0E2B\u0E49\u0E04\u0E38\u0E13\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E0A\u0E48\u0E2D\u0E07"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/opening_plaifah_memory_1/line/opening_plaifah_memory_1_line_0
+  - lineId: opening_plaifah_memory_1_line_1
+    speaker: {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+    expression: 0
+    text: "\u0E1F\u0E49\u0E32\u0E08\u0E31\u0E14\u0E20\u0E32\u0E1E\u0E09\u0E32\u0E01\u0E17\u0E35\u0E48\u0E40\u0E23\u0E32\u0E04\u0E38\u0E22\u0E01\u0E31\u0E19\u0E44\u0E27\u0E49\u0E41\u0E25\u0E49\u0E27
+      \u0E2D\u0E22\u0E32\u0E01\u0E0A\u0E27\u0E19\u0E04\u0E38\u0E13\u0E21\u0E32\u0E14\u0E39
+      \u0E41\u0E25\u0E49\u0E27\u0E01\u0E47... \u0E01\u0E34\u0E19\u0E02\u0E19\u0E21\u0E17\u0E35\u0E48\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E14\u0E49\u0E27\u0E22\u0E01\u0E31\u0E19\u0E04\u0E48\u0E30"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/opening_plaifah_memory_1/line/opening_plaifah_memory_1_line_1
+  - lineId: opening_plaifah_memory_1_line_2
+    speaker: {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+    expression: 0
+    text: "\u0E19\u0E31\u0E14\u0E0A\u0E48\u0E27\u0E07\u0E1A\u0E48\u0E32\u0E22\u0E2B\u0E23\u0E37\u0E2D\u0E40\u0E22\u0E47\u0E19
+      \u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 3 \u0E16\u0E36\u0E07\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48
+      7 \u0E14\u0E35\u0E44\u0E2B\u0E21\u0E04\u0E30 \u0E27\u0E31\u0E19\u0E44\u0E2B\u0E19\u0E04\u0E38\u0E13\u0E27\u0E48\u0E32\u0E07\u0E04\u0E48\u0E2D\u0E22\u0E21\u0E32
+      \u0E43\u0E0A\u0E49\u0E40\u0E27\u0E25\u0E32\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E0A\u0E48\u0E27\u0E07"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/opening_plaifah_memory_1/line/opening_plaifah_memory_1_line_2
+  choices:
+  - choiceId: opening_plaifah_memory_1_daytime
+    text: "\u0E19\u0E31\u0E14\u0E0A\u0E48\u0E27\u0E07\u0E1A\u0E48\u0E32\u0E22 \xB7
+      \u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 3\u20137"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/opening_plaifah_memory_1/choice/opening_plaifah_memory_1_daytime
+    actionPointCost: 0
+    staminaCost: 0
+    conditions: []
+    effects: []
+    flags:
+    - flagId: opening_plaifah_invited
+      value: 1
+    - flagId: opening_plaifah_daytime
+      value: 1
+    - flagId: opening_plaifah_declined
+      value: 0
+    activateWorkloads: []
+    workAction: 0
+    workCharacter: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 130c2010b1d049378cfb85bb642dba63, type: 2}
+  - choiceId: opening_plaifah_memory_1_evening
+    text: "\u0E19\u0E31\u0E14\u0E0A\u0E48\u0E27\u0E07\u0E40\u0E22\u0E47\u0E19 \xB7
+      \u0E27\u0E31\u0E19\u0E17\u0E35\u0E48 3\u20137"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/opening_plaifah_memory_1/choice/opening_plaifah_memory_1_evening
+    actionPointCost: 0
+    staminaCost: 0
+    conditions: []
+    effects: []
+    flags:
+    - flagId: opening_plaifah_invited
+      value: 1
+    - flagId: opening_plaifah_evening
+      value: 1
+    - flagId: opening_plaifah_declined
+      value: 0
+    activateWorkloads: []
+    workAction: 0
+    workCharacter: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 02adebd27da5481ca4f68823033ecaf6, type: 2}
+  - choiceId: opening_plaifah_memory_1_decline
+    text: "\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E23\u0E31\u0E1A\u0E19\u0E31\u0E14\u0E15\u0E2D\u0E19\u0E19\u0E35\u0E49"
+    localizedText:
+      catalog: {fileID: 11400000, guid: e731156c4ab4e8e4cbcedb5dda6abf6a, type: 2}
+      key: dialogue/opening_plaifah_memory_1/choice/opening_plaifah_memory_1_decline
+    actionPointCost: 0
+    staminaCost: 0
+    conditions: []
+    effects: []
+    flags:
+    - flagId: opening_plaifah_declined
+      value: 1
+    activateWorkloads: []
+    workAction: 0
+    workCharacter: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 4936652db3244517a2143399b0ca3347, type: 2}
+  nextNode: {fileID: 0}

@@ -1,0 +1,650 @@
+{
+  "config": {
+    "id": "room_campaign",
+    "totalDays": 30,
+    "maxActionPointsPerDay": 4,
+    "startingMoney": 20,
+    "startingSkillPoints": 0,
+    "startingProgress": 0,
+    "burnoutThreshold": 80,
+    "mainProgressLabel": "ความคืบหน้า",
+    "usesStamina": true,
+    "maxStamina": 100,
+    "startingStamina": 100,
+    "overnightRecovery": 40,
+    "startingRoomId": "room_workspace"
+  },
+  "character": {
+    "id": "char_01_plaifah",
+    "displayName": "ปลายฟ้า",
+    "roleTitle": "ตัวละครสำหรับต้นแบบห้อง",
+    "startingAffection": 0,
+    "startingStress": 35
+  },
+  "presentation": {
+    "id": "room_presentation",
+    "phaseNames": [
+      "เช้า",
+      "บ่าย",
+      "เย็น",
+      "กลางคืน"
+    ],
+    "charactersPerSecond": 32,
+    "dialogueDimAlpha": 0.72,
+    "text": [
+      {
+        "key": "hud",
+        "value": "วันที่ {0}/{1} · {2}    เงิน {3}    Stamina {4}/{5}    งาน {6}%"
+      },
+      {
+        "key": "dayEnded",
+        "value": "สิ้นวัน"
+      },
+      {
+        "key": "hint",
+        "value": "กดตัวละครเพื่อคุย · กดโต๊ะเพื่อทำงาน · กดโซฟาเพื่อพัก · ขวดน้ำบนพื้นเก็บได้"
+      },
+      {
+        "key": "summary",
+        "value": "จบวันนี้แล้ว · สถานะบันทึกอัตโนมัติ · กดเริ่มวันใหม่เพื่อไปต่อ"
+      },
+      {
+        "key": "campaignEnded",
+        "value": "ครบระยะรอบเกมแล้ว · บทสรุปเนื้อเรื่องจริงยังเป็นงานถัดไป"
+      },
+      {
+        "key": "overviewTitle",
+        "value": "วันนี้จะทำอะไรดี?"
+      },
+      {
+        "key": "overview",
+        "value": "งาน พัก และคุยสัมพันธ์ใช้ครั้งละ 1 ช่วงเวลา\n\nคุยประจำวันกลับมาได้วันถัดไป\nกติกาและตัวเลขยังปรับได้"
+      },
+      {
+        "key": "cost",
+        "value": "ใช้เวลา {0} ช่วง · Stamina −{1}"
+      },
+      {
+        "key": "characterStats",
+        "value": "ความสัมพันธ์ {0}/100\nความเครียด {1}/100\n\nคุยสัมพันธ์ได้วันละหนึ่งครั้ง\nคุยแล้วปุ่มจะพร้อมอีกครั้งวันใหม่"
+      },
+      {
+        "key": "talk",
+        "value": "คุยสร้างความสัมพันธ์"
+      },
+      {
+        "key": "travel",
+        "value": "เดินทาง"
+      },
+      {
+        "key": "travelHint",
+        "value": "เลือกฉากที่จะไป\nการสลับฉากในต้นแบบนี้ยังไม่คิดเวลาเพิ่ม"
+      },
+      {
+        "key": "inventory",
+        "value": "กระเป๋า"
+      },
+      {
+        "key": "inventoryHint",
+        "value": "กดใช้ไอเทมเพื่อฟื้น Stamina\nเมื่อพลังงานเต็มจะยังใช้ไม่ได้"
+      },
+      {
+        "key": "itemUse",
+        "value": "{0} ×{1} · ใช้"
+      },
+      {
+        "key": "shop",
+        "value": "ซื้อสินค้า"
+      },
+      {
+        "key": "shopHint",
+        "value": "กดซื้อสินค้าเพื่อเพิ่มเข้ากระเป๋า\nต้นแบบยังไม่คิดเวลาเพิ่มต่อการซื้อ"
+      },
+      {
+        "key": "itemBuy",
+        "value": "{0} · ราคา {1}"
+      },
+      {
+        "key": "options",
+        "value": "เมนู"
+      },
+      {
+        "key": "optionsHint",
+        "value": "เซฟเมื่ออยู่นอกบทสนทนา\nเริ่มใหม่จะเก็บไฟล์เซฟเดิมไว้"
+      },
+      {
+        "key": "save",
+        "value": "บันทึกเกม"
+      },
+      {
+        "key": "load",
+        "value": "โหลดที่บันทึก"
+      },
+      {
+        "key": "loadAuto",
+        "value": "โหลดอัตโนมัติ"
+      },
+      {
+        "key": "restart",
+        "value": "เริ่มต้นใหม่"
+      },
+      {
+        "key": "saved",
+        "value": "บันทึกแล้ว"
+      },
+      {
+        "key": "loaded",
+        "value": "โหลดแล้ว"
+      },
+      {
+        "key": "autoSaved",
+        "value": "บันทึกอัตโนมัติแล้ว"
+      },
+      {
+        "key": "saveFailed",
+        "value": "ยังบันทึกไม่ได้"
+      },
+      {
+        "key": "loadFailed",
+        "value": "โหลดไม่ได้ · ไม่มีเซฟหรือข้อมูลไม่ตรง"
+      },
+      {
+        "key": "continue",
+        "value": "ต่อ / แสดงข้อความทั้งหมด"
+      },
+      {
+        "key": "defer",
+        "value": "คุยต่อภายหลัง · คืนสถานะ"
+      },
+      {
+        "key": "blocked",
+        "value": "ยังไม่มีคำตอบที่เลือกได้ กดคุยต่อภายหลังเพื่อกลับห้องได้"
+      },
+      {
+        "key": "endDay",
+        "value": "จบวันนี้"
+      },
+      {
+        "key": "nextDay",
+        "value": "เริ่มวันใหม่"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "room_water",
+      "displayName": "น้ำดื่ม",
+      "price": 5,
+      "maxStack": 9,
+      "staminaRecovery": 15,
+      "spritePath": "Assets/_Project/Art/Items/Mockup/itm_water_bottle.png"
+    }
+  ],
+  "activities": [
+    {
+      "id": "room_work",
+      "displayName": "ลงมือทำงาน",
+      "actionPointCost": 0,
+      "staminaCost": 20,
+      "staminaRecovery": 0,
+      "elapsedPhases": 1,
+      "successEffects": [
+        {
+          "stat": 0,
+          "amount": 6
+        },
+        {
+          "stat": 1,
+          "amount": 5
+        },
+        {
+          "stat": 2,
+          "amount": 1
+        },
+        {
+          "stat": 4,
+          "amount": 3
+        }
+      ],
+      "failureEffects": [
+        {
+          "stat": 0,
+          "amount": 1
+        },
+        {
+          "stat": 4,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "room_rest",
+      "displayName": "พักผ่อน · ฟื้น Stamina 30",
+      "actionPointCost": 0,
+      "staminaCost": 0,
+      "staminaRecovery": 30,
+      "elapsedPhases": 1,
+      "successEffects": [
+        {
+          "stat": 4,
+          "amount": -10
+        }
+      ],
+      "failureEffects": [
+        {
+          "stat": 4,
+          "amount": -5
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "room_daily",
+      "lines": [
+        {
+          "lineId": "room_daily_01",
+          "text": "วันนี้เป็นอย่างไรบ้างคะ? ฟ้ายังมีงานให้ค่อย ๆ ทำ แต่ก็อยากแบ่งเวลามาคุยกันค่ะ",
+          "expression": 0
+        }
+      ],
+      "choices": [
+        {
+          "choiceId": "room_listen",
+          "text": "วันนี้มีอะไรอยากเล่าให้ฟังไหม?",
+          "actionPointCost": 0,
+          "effects": [
+            {
+              "stat": 3,
+              "amount": 8
+            },
+            {
+              "stat": 4,
+              "amount": -5
+            }
+          ],
+          "nextNodeId": "room_reply"
+        },
+        {
+          "choiceId": "room_plan",
+          "text": "มาช่วยกันคิดแผนให้วันนี้สบายขึ้นนะ",
+          "actionPointCost": 0,
+          "effects": [
+            {
+              "stat": 0,
+              "amount": 3
+            },
+            {
+              "stat": 3,
+              "amount": 3
+            },
+            {
+              "stat": 4,
+              "amount": -2
+            }
+          ],
+          "nextNodeId": "room_reply"
+        }
+      ]
+    },
+    {
+      "id": "room_reply",
+      "lines": [
+        {
+          "lineId": "room_reply_01",
+          "text": "ขอบคุณที่แบ่งเวลามาคุยกันนะคะ รู้สึกมีกำลังใจขึ้นแล้วค่ะ พรุ่งนี้ค่อยกลับมาคุยกันอีกก็ได้นะคะ",
+          "expression": 1
+        }
+      ],
+      "choices": []
+    }
+  ],
+  "event": {
+    "id": "room_daily_talk",
+    "displayName": "คุยประจำวัน",
+    "startDay": 1,
+    "preferredDay": 1,
+    "endDay": 30,
+    "triggerPhase": 0,
+    "anyPhase": true,
+    "repeatDaily": true,
+    "elapsedPhases": 1,
+    "staminaCost": 0,
+    "entryNodeId": "room_daily"
+  },
+  "normalSpritePath": "Assets/_Project/Art/Characters/Sprites/Mockup/Dialogue/chr_plaifah_Normal.png",
+  "smileSpritePath": "Assets/_Project/Art/Characters/Sprites/Mockup/Dialogue/chr_plaifah_Smile.png",
+  "rooms": [
+    {
+      "id": "room_workspace",
+      "displayName": "ห้องทำงาน",
+      "entryPhaseCost": 0,
+      "backgroundPaths": [
+        "Assets/_Project/Art/Backgrounds/Mockup/bg_workspace_01_Morning.png",
+        "Assets/_Project/Art/Backgrounds/Mockup/bg_workspace_02_Afternoon.png",
+        "Assets/_Project/Art/Backgrounds/Mockup/bg_workspace_03_Evening.png",
+        "Assets/_Project/Art/Backgrounds/Mockup/bg_workspace_04_Night.png"
+      ],
+      "dayEndedPath": "Assets/_Project/Art/Backgrounds/Mockup/bg_workspace_05_LateNight.png",
+      "hotspots": [
+        {
+          "id": "room_person",
+          "label": "ปลายฟ้า",
+          "kind": 0,
+          "placements": [
+            {
+              "phase": 0,
+              "position": {
+                "x": 0.55,
+                "y": 0.53
+              },
+              "size": {
+                "x": 0.25,
+                "y": 0.25
+              },
+              "visible": true,
+              "spritePath": "Assets/_Project/Art/Characters/Sprites/Mockup/Room/chr_plaifah_Seated_Working.png"
+            },
+            {
+              "phase": 1,
+              "position": {
+                "x": 0.64,
+                "y": 0.25
+              },
+              "size": {
+                "x": 0.25,
+                "y": 0.25
+              },
+              "visible": true,
+              "spritePath": "Assets/_Project/Art/Characters/Sprites/Mockup/Room/chr_plaifah_Seated_Phone.png"
+            },
+            {
+              "phase": 2,
+              "position": {
+                "x": 0.64,
+                "y": 0.25
+              },
+              "size": {
+                "x": 0.25,
+                "y": 0.25
+              },
+              "visible": true,
+              "spritePath": "Assets/_Project/Art/Characters/Sprites/Mockup/Room/chr_plaifah_Seated_Phone.png"
+            },
+            {
+              "phase": 3,
+              "position": {
+                "x": 0.64,
+                "y": 0.25
+              },
+              "size": {
+                "x": 0.25,
+                "y": 0.25
+              },
+              "visible": true,
+              "spritePath": "Assets/_Project/Art/Characters/Sprites/Mockup/Room/chr_plaifah_Seated_Phone.png"
+            }
+          ],
+          "character": true,
+          "conversation": true
+        },
+        {
+          "id": "room_desk",
+          "label": "ทำงาน",
+          "kind": 1,
+          "placements": [
+            {
+              "phase": 0,
+              "position": {
+                "x": 0.3,
+                "y": 0.49
+              },
+              "size": {
+                "x": 0.18,
+                "y": 0.08
+              },
+              "visible": true,
+              "spritePath": ""
+            },
+            {
+              "phase": 1,
+              "position": {
+                "x": 0.3,
+                "y": 0.49
+              },
+              "size": {
+                "x": 0.18,
+                "y": 0.08
+              },
+              "visible": true,
+              "spritePath": ""
+            },
+            {
+              "phase": 2,
+              "position": {
+                "x": 0.3,
+                "y": 0.49
+              },
+              "size": {
+                "x": 0.18,
+                "y": 0.08
+              },
+              "visible": true,
+              "spritePath": ""
+            },
+            {
+              "phase": 3,
+              "position": {
+                "x": 0.3,
+                "y": 0.49
+              },
+              "size": {
+                "x": 0.18,
+                "y": 0.08
+              },
+              "visible": true,
+              "spritePath": ""
+            }
+          ],
+          "activityId": "room_work"
+        },
+        {
+          "id": "room_sofa",
+          "label": "พัก",
+          "kind": 1,
+          "placements": [
+            {
+              "phase": 0,
+              "position": {
+                "x": 0.35,
+                "y": 0.23
+              },
+              "size": {
+                "x": 0.14,
+                "y": 0.07
+              },
+              "visible": true,
+              "spritePath": ""
+            },
+            {
+              "phase": 1,
+              "position": {
+                "x": 0.35,
+                "y": 0.23
+              },
+              "size": {
+                "x": 0.14,
+                "y": 0.07
+              },
+              "visible": true,
+              "spritePath": ""
+            },
+            {
+              "phase": 2,
+              "position": {
+                "x": 0.35,
+                "y": 0.23
+              },
+              "size": {
+                "x": 0.14,
+                "y": 0.07
+              },
+              "visible": true,
+              "spritePath": ""
+            },
+            {
+              "phase": 3,
+              "position": {
+                "x": 0.35,
+                "y": 0.23
+              },
+              "size": {
+                "x": 0.14,
+                "y": 0.07
+              },
+              "visible": true,
+              "spritePath": ""
+            }
+          ],
+          "activityId": "room_rest"
+        },
+        {
+          "id": "room_pickup_water",
+          "label": "เก็บน้ำดื่ม",
+          "kind": 2,
+          "placements": [
+            {
+              "phase": 0,
+              "position": {
+                "x": 0.54,
+                "y": 0.13
+              },
+              "size": {
+                "x": 0.07,
+                "y": 0.09
+              },
+              "visible": true,
+              "spritePath": "Assets/_Project/Art/Items/Mockup/itm_water_bottle.png"
+            },
+            {
+              "phase": 1,
+              "position": {
+                "x": 0.54,
+                "y": 0.13
+              },
+              "size": {
+                "x": 0.07,
+                "y": 0.09
+              },
+              "visible": true,
+              "spritePath": "Assets/_Project/Art/Items/Mockup/itm_water_bottle.png"
+            },
+            {
+              "phase": 2,
+              "position": {
+                "x": 0.54,
+                "y": 0.13
+              },
+              "size": {
+                "x": 0.07,
+                "y": 0.09
+              },
+              "visible": true,
+              "spritePath": "Assets/_Project/Art/Items/Mockup/itm_water_bottle.png"
+            },
+            {
+              "phase": 3,
+              "position": {
+                "x": 0.54,
+                "y": 0.13
+              },
+              "size": {
+                "x": 0.07,
+                "y": 0.09
+              },
+              "visible": true,
+              "spritePath": "Assets/_Project/Art/Items/Mockup/itm_water_bottle.png"
+            }
+          ],
+          "itemId": "room_water"
+        }
+      ]
+    },
+    {
+      "id": "room_store",
+      "displayName": "ร้านสะดวกซื้อ",
+      "entryPhaseCost": 0,
+      "backgroundPaths": [
+        "Assets/_Project/Art/Backgrounds/Mockup/bg_convenience_store_Morning.png",
+        "Assets/_Project/Art/Backgrounds/Mockup/bg_convenience_store_Morning.png",
+        "Assets/_Project/Art/Backgrounds/Mockup/bg_convenience_store_Morning.png",
+        "Assets/_Project/Art/Backgrounds/Mockup/bg_convenience_store_Morning.png"
+      ],
+      "dayEndedPath": "",
+      "shopItemIds": [
+        "room_water"
+      ],
+      "hotspots": [
+        {
+          "id": "room_clerk",
+          "label": "พนักงานร้าน",
+          "kind": 3,
+          "placements": [
+            {
+              "phase": 0,
+              "position": {
+                "x": 0.76,
+                "y": 0.29
+              },
+              "size": {
+                "x": 0.27,
+                "y": 0.27
+              },
+              "visible": true,
+              "spritePath": "Assets/_Project/Art/Characters/Sprites/Mockup/Room/chr_shop_clerk_Standing_Normal.png"
+            },
+            {
+              "phase": 1,
+              "position": {
+                "x": 0.76,
+                "y": 0.29
+              },
+              "size": {
+                "x": 0.27,
+                "y": 0.27
+              },
+              "visible": true,
+              "spritePath": "Assets/_Project/Art/Characters/Sprites/Mockup/Room/chr_shop_clerk_Standing_Normal.png"
+            },
+            {
+              "phase": 2,
+              "position": {
+                "x": 0.76,
+                "y": 0.29
+              },
+              "size": {
+                "x": 0.27,
+                "y": 0.27
+              },
+              "visible": true,
+              "spritePath": "Assets/_Project/Art/Characters/Sprites/Mockup/Room/chr_shop_clerk_Standing_Normal.png"
+            },
+            {
+              "phase": 3,
+              "position": {
+                "x": 0.76,
+                "y": 0.29
+              },
+              "size": {
+                "x": 0.27,
+                "y": 0.27
+              },
+              "visible": true,
+              "spritePath": "Assets/_Project/Art/Characters/Sprites/Mockup/Room/chr_shop_clerk_Standing_Normal.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

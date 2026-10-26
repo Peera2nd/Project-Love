@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c2136822bc4b328f6b3e52cdb81358, type: 3}
+  m_Name: RomanceRules
+  m_EditorClassIdentifier: ProjectLove.Runtime::ProjectLove.Data.RomanceConfigSO
+  id: romance_rules
+  teamDailyProgress: 3
+  sharedProgress: 2
+  sharedAffection: 2
+  personalAffection: 3
+  producerProgress: 4
+  producerMoney: 10
+  focusAffection: 1
+  daysPerFocus: 7
+  producerScene: {fileID: 11400000, guid: e71295820293ca44b984da9b4bf66c8e, type: 2}
+  cast:
+  - character: {fileID: 11400000, guid: b36cc8da13aa4914fae3a8b5aac0bf99, type: 2}
+    workTitle: "\u0E23\u0E30\u0E1A\u0E1A\u0E17\u0E35\u0E48\u0E40\u0E25\u0E48\u0E19\u0E44\u0E14\u0E49\u0E08\u0E23\u0E34\u0E07"
+    topicTitle: "\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E43\u0E15\u0E49\u0E42\u0E15\u0E4A\u0E30"
+    topicFlag: romance_grace_topic
+    warmAffection: 12
+    initialMood: 0
+    sharedMood: 0
+    personalMood: 1
+    sharedScene: {fileID: 11400000, guid: 625e3b7b49f50d640872635de0b81380, type: 2}
+    personalScene: {fileID: 11400000, guid: 9ffb4346b8a34fd478c65f649846fd91, type: 2}
+    comfortScene: {fileID: 11400000, guid: 70ce2aa521b6b9243835bc594a18ddc0, type: 2}
+    warmScene: {fileID: 11400000, guid: 416372b427acabd4e95da33b89919885, type: 2}
+    focusTalk: {fileID: 11400000, guid: 41c6ed00872f19745a1aea493bbd8888, type: 2}
+  - character: {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+    workTitle: "\u0E20\u0E32\u0E1E\u0E42\u0E25\u0E01\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32"
+    topicTitle: "\u0E2A\u0E21\u0E38\u0E14\u0E2A\u0E40\u0E01\u0E47\u0E15\u0E0A\u0E4C\u0E40\u0E25\u0E48\u0E21\u0E40\u0E25\u0E47\u0E01"
+    topicFlag: romance_plaifah_topic
+    warmAffection: 12
+    initialMood: 0
+    sharedMood: 0
+    personalMood: 1
+    sharedScene: {fileID: 11400000, guid: 11a7acc1b66570049a18bf53ed8f22a0, type: 2}
+    personalScene: {fileID: 11400000, guid: 5808c5f152fa8c64cbb3681cd984dfde, type: 2}
+    comfortScene: {fileID: 11400000, guid: 62382b9bda5bc6e47832da80d9a4f5eb, type: 2}
+    warmScene: {fileID: 11400000, guid: d73141e768789214cb8108ded6416b1d, type: 2}
+    focusTalk: {fileID: 11400000, guid: 0e923e54d5fa71847b3d9ec610dd46a7, type: 2}
+  - character: {fileID: 11400000, guid: 08140245bb9f0c54b8e6fd5c6e3d6ecf, type: 2}
+    workTitle: "\u0E0A\u0E48\u0E27\u0E07\u0E40\u0E27\u0E25\u0E32\u0E17\u0E35\u0E48\u0E40\u0E25\u0E48\u0E19\u0E41\u0E25\u0E49\u0E27\u0E2A\u0E19\u0E38\u0E01"
+    topicTitle: "\u0E1A\u0E2D\u0E23\u0E4C\u0E14\u0E40\u0E01\u0E21\u0E17\u0E33\u0E21\u0E37\u0E2D"
+    topicFlag: romance_ploy_topic
+    warmAffection: 12
+    initialMood: 1
+    sharedMood: 1
+    personalMood: 1
+    sharedScene: {fileID: 11400000, guid: f0cbdf332fd9f704284c2f9f2bb2f35a, type: 2}
+    personalScene: {fileID: 11400000, guid: 88eed9917f146a647af913a2ea2ae250, type: 2}
+    comfortScene: {fileID: 11400000, guid: 68fc6b439ad34fc479cd1428cc156fd2, type: 2}
+    warmScene: {fileID: 11400000, guid: f9f2f86783a4a094b9afb57ca493d000, type: 2}
+    focusTalk: {fileID: 11400000, guid: 7822a89451ddc6c4696dbf01a8c4f9e9, type: 2}
+  moods:
+  - mood: 0
+    label: "\u0E2A\u0E1A\u0E32\u0E22\u0E43\u0E08"
+    icon: talk
+  - mood: 1
+    label: "\u0E2A\u0E14\u0E43\u0E2A"
+    icon: heart
+  - mood: 2
+    label: "\u0E40\u0E2B\u0E19\u0E37\u0E48\u0E2D\u0E22"
+    icon: rest
+  - mood: 3
+    label: "\u0E2D\u0E22\u0E32\u0E01\u0E44\u0E14\u0E49\u0E01\u0E33\u0E25\u0E31\u0E07\u0E43\u0E08"
+    icon: talk
+  milestones:
+  - startDay: 1
+    endDay: 7
+    target: 20
+    title: "\u0E40\u0E14\u0E42\u0E21\u0E40\u0E23\u0E34\u0E48\u0E21\u0E40\u0E1B\u0E47\u0E19\u0E23\u0E39\u0E1B\u0E40\u0E1B\u0E47\u0E19\u0E23\u0E48\u0E32\u0E07"
+    localizationId: 9296c6f5b0bf42e792f9ce3fba992c83
+  - startDay: 8
+    endDay: 14
+    target: 40
+    title: "\u0E42\u0E25\u0E01\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32\u0E21\u0E35\u0E0A\u0E35\u0E27\u0E34\u0E15"
+    localizationId: 0b6ad55516934e7e878ea422f07b86b0
+  - startDay: 15
+    endDay: 21
+    target: 65
+    title: "\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E23\u0E32\u0E27\u0E40\u0E23\u0E34\u0E48\u0E21\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E21\u0E16\u0E36\u0E07\u0E01\u0E31\u0E19"
+    localizationId: e33c7b91513d424bb768ed4cf6d90df8
+  - startDay: 22
+    endDay: 28
+    target: 85
+    title: "\u0E43\u0E01\u0E25\u0E49\u0E27\u0E31\u0E19\u0E40\u0E1B\u0E34\u0E14\u0E15\u0E31\u0E27"
+    localizationId: 67adb804950f439f916273b7eaabf73f
+  - startDay: 29
+    endDay: 30
+    target: 100
+    title: "\u0E40\u0E14\u0E42\u0E21\u0E02\u0E2D\u0E07\u0E1E\u0E27\u0E01\u0E40\u0E23\u0E32"
+    localizationId: b2ba18403f1945eeb11635152f6bed8a
+  moodSchedule:
+  - day: 2
+    character: {fileID: 11400000, guid: b36cc8da13aa4914fae3a8b5aac0bf99, type: 2}
+    mood: 2
+  - day: 3
+    character: {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+    mood: 3
+  moodOutcomes:
+  - eventId: romance_coffee
+    requiredFlag: romance_coffee_quiet
+    character: {fileID: 11400000, guid: b36cc8da13aa4914fae3a8b5aac0bf99, type: 2}
+    mood: 0
+  - eventId: romance_coffee
+    requiredFlag: romance_coffee_book
+    character: {fileID: 11400000, guid: b36cc8da13aa4914fae3a8b5aac0bf99, type: 2}
+    mood: 1
+  - eventId: romance_sketch
+    requiredFlag: romance_sketch_listen
+    character: {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+    mood: 0
+  - eventId: romance_sketch
+    requiredFlag: romance_sketch_light
+    character: {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+    mood: 1
+  - eventId: opening_plaifah_appointment_daytime
+    requiredFlag: opening_plaifah_payoff
+    character: {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+    mood: 1
+  - eventId: opening_plaifah_appointment_evening
+    requiredFlag: opening_plaifah_payoff
+    character: {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+    mood: 1
+  - eventId: opening_plaifah_makeup
+    requiredFlag: opening_plaifah_payoff
+    character: {fileID: 11400000, guid: cfe73e4e73648ac41ba919a55aaeaa37, type: 2}
+    mood: 1
+  - eventId: opening_grace_appointment_daytime
+    requiredFlag: opening_grace_payoff
+    character: {fileID: 11400000, guid: b36cc8da13aa4914fae3a8b5aac0bf99, type: 2}
+    mood: 1
+  - eventId: opening_grace_appointment_evening
+    requiredFlag: opening_grace_payoff
+    character: {fileID: 11400000, guid: b36cc8da13aa4914fae3a8b5aac0bf99, type: 2}
+    mood: 1
+  - eventId: opening_grace_makeup
+    requiredFlag: opening_grace_payoff
+    character: {fileID: 11400000, guid: b36cc8da13aa4914fae3a8b5aac0bf99, type: 2}
+    mood: 1
+  - eventId: opening_ploy_appointment_daytime
+    requiredFlag: opening_ploy_payoff
+    character: {fileID: 11400000, guid: 08140245bb9f0c54b8e6fd5c6e3d6ecf, type: 2}
+    mood: 1
+  - eventId: opening_ploy_appointment_evening
+    requiredFlag: opening_ploy_payoff
+    character: {fileID: 11400000, guid: 08140245bb9f0c54b8e6fd5c6e3d6ecf, type: 2}
+    mood: 1
+  - eventId: opening_ploy_makeup
+    requiredFlag: opening_ploy_payoff
+    character: {fileID: 11400000, guid: 08140245bb9f0c54b8e6fd5c6e3d6ecf, type: 2}
+    mood: 1
+  presentation: {fileID: 11400000, guid: 650c081cf56dbbc4aaf63800d1cc94bf, type: 2}
+  dailyHints:
+  - "\u0E25\u0E2D\u0E07\u0E1A\u0E17\u0E2A\u0E32\u0E23\u0E20\u0E32\u0E1E\u0E23\u0E31\u0E01
+    \u0E41\u0E25\u0E49\u0E27\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E1A\u0E31\u0E1A\u0E40\u0E1A\u0E34\u0E25\u0E02\u0E2D\u0E07\u0E04\u0E19\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E32\u0E01\u0E23\u0E39\u0E49\u0E08\u0E31\u0E01\u0E15\u0E48\u0E2D
+    \xB7 1 \u0E0A\u0E48\u0E27\u0E07 \u0E44\u0E21\u0E48\u0E25\u0E47\u0E2D\u0E01\u0E40\u0E2A\u0E49\u0E19\u0E17\u0E32\u0E07\u0E23\u0E31\u0E01"
+  - "\u0E04\u0E19\u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E43\u0E0A\u0E49\u0E40\u0E27\u0E25\u0E32\u0E14\u0E49\u0E27\u0E22\u0E21\u0E35\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E01\u0E25\u0E31\u0E1A\u0E21\u0E32\u0E04\u0E38\u0E22
+    \xB7 \u0E40\u0E25\u0E37\u0E2D\u0E01\u0E19\u0E31\u0E14\u0E0A\u0E48\u0E27\u0E07\u0E1A\u0E48\u0E32\u0E22\u0E2B\u0E23\u0E37\u0E2D\u0E40\u0E22\u0E47\u0E19\u0E44\u0E14\u0E49"
+  - "\u0E17\u0E35\u0E21\u0E21\u0E35\u0E09\u0E32\u0E01\u0E17\u0E35\u0E48\u0E41\u0E01\u0E49\u0E41\u0E25\u0E49\u0E27\u0E43\u0E2B\u0E49\u0E14\u0E39
+    \xB7 \u0E16\u0E49\u0E32\u0E23\u0E31\u0E1A\u0E19\u0E31\u0E14\u0E44\u0E27\u0E49
+    \u0E01\u0E14\u0E1A\u0E31\u0E1A\u0E40\u0E1A\u0E34\u0E25\u0E0A\u0E48\u0E27\u0E07\u0E17\u0E35\u0E48\u0E19\u0E31\u0E14\u0E01\u0E31\u0E19
+    \xB7 1 \u0E0A\u0E48\u0E27\u0E07"
+  - "\u0E19\u0E31\u0E14\u0E0A\u0E48\u0E27\u0E07\u0E1A\u0E48\u0E32\u0E22\u0E2B\u0E23\u0E37\u0E2D\u0E40\u0E22\u0E47\u0E19\u0E22\u0E31\u0E07\u0E21\u0E35\u0E16\u0E36\u0E07\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48
+    7 \xB7 \u0E01\u0E14\u0E15\u0E31\u0E27\u0E25\u0E30\u0E04\u0E23\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E14\u0E39\u0E04\u0E33\u0E40\u0E15\u0E37\u0E2D\u0E19\u0E19\u0E31\u0E14"
+  - "\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E23\u0E31\u0E1A\u0E19\u0E31\u0E14\u0E01\u0E47\u0E01\u0E25\u0E31\u0E1A\u0E44\u0E1B\u0E0A\u0E27\u0E19\u0E43\u0E2B\u0E21\u0E48\u0E44\u0E14\u0E49\u0E16\u0E36\u0E07\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48
+    6 \xB7 \u0E44\u0E21\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E04\u0E38\u0E22\u0E04\u0E23\u0E1A\u0E17\u0E38\u0E01\u0E04\u0E19"
+  - "\u0E27\u0E31\u0E19\u0E19\u0E35\u0E49\u0E22\u0E31\u0E07\u0E01\u0E25\u0E31\u0E1A\u0E44\u0E1B\u0E15\u0E01\u0E25\u0E07\u0E19\u0E31\u0E14\u0E44\u0E14\u0E49
+    \xB7 \u0E19\u0E31\u0E14\u0E40\u0E14\u0E34\u0E21\u0E22\u0E31\u0E07\u0E40\u0E25\u0E48\u0E19\u0E44\u0E14\u0E49\u0E16\u0E36\u0E07\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48
+    7"
+  - "\u0E27\u0E31\u0E19\u0E2A\u0E38\u0E14\u0E17\u0E49\u0E32\u0E22\u0E02\u0E2D\u0E07\u0E19\u0E31\u0E14\u0E41\u0E23\u0E01
+    \xB7 \u0E16\u0E49\u0E32\u0E04\u0E25\u0E32\u0E14\u0E01\u0E31\u0E19 \u0E22\u0E31\u0E07\u0E21\u0E35\u0E42\u0E2D\u0E01\u0E32\u0E2A\u0E01\u0E25\u0E31\u0E1A\u0E21\u0E32\u0E04\u0E38\u0E22\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48
+    8\u201310"
+  - "\u0E16\u0E49\u0E32\u0E04\u0E25\u0E32\u0E14\u0E19\u0E31\u0E14\u0E41\u0E23\u0E01
+    \u0E25\u0E2D\u0E07\u0E01\u0E25\u0E31\u0E1A\u0E44\u0E1B\u0E2B\u0E32\u0E04\u0E19\u0E19\u0E31\u0E49\u0E19
+    \xB7 \u0E40\u0E25\u0E48\u0E19\u0E15\u0E48\u0E2D\u0E01\u0E31\u0E1A\u0E04\u0E19\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E32\u0E01\u0E23\u0E39\u0E49\u0E08\u0E31\u0E01\u0E44\u0E14\u0E49\u0E15\u0E32\u0E21\u0E2A\u0E1A\u0E32\u0E22"
+  - "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E04\u0E19\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E32\u0E01\u0E43\u0E0A\u0E49\u0E40\u0E27\u0E25\u0E32\u0E14\u0E49\u0E27\u0E22
+    \xB7 \u0E04\u0E38\u0E22 \u0E17\u0E33\u0E07\u0E32\u0E19\u0E14\u0E49\u0E27\u0E22\u0E01\u0E31\u0E19
+    \u0E2B\u0E23\u0E37\u0E2D\u0E43\u0E2B\u0E49\u0E02\u0E2D\u0E07\u0E02\u0E27\u0E31\u0E0D\u0E44\u0E14\u0E49\u0E15\u0E32\u0E21\u0E1B\u0E01\u0E15\u0E34"
