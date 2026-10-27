@@ -117,7 +117,7 @@ Initial vocabulary to prove with the opening:
 | Shake | Target actor/stage/overlay, preset/intensity/duration; apply a transient offset rather than overwrite authored placement |
 | Emote / emoji | Character anchor, sprite/animation preset and duration; not a requirement to put emoji Unicode glyphs in the dialogue font |
 | Transition in/out | Explicit target, preset/duration/easing and completion mode |
-| Audio / Wait | Asset/channel or cancellable duration; no independent gameplay clock |
+| Audio / Wait | Asset/channel or cancellable duration; no independent gameplay clock. [Session 070 audio design](16_Audio_Authoring_And_Playback_Plan.md) specifies contextual selection, optional voice and playback ownership; not implemented. |
 | Gameplay intent | Calls existing validated `GameSession` transaction APIs, never an independent effect-handler reward system |
 
 Use an authored effect/preset registry and a presentation target registry. Resolve actors by stable character ID plus stage/portrait context; do not assume a room sprite and the VN portrait are the same target. Put transient offsets/overlays under a suitable authored presentation layer. Extend visual definitions using data-authored expression keys when needed, with legacy mappings; do not require C# enum edits as the normal expression-authoring workflow.
@@ -193,4 +193,4 @@ Use a compact semantic check set: all three opening branches/shared join, unchan
 
 ## Current handoff
 
-This plan and research exist; the new Story Workspace/document model/commands do not. Keep current Localization L2 and its CSV workflow active. Do not expand tiny-node SO navigation as the long-term authoring model, rewrite story/balance, resume Producer mechanics, regenerate all assets or advertise proposed controls as available. The next recommended implementation is Stage A, with Stage B deciding the runtime/storage choice before a broad refactor.
+Session 069 delivers a bounded [Stage A sandbox](../../Sandbox/StoryWorkspace/README.md), not the proposed document backend or command runtime. Session 070 adds the [owner trial guide](../02_Narrative_And_World/08_Story_Workspace_Owner_Trial.md) and [audio plan](16_Audio_Authoring_And_Playback_Plan.md); audio controls remain unimplemented. Owner acceptance of the existing sandbox is pending; acknowledgment/intention to test is not approval. Keep Localization L2 and its CSV workflow active, preserve production assets and use the sandbox gate before integration. Complete actual discovery/read/edit/Save/preview acceptance, with Stage B deciding runtime/storage ownership before broad migration. Do not rewrite story/balance, resume Producer mechanics, regenerate assets or advertise planned controls as available.

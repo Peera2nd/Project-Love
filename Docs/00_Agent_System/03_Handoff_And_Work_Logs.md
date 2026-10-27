@@ -2,7 +2,18 @@
 
 Read the current snapshot and newest session first. Add new English sessions at the top of History. Older records describe past state, not current approval. Keep backend logs concise; user communication and narrative/character documents remain Thai.
 
-## Current snapshot — Session 069 (repository baseline and isolated Story Workspace trial)
+## Current snapshot — Session 070 (owner trial guide and audio design)
+
+- **Owner request/status:** acknowledges the sandbox and intends to test; requests concrete trial steps and comprehensive music/effects/sparse-voice design focused on avoiding hundreds-item selection. This is not sandbox acceptance, audio implementation authorization or production adoption.
+- **Delivered guidance/design:** [Thai owner trial](../02_Narrative_And_World/08_Story_Workspace_Owner_Trial.md) uses actual controls and blank feedback; [audio plan](../04_Technical_And_Tools/16_Audio_Authoring_And_Playback_Plan.md) defines contextual speaker/locale/intent discovery, exact recordings versus reusable barks, explicit silent None, bank collections, stable anchors, shared-cue scope, isolated audition/mix, lifecycle, settings/save and staged acceptance. All new audio types/controls remain proposed, not implemented.
+- **Current implementation preserved:** Session 069 isolated Story Workspace and Session 064 localization L2 remain. No owned audio playback/library assets were found; written “voice variants” are not recordings. Keep production unchanged and the owner gate closed until actual feedback/approval. Sparse voice must remain optional; an empty voice slot must never implicitly play a character bark.
+- **Evidence/limits:** current source audit and official Unity 6000.3/Naninovel v1.21/Ren'Py docs, Markdown/reference/status checks only; no new code/assets/Unity/tests/playback or audio acquisition. Prior Session 069 checks are not audio evidence. Editor audio-preview API/mixer isolation needs a future technical and audible proof. ERR-108 records corrected stale plan footer. [Work log](WorkLogs/Session_070_Owner_Trial_And_Audio_Plan.md).
+
+## Latest session record — 070, 2026-10-27
+
+**Request:** practical sandbox test guidance and designer-first audio planning at scale. **Changes:** Thai trial guide, comprehensive English audio design and current canonical task/architecture/decision/handoff links. **Checks:** current controls/audio absence/save boundaries, official primary references and local links; production diff unchanged. **Limits:** owner trial feedback, audio implementation/audible verification and production adoption pending; no new runtime/compile/test result claimed.
+
+## Previous snapshot — Session 069 (repository baseline and isolated Story Workspace trial)
 
 - **Owner authorization:** set up the new Project-Love GitHub repository and build the new authoring UX in a separate sandbox before production adoption. Main baseline 5ae974ab2088914daffc195514cbe3ca6fab38ce was pushed and matched remote main; trial work is on sandbox/story-workspace. Preserve that boundary; do not merge/apply drafts automatically.
 - **Implemented:** [sandbox source/launcher/trial workflow](../../Sandbox/StoryWorkspace/README.md) creates an ignored separate Unity project, keeping experimental Editor/test code out of production Assets. Read-only graph index, all-branch manuscript/search/roster, all callers and destination/path gates, back/forward, persistent Thai/English draft overlay with Undo/Save, real detached selection probes and cloned-data same-view preview. Existing game C#/assets/packages/settings/localization/save ownership remain unchanged.

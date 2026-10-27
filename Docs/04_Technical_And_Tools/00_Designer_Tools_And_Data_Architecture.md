@@ -30,6 +30,8 @@ ConversationVariant now supports Stress bounds and overtimeOnly with existing af
 
 ## Designer Dashboard — planned scope
 
+**Session 070 audio proposal — not implemented:** [Audio Authoring and Playback Plan](16_Audio_Authoring_And_Playback_Plan.md) defines collection banks, stable cue/line anchors, optional None/recording/bark bindings, contextual selection, one presentation owner and save/preview gates. These are proposed types, not current fields. Retain one authoritative sidecar/document source; do not duplicate editable voice bindings across legacy nodes, scripts and CSV. Prove the workflow in the isolated sandbox before production/schema migration.
+
 **Session 067 next-generation proposal:** [Story authoring/presentation plan](15_Scalable_Story_Authoring_And_Presentation_Plan.md) defines proposed document/entry/block identity, shared manuscript/flow views, typed directing commands and legacy adapters/migration. These are conceptual schema names, not implemented types. Default text authority remains the existing catalog; a native script backend must explicitly resolve ownership rather than introduce another editable Thai copy. Do not replace current nodes/keys/GUIDs or save guards merely because this plan exists.
 
 Menu: `Tools/Project Love/Dashboard`. Intended tabs:

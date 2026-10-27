@@ -2,6 +2,13 @@
 
 Update at closeout. `[x]` complete, `[/]` in progress, `[ ]` pending, `[?]` owner decision.
 
+## Current design/guidance — Session 070: owner trial and audio authoring
+
+- [x] **T1.20 (Designed):** [Thai owner trial guide](../02_Narrative_And_World/08_Story_Workspace_Owner_Trial.md) with exact existing controls/expected outcomes and blank feedback; [comprehensive audio plan](../04_Technical_And_Tools/16_Audio_Authoring_And_Playback_Plan.md) for music/ambience/SFX/UI/sparse voice. Source audit and official Unity 6000.3/Naninovel v1.21/Ren'Py references; [work log](WorkLogs/Session_070_Owner_Trial_And_Audio_Plan.md).
+- [ ] **T1.21 (future sandbox audio proof):** contextual speaker/locale/intent picker, explicit silent slots, optional line recording/bark, collection banks, isolated audition/scene mix and lifecycle/source/save checks. No audio code/assets/controls are implemented or authorized to start by this planning request.
+- [?] **T1.15 owner trial still pending:** acknowledgment/intention to test is not UX approval. Record actual find/read/all-branches/context/edit/Undo/Save/reopen/preview results before adoption. Existing Session 069 evidence remains valid within its stated limits; no new Unity tests this document-only session.
+- Corrected the stale present-tense Story Workspace handoff footer (ERR-108). Production/runtime/localization scope and save compatibility remain unchanged.
+
 ## Current sandbox delivery — Session 069: repository and isolated authoring UX
 
 - [x] **T1.19:** initialized and pushed the supplied [GitHub repository](https://github.com/Peera2nd/Project-Love). `main` baseline `5ae974a`; caches/backups/generated sandbox/raw machine logs excluded, original assets/metas retained. [Work log](WorkLogs/Session_069_Repository_And_Story_Workspace_Sandbox.md).

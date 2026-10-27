@@ -10,6 +10,8 @@ Drafts live at `Assets/_Project/StorySandboxDrafts/TextDraft.asset` inside the g
 
 ## Owner trial
 
+[Thai owner trial guide](../../Docs/02_Narrative_And_World/08_Story_Workspace_Owner_Trial.md) gives exact current controls, expected observations and a blank feedback table. Owner acknowledgment/intention to test is not acceptance. The [audio plan](../../Docs/04_Technical_And_Tools/16_Audio_Authoring_And_Playback_Plan.md) is future scope; this sandbox does not yet select/play the proposed music/SFX/voice bindings.
+
 1. Read the initially selected opening in manuscript order. Follow every choice, its response and shared continuation; click a join to revisit it.
 2. Search a known phrase in Thai or English. Filter by speaking character, select the exact line and clear the query to read its context.
 3. Select a shared passage. Inspect all direct callers and registered root contexts; navigate back/forward. Expand the root-to-passage routes to inspect each path's separate choice gates.
