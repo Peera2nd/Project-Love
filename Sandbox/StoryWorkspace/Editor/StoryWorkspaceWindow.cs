@@ -2,351 +2,291 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using ProjectLove.Core;
 using ProjectLove.Data;
-using ProjectLove.EditorTools;
 using UnityEditor;
 using UnityEngine;
 
 namespace ProjectLove.StorySandbox
 {
-    public sealed class StoryWorkspaceWindow : EditorWindow
+    public sealed partial class StoryWorkspaceWindow:EditorWindow
     {
-        GameConfigSO game;
-        StoryIndex index;
-        StoryDraft draft;
-        StoryEntry entry;
-        DialogueNodeSO selected;
-        DialogueLine selectedLine;
-        DialogueChoice selectedChoice;
-        List<ScriptRow> rows;
-        Vector2 libraryScroll,scriptScroll,detailScroll;
-        string query="",notice="",flags="",completed="",probeResult="";
-        int speaker,kind,day=1,affection,phase,probeKind;
-        bool english,contextFold,sourceFold,filterTime;
-        readonly List<Tuple<StoryEntry,DialogueNodeSO>> history=new List<Tuple<StoryEntry,DialogueNodeSO>>();
-        int historyAt=-1;
-        DraftPreview preview;
-        GUIStyle body,small,heading,rowStyle;
-        string focusNode;
-
-        public static bool IsSandbox => File.Exists(Path.Combine(Application.dataPath,"../ProjectSettings/ProjectLoveStorySandbox.txt"));
-        [MenuItem("Project Love/ทดลองหน้ารวมบท (Sandbox)")]
+        WorkspaceProject project;StoryIndex index;StoryEntry entry;DialogueNodeSO selected;
+        string selectedLine,selectedChoice,query="",notice="",focusId,stateQuery="";
+        int libraryTab,sideTab,locale,speakerFilter;Vector2 libraryScroll,scriptScroll,sideScroll;
+        int indexedRevision=-1;List<ScriptRow> rows;
+        readonly List<Tuple<StoryEntry,DialogueNodeSO>> history=new List<Tuple<StoryEntry,DialogueNodeSO>>();int historyAt=-1;
+        WorkspacePlaytest test;WorkspaceGameView gameView;
+        int day=1,phase,affection,roomIndex,stateGroup;string seedFlags="",seedEvents="";
+        bool rawState,rawTrace,readHistory,advanced,showPaths,showVariables,showGameView=true;
+        GUIStyle body,small,heading;LineDrag dragCandidate;
+        sealed class LineDrag{public WorkspaceProject project;public DialogueNodeSO node;public string id;}
+        public static bool IsSandbox=>File.Exists(Path.Combine(Application.dataPath,"../ProjectSettings/ProjectLoveStorySandbox.txt"));
+        public static GUIContent C(string label,string tooltip)=>new GUIContent(label,tooltip);
+        [MenuItem("Project Love/Story Workspace")]
         public static void Open()
         {
-            if(!IsSandbox)throw new InvalidOperationException("เปิดผ่าน Sandbox/StoryWorkspace/Open-StorySandbox.ps1 เท่านั้น");
-            var w=GetWindow<StoryWorkspaceWindow>();w.titleContent=new GUIContent("ทดลองหน้ารวมบท");
-            w.minSize=new Vector2(1120,700);w.Show();
+            if(!IsSandbox)throw new InvalidOperationException("Open .sandbox/StoryWorkspaceProject first.");
+            var w=GetWindow<StoryWorkspaceWindow>("Story Workspace");w.minSize=new Vector2(1160,720);w.Show();
         }
-        void OnEnable()
+        void OnEnable(){minSize=new Vector2(1160,720);titleContent=new GUIContent("Story Workspace");Undo.undoRedoPerformed+=OnUndo;if(IsSandbox)EditorApplication.delayCall+=DeferredLoad;}
+        void DeferredLoad()
         {
-            minSize=new Vector2(1120,700);Undo.undoRedoPerformed+=OnUndo;
-            if(IsSandbox&&!SessionState.GetBool("StorySandbox.InitialPlacement",false))
-            {
-                position=new Rect(40,60,1440,900);
-                SessionState.SetBool("StorySandbox.InitialPlacement",true);
-            }
-            if(IsSandbox)Reload();
+            if(this==null||!IsSandbox)return;
+            if(EditorApplication.isCompiling||EditorApplication.isUpdating){EditorApplication.delayCall+=DeferredLoad;return;}
+            Reload();
         }
-        void OnDisable(){Undo.undoRedoPerformed-=OnUndo;preview?.Dispose();preview=null;}
-        void OnUndo(){preview?.Dispose();preview=null;Repaint();}
+        public WorkspaceProject Document=>project;
+        void OnDisable(){EditorApplication.delayCall-=DeferredLoad;Undo.undoRedoPerformed-=OnUndo;StopTest();}
+        void OnUndo(){indexedRevision=-1;StopTest();Repaint();}
         public void Reload()
         {
-            game=AssetDatabase.LoadAssetAtPath<GameConfigSO>(RomancePrototypeBuilder.ConfigPath);
-            if(game==null)return;
-            index=new StoryIndex(game);draft=StoryDraft.Load();history.Clear();historyAt=-1;
-            var opening=game.events.FirstOrDefault(e=>e.id=="romance_welcome");
-            var first=index.entries.FirstOrDefault(e=>e.story==opening)??index.entries.FirstOrDefault();
+            StopTest();project=WorkspaceProject.Open();Reindex();history.Clear();historyAt=-1;
+            var first=index.entries.FirstOrDefault(e=>e.story!=null&&e.story.id=="romance_welcome")??index.entries.FirstOrDefault();
             if(first!=null)Navigate(first,first.node);
         }
-        void Navigate(StoryEntry root,DialogueNodeSO node,bool record=true)
+        void Reindex()
         {
-            if(root==null||node==null)return;
-            entry=root;selected=node;selectedLine=null;selectedChoice=null;focusNode=node.id;
-            probeKind=root.kind=="คุยเล่น"?1:0;probeResult="";
-            rows=index.Manuscript(root.node);
-            if(record)
+            index=new StoryIndex(project.game,project.assets);indexedRevision=project.revision;
+            if(entry!=null)
             {
-                if(historyAt<history.Count-1)history.RemoveRange(historyAt+1,history.Count-historyAt-1);
-                history.Add(Tuple.Create(root,node));historyAt=history.Count-1;
+                var replacement=index.entries.FirstOrDefault(e=>e.owner==entry.owner&&e.sourceProperty==entry.sourceProperty&&e.node==entry.node);
+                if(replacement!=null)entry=replacement;
+                rows=index.Manuscript(entry.node);
             }
-            preview?.Dispose();preview=null;Repaint();
         }
-        void Go(StoryEntry root,DialogueNodeSO node){Navigate(root,node);GUIUtility.ExitGUI();}
-        void Jump(DialogueNodeSO n)
+        void Navigate(StoryEntry context,DialogueNodeSO node,bool record=true)
         {
-            if(n==null)return;
-            Go(entry.nodes.Contains(n)?entry:index.Callers(n).FirstOrDefault(),n);
+            if(context==null||node==null)return;entry=context;selected=node;selectedLine=null;selectedChoice=null;focusId=node.id;
+            rows=index.Manuscript(entry.node);
+            if(record){if(historyAt<history.Count-1)history.RemoveRange(historyAt+1,history.Count-historyAt-1);history.Add(Tuple.Create(context,node));historyAt=history.Count-1;}
+            Repaint();
         }
+        void Go(StoryEntry context,DialogueNodeSO node){Navigate(context,node);GUIUtility.ExitGUI();}
+        StoryEntry Context(DialogueNodeSO node)
+        {
+            if(entry!=null&&entry.nodes.Contains(node))return entry;
+            var caller=index.Callers(node).FirstOrDefault();if(caller!=null)return caller;
+            var orphan=new StoryEntry{node=node,owner=node,title=StoryIndex.Title(node),kind="Unlinked",gates="No registered caller"};
+            foreach(var row in index.Manuscript(node))if(row.node!=null)orphan.nodes.Add(row.node);return orphan;
+        }
+        void Change(Action edit,bool exit=false)
+        {
+            edit();indexedRevision=-1;StopTest();Repaint();if(exit)GUIUtility.ExitGUI();
+        }
+        void StopTest(){gameView?.Dispose();gameView=null;test?.Dispose();test=null;}
         void Styles()
         {
-            if(body!=null)return;
-            body=new GUIStyle(EditorStyles.label){wordWrap=true,fontSize=13};
-            small=new GUIStyle(body){fontSize=11};small.normal.textColor=new Color(.67f,.71f,.76f);
-            heading=new GUIStyle(EditorStyles.boldLabel){wordWrap=true,fontSize=15};
-            rowStyle=new GUIStyle(EditorStyles.helpBox){padding=new RectOffset(12,12,9,9)};
+            if(body!=null)return;body=new GUIStyle(EditorStyles.label){wordWrap=true,fontSize=12};
+            small=new GUIStyle(EditorStyles.miniLabel){wordWrap=true};heading=new GUIStyle(EditorStyles.boldLabel){wordWrap=true,fontSize=14};
         }
         void OnGUI()
         {
-            Styles();
-            if(!IsSandbox){EditorGUILayout.HelpBox("เครื่องมือนี้ใช้ได้เฉพาะโปรเจกต์ทดลอง",MessageType.Error);return;}
-            if(game==null||index==null){if(GUILayout.Button("โหลดข้อมูลทดลอง"))Reload();return;}
+            Styles();if(!IsSandbox){EditorGUILayout.HelpBox("Open StoryWorkspaceProject to edit the isolated copy.",MessageType.Info);return;}
+            if(project==null){if(GUILayout.Button("Open Workspace"))Reload();return;}
+            if(indexedRevision!=project.revision||indexedRevision<0)Reindex();
+            ProcessDrag();
             using(new EditorGUILayout.HorizontalScope(EditorStyles.toolbar))
             {
-                GUILayout.Label("STORY WORKSPACE  /  พื้นที่ทดลอง",EditorStyles.boldLabel);
-                GUILayout.FlexibleSpace();GUILayout.Label("ต้นฉบับเกม: อ่านอย่างเดียว",EditorStyles.miniLabel);
-                if(GUILayout.Button("วิธีลองใช้งาน",EditorStyles.toolbarButton,GUILayout.Width(95)))
-                    EditorUtility.DisplayDialog("ลองหน้ารวมบท","1. อ่านบทเปิดเรื่องตรงกลางและเลื่อนดูทั้งสามทางเลือก\n2. ค้นประโยคหรือกรองผู้พูดด้านซ้าย\n3. กดประโยคเพื่อแก้ไทย/อังกฤษด้านขวา แล้วลอง Ctrl+Z และบันทึกฉบับทดลอง\n4. ตรวจต้นทาง ปลายทาง และเงื่อนไขด้านขวา\n5. เลื่อนลงเพื่อเปิดตัวอย่างเกมจากข้อมูลสำเนา\n\nทุกการแก้ไขอยู่ในโปรเจกต์ทดลอง ยังไม่นำไปใช้กับเกมจริง","เริ่มลอง");
-                if(GUILayout.Button("บันทึกฉบับทดลอง"+(EditorUtility.IsDirty(draft)?" *":""),EditorStyles.toolbarButton,GUILayout.Width(155)))
-                {AssetDatabase.SaveAssetIfDirty(draft);notice="บันทึกข้อความฉบับทดลองแล้ว · ยังไม่ปรับใช้กับเกมจริง";}
+                GUILayout.Label(C("Story Workspace","Edit the isolated campaign copy. Script, flow, caller rules and playtest share this source."),EditorStyles.boldLabel);
+                if(GUILayout.Button(C("New Scene","Create a disabled scene with an entry block. Write it, set its trigger and enable it here."),EditorStyles.toolbarButton,GUILayout.Width(90)))
+                    Change(()=>{var scene=project.NewScene();Reindex();var root=index.entries.First(e=>e.story==scene);Navigate(root,root.node);sideTab=0;},true);
+                if(GUILayout.Button(C("Save","Save all workspace edits. This never writes to the production campaign."),EditorStyles.toolbarButton,GUILayout.Width(50)))project.Save();
+                if(GUILayout.Button(C("Validate","Check active scene links, conditions, localization and runtime rules."),EditorStyles.toolbarButton,GUILayout.Width(65)))Validate();
+                GUILayout.FlexibleSpace();GUILayout.Label(C("Sandbox"+(EditorUtility.IsDirty(project)?" *":""),"Workspace.asset owns these edits. Original campaign assets and player saves are unchanged."),EditorStyles.miniLabel);
+                locale=GUILayout.Toolbar(locale,new[]{C("TH","Edit Thai source text."),C("EN","Edit English. Empty translations use Thai at runtime.")},EditorStyles.toolbarButton,GUILayout.Width(80));
             }
-            EditorGUILayout.LabelField("แคมเปญ: "+game.name+"  ·  "+index.nodes.Count+" ช่วงบท  ·  "+draft.texts.Count+" ข้อความทดลอง",small);
-            if(!string.IsNullOrEmpty(notice))EditorGUILayout.HelpBox(notice,MessageType.Info);
+            if(!string.IsNullOrEmpty(notice))using(new EditorGUILayout.HorizontalScope())
+            {GUILayout.Label(notice,small);if(GUILayout.Button(C("×","Dismiss"),GUILayout.Width(24)))notice="";}
             using(new EditorGUILayout.HorizontalScope())
             {
-                using(new EditorGUILayout.VerticalScope(GUILayout.Width(255))){DrawLibrary();}
-                using(new EditorGUILayout.VerticalScope(GUILayout.ExpandWidth(true))){DrawScript();}
-                using(new EditorGUILayout.VerticalScope(GUILayout.Width(Mathf.Clamp(position.width*.27f,315,420)))){DrawDetails();}
+                using(new EditorGUILayout.VerticalScope(GUILayout.Width(235)))DrawLibrary();
+                using(new EditorGUILayout.VerticalScope(GUILayout.ExpandWidth(true)))DrawScript();
+                using(new EditorGUILayout.VerticalScope(GUILayout.Width(Mathf.Clamp(position.width*.29f,330,440))))
+                {
+                    sideTab=GUILayout.Toolbar(sideTab,new[]{C("Inspect","Edit trigger, conditions and selected choice results."),C("Flow","Trace incoming links, destinations and variable references."),C("Test","Run the actual caller or explicitly bypass entry gates."),C("State","Inspect the detached runtime values."),C("Trace","See what changed after each actual runner action.")});
+                    sideScroll=EditorGUILayout.BeginScrollView(sideScroll);
+                    if(sideTab==0)DrawInspect();else if(sideTab==1)DrawFlow();else if(sideTab==2)DrawTest();else if(sideTab==3)DrawState();else DrawTrace();
+                    EditorGUILayout.EndScrollView();
+                }
             }
         }
         void DrawLibrary()
         {
-            GUILayout.Label("คลังบท",heading);
             query=EditorGUILayout.TextField(query,EditorStyles.toolbarSearchField);
-            GUILayout.Label("ค้นไทย / อังกฤษ / ชื่อบท / ผู้พูด",small);
-            speaker=EditorGUILayout.Popup("มีผู้พูด",speaker,new[]{"ทุกคน"}.Concat(game.characters.Select(c=>c.displayName)).ToArray());
-            var kinds=new[]{"ทุกประเภท","อีเว้น","ทักทาย","คุยเล่น","กิจกรรม / ของขวัญ"};
-            kind=EditorGUILayout.Popup("ประเภท",kind,kinds);
-            filterTime=EditorGUILayout.ToggleLeft("กรองช่วงวัน / เวลา",filterTime);
-            if(filterTime)
-            {
-                day=EditorGUILayout.IntSlider("วันที่",day,1,game.totalDays);
-                phase=EditorGUILayout.Popup("ช่วงเวลา",phase,new[]{"เช้า","บ่าย","เย็น","กลางคืน"});
-                GUILayout.Label("กรองช่วงที่ระบุในข้อมูลเท่านั้น\nเงื่อนไขอื่นตรวจด้วยตัวลองบริบท",small);
-            }
-            var matches=index.entries.Where(e=>(kind==0||e.kind==kinds[kind])&&
-                (speaker==0||e.Speakers.Contains(game.characters[speaker-1]))&&
-                (!filterTime||InWindow(e))&&
-                (string.IsNullOrWhiteSpace(query)||StoryIndex.Contains(e.title+" "+e.gates,query)||e.nodes.Any(n=>StoryIndex.Matches(n,query,draft)))).ToList();
-            GUILayout.Label(matches.Count+" บริบท · นับจุดเรียกแยกกัน",small);
+            libraryTab=GUILayout.Toolbar(libraryTab,new[]{C("Scenes","Scheduled events, including disabled drafts."),C("Calls","Greetings, conversation pools and activity/gift callers."),C("Blocks","Every block, including unlinked writing.")});
+            speakerFilter=EditorGUILayout.Popup(C("Speaker","Filter contexts containing this speaker on any branch."),speakerFilter,new[]{"All"}.Concat(project.game.characters.Select(c=>c.displayName)).ToArray());
             libraryScroll=EditorGUILayout.BeginScrollView(libraryScroll);
-            foreach(var e in matches)
+            if(libraryTab==2)
             {
-                using(new EditorGUILayout.VerticalScope(rowStyle))
+                foreach(var n in index.nodes.Where(n=>StoryIndex.Matches(n,query)))
+                    if(GUILayout.Button(C(StoryIndex.Title(n),n.id),new GUIStyle(EditorStyles.miniButton){wordWrap=true,alignment=TextAnchor.MiddleLeft}))Go(Context(n),n);
+            }
+            else foreach(var e in index.entries.Where(e=>(libraryTab==0?e.story!=null:e.story==null)&&
+                (speakerFilter==0||e.Speakers.Contains(project.game.characters[speakerFilter-1]))&&
+                (string.IsNullOrWhiteSpace(query)||StoryIndex.Contains(e.title+" "+e.gates,query)||e.nodes.Any(n=>StoryIndex.Matches(n,query)))))
+            {
+                using(new EditorGUILayout.VerticalScope(EditorStyles.helpBox))
                 {
-                    var old=GUI.backgroundColor;if(e==entry)GUI.backgroundColor=new Color(.35f,.65f,.9f);
-                    if(GUILayout.Button(e.title,new GUIStyle(EditorStyles.label){wordWrap=true,fontStyle=FontStyle.Bold}))
-                        Go(e,string.IsNullOrWhiteSpace(query)?e.node:e.nodes.FirstOrDefault(n=>StoryIndex.Matches(n,query,draft))??e.node);
-                    GUI.backgroundColor=old;
-                    GUILayout.Label(e.kind+" · "+e.nodes.Sum(n=>n.lines.Length)+" บรรทัด",small);
+                    if(GUILayout.Button(C(e.title,e.kind+" · "+e.sourceProperty),new GUIStyle(EditorStyles.label){wordWrap=true,fontStyle=e.owner==entry?.owner?FontStyle.Bold:FontStyle.Normal}))
+                        Go(e,string.IsNullOrWhiteSpace(query)?e.node:e.nodes.FirstOrDefault(n=>StoryIndex.Matches(n,query))??e.node);
+                    GUILayout.Label(e.kind+(e.story!=null&&!project.game.events.Contains(e.story)?" · Draft":"")+" · "+e.nodes.Sum(n=>n.lines.Length)+" lines",small);
                     GUILayout.Label(string.Join(" · ",e.Speakers.Select(c=>c.displayName)),small);
-                    if(!string.IsNullOrWhiteSpace(query))foreach(var n in e.nodes)
-                        foreach(var l in n.lines.Where(l=>StoryIndex.Contains(draft.Thai(l.localizedText,l.SourceText)+" "+draft.English(l.localizedText),query)).Take(2))
-                            if(GUILayout.Button("↳ "+(l.speaker?.displayName??"คำบรรยาย")+": "+draft.Thai(l.localizedText,l.SourceText),small))
-                            {Navigate(e,n);selectedLine=l;GUIUtility.ExitGUI();}
                 }
             }
             EditorGUILayout.EndScrollView();
         }
         void DrawScript()
         {
-            if(entry==null)return;
+            if(entry==null||selected==null)return;
             using(new EditorGUILayout.HorizontalScope())
             {
-                using(new EditorGUI.DisabledScope(historyAt<=0))if(GUILayout.Button("←",GUILayout.Width(32)))
+                using(new EditorGUI.DisabledScope(historyAt<=0))if(GUILayout.Button(C("←","Previous location"),GUILayout.Width(26)))
                 {var h=history[--historyAt];Navigate(h.Item1,h.Item2,false);GUIUtility.ExitGUI();}
-                using(new EditorGUI.DisabledScope(historyAt>=history.Count-1))if(GUILayout.Button("→",GUILayout.Width(32)))
+                using(new EditorGUI.DisabledScope(historyAt>=history.Count-1))if(GUILayout.Button(C("→","Next location"),GUILayout.Width(26)))
                 {var h=history[++historyAt];Navigate(h.Item1,h.Item2,false);GUIUtility.ExitGUI();}
-                GUILayout.Label("บทเรียงต่อเนื่อง",heading);GUILayout.FlexibleSpace();english=GUILayout.Toggle(english,"แสดงอังกฤษ");
+                GUILayout.Label(entry.title,heading);
             }
-            GUILayout.Label(entry.title,heading);
-            GUILayout.Label("ผู้พูดทั้งหมด: "+string.Join(" · ",entry.Speakers.Select(c=>c.displayName))+(entry.nodes.Any(n=>n.lines.Any(l=>l.speaker==null))?" · คำบรรยาย":""),small);
-            GUILayout.Label("แสดงทุกแขนงที่เป็นไปได้ · จุดรวมอ่านครั้งเดียว กด ↪ เพื่อย้อนดู · กดประโยคเพื่อแก้ฉบับทดลอง",small);
             scriptScroll=EditorGUILayout.BeginScrollView(scriptScroll);
             foreach(var row in rows)
             {
-                GUILayout.Space(row.line==null?6:1);
                 using(new EditorGUILayout.HorizontalScope())
                 {
-                    GUILayout.Space(Mathf.Min(row.depth,4)*16);
-                    using(new EditorGUILayout.VerticalScope(rowStyle))
+                    GUILayout.Space(Mathf.Min(row.depth,3)*12);
+                    using(new EditorGUILayout.VerticalScope())
                     {
-                        var rect=GUILayoutUtility.GetRect(0,0);
-                        if(Event.current.type==EventType.Repaint&&!string.IsNullOrEmpty(focusNode)&&focusNode==row.node?.id&&row.line==null&&row.choice==null)
-                        {scriptScroll.y=Mathf.Max(0,rect.y-8);focusNode=null;Repaint();}
-                        if(row.line!=null)
-                        {
-                            bool active=selectedLine==row.line;
-                            GUILayout.Label((active?"● ":"")+(row.line.speaker?.displayName??"คำบรรยาย")+"  ·  "+Expression(row.line.expression),small);
-                            if(GUILayout.Button(draft.Thai(row.line.localizedText,row.line.SourceText),body))
-                            {selected=row.node;selectedLine=row.line;selectedChoice=null;}
-                            if(english)GUILayout.Label(English(row.line.localizedText),small);
-                        }
-                        else if(row.choice!=null)
-                        {
-                            GUILayout.Label("ทางเลือก → "+StoryIndex.Title(row.choice.nextNode),small);
-                            if(GUILayout.Button(draft.Thai(row.choice.localizedText,row.choice.SourceText),body))
-                            {selected=row.node;selectedLine=null;selectedChoice=row.choice;}
-                            if(english)GUILayout.Label(English(row.choice.localizedText),small);
-                            GUILayout.Label(StoryIndex.Conditions(row.choice.conditions),small);
-                        }
+                        if(row.line!=null)DrawLine(row.node,row.line);
+                        else if(row.choice!=null)DrawChoice(row.node,row.choice);
                         else if(row.reference)
-                        {if(GUILayout.Button(row.label,body))Jump(row.node);}
+                        {if(GUILayout.Button(C("↪ "+StoryIndex.Title(row.node),"Shared join. Jump to the existing block; no duplicated writing.")))Go(entry,row.node);}
                         else if(row.node!=null)
                         {
-                            if(GUILayout.Button((row.node==selected?"● ":"")+row.label,heading))
-                            {selected=row.node;selectedLine=null;selectedChoice=null;}
+                            var n=row.node;
+                            using(new EditorGUILayout.HorizontalScope(EditorStyles.toolbar))
+                            {
+                                if(GUILayout.Button(C(n==selected?"●":"○","Select block and inspect its flow."),EditorStyles.toolbarButton,GUILayout.Width(24)))
+                                {selected=n;selectedLine=null;selectedChoice=null;}
+                                string title=EditorGUILayout.DelayedTextField(n.displayName);
+                                GUI.Label(GUILayoutUtility.GetLastRect(),C("","Block title. Renaming does not change its stable identity."));
+                                if(title!=n.displayName)Change(()=>{project.Edit("Rename block",n);n.displayName=title;});
+                                int uses=index.Callers(n).Count();if(uses>1)GUILayout.Label(C("Shared",$"Used by {uses} caller contexts. Edits affect all of them."),EditorStyles.miniLabel,GUILayout.Width(45));
+                                if(GUILayout.Button(C("+ Line","Append a line. Drag its handle to any insertion gap."),EditorStyles.toolbarButton,GUILayout.Width(48)))Change(()=>project.AddLine(n,n.lines.Length),true);
+                                if(GUILayout.Button(C("+ Choice","Add a response with conditions, results and a destination."),EditorStyles.toolbarButton,GUILayout.Width(62)))Change(()=>{var c=project.AddChoice(n);selected=n;selectedChoice=c.choiceId;selectedLine=null;sideTab=0;},true);
+                                if(GUILayout.Button(C("+ Block","Insert a block after these lines, before its previous continuation/choices."),EditorStyles.toolbarButton,GUILayout.Width(56)))Change(()=>{var next=project.InsertBlock(n,n.lines.Length);selected=next;focusId=next.id;},true);
+                            }
+                            var rect=GUILayoutUtility.GetLastRect();ScrollTo(n.id,rect);
+                            DropGap(n,0);
                         }
-                        else GUILayout.Label("— จบบท —",small);
+                        else GUILayout.Label(C("End","This conversation ends here. The game may select another event later."),small);
                     }
                 }
             }
             EditorGUILayout.EndScrollView();
         }
-        string English(LocalizedTextRef text)
+        void DrawLine(DialogueNodeSO node,DialogueLine line)
         {
-            string value=draft.English(text);return string.IsNullOrWhiteSpace(value)?"EN: ยังไม่มีคำแปล · ตัวอย่างใช้ไทยแทน":"EN: "+value;
-        }
-        static string Expression(CharacterExpression e)=>new[]{"ปกติ","ยิ้ม","โกรธ","เศร้า","เขิน","ตกใจ"}[(int)e];
-        void DrawDetails()
-        {
-            detailScroll=EditorGUILayout.BeginScrollView(detailScroll);
-            if(selected==null){EditorGUILayout.EndScrollView();return;}
-            GUILayout.Label("บริบทและปลายทาง",heading);
-            GUILayout.Label(StoryIndex.Title(selected),body);
-            if(selectedLine!=null||selectedChoice!=null)DrawEdit();
-            EditorGUILayout.Space();GUILayout.Label("บริบทที่กำลังอ่าน",EditorStyles.boldLabel);
-            GUILayout.Label(entry.title,body);GUILayout.Label(entry.gates,small);
-            contextFold=EditorGUILayout.Foldout(contextFold,"เส้นทางจากต้นเรื่องถึงช่วงนี้ (ทุกทาง)",true);
-            if(contextFold)DrawPaths(entry.node,selected,new HashSet<DialogueNodeSO>(),new List<string>());
-            GUILayout.Label("ต้นทางโดยตรง",EditorStyles.boldLabel);
-            foreach(var caller in index.entries.Where(e=>e.node==selected))
-                if(GUILayout.Button("เริ่มจาก: "+caller.title+" · "+caller.kind,body))Go(caller,selected);
-            foreach(var edge in index.Incoming(selected))
+            using(new EditorGUILayout.VerticalScope(EditorStyles.helpBox))
             {
-                if(GUILayout.Button("← "+StoryIndex.Title(edge.from)+"\n"+EdgeLabel(edge),body))Jump(edge.from);
-                if(edge.choice!=null)GUILayout.Label(StoryIndex.Conditions(edge.choice.conditions),small);
-            }
-            GUILayout.Label("ไปต่อ / แต่ละทางเลือก",EditorStyles.boldLabel);
-            var outgoing=index.Outgoing(selected).ToArray();
-            if(outgoing.Length==0)GUILayout.Label("จบบท",small);
-            foreach(var edge in outgoing)
-            {
-                using(new EditorGUILayout.VerticalScope(EditorStyles.helpBox))
+                using(new EditorGUILayout.HorizontalScope())
                 {
-                    if(GUILayout.Button(EdgeLabel(edge)+" → "+StoryIndex.Title(edge.to),body)&&edge.to!=null)Jump(edge.to);
-                    if(edge.to!=null&&edge.to.lines.Length>0)GUILayout.Label("ตอบ: "+(edge.to.lines[0].speaker?.displayName??"คำบรรยาย")+" · "+draft.Thai(edge.to.lines[0].localizedText,edge.to.lines[0].SourceText),small);
-                    if(edge.choice!=null)
-                    {
-                        GUILayout.Label(StoryIndex.Conditions(edge.choice.conditions),small);
-                        GUILayout.Label($"ค่าใช้จ่าย AP {edge.choice.actionPointCost} · พลังงาน {edge.choice.staminaCost}",small);
-                        foreach(var effect in edge.choice.effects)GUILayout.Label((effect.character?.displayName??"")+" "+StoryIndex.Stat(effect.stat)+" "+effect.amount.ToString("+0;-0;0"),small);
-                        foreach(var flag in edge.choice.flags)GUILayout.Label("ธง "+flag.flagId+" = "+(flag.value?"มี":"ไม่มี"),small);
-                        if(edge.choice.workAction!=DialogueWorkAction.None)GUILayout.Label("คำสั่งงาน: "+edge.choice.workAction,small);
-                        foreach(var workload in edge.choice.activateWorkloads)GUILayout.Label("เปิดงาน: "+workload,small);
-                    }
+                    var handle=GUILayoutUtility.GetRect(C("⋮⋮","Drag this line to a gap, including another block."),EditorStyles.miniButton,GUILayout.Width(22));
+                    GUI.Label(handle,"⋮⋮",EditorStyles.miniButton);
+                    if(Event.current.type==EventType.MouseDown&&handle.Contains(Event.current.mousePosition)){dragCandidate=new LineDrag{project=project,node=node,id=line.lineId};Event.current.Use();}
+                    if(GUILayout.Button(C(selectedLine==line.lineId?"●":"○","Select line. See its caller, flow and state references."),GUILayout.Width(22))){selected=node;selectedLine=line.lineId;selectedChoice=null;}
+                    int actor=line.speaker==null?0:Array.IndexOf(project.game.characters,line.speaker)+1;
+                    int nextActor=EditorGUILayout.Popup(actor,new[]{"Narrator"}.Concat(project.game.characters.Select(c=>c.displayName)).ToArray(),GUILayout.MinWidth(85));
+                    GUI.Label(GUILayoutUtility.GetLastRect(),C("","Speaker. Choose Narrator for stage directions or narration."));
+                    var expression=(CharacterExpression)EditorGUILayout.EnumPopup(line.expression,GUILayout.Width(90));
+                    GUI.Label(GUILayoutUtility.GetLastRect(),C("","Expression used by the character portrait on this line."));
+                    if(actor!=nextActor||expression!=line.expression)Change(()=>{project.Edit("Edit performance",node);line.speaker=nextActor==0?null:project.game.characters[nextActor-1];line.expression=expression;});
+                    if(GUILayout.Button(C("↑","Move line up"),GUILayout.Width(22)))Change(()=>project.MoveLine(node,line.lineId,node,Math.Max(0,Array.IndexOf(node.lines,line)-1)),true);
+                    if(GUILayout.Button(C("↓","Move line down"),GUILayout.Width(22)))Change(()=>project.MoveLine(node,line.lineId,node,Array.IndexOf(node.lines,line)+2),true);
+                    if(GUILayout.Button(C("×","Delete line. Undo restores it."),GUILayout.Width(22)))Change(()=>{project.Edit("Delete line",node);node.lines=node.lines.Where(l=>l!=line).ToArray();},true);
+                }
+                DrawText(line.localizedText,line.SourceText);
+                ScrollTo(line.lineId,GUILayoutUtility.GetLastRect());
+            }
+            DropGap(node,Array.IndexOf(node.lines,line)+1);
+        }
+        void DrawChoice(DialogueNodeSO node,DialogueChoice choice)
+        {
+            using(new EditorGUILayout.VerticalScope(EditorStyles.helpBox))
+            {
+                using(new EditorGUILayout.HorizontalScope())
+                {
+                    if(GUILayout.Button(C(selectedChoice==choice.choiceId?"● Choice":"Choice","Edit this choice's conditions and results in Inspect."),GUILayout.Width(80)))
+                    {selected=node;selectedChoice=choice.choiceId;selectedLine=null;sideTab=0;}
+                    GUILayout.FlexibleSpace();
+                    if(GUILayout.Button(C("↑","Move choice up without changing its ID or results."),GUILayout.Width(22)))Change(()=>MoveChoice(node,choice,-1),true);
+                    if(GUILayout.Button(C("↓","Move choice down without changing its ID or results."),GUILayout.Width(22)))Change(()=>MoveChoice(node,choice,1),true);
+                    if(GUILayout.Button(C("×","Delete choice. Undo restores it."),GUILayout.Width(22)))Change(()=>{project.Edit("Delete choice",node);node.choices=node.choices.Where(c=>c!=choice).ToArray();},true);
+                }
+                DrawText(choice.localizedText,choice.SourceText);
+                using(new EditorGUILayout.HorizontalScope())
+                {
+                    if(GUILayout.Button(C("→ "+StoryIndex.Title(choice.nextNode),"Jump to this response or ending."),EditorStyles.miniButton)&&choice.nextNode!=null)Go(Context(choice.nextNode),choice.nextNode);
+                    if(GUILayout.Button(C("Link","Choose a destination with search."),EditorStyles.miniButton,GUILayout.Width(40)))PickNode(choice.nextNode,n=>Change(()=>{project.Edit("Link choice",node);choice.nextNode=n;}));
+                    if(GUILayout.Button(C("+ Reply","Create and connect a response block."),EditorStyles.miniButton,GUILayout.Width(55)))Change(()=>{var reply=ScriptableObject.CreateInstance<DialogueNodeSO>();project.Edit("Create reply",node);reply.id=Guid.NewGuid().ToString("N");reply.displayName="Untitled Reply";reply.name=reply.id;AssetDatabase.AddObjectToAsset(reply,project);Undo.RegisterCreatedObjectUndo(reply,"Create reply");project.assets.Add(reply);project.AddLine(reply,0);choice.nextNode=reply;focusId=reply.id;},true);
                 }
             }
-            GUILayout.Label("ถูกใช้ในบริบทใดบ้าง",EditorStyles.boldLabel);
-            foreach(var root in index.Callers(selected))
-                if(GUILayout.Button(root.title+" · "+root.kind+"\nเริ่มที่: "+StoryIndex.Title(root.node),small))Go(root,selected);
-            DrawProbe();
-            EditorGUILayout.Space();GUILayout.Label("ตัวอย่างเกมจากฉบับทดลอง",EditorStyles.boldLabel);
-            GUILayout.Label("เริ่มตรงช่วงที่เลือก ข้ามเงื่อนไขเข้าถึง · ใช้หน้าจอเกมเดิมกับสถานะแยก",small);
-            if(GUILayout.Button("เปิด / เริ่มตัวอย่างช่วงนี้ใหม่"))
-            {
-                preview?.Dispose();preview=null;
-                try{preview=new DraftPreview(game,selected,draft,day,(DayPhase)phase,english?"en":"th");notice=preview.view.Notice??"ตัวอย่างแยกพร้อมอ่าน";}
-                catch(Exception e){notice=e.Message;}
-            }
-            if(preview!=null)
-            {
-                var rect=GUILayoutUtility.GetAspectRect(16f/9f);
-                if(Event.current.type==EventType.Repaint)GUI.DrawTexture(rect,preview.view.Render(960,540),ScaleMode.ScaleToFit,false);
-                var runner=preview.view.Session.Dialogue;
-                if(runner.ChoicesReady)
-                {foreach(var c in runner.Node.choices)using(new EditorGUI.DisabledScope(!runner.CanChoose(c)))if(GUILayout.Button(preview.view.Session.Localization.Choice(runner.Node,c),body))preview.view.Choose(c);}
-                else if(runner.IsActive&&GUILayout.Button("อ่านต่อ"))preview.view.Advance();
-            }
-            sourceFold=EditorGUILayout.Foldout(sourceFold,"รหัส / ไฟล์ต้นทาง (อ่านอย่างเดียว)",true);
-            if(sourceFold)
-            {
-                EditorGUILayout.SelectableLabel(AssetDatabase.GetAssetPath(selected),small,GUILayout.Height(42));
-                if(GUILayout.Button("แสดงไฟล์ต้นทางใน Project"))EditorGUIUtility.PingObject(selected);
-                EditorGUILayout.SelectableLabel(selectedLine?.localizedText.key??selectedChoice?.localizedText.key??selected.id,small,GUILayout.Height(42));
-            }
-            EditorGUILayout.EndScrollView();
         }
-        void DrawEdit()
+        void DrawText(LocalizedTextRef text,string fallback)
         {
-            var text=selectedLine!=null?selectedLine.localizedText:selectedChoice.localizedText;
-            var fallback=selectedLine!=null?selectedLine.SourceText:selectedChoice.SourceText;
-            EditorGUILayout.Space();GUILayout.Label("แก้เฉพาะฉบับทดลอง",EditorStyles.boldLabel);
-            if(text.catalog==null){EditorGUILayout.HelpBox("ยังไม่มีคีย์ภาษา · ต้นแบบนี้ไม่สร้างคีย์หรือแก้ต้นฉบับ",MessageType.Warning);return;}
-            EditorGUI.BeginChangeCheck();
-            GUILayout.Label("ไทย",small);string th;
-            using(new EditorGUILayout.VerticalScope(EditorStyles.helpBox))th=EditorGUILayout.TextArea(draft.Thai(text,fallback),GUILayout.MinHeight(80));
-            GUILayout.Label("English (เว้นว่างได้)",small);string en;
-            using(new EditorGUILayout.VerticalScope(EditorStyles.helpBox))en=EditorGUILayout.TextArea(draft.English(text),GUILayout.MinHeight(60));
-            if(EditorGUI.EndChangeCheck())
+            var item=text.catalog?.Find(text.key);if(item==null){GUILayout.Label(fallback,body);return;}
+            string original=locale==0?item.thai:item.english;
+            string value=EditorGUILayout.TextArea(original??"",GUILayout.MinHeight(40));
+            GUI.Label(GUILayoutUtility.GetLastRect(),C("",locale==0?"Thai source. Edits mark the existing English translation for review.":"English translation. Empty uses Thai at runtime."));
+            if(value!=(original??""))try{Change(()=>project.SetText(text,locale==0?value:item.thai,locale==1?value:item.english));}catch(Exception e){notice=e.Message;}
+        }
+        void ScrollTo(string id,Rect rect)
+        {if(Event.current.type==EventType.Repaint&&!string.IsNullOrEmpty(focusId)&&focusId==id){scriptScroll.y=Mathf.Max(0,rect.y-10);focusId=null;Repaint();}}
+        void ProcessDrag()
+        {
+            if(dragCandidate!=null&&Event.current.type==EventType.MouseDrag)
+            {DragAndDrop.PrepareStartDrag();DragAndDrop.SetGenericData("StoryWorkspace.Line",dragCandidate);DragAndDrop.StartDrag("Move line");dragCandidate=null;Event.current.Use();}
+            if(Event.current.type==EventType.MouseUp)dragCandidate=null;
+        }
+        void DropGap(DialogueNodeSO node,int slot)
+        {
+            var rect=GUILayoutUtility.GetRect(0,8,GUILayout.ExpandWidth(true));var payload=DragAndDrop.GetGenericData("StoryWorkspace.Line") as LineDrag;
+            GUI.Label(rect,C("","Click to insert a line. Drop a line here to move it between lines or blocks."));
+            if(!rect.Contains(Event.current.mousePosition))return;
+            if(payload!=null&&payload.project==project&&(Event.current.type==EventType.DragUpdated||Event.current.type==EventType.DragPerform))
             {
-                draft.Set(text,th,en);preview?.Dispose();preview=null;
-                notice=string.IsNullOrWhiteSpace(th)?"ข้อความไทยว่าง · เติมก่อนลองเล่น":"มีการแก้ไขฉบับทดลอง · Ctrl+Z ย้อนกลับ · กดบันทึกด้านบน";
+                DragAndDrop.visualMode=DragAndDropVisualMode.Move;
+                if(Event.current.type==EventType.DragPerform){DragAndDrop.AcceptDrag();DragAndDrop.SetGenericData("StoryWorkspace.Line",null);Change(()=>project.MoveLine(payload.node,payload.id,node,slot),true);}
+                Event.current.Use();
+            }
+            if(Event.current.type==EventType.Repaint)EditorGUI.DrawRect(new Rect(rect.x,rect.y+3,rect.width,2),new Color(.3f,.65f,1f));
+            if(Event.current.type==EventType.MouseDown){Change(()=>project.AddLine(node,slot),true);}
+        }
+        void PickNode(DialogueNodeSO current,Action<DialogueNodeSO> pick)
+        {PopupWindow.Show(GUILayoutUtility.GetLastRect(),new BlockPicker(index.nodes,current,pick));}
+        void MoveChoice(DialogueNodeSO node,DialogueChoice choice,int direction)
+        {
+            int i=Array.IndexOf(node.choices,choice),j=Mathf.Clamp(i+direction,0,node.choices.Length-1);if(i==j)return;
+            project.Edit("Reorder choice",node);var other=node.choices[j];node.choices[j]=choice;node.choices[i]=other;
+        }
+        sealed class BlockPicker:PopupWindowContent
+        {
+            readonly IEnumerable<DialogueNodeSO> nodes;readonly Action<DialogueNodeSO> pick;readonly DialogueNodeSO current;string search="";Vector2 scroll;
+            public BlockPicker(IEnumerable<DialogueNodeSO> nodes,DialogueNodeSO current,Action<DialogueNodeSO> pick){this.nodes=nodes;this.current=current;this.pick=pick;}
+            public override Vector2 GetWindowSize()=>new Vector2(350,330);
+            public override void OnGUI(Rect rect)
+            {
+                search=EditorGUILayout.TextField(search,EditorStyles.toolbarSearchField);
+                if(GUILayout.Button(C("End","End this conversation without a destination."))){pick(null);editorWindow.Close();}
+                scroll=EditorGUILayout.BeginScrollView(scroll);
+                foreach(var node in nodes.Where(n=>StoryIndex.Contains(StoryIndex.Title(n)+" "+n.id,search)))
+                    if(GUILayout.Button(C((node==current?"● ":"")+StoryIndex.Title(node),node.id),new GUIStyle(EditorStyles.miniButton){wordWrap=true})){pick(node);editorWindow.Close();}
+                EditorGUILayout.EndScrollView();
             }
         }
-        void DrawPaths(DialogueNodeSO current,DialogueNodeSO target,HashSet<DialogueNodeSO> visited,List<string> path)
+        void Validate()
         {
-            if(current==null||!visited.Add(current))return;
-            if(current==target)GUILayout.Label(path.Count==0?"เริ่มที่บทนี้":string.Join("\n↓ ",path),small);
-            else foreach(var edge in index.Outgoing(current))
-            {
-                path.Add(StoryIndex.Title(current)+" → "+EdgeLabel(edge)+(edge.choice==null?"":"\n"+StoryIndex.Conditions(edge.choice.conditions)));
-                DrawPaths(edge.to,target,visited,path);path.RemoveAt(path.Count-1);
-            }
-            visited.Remove(current);
-        }
-        void DrawProbe()
-        {
-            EditorGUILayout.Space();GUILayout.Label("ลองบริบทด้วยระบบเลือกบทจริง",EditorStyles.boldLabel);
-            day=EditorGUILayout.IntSlider("วันที่",day,1,game.totalDays);
-            phase=EditorGUILayout.Popup("ช่วงเวลา",phase,new[]{"เช้า","บ่าย","เย็น","กลางคืน"});
-            affection=EditorGUILayout.IntSlider("ความสนิท",affection,0,100);
-            flags=EditorGUILayout.TextField("ธงที่มี (คั่น ,)",flags);
-            completed=EditorGUILayout.TextField("อีเว้นที่จบ (คั่น ,)",completed);
-            GUILayout.Label("ห้อง/ความเครียด/งาน ใช้สถานะเริ่มต้นของเกม · ไม่ใช่เซฟผู้เล่น",small);
-            if(entry.story==null&&entry.character!=null)probeKind=GUILayout.Toolbar(probeKind,new[]{"ทักทาย","คุยเล่น"});
-            bool supported=entry.story!=null||entry.character!=null;
-            using(new EditorGUI.DisabledScope(!supported))if(GUILayout.Button("ตรวจการเข้าถึงในบริบทนี้"))
-            {
-                try
-                {
-                    if(entry.story!=null)
-                    {
-                        var session=new GameSession(game);session.State.day=day;session.State.phase=(DayPhase)phase;
-                        foreach(var c in session.State.characters)c.affection=affection;
-                        foreach(var f in Split(flags))if(!session.State.flags.Contains(f))session.State.flags.Add(f);
-                        foreach(var e in Split(completed))if(!session.State.completedEvents.Contains(e))session.State.completedEvents.Add(e);
-                        bool ready=session.CanStartEvent(entry.story);
-                        probeResult=(ready?"ผ่านการเข้าถึงอีเว้น":"ยังไม่พร้อม: "+AuthoringCatalog.ExplainBlockedEvent(session,entry.story));
-                    }
-                    else
-                    {
-                        probeResult=ConversationPoolEditor.Probe(game,entry.character,probeKind==0,affection,day,(DayPhase)phase,flags,completed,out var chosen);
-                        if(chosen!=null)probeResult+="\nรหัสบท: "+chosen.id;
-                    }
-                }
-                catch(Exception e){probeResult="ตรวจไม่ได้: "+e.Message;}
-            }
-            if(!supported)GUILayout.Label("ตัวเรียกประเภทนี้ยังไม่มีตัวลองบริบทในต้นแบบ",small);
-            if(!string.IsNullOrEmpty(probeResult))EditorGUILayout.HelpBox(probeResult,MessageType.Info);
-        }
-        static IEnumerable<string> Split(string value)=>value.Split(',').Select(v=>v.Trim()).Where(v=>v.Length>0);
-        string EdgeLabel(StoryEdge edge)=>edge.choice==null?"อ่านต่อ":draft.Thai(edge.choice.localizedText,edge.choice.SourceText);
-        bool InWindow(StoryEntry e)
-        {
-            if(e.story!=null)return day>=e.story.startDay&&day<=e.story.endDay&&(e.story.anyPhase||(int)e.story.triggerPhase==phase);
-            if(e.variant!=null)return day>=e.variant.startDay&&day<=e.variant.endDay&&(e.variant.anyPhase||(int)e.variant.phase==phase);
-            return true;
+            var issues=ProjectLove.Simulation.EventScheduler.ValidateCatalog(project.game);
+            try{_ =new ProjectLove.Core.GameSession(project.game);}catch(Exception e){issues.Add(e.Message);}
+            foreach(var e in project.game.localization.catalog.entries){var error=ProjectLove.Core.LocalizationService.ValidateTranslation(e.thai,e.english);if(error!=null)issues.Add(e.key+": "+error);}
+            notice=issues.Count==0?"No issues in active scenes.":string.Join("\n",issues.Distinct().Take(10));
         }
     }
 }

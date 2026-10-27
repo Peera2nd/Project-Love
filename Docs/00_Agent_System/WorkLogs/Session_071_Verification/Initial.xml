@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="9" result="Passed" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-27 06:08:41Z" end-time="2026-10-27 06:08:45Z" duration="4.506845">
+  <test-suite type="TestSuite" id="1000" name="Project Love" fullname="Project Love" runstate="Runnable" testcasecount="215" result="Passed" start-time="2026-10-27 06:08:41Z" end-time="2026-10-27 06:08:45Z" duration="4.506845" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1012" name="ProjectLove.StorySandbox.Tests.dll" fullname="D:/Work/Unity/Project_Game/Visual Novel/.verify/Library/ScriptAssemblies/ProjectLove.StorySandbox.Tests.dll" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-27 06:08:41Z" end-time="2026-10-27 06:08:45Z" duration="4.499516" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="1440" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1013" name="ProjectLove" fullname="ProjectLove" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-27 06:08:41Z" end-time="2026-10-27 06:08:45Z" duration="4.499108" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1014" name="StorySandbox" fullname="ProjectLove.StorySandbox" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-27 06:08:41Z" end-time="2026-10-27 06:08:45Z" duration="4.499002" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1015" name="Tests" fullname="ProjectLove.StorySandbox.Tests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-27 06:08:41Z" end-time="2026-10-27 06:08:45Z" duration="4.498830" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="StoryWorkspaceTests" fullname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests" classname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-27 06:08:41Z" end-time="2026-10-27 06:08:44Z" duration="3.422709" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1003" name="AllRegisteredCallersRemainSeparateAndSearchFindsExactLocalizedLine" fullname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests.AllRegisteredCallersRemainSeparateAndSearchFindsExactLocalizedLine" methodname="AllRegisteredCallersRemainSeparateAndSearchFindsExactLocalizedLine" classname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests" runstate="Runnable" seed="2096584943" result="Passed" start-time="2026-10-27 06:08:41Z" end-time="2026-10-27 06:08:42Z" duration="0.827114" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1006" name="DetachedDraftPreviewUsesSameGameViewAndPreservesSourceAndPreferences" fullname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests.DetachedDraftPreviewUsesSameGameViewAndPreservesSourceAndPreferences" methodname="DetachedDraftPreviewUsesSameGameViewAndPreservesSourceAndPreferences" classname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests" runstate="Runnable" seed="8680977" result="Passed" start-time="2026-10-27 06:08:42Z" end-time="2026-10-27 06:08:43Z" duration="1.051439" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1004" name="DraftUndoSaveReloadNeverWritesSourceCatalog" fullname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests.DraftUndoSaveReloadNeverWritesSourceCatalog" methodname="DraftUndoSaveReloadNeverWritesSourceCatalog" classname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests" runstate="Runnable" seed="502678788" result="Passed" start-time="2026-10-27 06:08:43Z" end-time="2026-10-27 06:08:43Z" duration="0.295097" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1002" name="OpeningManuscriptIncludesAllResponsesAndSharedJoin" fullname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests.OpeningManuscriptIncludesAllResponsesAndSharedJoin" methodname="OpeningManuscriptIncludesAllResponsesAndSharedJoin" classname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests" runstate="Runnable" seed="12234553" result="Passed" start-time="2026-10-27 06:08:43Z" end-time="2026-10-27 06:08:43Z" duration="0.014309" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1005" name="SharedPassageRetainsAlternativeRootGatesAndCyclesTerminate" fullname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests.SharedPassageRetainsAlternativeRootGatesAndCyclesTerminate" methodname="SharedPassageRetainsAlternativeRootGatesAndCyclesTerminate" classname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests" runstate="Runnable" seed="1756466725" result="Passed" start-time="2026-10-27 06:08:43Z" end-time="2026-10-27 06:08:43Z" duration="0.020673" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1007" name="WindowOpensWithOpeningAndRepaints" fullname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests.WindowOpensWithOpeningAndRepaints" methodname="WindowOpensWithOpeningAndRepaints" classname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests" runstate="Runnable" seed="1025368015" result="Passed" start-time="2026-10-27 06:08:43Z" end-time="2026-10-27 06:08:44Z" duration="1.204278" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1008" name="UnifiedWorkspaceTests" fullname="ProjectLove.StorySandbox.Tests.UnifiedWorkspaceTests" classname="ProjectLove.StorySandbox.Tests.UnifiedWorkspaceTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-27 06:08:44Z" end-time="2026-10-27 06:08:45Z" duration="1.075348" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1009" name="CrossBlockMovePreservesIdentityAndEnglishThroughRuntimeAdapter" fullname="ProjectLove.StorySandbox.Tests.UnifiedWorkspaceTests.CrossBlockMovePreservesIdentityAndEnglishThroughRuntimeAdapter" methodname="CrossBlockMovePreservesIdentityAndEnglishThroughRuntimeAdapter" classname="ProjectLove.StorySandbox.Tests.UnifiedWorkspaceTests" runstate="Runnable" seed="1973677502" result="Passed" start-time="2026-10-27 06:08:44Z" end-time="2026-10-27 06:08:45Z" duration="0.313848" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1011" name="NewSceneHasExplicitCallerGateAndSavesStructuralUndo" fullname="ProjectLove.StorySandbox.Tests.UnifiedWorkspaceTests.NewSceneHasExplicitCallerGateAndSavesStructuralUndo" methodname="NewSceneHasExplicitCallerGateAndSavesStructuralUndo" classname="ProjectLove.StorySandbox.Tests.UnifiedWorkspaceTests" runstate="Runnable" seed="854953451" result="Passed" start-time="2026-10-27 06:08:45Z" end-time="2026-10-27 06:08:45Z" duration="0.447005" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1010" name="RealChoiceTraceShowsFlagsHistoryCompletionAndRollback" fullname="ProjectLove.StorySandbox.Tests.UnifiedWorkspaceTests.RealChoiceTraceShowsFlagsHistoryCompletionAndRollback" methodname="RealChoiceTraceShowsFlagsHistoryCompletionAndRollback" classname="ProjectLove.StorySandbox.Tests.UnifiedWorkspaceTests" runstate="Runnable" seed="508305389" result="Passed" start-time="2026-10-27 06:08:45Z" end-time="2026-10-27 06:08:45Z" duration="0.313598" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/UsEr/AppData/LocalLow/DefaultCompany/Project Love\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

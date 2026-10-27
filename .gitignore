@@ -15,6 +15,12 @@
 
 # Generated prototype projects and developer-local state
 /.sandbox/
+# Generated Unity state if the outer Sandbox folder is opened in Unity
+/Sandbox/[Ll]ibrary/
+/Sandbox/[Ll]ogs/
+/Sandbox/[Tt]emp/
+/Sandbox/[Oo]bj/
+/Sandbox/[Uu]serSettings/
 /Project Love/.vs/
 /Project Love/.idea/
 /Project Love/MemoryCaptures/

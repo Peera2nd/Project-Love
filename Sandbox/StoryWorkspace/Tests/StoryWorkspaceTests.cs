@@ -53,7 +53,7 @@ namespace ProjectLove.StorySandbox.Tests
             Assert.IsTrue(StoryIndex.Matches(start,"isolated English",draft));
             Assert.IsTrue(StoryIndex.Matches(start,line.speaker.displayName,draft));
             Assert.IsFalse(start.lines.Any(l=>l.SourceText=="ข้อความทดสอบเฉพาะฉบับทดลอง"));
-            Assert.IsTrue(index.entries.Any(e=>e.variant!=null&&e.gates.Contains("ความเครียด")));
+            Assert.IsTrue(index.entries.Any(e=>e.variant!=null&&e.gates.Contains("Stress")));
         }
         [Test] public void DraftUndoSaveReloadNeverWritesSourceCatalog()
         {
@@ -123,6 +123,8 @@ namespace ProjectLove.StorySandbox.Tests
         {
             StoryWorkspaceWindow.Open();yield return null;yield return null;
             var window=Resources.FindObjectsOfTypeAll<StoryWorkspaceWindow>().Single();
+            for(int i=0;i<20&&window.Document==null;i++)yield return null;
+            Assert.NotNull(window.Document);Assert.NotNull(window.Document.game);
             window.position=new Rect(30,50,1440,900);window.Repaint();yield return null;
             Assert.NotNull(window);window.Close();LogAssert.NoUnexpectedReceived();
         }

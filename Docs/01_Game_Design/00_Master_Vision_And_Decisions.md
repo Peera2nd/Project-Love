@@ -2,6 +2,10 @@
 
 Canonical approval record. Implementation status belongs in the [Task Board](../00_Agent_System/02_Task_Board_And_Roadmap.md). A completed document is not implemented or approved content.
 
+## Session 071 owner trial — one writing tool, concise English chrome and visible execution
+
+Owner tried the sandbox and finds a wrapper around another authoring tool insufficient. Requires one surface for writing/adding/reordering/drag-inserting dialogue, speaker/expression and route context, plus readable caller logic, conditions, choice results and actual stored state. New/revised authoring UI uses concise English labels with hover help instead of long always-visible explanation; Thai narrative/game text and conversation remain. This supersedes older Thai-facing-tool wording for this workspace. [Unified sandbox/workflow](../04_Technical_And_Tools/17_Unified_Story_Workspace_And_Execution_Trace.md) implements the bounded revision; explicit production adoption/UX approval is still not given. Audio remains planned.
+
 ## Session 070 owner request — trial guidance and designer-first audio planning
 
 Owner acknowledges the sandbox and intends to test, requests a practical test guide, then asks a comprehensive audio plan covering music, effects and optional partial speech. An empty voice slot must play no speech. Discovery must avoid a hundreds-item picker when assigning a character's voice; use the current speaker and sound intent/context. [Trial guide](../02_Narrative_And_World/08_Story_Workspace_Owner_Trial.md), [audio proposal](../04_Technical_And_Tools/16_Audio_Authoring_And_Playback_Plan.md). This authorizes guidance/research/design, not audio implementation, exact UI/schema approval, production adoption, vendor selection or approval of the existing sandbox UX. The isolation gate remains.

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-27 06:13:43Z" end-time="2026-10-27 06:13:45Z" duration="2.2309417">
+  <test-suite type="TestSuite" id="1000" name="Project Love" fullname="Project Love" runstate="Runnable" testcasecount="216" result="Passed" start-time="2026-10-27 06:13:43Z" end-time="2026-10-27 06:13:45Z" duration="2.230942" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1013" name="ProjectLove.StorySandbox.Tests.dll" fullname="D:/Work/Unity/Project_Game/Visual Novel/.verify/Library/ScriptAssemblies/ProjectLove.StorySandbox.Tests.dll" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-27 06:13:43Z" end-time="2026-10-27 06:13:45Z" duration="2.195490" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="32992" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1014" name="ProjectLove" fullname="ProjectLove" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-27 06:13:43Z" end-time="2026-10-27 06:13:45Z" duration="2.194350" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1015" name="StorySandbox" fullname="ProjectLove.StorySandbox" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-27 06:13:43Z" end-time="2026-10-27 06:13:45Z" duration="2.193768" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1016" name="Tests" fullname="ProjectLove.StorySandbox.Tests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-27 06:13:43Z" end-time="2026-10-27 06:13:45Z" duration="2.193069" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="StoryWorkspaceTests" fullname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests" classname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-27 06:13:43Z" end-time="2026-10-27 06:13:44Z" duration="1.306272" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1007" name="WindowOpensWithOpeningAndRepaints" fullname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests.WindowOpensWithOpeningAndRepaints" methodname="WindowOpensWithOpeningAndRepaints" classname="ProjectLove.StorySandbox.Tests.StoryWorkspaceTests" runstate="Runnable" seed="500133919" result="Passed" start-time="2026-10-27 06:13:43Z" end-time="2026-10-27 06:13:44Z" duration="1.292102" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1008" name="UnifiedWorkspaceTests" fullname="ProjectLove.StorySandbox.Tests.UnifiedWorkspaceTests" classname="ProjectLove.StorySandbox.Tests.UnifiedWorkspaceTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-27 06:13:44Z" end-time="2026-10-27 06:13:45Z" duration="0.884972" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1012" name="ActivityCallerUsesActualCompletionCallback" fullname="ProjectLove.StorySandbox.Tests.UnifiedWorkspaceTests.ActivityCallerUsesActualCompletionCallback" methodname="ActivityCallerUsesActualCompletionCallback" classname="ProjectLove.StorySandbox.Tests.UnifiedWorkspaceTests" runstate="Runnable" seed="904989831" result="Passed" start-time="2026-10-27 06:13:44Z" end-time="2026-10-27 06:13:44Z" duration="0.494650" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1011" name="NewSceneHasExplicitCallerGateAndSavesStructuralUndo" fullname="ProjectLove.StorySandbox.Tests.UnifiedWorkspaceTests.NewSceneHasExplicitCallerGateAndSavesStructuralUndo" methodname="NewSceneHasExplicitCallerGateAndSavesStructuralUndo" classname="ProjectLove.StorySandbox.Tests.UnifiedWorkspaceTests" runstate="Runnable" seed="1507441678" result="Passed" start-time="2026-10-27 06:13:44Z" end-time="2026-10-27 06:13:45Z" duration="0.388082" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/UsEr/AppData/LocalLow/DefaultCompany/Project Love\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

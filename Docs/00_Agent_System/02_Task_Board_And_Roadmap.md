@@ -2,6 +2,13 @@
 
 Update at closeout. `[x]` complete, `[/]` in progress, `[ ]` pending, `[?]` owner decision.
 
+## Current sandbox revision — Session 071: unified writing and execution trace
+
+- [x] **T1.22 (Implemented, isolated):** owner trial feedback recorded and [unified writer](../04_Technical_And_Tools/17_Unified_Story_Workspace_And_Execution_Trace.md) delivered: inline writing/speaker/expression, line drag/insertion/reorder, block/choice/reply/link authoring, caller/condition/result editing, Flow/variable references and actual shared-session Test/State/Trace. Concise English chrome with hover help supersedes prior Thai labels for this tool. [Updated owner guide](../02_Narrative_And_World/08_Story_Workspace_Owner_Trial.md).
+- [x] **Scoped evidence:** initial 9/9, affected 3/3, two 1/1 window/panel checks and final title 2/2 cover ten unique cases (sixteen executions). Actual writer/Run Caller/game view, line drag, hover help and Undo inspected; live Workspace file returned to the identical pre-drag hash after Undo/Save. [Verification](WorkLogs/Session_071_Verification/README.md), [work log](WorkLogs/Session_071_Unified_Writer_And_Runtime_Trace.md). No full-game suites or production adoption.
+- [?] **T1.15 owner acceptance remains pending:** prior hands-on trial found concrete gaps (ERR-109); new version needs another authoring/logic usability trial. Do not treat the revision/tests as approval. Gift inventory simulation, full branch-subgraph drag, saved-state import and scaling remain unimplemented; no audio added.
+- Existing user font modification and outer Sandbox project scaffolding are preserved/excluded from this delivery. Production code/data/save structure unchanged. ERR-110 records automation guard limits; ERR-111 records corrected first-copy save timing. Audio T1.21 remains future design/proof.
+
 ## Current design/guidance — Session 070: owner trial and audio authoring
 
 - [x] **T1.20 (Designed):** [Thai owner trial guide](../02_Narrative_And_World/08_Story_Workspace_Owner_Trial.md) with exact existing controls/expected outcomes and blank feedback; [comprehensive audio plan](../04_Technical_And_Tools/16_Audio_Authoring_And_Playback_Plan.md) for music/ambience/SFX/UI/sparse voice. Source audit and official Unity 6000.3/Naninovel v1.21/Ren'Py references; [work log](WorkLogs/Session_070_Owner_Trial_And_Audio_Plan.md).

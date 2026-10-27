@@ -1,5 +1,5 @@
 {
   "name": "ProjectLove.StorySandbox",
-  "references": ["ProjectLove.Runtime", "ProjectLove.Editor"],
+  "references": ["ProjectLove.Runtime", "ProjectLove.Editor", "Unity.TextMeshPro"],
   "includePlatforms": ["Editor"]
 }

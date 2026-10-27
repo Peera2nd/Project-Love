@@ -19,6 +19,7 @@ Then inspect the task board and relevant source files. Do not treat historical a
 - **Thai:** user-facing conversation, progress updates and final replies; story, dialogue, worldbuilding, character profiles, and narrative/character authoring documents in `Docs/02_Narrative_And_World/`.
 - Preserve identifiers, filenames, links, and established terminology. Existing English generation/roleplay prompts inside Thai character documents may remain English; dialogue examples remain Thai.
 - Artist-facing Inspector labels/tooltips and game text should remain understandable in Thai. English backend documentation does not change the game's language.
+- **Session 071 supersedes authoring-tool chrome language:** new/revised Story Workspace UI uses concise English labels and English hover tooltips, with minimal always-visible explanatory text. Thai conversation, narrative content and game text remain unchanged. This overrides older Thai-facing-tool wording for this authoring UI; do not translate the story itself.
 
 ## Core rules
 

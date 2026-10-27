@@ -26,7 +26,7 @@ namespace ProjectLove.StorySandbox
     {
         public DialogueNodeSO from, to;
         public DialogueChoice choice;
-        public string Label => choice == null ? "อ่านต่อ" : choice.SourceText;
+        public string Label => choice == null ? "Continue" : choice.SourceText;
     }
 
     public sealed class ScriptRow
@@ -44,9 +44,9 @@ namespace ProjectLove.StorySandbox
         public readonly List<StoryEntry> entries = new List<StoryEntry>();
         public readonly List<StoryEdge> edges = new List<StoryEdge>();
         public readonly List<DialogueNodeSO> nodes;
-        public StoryIndex(GameConfigSO game)
+        public StoryIndex(GameConfigSO game,IEnumerable<IdentifiedDataSO> extra=null)
         {
-            var assets = AuthoringCatalog.Reachable(game);
+            var assets = AuthoringCatalog.Reachable(game).Concat(extra??Array.Empty<IdentifiedDataSO>()).Where(a=>a!=null).Distinct().ToList();
             nodes = assets.OfType<DialogueNodeSO>().ToList();
             foreach (var n in nodes)
             {
@@ -65,16 +65,16 @@ namespace ProjectLove.StorySandbox
                     if (p.propertyType != SerializedPropertyType.ObjectReference ||
                         !(p.objectReferenceValue is DialogueNodeSO n)) continue;
                     var e = new StoryEntry { owner = owner, node = n, sourceProperty = p.propertyPath,
-                        title = Title(n), kind = "กิจกรรม / ของขวัญ", gates = "ขึ้นกับระบบที่เรียกใช้ · ดูแหล่งอ้างอิง" };
+                        title = Title(n), kind = "Activity", gates = "Selected by its caller" };
                     if (owner is EventDataSO story)
                     {
-                        e.story = story; e.character = story.character; e.kind = "อีเว้น"; e.title=Title(story);
-                        e.gates = $"วันที่ {story.startDay}–{story.endDay} · " +
-                            (story.anyPhase ? "ทุกช่วงเวลา" : Phase(story.triggerPhase)) +
-                            $" · {(story.room == null ? "ทุกห้อง" : story.room.displayName)}\n" +
-                            $"ลำดับ {story.priority} · {Delivery(story.delivery)} · " +
-                            (story.repeatDaily ? $"เล่นซ้ำ เว้น {story.minimumRepeatDays} วัน" : "จบครั้งเดียว") +
-                            (string.IsNullOrEmpty(story.exclusiveGroup) ? "" : " · กลุ่มเลือกหนึ่ง: " + story.exclusiveGroup) +
+                        e.story = story; e.character = story.character; e.kind = "Event"; e.title=game.localization?.catalog?.Find(LocalizationService.Key(story,"displayName"))?.thai??Title(story);
+                        e.gates = $"Days {story.startDay}–{story.endDay} · " +
+                            (story.anyPhase ? "Any phase" : Phase(story.triggerPhase)) +
+                            $" · {(story.room == null ? "Any room" : story.room.displayName)}\n" +
+                            $"Priority {story.priority} · {Delivery(story.delivery)} · " +
+                            (story.repeatDaily ? $"Repeat, gap {story.minimumRepeatDays} days" : "Once") +
+                            (string.IsNullOrEmpty(story.exclusiveGroup) ? "" : " · Exclusive: " + story.exclusiveGroup) +
                             "\n" + Conditions(story.conditions);
                     }
                     else if (owner is CharacterDataSO character)
@@ -89,13 +89,22 @@ namespace ProjectLove.StorySandbox
                             if (match.Success)
                             {
                                 var v = (greeting ? character.greetings : character.conversations)[int.Parse(match.Groups[1].Value)];
-                                e.variant = v; e.kind = greeting ? "ทักทาย" : "คุยเล่น";
+                                e.variant = v; e.kind = greeting ? "Greeting" : "Talk";
                                 e.title += " · " + (string.IsNullOrEmpty(v.displayName) ? v.id : v.displayName);
-                                e.gates = $"วันที่ {v.startDay}–{v.endDay} · " + (v.anyPhase ? "ทุกช่วงเวลา" : Phase(v.phase)) +
-                                    $"\nความสนิท {v.minimumAffection}–{v.maximumAffection} · ความเครียด {v.minimumStress}–{v.maximumStress}" +
-                                    $" · ลำดับ {v.priority}" + (v.overtimeOnly ? " · ต้องยืนยัน OT" : "") + "\n" + Conditions(v.conditions);
+                                e.gates = $"Days {v.startDay}–{v.endDay} · " + (v.anyPhase ? "Any phase" : Phase(v.phase)) +
+                                    $"\nAffection {v.minimumAffection}–{v.maximumAffection} · Stress {v.minimumStress}–{v.maximumStress}" +
+                                    $" · Priority {v.priority}" + (v.overtimeOnly ? " · Overtime required" : "") + "\n" + Conditions(v.conditions);
                             }
                         }
+                    }
+                    else if(owner is RomanceConfigSO romance)
+                    {
+                        var match=System.Text.RegularExpressions.Regex.Match(p.propertyPath,@"cast\.Array\.data\[(\d+)\]");
+                        if(match.Success)e.character=romance.cast[int.Parse(match.Groups[1].Value)].character;
+                        e.gates=p.propertyPath.EndsWith("sharedScene")?"Work Together · selected character":
+                            p.propertyPath.EndsWith("focusTalk")?"Talk · unlocked topic overrides the regular pool":
+                            p.propertyPath=="producerScene"?"Producer action":
+                            "Personal Time · mood and affection select personal, comfort or warm block";
                     }
                     // Each serialized root reference is retained, including shared pool/context callers.
                     Visit(n, e.nodes); entries.Add(e);
@@ -105,7 +114,7 @@ namespace ProjectLove.StorySandbox
         }
         public static string Title(IdentifiedDataSO a)
         {
-            if (a == null) return "จบบท";
+            if (a == null) return "End";
             var p = new SerializedObject(a).FindProperty("displayName");
             if(p != null && !string.IsNullOrEmpty(p.stringValue))return p.stringValue;
             if(a is EventDataSO story && story.entryNode!=null)return Title(story.entryNode);
@@ -116,9 +125,9 @@ namespace ProjectLove.StorySandbox
                 {
                     var elements=new System.Globalization.StringInfo(line.SourceText);
                     string snippet=elements.LengthInTextElements>38?elements.SubstringByTextElements(0,38)+"…":line.SourceText;
-                    return (line.speaker?.displayName??"คำบรรยาย")+" · "+snippet;
+                    return (line.speaker?.displayName??"Narrator")+" · "+snippet;
                 }
-                return "ช่วงบทที่ยังไม่มีชื่อหรือข้อความ";
+                return "Untitled Block";
             }
             return a.name;
         }
@@ -132,19 +141,19 @@ namespace ProjectLove.StorySandbox
         public IEnumerable<StoryEdge> Incoming(DialogueNodeSO n) => edges.Where(e => e.to == n);
         public IEnumerable<StoryEdge> Outgoing(DialogueNodeSO n) => edges.Where(e => e.from == n);
         public static bool Contains(string value,string query) => (value ?? "").IndexOf(query ?? "",StringComparison.OrdinalIgnoreCase) >= 0;
-        public static bool Matches(DialogueNodeSO n,string query,StoryDraft draft)
+        public static bool Matches(DialogueNodeSO n,string query,StoryDraft draft=null)
         {
             return Contains(Title(n)+" "+n.id,query) || n.lines.Any(l =>
-                Contains(draft.Thai(l.localizedText,l.SourceText)+" "+draft.English(l.localizedText)+" "+l.speaker?.displayName,query)) ||
-                n.choices.Any(c => Contains(draft.Thai(c.localizedText,c.SourceText)+" "+draft.English(c.localizedText),query));
+                Contains((draft?.Thai(l.localizedText,l.SourceText)??l.SourceText)+" "+(draft?.English(l.localizedText)??l.localizedText.catalog?.Find(l.localizedText.key)?.english)+" "+l.speaker?.displayName,query)) ||
+                n.choices.Any(c => Contains((draft?.Thai(c.localizedText,c.SourceText)??c.SourceText)+" "+(draft?.English(c.localizedText)??c.localizedText.catalog?.Find(c.localizedText.key)?.english),query));
         }
         public List<ScriptRow> Manuscript(DialogueNodeSO start)
         {
             var rows = new List<ScriptRow>(); var seen = new HashSet<DialogueNodeSO>();
             void Walk(DialogueNodeSO n,int depth)
             {
-                if(n == null) { rows.Add(new ScriptRow { label="จบบท",depth=depth }); return; }
-                if(!seen.Add(n)) { rows.Add(new ScriptRow { node=n,label="↪ จุดรวม / ย้อนกลับ: "+Title(n),depth=depth,reference=true });return; }
+                if(n == null) { rows.Add(new ScriptRow { label="End",depth=depth }); return; }
+                if(!seen.Add(n)) { rows.Add(new ScriptRow { node=n,label="Join / Return: "+Title(n),depth=depth,reference=true });return; }
                 rows.Add(new ScriptRow {node=n,label=Title(n),depth=depth});
                 foreach(var l in n.lines) rows.Add(new ScriptRow {node=n,line=l,depth=depth});
                 if(n.choices.Length==0) Walk(n.nextNode,depth);
@@ -153,34 +162,34 @@ namespace ProjectLove.StorySandbox
             }
             Walk(start,0); return rows;
         }
-        public static string Phase(DayPhase p) => new[]{"เช้า","บ่าย","เย็น","กลางคืน"}[(int)p];
-        public static string Delivery(EventDelivery d) => d == EventDelivery.Forced ? "อัตโนมัติ" : d == EventDelivery.CharacterBubble ? "บับเบิลตัวละคร" : "เรียกจากระบบ";
-        public static string Stat(StatType s) => new[]{"ความคืบหน้างาน","เงิน","แต้มทักษะ","ความสนิท","ความเครียด"}[(int)s];
+        public static string Phase(DayPhase p) => new[]{"Morning","Afternoon","Evening","Night"}[(int)p];
+        public static string Delivery(EventDelivery d) => d == EventDelivery.Forced ? "Auto" : d == EventDelivery.CharacterBubble ? "Character" : "Manual";
+        public static string Stat(StatType s) => new[]{"Progress","Money","Skill Points","Affection","Stress"}[(int)s];
         public static string Conditions(IEnumerable<Condition> conditions)
         {
             var rows = (conditions ?? Array.Empty<Condition>()).Select(c =>
             {
-                if(c == null) return "เงื่อนไขว่าง (ต้องตรวจข้อมูล)";
+                if(c == null) return "Missing condition";
                 string target = c.character == null ? "" : c.character.displayName+" · ";
                 switch(c.type)
                 {
                     case ConditionType.StatAtLeast:return target+Stat(c.stat)+" ≥ "+c.value;
                     case ConditionType.StatAtMost:return target+Stat(c.stat)+" ≤ "+c.value;
-                    case ConditionType.FlagSet:return "มีธง: "+c.flagId;
-                    case ConditionType.FlagUnset:return "ไม่มีธง: "+c.flagId;
-                    case ConditionType.EventCompleted:return "จบอีเว้นแล้ว: "+c.eventId;
-                    case ConditionType.EventNotCompleted:return "ยังไม่จบอีเว้น: "+c.eventId;
-                    case ConditionType.WorkloadActivated:return "เปิดงานแล้ว: "+c.targetId;
-                    case ConditionType.WorkloadNotActivated:return "ยังไม่เปิดงาน: "+c.targetId;
-                    case ConditionType.TaskAccepted:return "รับการ์ดงานแล้ว: "+c.targetId;
-                    case ConditionType.TaskNotAccepted:return "ยังไม่รับการ์ดงาน: "+c.targetId;
-                    case ConditionType.CharacterOvertime:return target+"ยืนยัน OT";
-                    case ConditionType.CharacterCanVolunteer:return target+"อาสาช่วยงานได้";
-                    case ConditionType.CharacterSharedNight:return target+"อยู่ทำงานกลางคืนด้วยกัน";
-                    default:return "เงื่อนไขที่ยังไม่มีคำอธิบาย: "+c.type;
+                    case ConditionType.FlagSet:return "Flag set: "+c.flagId;
+                    case ConditionType.FlagUnset:return "Flag clear: "+c.flagId;
+                    case ConditionType.EventCompleted:return "Event done: "+c.eventId;
+                    case ConditionType.EventNotCompleted:return "Event pending: "+c.eventId;
+                    case ConditionType.WorkloadActivated:return "Workload active: "+c.targetId;
+                    case ConditionType.WorkloadNotActivated:return "Workload inactive: "+c.targetId;
+                    case ConditionType.TaskAccepted:return "Task accepted: "+c.targetId;
+                    case ConditionType.TaskNotAccepted:return "Task pending: "+c.targetId;
+                    case ConditionType.CharacterOvertime:return target+"Overtime";
+                    case ConditionType.CharacterCanVolunteer:return target+"Can volunteer";
+                    case ConditionType.CharacterSharedNight:return target+"Shared night";
+                    default:return "Unknown condition: "+c.type;
                 }
             }).ToArray();
-            return rows.Length == 0 ? "ไม่มีเงื่อนไขเสริม" : string.Join("\nและ ",rows);
+            return rows.Length == 0 ? "Always" : string.Join("\nAND ",rows);
         }
     }
 }
